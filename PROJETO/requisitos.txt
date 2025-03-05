@@ -1,1 +1,1 @@
-
+# Condições para o desenvolvimento do projeto.
