@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, redirect
 from database.conectar import conectarBanco
 
 
@@ -6,6 +6,11 @@ server = Flask(__name__)
 bancodedados = conectarBanco()
 conexao = bancodedados.conectar()
 print(conexao.get_host_info())
+
+
+@server.route('/')
+def inicio():
+    return redirect('/login')
 
 @server.route('/login')
 def login():
