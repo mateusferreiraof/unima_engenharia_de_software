@@ -1,1 +1,0 @@
-""" Pasta criada para colocar as imagens do projeto """
