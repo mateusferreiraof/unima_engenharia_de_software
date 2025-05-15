@@ -1,1 +1,0 @@
-# Utilização da API.

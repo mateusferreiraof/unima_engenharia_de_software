@@ -1,1 +1,0 @@
-# Área para testes.
