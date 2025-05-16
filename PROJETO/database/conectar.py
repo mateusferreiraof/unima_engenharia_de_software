@@ -3,7 +3,7 @@ import os
 from dotenv import load_dotenv
 
 
-class conectarBanco:
+class ConectarBanco:
 
     def __init__(self):       
         load_dotenv()  
@@ -13,7 +13,6 @@ class conectarBanco:
             user = os.getenv('DB_USER'),
             password = os.getenv('DB_PASSWORD'),
             host = os.getenv('DB_HOST'),
-            database = os.getenv('DB_NAME'),
             port = int(os.getenv('DB_PORT'))
 )       
         return self.conexao
