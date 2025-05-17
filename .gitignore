@@ -1,5 +1,6 @@
 # Created by venv; see https://docs.python.org/3/library/venv.html
-__pycache__/
-*.pyc
-
 .env
+*.pyc
+__pycache__/ 
+
+#pra evitar problemas na hora de da o pull
