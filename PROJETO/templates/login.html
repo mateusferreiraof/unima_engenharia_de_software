@@ -9,7 +9,7 @@
 <body>
     <header><h1>FilmeXplorer</h1></header>
     <fieldset class="forma-geral-do-login">
-        <form action="">
+        <form action="inserirusuario.py" method="post">
         <div class="form-imagem">
             <img src="../static/imagens/sites-para-assistir-filmes-e-series-gratis.jpg" alt="">
         </div>
@@ -26,9 +26,13 @@
                 <label for="senha">Senha:</label>
                 <input id="input-senha" type="password" name="senha" placeholder="Digite sua senha..." required>
                 <div class="botoes">
-                    <button>ENTRAR</button>
-                    <button type="submit"><a href="/cadastro" style="text-decoration: none;">CADASTRAR</a></button>   
-        </div>
+                    <!-- Botão do tipo submit, que envia os dados preenchidos. -->
+                    <button type="submit" id="botao-entrar">ENTRAR</button>   
+                    <a href="/recuperacao">Esqueceu a senha?</a>
+                    <div><hr id="separacao"></div>
+                    <!-- Código mesclado com JavaScript usando onclick para fazer um redirecionamento a tela de cadastro. -->
+                    <button type="button" id="botao-cadastrar" onclick="window.location.href='/cadastro'">CADASTRAR</button>
+                </div>
             </div>
         </div>
         </div>

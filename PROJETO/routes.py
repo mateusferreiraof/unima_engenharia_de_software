@@ -9,6 +9,10 @@ def inicio():
 def login():
     return render_template("login.html")
 
+@server.route('/recuperacao')
+def recuperar_senha():
+    return render_template("recuperacao_de_senha.html")
+
 @server.route('/cadastro')
 def cadastro():
     return render_template("cadastro.html")

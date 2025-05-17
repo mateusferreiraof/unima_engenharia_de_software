@@ -25,8 +25,8 @@ criarBanco = CriarBanco(conexao)
 criarBanco.criar()
 criarTabelas = CriarTabelas(conexao)
 criarTabelas.criar()
-print(conexao.get_host_info())
-# conexao.close()
+conexao.close()
 
 if __name__ == '__main__':
     server.run(debug=True)
+    

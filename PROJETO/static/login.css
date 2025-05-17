@@ -6,8 +6,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-
 header {
     width: 100%;
     background-color: rgb(10, 165, 210);
@@ -15,7 +13,6 @@ header {
     color: black;
     font-family: 'Pacifico';
 }
-
 body {
     width: 100%;
     display: flex;
@@ -24,7 +21,20 @@ body {
     background-color: rgb(60, 35, 155);
     flex-direction: column;
 }
+#botao-entrar:hover {
+    background-color: greenyellow;
+}
 
+#botao-cadastrar:hover {
+    background-color: greenyellow;
+}
+
+#separacao {
+    align-items: center;
+    border-bottom: 1px solid #E2E7ED;
+    width: 250px;
+    margin: 5px;
+}
 .forma-geral-do-login {
     margin: 30px;
     border: none;
@@ -32,7 +42,6 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
 .formulario {
     width: 750px;
     height: 395px;
@@ -43,7 +52,6 @@ body {
     border-radius: 3px;
     box-shadow: 5px 5px 20px black;
 }
-
 .form-imagem {
     width: 750px;
     height: 395px;
@@ -51,54 +59,54 @@ body {
     box-shadow: 5px 5px 20px black;
     border-radius: 5px;
 }
-
 .entrada-de-dados {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-
 .preencher-dados {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-
 .botoes {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 10px;
+    padding: 2px;
 }
-
 .cabecario-do-form {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 10px;
+    padding: 5px;
 }
-
 h2 {
     color: black;
     padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2rem;
 }
-
 p {
     color: black;
     padding: 10px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5rem;
 }
-
+a {
+    text-decoration: none;
+    color: #1877F2;
+    margin-bottom: 5px;
+}
+a:visited {
+    color: #1877F2;
+}
 legend {
     color: dimgray;
     font-size: 16px;
 
 }
-
 input {
     width: 250px;
     border: 1px solid transparent;
@@ -107,7 +115,6 @@ input {
     background-color: white;
     padding: 5px;
 }
-
 label {
     font-family: 'Times New Roman', Times, serif;
     display: block;
@@ -116,21 +123,17 @@ label {
     padding: 10px;
 
 }
-
 button {
     width: 250px;
     flex-direction: column;
-    padding: 5px;
+    padding: 3px;
     margin: 10px;
     background-color: rgb(10, 165, 210);
     border: 1px solid transparent;
     border-radius: 5px;
 }
-
 footer {
     width: 100%;
     background-color: rgb(10, 165, 210);;
     text-align: center;
 }
-
-
