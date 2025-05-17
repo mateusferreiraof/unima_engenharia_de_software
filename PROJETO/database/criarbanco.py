@@ -14,5 +14,7 @@ class CriarBanco:
         print(bancos)
         if ("cadastro",) not in bancos:
             self.cursor.execute("""
-                CREATE DATABASE cadastro
+                CREATE DATABASE IF NOT EXISTS cadastro
+                DEFAULT CHARACTER SET UTF8
+                DEFAULT COLLATE UTF8_GENERAL_CI
             """)
