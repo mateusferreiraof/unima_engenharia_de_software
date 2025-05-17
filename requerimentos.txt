@@ -1,0 +1,14 @@
+Para o código rodar, instale essas bibliotecas no terminal:
+
+pip install PyMySQL
+pip install python-dotenv
+pip install cryptography
+
+Tenha um banco de dados para que o código faça a conexão com ele e crie as tabelas.
+Crie um arquivo .env e adicione as informações:
+
+DB_USER=seuusuario
+DB_PASSWORD=suasenha
+DB_HOST=localhost
+DB_NAME=nomedobanco
+DB_PORT=portadobanco
