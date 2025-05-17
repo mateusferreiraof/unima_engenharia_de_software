@@ -1,13 +1,17 @@
 from PROJETO import server
-from PROJETO.database.conectar import conectarBanco
+from PROJETO.database.conectar import ConectarBanco
 from PROJETO.database.criartabelas import CriarTabelas
+from PROJETO.database.criarbanco import CriarBanco
 
-bancodedados = conectarBanco()
+bancodedados = ConectarBanco()
 conexao = bancodedados.conectar()
 cursor = conexao.cursor()
-criador = CriarTabelas(conexao)
-criador.criar()
+criarBanco = CriarBanco(conexao)
+criarBanco.criar()
+criarTabelas = CriarTabelas(conexao)
+criarTabelas.criar()
 print(conexao.get_host_info())
+# conexao.close()
 
 if __name__ == '__main__':
     server.run(debug=True)
