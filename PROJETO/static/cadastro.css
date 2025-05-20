@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, rgb(10, 165, 210), rgb(60, 35, 155) 60%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, rgb(10, 165, 210), rgb(60, 35, 155) 60%);
+    text-align: center;
+    color: black;
+    font-family: 'Pacifico';
+}
+
+h2 {
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+}
+
+
+fieldset {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin: 50px;
+}
+
+form {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: aliceblue;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+
+input {
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button {
+    margin: 10px;
+    width: 250px;
+    background-color: rgb(10, 165, 210);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+button:hover {
+    background-color: greenyellow;
+}
+
+a {
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #1877F2;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, rgb(10, 165, 210), rgb(60, 35, 155) 60%);
+    text-align: center;
+}
+
+#paragrafo-footer {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+#paragrafo-form {
+    font-family: 'Times New Roman', Times, serif;
+    color: dimgray;
+    margin: 5px;
+}
+
+#subtitulo-genero {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px;
+    font-size: 16px;
+    color: dimgray;
+}
+
+.cabecario-do-cadastro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.entrada-de-dados-cadastro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.opcao-genero {
+    width: 250px;
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+.label-dados {
+    font-family: 'Times New Roman', Times, serif;
+    width: 250px;
+    text-align: left;
+    margin: 5px;
+}

@@ -9,7 +9,7 @@
 <body>
     <header><h1>FilmeXplorer</h1></header>
     <fieldset class="forma-geral-do-login">
-        <form action="inserirusuario.py" method="post">
+        <form action="/validacao-login" method="post">
         <div class="form-imagem">
             <img src="../static/imagens/sites-para-assistir-filmes-e-series-gratis.jpg" alt="">
         </div>
@@ -21,9 +21,9 @@
         </div>
         <div class="entrada-de-dados">
             <div class="preencher-dados">
-                <label for="email">E-mail:</label>
+                <label for="input-email">E-mail:</label>
                 <input id="input-email" type="text" name="email" placeholder="user@email.com" required>
-                <label for="senha">Senha:</label>
+                <label for="input-senha">Senha:</label>
                 <input id="input-senha" type="password" name="senha" placeholder="Digite sua senha..." required>
                 <div class="botoes">
                     <!-- Botão do tipo submit, que envia os dados preenchidos. -->
