@@ -1,4 +1,4 @@
-from flask import requests
+import requests
 import json
 
 class MovieAPI:
