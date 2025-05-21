@@ -1,6 +1,13 @@
 from flask import render_template, redirect, request, session
 from PROJETO import server
 from PROJETO.config import conexao, cursor
+from Api.tmdbapi import MovieAPI
+
+@server.route('/')
+def homepage():
+    api = MovieAPI()
+    dados = api.movie_list()
+    return render_template("homepage.html", movies=dados['results'])
 
 @server.route('/')
 def inicio():

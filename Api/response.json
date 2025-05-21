@@ -1,0 +1,396 @@
+{
+    "page": 1,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/2Nti3gYAX513wvhp8IiLL6ZDyOm.jpg",
+            "genre_ids": [
+                10751,
+                35,
+                12,
+                14
+            ],
+            "id": 950387,
+            "original_language": "en",
+            "original_title": "A Minecraft Movie",
+            "overview": "Quatro desajustados enfrentam problemas comuns do dia a dia quando, de repente, s\u00e3o sugados por um portal misterioso para o Overworld: uma terra fascinante e c\u00fabica, movida pela imagina\u00e7\u00e3o. Para voltarem para casa, eles precisar\u00e3o dominar esse novo mundo enquanto embarcam em uma jornada m\u00e1gica ao lado de um crafter experiente e inesperado: Steve.",
+            "popularity": 943.1246,
+            "poster_path": "/4VtkIaj76TpQNfhDHXQDdT9uBN5.jpg",
+            "release_date": "2025-03-31",
+            "title": "Um Filme Minecraft",
+            "video": false,
+            "vote_average": 6.515,
+            "vote_count": 1243
+        },
+        {
+            "adult": true,
+            "backdrop_path": "/vc4tQ9WYPnZhd5j8jsIyKAPXZpx.jpg",
+            "genre_ids": [
+                18,
+                10749
+            ],
+            "id": 1188808,
+            "original_language": "tl",
+            "original_title": "Tuhog",
+            "overview": "",
+            "popularity": 565.734,
+            "poster_path": "/1JFMtEk1GRLoCegrcwxkK2XfHcK.jpg",
+            "release_date": "2023-11-03",
+            "title": "Tuhog",
+            "video": false,
+            "vote_average": 5.0,
+            "vote_count": 6
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/j0NUh5irX7q2jIRtbLo8TZyRn6y.jpg",
+            "genre_ids": [
+                27,
+                9648
+            ],
+            "id": 574475,
+            "original_language": "en",
+            "original_title": "Final Destination Bloodlines",
+            "overview": "Atormentada por um pesadelo violento recorrente, a estudante universit\u00e1ria Stefanie volta para casa para encontrar a \u00fanica pessoa que pode quebrar o ciclo e salvar sua fam\u00edlia do destino horr\u00edvel que inevitavelmente os aguarda.",
+            "popularity": 491.2483,
+            "poster_path": "/j8c47GIu7kpNPi8gsSR8jQBjYBB.jpg",
+            "release_date": "2025-05-09",
+            "title": "Premoni\u00e7\u00e3o 6: La\u00e7os de Sangue",
+            "video": false,
+            "vote_average": 7.299,
+            "vote_count": 206
+        },
+        {
+            "adult": true,
+            "backdrop_path": "/d6HIjhk2f8BiZnVQ43gUv67khmX.jpg",
+            "genre_ids": [
+                10749,
+                18
+            ],
+            "id": 1231813,
+            "original_language": "ko",
+            "original_title": "\uc790\ub9e4\uc758 \uc2a4\uc640\ud551",
+            "overview": "",
+            "popularity": 460.637,
+            "poster_path": "/lqjkmFmV62JEUGKK7E1UwX7PDDT.jpg",
+            "release_date": "2023-12-19",
+            "title": "\uc790\ub9e4\uc758 \uc2a4\uc640\ud551",
+            "video": false,
+            "vote_average": 5.333,
+            "vote_count": 3
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/tyfO9jHgkhypUFizRVYD0bytPjP.jpg",
+            "genre_ids": [
+                10751,
+                14
+            ],
+            "id": 447273,
+            "original_language": "en",
+            "original_title": "Snow White",
+            "overview": "Quando a Rainha M\u00e1 manda matarem sua enteada por inveja de sua beleza, Branca de Neve foge do reino. Ela percorre a floresta e acha uma casinha onde vivem sete an\u00f5es amig\u00e1veis com quem passa viver. Por\u00e9m, a mo\u00e7a ainda n\u00e3o est\u00e1 a salvo, j\u00e1 que a bruxa planeja dar um fim a sua vida com uma ma\u00e7\u00e3 envenenada.",
+            "popularity": 426.4667,
+            "poster_path": "/t0mabA2l3KE9Ai350BEKz61Ltor.jpg",
+            "release_date": "2025-03-12",
+            "title": "Branca de Neve",
+            "video": false,
+            "vote_average": 4.349,
+            "vote_count": 852
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/fTrQsdMS2MUw00RnzH0r3JWHhts.jpg",
+            "genre_ids": [
+                28,
+                80,
+                53
+            ],
+            "id": 1197306,
+            "original_language": "en",
+            "original_title": "A Working Man",
+            "overview": "Ele quer viver uma vida simples e ser um bom pai para sua filha. Mas quando a filha adolescente de seu chefe, Jenny, desaparece, ele \u00e9 chamado para reempregar as habilidades que o tornaram uma figura lend\u00e1ria nas opera\u00e7\u00f5es secretas.",
+            "popularity": 382.5636,
+            "poster_path": "/8T6N3NJd8p464uj6ydoPbWwprys.jpg",
+            "release_date": "2025-03-26",
+            "title": "Resgate Implac\u00e1vel",
+            "video": false,
+            "vote_average": 6.545,
+            "vote_count": 792
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/cJvUJEEQ86LSjl4gFLkYpdCJC96.jpg",
+            "genre_ids": [
+                10752,
+                28
+            ],
+            "id": 1241436,
+            "original_language": "en",
+            "original_title": "Warfare",
+            "overview": "No longa, um grupo de militares se encontra no meio de um fogo cruzado com tropas guerrilheiras iraquianas. Escondidos numa casa bem no centro da prov\u00edncia ocupada pelas for\u00e7as da Al Qaeda, os militares americanos vigiam as ruas em busca de seus inimigos, preparando-se para atacar a qualquer sinal de insurg\u00eancia. Quando uma granada inesperada explode o esconderijo do grupo, o caos se instala e a necessidade de evacuar se torna o principal e mais dif\u00edcil objetivo dos fuzileiros. Enquanto esperam resgate, uma troca de tiros intensa causa mortos e feridos, deixando um rastro de escombros e traumas.\r O filme se passa na Guerra do Iraque com uma trama inspirada nas mem\u00f3rias e experi\u00eancias vividas pelo co-diretor Ray Mendonza, ex-fuzileiro naval do ex\u00e9rcito americano.",
+            "popularity": 377.8279,
+            "poster_path": "/rSEAmWjRWOpoZyV7Xh3VjZNsQT2.jpg",
+            "release_date": "2025-04-09",
+            "title": "Tempo de Guerra",
+            "video": false,
+            "vote_average": 7.153,
+            "vote_count": 354
+        },
+        {
+            "adult": true,
+            "backdrop_path": null,
+            "genre_ids": [
+                10749,
+                18
+            ],
+            "id": 482600,
+            "original_language": "ko",
+            "original_title": "\uc77c\ubcf8 \uc5c4\ub9c8",
+            "overview": "",
+            "popularity": 328.698,
+            "poster_path": "/hq1EaYIqUNrPM3QFYAbnH2UHoX8.jpg",
+            "release_date": "2017-02-09",
+            "title": "\uc77c\ubcf8 \uc5c4\ub9c8",
+            "video": false,
+            "vote_average": 6.7,
+            "vote_count": 54
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/jRvhP4AfFnJ03lCQhp1fie7XPSd.jpg",
+            "genre_ids": [
+                28,
+                53
+            ],
+            "id": 977294,
+            "original_language": "en",
+            "original_title": "Tin Soldier",
+            "overview": "Um ex-agente das for\u00e7as especiais busca vingan\u00e7a contra um l\u00edder de culto que corrompeu seus antigos companheiros, os Shinjas. Este l\u00edder, conhecido como Bokushi, promete aos veteranos um prop\u00f3sito e prote\u00e7\u00e3o, mas se revela uma influ\u00eancia destrutiva. O ex-soldado, Nash Cavanaugh, une for\u00e7as com o agente militar Emmanuel Ashburn para se infiltrar na fortaleza dos Bokushi e expor seu reinado de terror.",
+            "popularity": 303.8808,
+            "poster_path": "/oG5LTrvq1hmPO7Kfsl8q236Vy0Y.jpg",
+            "release_date": "2025-05-22",
+            "title": "Soldado Tin",
+            "video": false,
+            "vote_average": 5.6,
+            "vote_count": 18
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                28,
+                53
+            ],
+            "id": 1480799,
+            "original_language": "pt",
+            "original_title": "The Great Escape",
+            "overview": "Bob \u00e9 um poderoso mafioso, envolvido em uma s\u00e9rie de atividades ilegais como tr\u00e1fico de armas e lavagem de dinheiro. Mas o seu reinado pode estar com os dias contados ap\u00f3s sua fam\u00edlia ser atacada pelo seu pior inimigo.",
+            "popularity": 345.5976,
+            "poster_path": "/h7shL668vhC2wsZQSBWzxkMuZ8K.jpg",
+            "release_date": "2023-05-26",
+            "title": "A M\u00e1fia n\u00e3o Perdoa",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/bIh56F8e5EaZ3r2nD1hXAOisItZ.jpg",
+            "genre_ids": [
+                12,
+                10751
+            ],
+            "id": 1094473,
+            "original_language": "fr",
+            "original_title": "Bambi, l'histoire d'une vie dans les bois",
+            "overview": "Em Bambi: Uma Aventura na Floresta, um jovem cervo que, ao lado da sabedoria e do amor da sua m\u00e3e, aprende li\u00e7\u00f5es necess\u00e1rias para sobreviver na floresta. Com o carinho e a amizade dos outros animais, como o corvo, o coelho e o guaxinim, Bambi explora as maravilhas da natureza e se encanta com o mundo \u00e0 sua volta. Com a chegada do outono, por\u00e9m, a vida do pequeno cervo muda drasticamente, quando sua m\u00e3e morre nas m\u00e3os de ca\u00e7adores, separando os dois para sempre. Sozinho e em luto, Bambi precisa canalizar toda a for\u00e7a materna aprendida para superar as adversidades. \u00c9 atrav\u00e9s de um reencontro com a amiga de inf\u00e2ncia Faline e os conselhos do Pr\u00edncipe da Floresta, um majestoso cervo que termina por ser seu pai, Bambi se prepara para os desafios e os perigos que o esperam. Sob a prote\u00e7\u00e3o paterna e o cultivo da esperan\u00e7a, Bambi amadurece e se fortalece, devagar assumindo o controle de seu destino e vivendo em harmonia apesar das dificuldades.",
+            "popularity": 275.4604,
+            "poster_path": "/nP7BaO9rObeav8SqcBcfcVoQN8g.jpg",
+            "release_date": "2024-10-16",
+            "title": "Bambi: Uma aventura na floresta",
+            "video": false,
+            "vote_average": 6.1,
+            "vote_count": 17
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/rthMuZfFv4fqEU4JVbgSW9wQ8rs.jpg",
+            "genre_ids": [
+                28,
+                878,
+                12
+            ],
+            "id": 986056,
+            "original_language": "en",
+            "original_title": "Thunderbolts*",
+            "overview": "Depois de se verem presos em uma armadilha mortal, uma equipe n\u00e3o convencional de anti-her\u00f3is deve embarcar em uma miss\u00e3o perigosa que os for\u00e7ar\u00e1 a confrontar os cantos mais sombrios de seus passados.",
+            "popularity": 218.3746,
+            "poster_path": "/eKD2p840nsRXLUR25ciVsNMJgOB.jpg",
+            "release_date": "2025-04-30",
+            "title": "Thunderbolts*",
+            "video": false,
+            "vote_average": 7.47,
+            "vote_count": 905
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/4A5HH9HkCPqAwyYL6CnA0mxbYjn.jpg",
+            "genre_ids": [
+                28,
+                80,
+                53,
+                18
+            ],
+            "id": 1144430,
+            "original_language": "fr",
+            "original_title": "Balle perdue 3",
+            "overview": "Lino, Julia e Areski voltam para o terceiro e \u00faltimo round desta saga de a\u00e7\u00e3o explosiva com Alban Lenoir, St\u00e9fi Celma e Nicolas Duvauchelle.",
+            "popularity": 207.6736,
+            "poster_path": "/o3qkeilLeMJ7Au6O4zMX09VnkBc.jpg",
+            "release_date": "2025-05-06",
+            "title": "Bala Perdida 3",
+            "video": false,
+            "vote_average": 6.72,
+            "vote_count": 116
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/mrmaTVp7PTBkjj5G62cE9pjrENg.jpg",
+            "genre_ids": [
+                27,
+                18
+            ],
+            "id": 1359977,
+            "original_language": "en",
+            "original_title": "Conjuring the Cult",
+            "overview": "",
+            "popularity": 204.1793,
+            "poster_path": "/t4MiAeYpjL7saYvqvcn9xtOfA4K.jpg",
+            "release_date": "2024-10-01",
+            "title": "Conjuring the Cult",
+            "video": false,
+            "vote_average": 5.727,
+            "vote_count": 22
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/jmLfuMFn6o4Rkp7dzT57Vp2GpoQ.jpg",
+            "genre_ids": [
+                28,
+                18,
+                35
+            ],
+            "id": 897160,
+            "original_language": "ko",
+            "original_title": "\uc6a9\uac10\ud55c \uc2dc\ubbfc",
+            "overview": "",
+            "popularity": 198.4611,
+            "poster_path": "/oVJDtwC41sGx5zmWiEkhqwBlopD.jpg",
+            "release_date": "2023-10-25",
+            "title": "\uc6a9\uac10\ud55c \uc2dc\ubbfc",
+            "video": false,
+            "vote_average": 7.053,
+            "vote_count": 38
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/bVm6udIB6iKsRqgMdQh6HywuEBj.jpg",
+            "genre_ids": [
+                53,
+                28
+            ],
+            "id": 1233069,
+            "original_language": "de",
+            "original_title": "Exterritorial",
+            "overview": "O filho da ex-militar Sara desapareceu em um consulado americano. Ela far\u00e1 de tudo para encontr\u00e1-lo, inclusive encarar uma conspira\u00e7\u00e3o sombria.",
+            "popularity": 198.3149,
+            "poster_path": "/wqllCospPViEt7AeYIl4ZskKdSj.jpg",
+            "release_date": "2025-04-29",
+            "title": "Exterritorial",
+            "video": false,
+            "vote_average": 6.653,
+            "vote_count": 349
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/7ONMDhnErvpkKvkZqM82ud7bzcT.jpg",
+            "genre_ids": [
+                28,
+                12,
+                53
+            ],
+            "id": 575265,
+            "original_language": "en",
+            "original_title": "Mission: Impossible - The Final Reckoning",
+            "overview": "Depois de escapar de um acidente de trem calamitoso, Ethan percebe que a Entidade est\u00e1 escondida a bordo de um antigo submarino russo, mas um inimigo do seu passado chamado Gabriel tamb\u00e9m est\u00e1 no encal\u00e7o.",
+            "popularity": 187.4051,
+            "poster_path": "/5izmRuuqPh9Uq1xJU1EizdUBi6b.jpg",
+            "release_date": "2025-05-17",
+            "title": "Miss\u00e3o: Imposs\u00edvel - O Acerto Final",
+            "video": false,
+            "vote_average": 7.658,
+            "vote_count": 60
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/8eifdha9GQeZAkexgtD45546XKx.jpg",
+            "genre_ids": [
+                28,
+                53,
+                878
+            ],
+            "id": 822119,
+            "original_language": "en",
+            "original_title": "Captain America: Brave New World",
+            "overview": "Ap\u00f3s se encontrar com o rec\u00e9m-eleito presidente dos EUA, Thaddeus Ross, Sam se v\u00ea no meio de um incidente internacional. Ele deve descobrir o motivo por tr\u00e1s de uma conspira\u00e7\u00e3o global nefasta antes que o verdadeiro g\u00eanio fa\u00e7a o mundo inteiro ser dominado pelo vermelho.",
+            "popularity": 157.3116,
+            "poster_path": "/5nbSgP8f5LMCI0PwVRRaHJaUmR3.jpg",
+            "release_date": "2025-02-12",
+            "title": "Capit\u00e3o Am\u00e9rica: Admir\u00e1vel Mundo Novo",
+            "video": false,
+            "vote_average": 6.1,
+            "vote_count": 1858
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/op3qmNhvwEvyT7UFyPbIfQmKriB.jpg",
+            "genre_ids": [
+                28,
+                14,
+                12
+            ],
+            "id": 324544,
+            "original_language": "en",
+            "original_title": "In the Lost Lands",
+            "overview": "Uma rainha, desesperada para ganhar o dom da mudan\u00e7a de forma, toma uma atitude ousada: contrata a feiticeira Gray Alys, uma mulher t\u00e3o temida quanto poderosa. Enviada para a selva fantasmag\u00f3rica das Terras Perdidas, Alys e seu guia, o andarilho Boyce, devem enganar e lutar contra o homem e o diabo em uma f\u00e1bula que explora a natureza do bem e do mal, da d\u00edvida e da satisfa\u00e7\u00e3o, do amor e da perda.",
+            "popularity": 154.464,
+            "poster_path": "/hSljn1jfCClIbHNdlz6cWQEjncV.jpg",
+            "release_date": "2025-02-27",
+            "title": "Nas Terras Perdidas",
+            "video": false,
+            "vote_average": 6.342,
+            "vote_count": 374
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/12tEzU0bNYKIjXXEwI5abuOotHF.jpg",
+            "genre_ids": [
+                37
+            ],
+            "id": 710258,
+            "original_language": "en",
+            "original_title": "Rust",
+            "overview": "O infame fora-da-lei Harland Rust liberta seu neto Lucas da pris\u00e3o, ap\u00f3s ele ser condenado \u00e0 forca por um assassinato acidental. Os dois precisam escapar do lend\u00e1rio xerife americano Wood Helm e do ca\u00e7ador de recompensas Fenton \"Preacher\" Lang, que est\u00e3o no seu encal\u00e7o. Segredos profundamente enterrados ressurgem das cinzas e um la\u00e7o familiar inesperado come\u00e7a a se formar enquanto a dupla incompat\u00edvel tenta sobreviver \u00e0 implac\u00e1vel Fronteira Americana.",
+            "popularity": 146.5969,
+            "poster_path": "/tbJ3RkA2s6X5qrBzrYHYTxvDBui.jpg",
+            "release_date": "2025-05-01",
+            "title": "Rust",
+            "video": false,
+            "vote_average": 6.38,
+            "vote_count": 50
+        }
+    ],
+    "total_pages": 58885,
+    "total_results": 1177686
+}
