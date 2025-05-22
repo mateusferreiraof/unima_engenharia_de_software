@@ -34,6 +34,9 @@
             <div class="botoes">
                 <button type="submit">Cadastrar</button>
                 <a href="/login">Voltar para Login</a>
+                {% if mensagem %}
+                    <p id="mensagem-flask">{{mensagem}}</p>
+                {% endif %}
             </div>
         </form>
         <footer>

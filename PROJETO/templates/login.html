@@ -32,6 +32,9 @@
                     <div><hr id="separacao"></div>
                     <!-- Código mesclado com JavaScript usando onclick para fazer um redirecionamento a tela de cadastro. -->
                     <button type="button" id="botao-cadastrar" onclick="window.location.href='/cadastro'">CADASTRAR</button>
+                    {% if mensagem %}
+                       <p id="mensagem-flask">{{mensagem}}</p>
+                    {% endif %}
                 </div>
             </div>
         </div>
