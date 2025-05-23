@@ -3,7 +3,7 @@ from PROJETO import server
 from PROJETO.config import conexao, cursor
 from Api.tmdbapi import MovieAPI
 
-@server.route('/')
+@server.route('/home')
 def homepage():
     api = MovieAPI()
     dados = api.movie_list()
@@ -29,10 +29,10 @@ def validacao_login():
 
         if usuario:
             session['usuario_id'] = usuario[0]
-            return render_template("/index.html")
+            return redirect('/home')
         
         mensagem = "E-mail ou senha inválidos. Tente novamente."
-        return render_template("Login.html", mensagem=mensagem)
+        return render_template("login.html", mensagem=mensagem)
         
     return render_template("login.html")
 
@@ -55,7 +55,7 @@ def cadastrar_usuario():
         email = request.form.get('email')
         senha = request.form.get('senha')
         senha_confirmada = request.form.get('confirmar-senha')
-        genero_usuario = request.form.get('genero').strip()
+        genero_usuario = request.form.get('genero')
         print(genero_usuario)
 
         dominios_aceitos = ['@gmail.com', '@hotmail.com', '@outlook.com', '@yahoo.com']
@@ -83,5 +83,4 @@ def cadastrar_usuario():
 
         return render_template("cadastro.html", mensagem=mensagem)
         
-        return redirect('/login')
     return redirect('/cadastro')

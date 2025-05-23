@@ -115,6 +115,13 @@ footer {
     color: dimgray;
 }
 
+#mensagem-flask {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
 .cabecario-do-cadastro {
     display: flex;
     align-items: center;

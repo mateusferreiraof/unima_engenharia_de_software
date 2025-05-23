@@ -39,6 +39,14 @@ body {
     width: 250px;
     margin: 5px;
 }
+
+#mensagem-flask {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
 .forma-geral-do-login {
     margin: 30px;
     border: none;

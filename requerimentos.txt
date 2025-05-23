@@ -1,10 +1,13 @@
 Para o código rodar, instale essas bibliotecas no terminal:
 
+pip install flask
 pip install PyMySQL
 pip install python-dotenv
 pip install cryptography
+pip install requests
 
-Tenha um banco de dados para que o código faça a conexão com ele e crie as tabelas.
+Tenha o banco de dados MySQL instalado em sua máquina, para que o código crie o banco de dados e suas tabelas.
+
 Crie um arquivo .env e adicione as informações:
 
 DB_USER=seuusuario
@@ -12,3 +15,5 @@ DB_PASSWORD=suasenha
 DB_HOST=localhost
 DB_NAME=nomedobanco
 DB_PORT=portadobanco
+
+Código em desenvolvimento e sendo melhorado, alguns ajustes ainda serão implementados.
