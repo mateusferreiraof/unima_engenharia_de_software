@@ -10,9 +10,11 @@
     <ul>
         {% for movie in movies %}
             <li>
-                <img src="https://image.tmdb.org/t/p/w200{{ movie.poster_path }}" alt="{{ movie.title }}" />
+                <abbr title="{{ movie.overview }}"><img src="https://image.tmdb.org/t/p/w200{{ movie.poster_path }}" alt="{{ movie.title }}" /></abbr>
                 <strong>{{ movie.title }}</strong> - {{ movie.release_date }}
-                <p>{{ movie.overview }}</p>
+               
+                
+                
             </li>
         {% endfor %}
     </ul>
