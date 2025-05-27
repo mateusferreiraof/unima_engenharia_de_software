@@ -3,6 +3,26 @@
     "results": [
         {
             "adult": false,
+            "backdrop_path": "/7Zx3wDG5bBtcfk8lcnCWDOLM4Y4.jpg",
+            "genre_ids": [
+                10751,
+                35,
+                878
+            ],
+            "id": 552524,
+            "original_language": "en",
+            "original_title": "Lilo & Stitch",
+            "overview": "Uma menina havaiana solit\u00e1ria faz amizade com um alien\u00edgena fugitivo, ajudando a remendar sua fam\u00edlia fragmentada.",
+            "popularity": 719.8697,
+            "poster_path": "/toLU4HzWf2iKqPbElKPDypKNGTr.jpg",
+            "release_date": "2025-05-17",
+            "title": "Lilo & Stitch",
+            "video": false,
+            "vote_average": 7.0,
+            "vote_count": 217
+        },
+        {
+            "adult": false,
             "backdrop_path": "/2Nti3gYAX513wvhp8IiLL6ZDyOm.jpg",
             "genre_ids": [
                 10751,
@@ -19,47 +39,8 @@
             "release_date": "2025-03-31",
             "title": "Um Filme Minecraft",
             "video": false,
-            "vote_average": 6.509,
-            "vote_count": 1472
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/7Zx3wDG5bBtcfk8lcnCWDOLM4Y4.jpg",
-            "genre_ids": [
-                10751,
-                35,
-                878
-            ],
-            "id": 552524,
-            "original_language": "en",
-            "original_title": "Lilo & Stitch",
-            "overview": "Uma menina havaiana solit\u00e1ria faz amizade com um alien\u00edgena fugitivo, ajudando a remendar sua fam\u00edlia fragmentada.",
-            "popularity": 719.8697,
-            "poster_path": "/toLU4HzWf2iKqPbElKPDypKNGTr.jpg",
-            "release_date": "2025-05-17",
-            "title": "Lilo & Stitch",
-            "video": false,
-            "vote_average": 7.029,
-            "vote_count": 210
-        },
-        {
-            "adult": true,
-            "backdrop_path": "/vc4tQ9WYPnZhd5j8jsIyKAPXZpx.jpg",
-            "genre_ids": [
-                18,
-                10749
-            ],
-            "id": 1188808,
-            "original_language": "tl",
-            "original_title": "Tuhog",
-            "overview": "",
-            "popularity": 565.734,
-            "poster_path": "/1JFMtEk1GRLoCegrcwxkK2XfHcK.jpg",
-            "release_date": "2023-11-03",
-            "title": "Tuhog",
-            "video": false,
-            "vote_average": 4.4,
-            "vote_count": 7
+            "vote_average": 6.502,
+            "vote_count": 1476
         },
         {
             "adult": false,
@@ -77,27 +58,8 @@
             "release_date": "2025-05-09",
             "title": "Premoni\u00e7\u00e3o 6: La\u00e7os de Sangue",
             "video": false,
-            "vote_average": 7.04,
-            "vote_count": 436
-        },
-        {
-            "adult": true,
-            "backdrop_path": "/d6HIjhk2f8BiZnVQ43gUv67khmX.jpg",
-            "genre_ids": [
-                10749,
-                18
-            ],
-            "id": 1231813,
-            "original_language": "ko",
-            "original_title": "\uc790\ub9e4\uc758 \uc2a4\uc640\ud551",
-            "overview": "",
-            "popularity": 460.637,
-            "poster_path": "/lqjkmFmV62JEUGKK7E1UwX7PDDT.jpg",
-            "release_date": "2023-12-19",
-            "title": "\uc790\ub9e4\uc758 \uc2a4\uc640\ud551",
-            "video": false,
-            "vote_average": 4.5,
-            "vote_count": 4
+            "vote_average": 7.031,
+            "vote_count": 442
         },
         {
             "adult": false,
@@ -115,8 +77,8 @@
             "release_date": "2025-04-23",
             "title": "Until Dawn: Noite de Terror",
             "video": false,
-            "vote_average": 6.438,
-            "vote_count": 377
+            "vote_average": 6.42,
+            "vote_count": 387
         },
         {
             "adult": false,
@@ -135,27 +97,8 @@
             "release_date": "2025-05-17",
             "title": "Miss\u00e3o: Imposs\u00edvel - O Acerto Final",
             "video": false,
-            "vote_average": 7.045,
-            "vote_count": 353
-        },
-        {
-            "adult": true,
-            "backdrop_path": null,
-            "genre_ids": [
-                10749,
-                18
-            ],
-            "id": 482600,
-            "original_language": "ko",
-            "original_title": "\uc77c\ubcf8 \uc5c4\ub9c8",
-            "overview": "",
-            "popularity": 328.698,
-            "poster_path": "/hq1EaYIqUNrPM3QFYAbnH2UHoX8.jpg",
-            "release_date": "2017-02-09",
-            "title": "\uc77c\ubcf8 \uc5c4\ub9c8",
-            "video": false,
-            "vote_average": 6.7,
-            "vote_count": 54
+            "vote_average": 7.054,
+            "vote_count": 362
         },
         {
             "adult": false,
@@ -175,65 +118,7 @@
             "title": "Resgate Implac\u00e1vel",
             "video": false,
             "vote_average": 6.678,
-            "vote_count": 1007
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/dJ1JpHuTCRxtGpRq8bQzk2jBqTi.jpg",
-            "genre_ids": [
-                14,
-                12,
-                10751
-            ],
-            "id": 896536,
-            "original_language": "en",
-            "original_title": "The Legend of Ochi",
-            "overview": "Em uma vila remota na ilha de Carpathia, uma t\u00edmida garota de fazenda chamada Yuri foi criada para temer uma esp\u00e9cie animal conhecida como Ochi. Mas, quando Yuri descobre que um beb\u00ea Ochi ferido foi abandonado, ela parte em uma aventura para lev\u00e1-lo para casa.",
-            "popularity": 253.4132,
-            "poster_path": "/WqxyyacuNBonVEm3VVh01BK1a3.jpg",
-            "release_date": "2025-04-18",
-            "title": "A Lenda de Ochi",
-            "video": false,
-            "vote_average": 6.2,
-            "vote_count": 79
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/tyfO9jHgkhypUFizRVYD0bytPjP.jpg",
-            "genre_ids": [
-                10751,
-                14
-            ],
-            "id": 447273,
-            "original_language": "en",
-            "original_title": "Snow White",
-            "overview": "Quando a Rainha M\u00e1 manda matarem sua enteada por inveja de sua beleza, Branca de Neve foge do reino. Ela percorre a floresta e acha uma casinha onde vivem sete an\u00f5es amig\u00e1veis com quem passa viver. Por\u00e9m, a mo\u00e7a ainda n\u00e3o est\u00e1 a salvo, j\u00e1 que a bruxa planeja dar um fim a sua vida com uma ma\u00e7\u00e3 envenenada.",
-            "popularity": 237.1635,
-            "poster_path": "/t0mabA2l3KE9Ai350BEKz61Ltor.jpg",
-            "release_date": "2025-03-12",
-            "title": "Branca de Neve",
-            "video": false,
-            "vote_average": 4.3,
-            "vote_count": 948
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/cJvUJEEQ86LSjl4gFLkYpdCJC96.jpg",
-            "genre_ids": [
-                10752,
-                28
-            ],
-            "id": 1241436,
-            "original_language": "en",
-            "original_title": "Warfare",
-            "overview": "No longa, um grupo de militares se encontra no meio de um fogo cruzado com tropas guerrilheiras iraquianas. Escondidos numa casa bem no centro da prov\u00edncia ocupada pelas for\u00e7as da Al Qaeda, os militares americanos vigiam as ruas em busca de seus inimigos, preparando-se para atacar a qualquer sinal de insurg\u00eancia. Quando uma granada inesperada explode o esconderijo do grupo, o caos se instala e a necessidade de evacuar se torna o principal e mais dif\u00edcil objetivo dos fuzileiros. Enquanto esperam resgate, uma troca de tiros intensa causa mortos e feridos, deixando um rastro de escombros e traumas.\r O filme se passa na Guerra do Iraque com uma trama inspirada nas mem\u00f3rias e experi\u00eancias vividas pelo co-diretor Ray Mendonza, ex-fuzileiro naval do ex\u00e9rcito americano.",
-            "popularity": 239.3911,
-            "poster_path": "/rSEAmWjRWOpoZyV7Xh3VjZNsQT2.jpg",
-            "release_date": "2025-04-09",
-            "title": "Tempo de Guerra",
-            "video": false,
-            "vote_average": 7.241,
-            "vote_count": 433
+            "vote_count": 1013
         },
         {
             "adult": false,
@@ -252,8 +137,28 @@
             "release_date": "2025-05-19",
             "title": "A Fonte da Juventude",
             "video": false,
-            "vote_average": 6.455,
-            "vote_count": 211
+            "vote_average": 6.484,
+            "vote_count": 222
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/dJ1JpHuTCRxtGpRq8bQzk2jBqTi.jpg",
+            "genre_ids": [
+                14,
+                12,
+                10751
+            ],
+            "id": 896536,
+            "original_language": "en",
+            "original_title": "The Legend of Ochi",
+            "overview": "Em uma vila remota na ilha de Carpathia, uma t\u00edmida garota de fazenda chamada Yuri foi criada para temer uma esp\u00e9cie animal conhecida como Ochi. Mas, quando Yuri descobre que um beb\u00ea Ochi ferido foi abandonado, ela parte em uma aventura para lev\u00e1-lo para casa.",
+            "popularity": 253.4132,
+            "poster_path": "/WqxyyacuNBonVEm3VVh01BK1a3.jpg",
+            "release_date": "2025-04-18",
+            "title": "A Lenda de Ochi",
+            "video": false,
+            "vote_average": 6.241,
+            "vote_count": 81
         },
         {
             "adult": false,
@@ -271,27 +176,46 @@
             "release_date": "2025-05-23",
             "title": "Rua do Medo: Rainha do Baile",
             "video": false,
-            "vote_average": 5.426,
-            "vote_count": 156
+            "vote_average": 5.4,
+            "vote_count": 160
         },
         {
             "adult": false,
-            "backdrop_path": "/jRvhP4AfFnJ03lCQhp1fie7XPSd.jpg",
+            "backdrop_path": "/cJvUJEEQ86LSjl4gFLkYpdCJC96.jpg",
             "genre_ids": [
-                28,
-                53
+                10752,
+                28
             ],
-            "id": 977294,
+            "id": 1241436,
             "original_language": "en",
-            "original_title": "Tin Soldier",
-            "overview": "Um ex-agente das for\u00e7as especiais busca vingan\u00e7a contra um l\u00edder de culto que corrompeu seus antigos companheiros, os Shinjas. Este l\u00edder, conhecido como Bokushi, promete aos veteranos um prop\u00f3sito e prote\u00e7\u00e3o, mas se revela uma influ\u00eancia destrutiva. O ex-soldado, Nash Cavanaugh, une for\u00e7as com o agente militar Emmanuel Ashburn para se infiltrar na fortaleza dos Bokushi e expor seu reinado de terror.",
-            "popularity": 196.6764,
-            "poster_path": "/oG5LTrvq1hmPO7Kfsl8q236Vy0Y.jpg",
-            "release_date": "2025-05-22",
-            "title": "Soldado Tin",
+            "original_title": "Warfare",
+            "overview": "No longa, um grupo de militares se encontra no meio de um fogo cruzado com tropas guerrilheiras iraquianas. Escondidos numa casa bem no centro da prov\u00edncia ocupada pelas for\u00e7as da Al Qaeda, os militares americanos vigiam as ruas em busca de seus inimigos, preparando-se para atacar a qualquer sinal de insurg\u00eancia. Quando uma granada inesperada explode o esconderijo do grupo, o caos se instala e a necessidade de evacuar se torna o principal e mais dif\u00edcil objetivo dos fuzileiros. Enquanto esperam resgate, uma troca de tiros intensa causa mortos e feridos, deixando um rastro de escombros e traumas.\r O filme se passa na Guerra do Iraque com uma trama inspirada nas mem\u00f3rias e experi\u00eancias vividas pelo co-diretor Ray Mendonza, ex-fuzileiro naval do ex\u00e9rcito americano.",
+            "popularity": 239.3911,
+            "poster_path": "/rSEAmWjRWOpoZyV7Xh3VjZNsQT2.jpg",
+            "release_date": "2025-04-09",
+            "title": "Tempo de Guerra",
             "video": false,
-            "vote_average": 5.191,
-            "vote_count": 34
+            "vote_average": 7.249,
+            "vote_count": 435
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/tyfO9jHgkhypUFizRVYD0bytPjP.jpg",
+            "genre_ids": [
+                10751,
+                14
+            ],
+            "id": 447273,
+            "original_language": "en",
+            "original_title": "Snow White",
+            "overview": "Quando a Rainha M\u00e1 manda matarem sua enteada por inveja de sua beleza, Branca de Neve foge do reino. Ela percorre a floresta e acha uma casinha onde vivem sete an\u00f5es amig\u00e1veis com quem passa viver. Por\u00e9m, a mo\u00e7a ainda n\u00e3o est\u00e1 a salvo, j\u00e1 que a bruxa planeja dar um fim a sua vida com uma ma\u00e7\u00e3 envenenada.",
+            "popularity": 237.1635,
+            "poster_path": "/t0mabA2l3KE9Ai350BEKz61Ltor.jpg",
+            "release_date": "2025-03-12",
+            "title": "Branca de Neve",
+            "video": false,
+            "vote_average": 4.293,
+            "vote_count": 952
         },
         {
             "adult": false,
@@ -311,6 +235,25 @@
             "video": false,
             "vote_average": 6.2,
             "vote_count": 2
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/jRvhP4AfFnJ03lCQhp1fie7XPSd.jpg",
+            "genre_ids": [
+                28,
+                53
+            ],
+            "id": 977294,
+            "original_language": "en",
+            "original_title": "Tin Soldier",
+            "overview": "Um ex-agente das for\u00e7as especiais busca vingan\u00e7a contra um l\u00edder de culto que corrompeu seus antigos companheiros, os Shinjas. Este l\u00edder, conhecido como Bokushi, promete aos veteranos um prop\u00f3sito e prote\u00e7\u00e3o, mas se revela uma influ\u00eancia destrutiva. O ex-soldado, Nash Cavanaugh, une for\u00e7as com o agente militar Emmanuel Ashburn para se infiltrar na fortaleza dos Bokushi e expor seu reinado de terror.",
+            "popularity": 196.6764,
+            "poster_path": "/oG5LTrvq1hmPO7Kfsl8q236Vy0Y.jpg",
+            "release_date": "2025-05-22",
+            "title": "Soldado Tin",
+            "video": false,
+            "vote_average": 5.157,
+            "vote_count": 35
         },
         {
             "adult": false,
@@ -347,8 +290,8 @@
             "release_date": "2025-04-30",
             "title": "Thunderbolts*",
             "video": false,
-            "vote_average": 7.448,
-            "vote_count": 998
+            "vote_average": 7.443,
+            "vote_count": 1003
         },
         {
             "adult": false,
@@ -366,8 +309,48 @@
             "release_date": "2025-04-29",
             "title": "Exterritorial",
             "video": false,
-            "vote_average": 6.725,
-            "vote_count": 394
+            "vote_average": 6.714,
+            "vote_count": 397
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/aIglP9Z5gtkQf7Fidb4NRv2gfDj.jpg",
+            "genre_ids": [
+                16,
+                10751,
+                35
+            ],
+            "id": 11544,
+            "original_language": "en",
+            "original_title": "Lilo & Stitch",
+            "overview": "Lilo \u00e9 uma garotinha de cinco anos que ama cuidar de animais. Um dia ela adota um cachorro e decide cham\u00e1-lo de Stitch. O que ela n\u00e3o sabe \u00e9 que Stitch \u00e9 um alien\u00edgena e um dos criminosos mais perigosos da gal\u00e1xia. Agora, para escapar de seus captores que ainda o persegue, Stitch decide se passar por um cachorro comum, criando com o tempo um la\u00e7o de amizade com Lilo.",
+            "popularity": 152.7018,
+            "poster_path": "/ottRXMCQ9jPB318syTcfIdtJWIE.jpg",
+            "release_date": "2002-06-21",
+            "title": "Lilo & Stitch",
+            "video": false,
+            "vote_average": 7.542,
+            "vote_count": 6516
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/jmLfuMFn6o4Rkp7dzT57Vp2GpoQ.jpg",
+            "genre_ids": [
+                28,
+                18,
+                35
+            ],
+            "id": 897160,
+            "original_language": "ko",
+            "original_title": "\uc6a9\uac10\ud55c \uc2dc\ubbfc",
+            "overview": "",
+            "popularity": 149.1418,
+            "poster_path": "/oVJDtwC41sGx5zmWiEkhqwBlopD.jpg",
+            "release_date": "2023-10-25",
+            "title": "\uc6a9\uac10\ud55c \uc2dc\ubbfc",
+            "video": false,
+            "vote_average": 7.049,
+            "vote_count": 41
         },
         {
             "adult": false,
@@ -388,8 +371,28 @@
             "video": false,
             "vote_average": 5.87,
             "vote_count": 23
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/op3qmNhvwEvyT7UFyPbIfQmKriB.jpg",
+            "genre_ids": [
+                28,
+                14,
+                12
+            ],
+            "id": 324544,
+            "original_language": "en",
+            "original_title": "In the Lost Lands",
+            "overview": "Uma rainha, desesperada para ganhar o dom da mudan\u00e7a de forma, toma uma atitude ousada: contrata a feiticeira Gray Alys, uma mulher t\u00e3o temida quanto poderosa. Enviada para a selva fantasmag\u00f3rica das Terras Perdidas, Alys e seu guia, o andarilho Boyce, devem enganar e lutar contra o homem e o diabo em uma f\u00e1bula que explora a natureza do bem e do mal, da d\u00edvida e da satisfa\u00e7\u00e3o, do amor e da perda.",
+            "popularity": 142.6165,
+            "poster_path": "/hSljn1jfCClIbHNdlz6cWQEjncV.jpg",
+            "release_date": "2025-02-27",
+            "title": "Nas Terras Perdidas",
+            "video": false,
+            "vote_average": 6.399,
+            "vote_count": 393
         }
     ],
-    "total_pages": 59072,
-    "total_results": 1181435
+    "total_pages": 53207,
+    "total_results": 1064135
 }

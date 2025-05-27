@@ -11,7 +11,7 @@ class TMDBAPI:
 
     #lista de filmes
     def movie_list(self,page:int = 1 ):
-        url = f"https://api.themoviedb.org/3/discover/movie?include_adult=true&include_video=true&language=pt-BR&page={page}&sort_by=popularity.desc"
+        url = f"https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=true&language=pt-BR&page={page}&sort_by=popularity.desc"
 
         response = requests.get(url, headers=self.headers).json()#esse .json vai formatar no arquivo de forma correta
 
@@ -25,7 +25,7 @@ class TMDBAPI:
     
     #pesquisar filmes
     def movie_search(self,query:str, page:int = 1):
-       url = f"https://api.themoviedb.org/3/search/movie?query={query}&include_adult=true&language=pt-BR&page={page}"
+       url = f"https://api.themoviedb.org/3/search/movie?query={query}&include_adult=false&language=pt-BR&page={page}"
        response = requests.get(url, headers=self.headers).json()
        return self.to_json(response,"movie.json")
     
