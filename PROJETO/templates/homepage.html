@@ -20,11 +20,18 @@
         {% for movie in movies %}
             <li>
                 <abbr title="{{ movie.overview }}"><img src="https://image.tmdb.org/t/p/w200{{ movie.poster_path }}" alt="{{ movie.title }}" /></abbr>
-                <strong>{{ movie.title }}</strong> - {{ movie.release_date }}
-               
-                
-                
+                <strong>{{ movie.title }}</strong> 
+                - {{ movie.release_date }}                
             </li>
+        {% endfor %}
+    </ul>
+    <h1>Séries Populares</h1>
+    <ul> 
+        {% for serie in series %}
+        <li>
+            <abbr title="{{serie.overview}}"><img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{serie.name}}"></abbr>
+            <strong>{{serie.name}}</strong> - {{serie.first_air_date}}
+        </li>
         {% endfor %}
     </ul>
 </body>

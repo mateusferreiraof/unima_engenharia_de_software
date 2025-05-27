@@ -1,13 +1,15 @@
-from flask import render_template, redirect, request, session
+from flask import render_template, redirect, request, session,jsonify
 from PROJETO import server
 from PROJETO.config import conexao, cursor
-from Api.tmdbapi import MovieAPI
+from Api.tmdbapi import TMDBAPI
 
 @server.route('/home')
 def homepage():
-    api = MovieAPI()
-    dados = api.movie_list()
-    return render_template("homepage.html", movies=dados['results'])
+    api = TMDBAPI()
+    dados1= api.movie_list()
+    dados2= api.series_list()
+    return render_template("homepage.html", movies=dados1['results'], series=dados2['results'])
+   
 
 @server.route('/')
 def inicio():
