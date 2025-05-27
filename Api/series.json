@@ -18,8 +18,8 @@
             "poster_path": "/uSvET5YUvHNDIeoCpErrbSmasFb.jpg",
             "first_air_date": "1962-10-01",
             "name": "The Tonight Show Starring Johnny Carson",
-            "vote_average": 7.464,
-            "vote_count": 83
+            "vote_average": 7.435,
+            "vote_count": 84
         },
         {
             "adult": false,
@@ -229,8 +229,8 @@
             "poster_path": "/el1KQzwdIm17I3A6cYPfsVIWhfX.jpg",
             "first_air_date": "2023-01-15",
             "name": "The Last of Us",
-            "vote_average": 8.554,
-            "vote_count": 6044
+            "vote_average": 8.553,
+            "vote_count": 6051
         },
         {
             "adult": false,
@@ -421,6 +421,6 @@
             "vote_count": 1290
         }
     ],
-    "total_pages": 9920,
-    "total_results": 198399
+    "total_pages": 9921,
+    "total_results": 198410
 }
