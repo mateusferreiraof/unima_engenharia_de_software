@@ -249,8 +249,8 @@
             "poster_path": "/el1KQzwdIm17I3A6cYPfsVIWhfX.jpg",
             "first_air_date": "2023-01-15",
             "name": "The Last of Us",
-            "vote_average": 8.552,
-            "vote_count": 6058
+            "vote_average": 8.6,
+            "vote_count": 6062
         },
         {
             "adult": false,
@@ -271,48 +271,6 @@
             "name": "The Late Late Show com James Corden",
             "vote_average": 5.312,
             "vote_count": 138
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/qLMfcvdCcCGD2BNLH8b6ZCBuO7D.jpg",
-            "genre_ids": [
-                10763,
-                35
-            ],
-            "id": 2224,
-            "origin_country": [
-                "US"
-            ],
-            "original_language": "en",
-            "original_name": "The Daily Show",
-            "overview": "The Daily Show \u00e9 um programa estadunidense de not\u00edcias que satiriza sobretudo a pol\u00edtica norte-americana. O programa come\u00e7ou em 1996 e era originalmente apresentado por Craig Killborn. Jon Stewart, que substituiu Killborn em 1999, apresentou o programa at\u00e9 agosto de 2015. Em setembro do mesmo ano o show foi assumido por Trevor Noah.",
-            "popularity": 345.2565,
-            "poster_path": "/ixcfyK7it6FjRM36Te4OdblAq4X.jpg",
-            "first_air_date": "1996-07-22",
-            "name": "The Daily Show com Trevor Noah",
-            "vote_average": 6.4,
-            "vote_count": 573
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/3EGjqKhVHGsvNHvBIbxmqS17Aal.jpg",
-            "genre_ids": [
-                10767,
-                10763
-            ],
-            "id": 224,
-            "origin_country": [
-                "GB"
-            ],
-            "original_language": "en",
-            "original_name": "Match of the Day",
-            "overview": "",
-            "popularity": 333.1409,
-            "poster_path": "/paRFRd11WlFOxVbGnzjjCBym7FW.jpg",
-            "first_air_date": "1964-08-22",
-            "name": "Match of the Day",
-            "vote_average": 7.467,
-            "vote_count": 45
         },
         {
             "adult": false,
@@ -337,24 +295,24 @@
         },
         {
             "adult": false,
-            "backdrop_path": "/2o0cVL6fOa06aXd5xogZhD1h4ce.jpg",
+            "backdrop_path": "/qLMfcvdCcCGD2BNLH8b6ZCBuO7D.jpg",
             "genre_ids": [
-                10766,
-                18
+                10763,
+                35
             ],
-            "id": 14686,
+            "id": 2224,
             "origin_country": [
-                "DE"
+                "US"
             ],
-            "original_language": "de",
-            "original_name": "Alles was z\u00e4hlt",
-            "overview": "",
-            "popularity": 331.2596,
-            "poster_path": "/zExwkyO7exxrMVrpOkDvK0BTelW.jpg",
-            "first_air_date": "2006-09-04",
-            "name": "Alles was z\u00e4hlt",
-            "vote_average": 5.0,
-            "vote_count": 7
+            "original_language": "en",
+            "original_name": "The Daily Show",
+            "overview": "The Daily Show \u00e9 um programa estadunidense de not\u00edcias que satiriza sobretudo a pol\u00edtica norte-americana. O programa come\u00e7ou em 1996 e era originalmente apresentado por Craig Killborn. Jon Stewart, que substituiu Killborn em 1999, apresentou o programa at\u00e9 agosto de 2015. Em setembro do mesmo ano o show foi assumido por Trevor Noah.",
+            "popularity": 345.2565,
+            "poster_path": "/ixcfyK7it6FjRM36Te4OdblAq4X.jpg",
+            "first_air_date": "1996-07-22",
+            "name": "The Daily Show com Trevor Noah",
+            "vote_average": 6.4,
+            "vote_count": 573
         },
         {
             "adult": false,
@@ -379,24 +337,45 @@
         },
         {
             "adult": false,
-            "backdrop_path": "/cs4wxElH1XPgRLFq1FOtIFpeKqz.jpg",
+            "backdrop_path": "/3EGjqKhVHGsvNHvBIbxmqS17Aal.jpg",
             "genre_ids": [
-                35,
-                10767
+                10767,
+                10763
             ],
-            "id": 4419,
+            "id": 224,
             "origin_country": [
-                "US"
+                "GB"
             ],
             "original_language": "en",
-            "original_name": "Real Time with Bill Maher",
-            "overview": "Bill Maher apresenta seu talk show indicado ao Emmy\u00ae, em que cobre as not\u00edcias da semana e apresenta um painel de convidados variados.",
-            "popularity": 320.5948,
-            "poster_path": "/pbpoLLp4kvnYVfnEGiEhagpJuVZ.jpg",
-            "first_air_date": "2003-02-21",
-            "name": "Real Time with Bill Maher",
-            "vote_average": 6.002,
-            "vote_count": 217
+            "original_name": "Match of the Day",
+            "overview": "",
+            "popularity": 333.1409,
+            "poster_path": "/paRFRd11WlFOxVbGnzjjCBym7FW.jpg",
+            "first_air_date": "1964-08-22",
+            "name": "Match of the Day",
+            "vote_average": 7.467,
+            "vote_count": 45
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/2o0cVL6fOa06aXd5xogZhD1h4ce.jpg",
+            "genre_ids": [
+                10766,
+                18
+            ],
+            "id": 14686,
+            "origin_country": [
+                "DE"
+            ],
+            "original_language": "de",
+            "original_name": "Alles was z\u00e4hlt",
+            "overview": "",
+            "popularity": 331.2596,
+            "poster_path": "/zExwkyO7exxrMVrpOkDvK0BTelW.jpg",
+            "first_air_date": "2006-09-04",
+            "name": "Alles was z\u00e4hlt",
+            "vote_average": 5.0,
+            "vote_count": 7
         },
         {
             "adult": false,
@@ -417,10 +396,31 @@
             "poster_path": "/1OOXYxrLLupCiUP78fDVGwaq0As.jpg",
             "first_air_date": "2000-10-06",
             "name": "CSI: Investiga\u00e7\u00e3o Criminal",
-            "vote_average": 7.636,
+            "vote_average": 7.6,
             "vote_count": 1290
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/cs4wxElH1XPgRLFq1FOtIFpeKqz.jpg",
+            "genre_ids": [
+                35,
+                10767
+            ],
+            "id": 4419,
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "Real Time with Bill Maher",
+            "overview": "Bill Maher apresenta seu talk show indicado ao Emmy\u00ae, em que cobre as not\u00edcias da semana e apresenta um painel de convidados variados.",
+            "popularity": 320.5948,
+            "poster_path": "/pbpoLLp4kvnYVfnEGiEhagpJuVZ.jpg",
+            "first_air_date": "2003-02-21",
+            "name": "Real Time with Bill Maher",
+            "vote_average": 6.002,
+            "vote_count": 217
         }
     ],
-    "total_pages": 9923,
-    "total_results": 198453
+    "total_pages": 9924,
+    "total_results": 198470
 }

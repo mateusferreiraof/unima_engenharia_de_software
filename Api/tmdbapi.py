@@ -58,11 +58,11 @@ class TMDBAPI:
                 json.dump(response, file, indent=4)
 
             with open(filepath, "r", encoding="utf-8") as file:
-                return json.load(open(filepath, "r", encoding="utf-8"))
+                return json.load(file)
 
         except Exception as e:
             print(f"[ERRO to_json] {e}")
-        return {"error": str(e)}
+            return {"error": str(e)}
 
 if __name__ == "__main__":
     api = TMDBAPI()
