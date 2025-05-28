@@ -19,7 +19,7 @@
             "title": "Lilo & Stitch",
             "video": false,
             "vote_average": 7.0,
-            "vote_count": 241
+            "vote_count": 248
         },
         {
             "adult": false,
@@ -39,8 +39,8 @@
             "release_date": "2025-03-31",
             "title": "Um Filme Minecraft",
             "video": false,
-            "vote_average": 6.509,
-            "vote_count": 1488
+            "vote_average": 6.515,
+            "vote_count": 1492
         },
         {
             "adult": false,
@@ -58,8 +58,8 @@
             "release_date": "2025-05-14",
             "title": "Premoni\u00e7\u00e3o 6: La\u00e7os de Sangue",
             "video": false,
-            "vote_average": 7.009,
-            "vote_count": 447
+            "vote_average": 7.0,
+            "vote_count": 452
         },
         {
             "adult": false,
@@ -77,8 +77,8 @@
             "release_date": "2025-04-23",
             "title": "Until Dawn: Noite de Terror",
             "video": false,
-            "vote_average": 6.44,
-            "vote_count": 409
+            "vote_average": 6.467,
+            "vote_count": 418
         },
         {
             "adult": false,
@@ -97,8 +97,8 @@
             "release_date": "2025-05-17",
             "title": "Miss\u00e3o: Imposs\u00edvel - O Acerto Final",
             "video": false,
-            "vote_average": 7.063,
-            "vote_count": 386
+            "vote_average": 7.1,
+            "vote_count": 392
         },
         {
             "adult": false,
@@ -117,8 +117,8 @@
             "release_date": "2025-03-26",
             "title": "Resgate Implac\u00e1vel",
             "video": false,
-            "vote_average": 6.676,
-            "vote_count": 1027
+            "vote_average": 6.675,
+            "vote_count": 1033
         },
         {
             "adult": false,
@@ -137,8 +137,27 @@
             "release_date": "2025-05-19",
             "title": "A Fonte da Juventude",
             "video": false,
-            "vote_average": 6.5,
-            "vote_count": 238
+            "vote_average": 6.525,
+            "vote_count": 242
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/qspghhpOyaBGgZDJoCbV2o9WNMU.jpg",
+            "genre_ids": [
+                27,
+                9648
+            ],
+            "id": 1001414,
+            "original_language": "en",
+            "original_title": "Fear Street: Prom Queen",
+            "overview": "Quem ser\u00e1 a rainha do baile do Shadyside High de 1988? Para Lori, a competi\u00e7\u00e3o sempre foi implac\u00e1vel. E a situa\u00e7\u00e3o piora quando algu\u00e9m come\u00e7a a matar as candidatas.",
+            "popularity": 253.839,
+            "poster_path": "/skwydfnpaQdRQZfXMroh59FMJyY.jpg",
+            "release_date": "2025-05-23",
+            "title": "Rua do Medo: Rainha do Baile",
+            "video": false,
+            "vote_average": 5.41,
+            "vote_count": 177
         },
         {
             "adult": false,
@@ -162,25 +181,6 @@
         },
         {
             "adult": false,
-            "backdrop_path": "/qspghhpOyaBGgZDJoCbV2o9WNMU.jpg",
-            "genre_ids": [
-                27,
-                9648
-            ],
-            "id": 1001414,
-            "original_language": "en",
-            "original_title": "Fear Street: Prom Queen",
-            "overview": "Quem ser\u00e1 a rainha do baile do Shadyside High de 1988? Para Lori, a competi\u00e7\u00e3o sempre foi implac\u00e1vel. E a situa\u00e7\u00e3o piora quando algu\u00e9m come\u00e7a a matar as candidatas.",
-            "popularity": 253.839,
-            "poster_path": "/skwydfnpaQdRQZfXMroh59FMJyY.jpg",
-            "release_date": "2025-05-23",
-            "title": "Rua do Medo: Rainha do Baile",
-            "video": false,
-            "vote_average": 5.5,
-            "vote_count": 171
-        },
-        {
-            "adult": false,
             "backdrop_path": "/cJvUJEEQ86LSjl4gFLkYpdCJC96.jpg",
             "genre_ids": [
                 10752,
@@ -195,8 +195,8 @@
             "release_date": "2025-04-09",
             "title": "Tempo de Guerra",
             "video": false,
-            "vote_average": 7.285,
-            "vote_count": 441
+            "vote_average": 7.283,
+            "vote_count": 443
         },
         {
             "adult": false,
@@ -214,8 +214,27 @@
             "release_date": "2025-03-12",
             "title": "Branca de Neve",
             "video": false,
-            "vote_average": 4.297,
-            "vote_count": 956
+            "vote_average": 4.298,
+            "vote_count": 959
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/jRvhP4AfFnJ03lCQhp1fie7XPSd.jpg",
+            "genre_ids": [
+                28,
+                53
+            ],
+            "id": 977294,
+            "original_language": "en",
+            "original_title": "Tin Soldier",
+            "overview": "Um ex-agente das for\u00e7as especiais busca vingan\u00e7a contra um l\u00edder de culto que corrompeu seus antigos companheiros, os Shinjas. Este l\u00edder, conhecido como Bokushi, promete aos veteranos um prop\u00f3sito e prote\u00e7\u00e3o, mas se revela uma influ\u00eancia destrutiva. O ex-soldado, Nash Cavanaugh, une for\u00e7as com o agente militar Emmanuel Ashburn para se infiltrar na fortaleza dos Bokushi e expor seu reinado de terror.",
+            "popularity": 185.0718,
+            "poster_path": "/oG5LTrvq1hmPO7Kfsl8q236Vy0Y.jpg",
+            "release_date": "2025-05-22",
+            "title": "Soldado Tin",
+            "video": false,
+            "vote_average": 5.149,
+            "vote_count": 37
         },
         {
             "adult": false,
@@ -238,25 +257,6 @@
         },
         {
             "adult": false,
-            "backdrop_path": "/jRvhP4AfFnJ03lCQhp1fie7XPSd.jpg",
-            "genre_ids": [
-                28,
-                53
-            ],
-            "id": 977294,
-            "original_language": "en",
-            "original_title": "Tin Soldier",
-            "overview": "Um ex-agente das for\u00e7as especiais busca vingan\u00e7a contra um l\u00edder de culto que corrompeu seus antigos companheiros, os Shinjas. Este l\u00edder, conhecido como Bokushi, promete aos veteranos um prop\u00f3sito e prote\u00e7\u00e3o, mas se revela uma influ\u00eancia destrutiva. O ex-soldado, Nash Cavanaugh, une for\u00e7as com o agente militar Emmanuel Ashburn para se infiltrar na fortaleza dos Bokushi e expor seu reinado de terror.",
-            "popularity": 185.0718,
-            "poster_path": "/oG5LTrvq1hmPO7Kfsl8q236Vy0Y.jpg",
-            "release_date": "2025-05-22",
-            "title": "Soldado Tin",
-            "video": false,
-            "vote_average": 5.181,
-            "vote_count": 36
-        },
-        {
-            "adult": false,
             "backdrop_path": "/d5aBTObiUzqGZMohXtQKY4FMGvb.jpg",
             "genre_ids": [
                 27
@@ -275,6 +275,45 @@
         },
         {
             "adult": false,
+            "backdrop_path": "/aIglP9Z5gtkQf7Fidb4NRv2gfDj.jpg",
+            "genre_ids": [
+                16,
+                10751,
+                35
+            ],
+            "id": 11544,
+            "original_language": "en",
+            "original_title": "Lilo & Stitch",
+            "overview": "Lilo \u00e9 uma garotinha de cinco anos que ama cuidar de animais. Um dia ela adota um cachorro e decide cham\u00e1-lo de Stitch. O que ela n\u00e3o sabe \u00e9 que Stitch \u00e9 um alien\u00edgena e um dos criminosos mais perigosos da gal\u00e1xia. Agora, para escapar de seus captores que ainda o persegue, Stitch decide se passar por um cachorro comum, criando com o tempo um la\u00e7o de amizade com Lilo.",
+            "popularity": 164.2947,
+            "poster_path": "/ottRXMCQ9jPB318syTcfIdtJWIE.jpg",
+            "release_date": "2002-06-21",
+            "title": "Lilo & Stitch",
+            "video": false,
+            "vote_average": 7.5,
+            "vote_count": 6524
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/xLhVwypEHzgcUhRzpCweDUEvtzG.jpg",
+            "genre_ids": [
+                28,
+                18
+            ],
+            "id": 1257960,
+            "original_language": "hi",
+            "original_title": "\u0938\u093f\u0915\u0902\u0926\u0930",
+            "overview": "Um tr\u00e1gico acidente leva o poderoso Sikandar a proteger os menos afortunados, usando de todos os meios para enfrentar a corrup\u00e7\u00e3o e a gan\u00e2ncia.",
+            "popularity": 154.0864,
+            "poster_path": "/41s42CRXafa3OuRGvCtfYPEBmse.jpg",
+            "release_date": "2025-03-29",
+            "title": "Sikandar",
+            "video": false,
+            "vote_average": 4.8,
+            "vote_count": 21
+        },
+        {
+            "adult": false,
             "backdrop_path": "/rthMuZfFv4fqEU4JVbgSW9wQ8rs.jpg",
             "genre_ids": [
                 28,
@@ -290,8 +329,8 @@
             "release_date": "2025-04-30",
             "title": "Thunderbolts*",
             "video": false,
-            "vote_average": 7.446,
-            "vote_count": 1006
+            "vote_average": 7.445,
+            "vote_count": 1007
         },
         {
             "adult": false,
@@ -309,28 +348,8 @@
             "release_date": "2025-04-29",
             "title": "Exterritorial",
             "video": false,
-            "vote_average": 6.713,
-            "vote_count": 399
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/aIglP9Z5gtkQf7Fidb4NRv2gfDj.jpg",
-            "genre_ids": [
-                16,
-                10751,
-                35
-            ],
-            "id": 11544,
-            "original_language": "en",
-            "original_title": "Lilo & Stitch",
-            "overview": "Lilo \u00e9 uma garotinha de cinco anos que ama cuidar de animais. Um dia ela adota um cachorro e decide cham\u00e1-lo de Stitch. O que ela n\u00e3o sabe \u00e9 que Stitch \u00e9 um alien\u00edgena e um dos criminosos mais perigosos da gal\u00e1xia. Agora, para escapar de seus captores que ainda o persegue, Stitch decide se passar por um cachorro comum, criando com o tempo um la\u00e7o de amizade com Lilo.",
-            "popularity": 164.2947,
-            "poster_path": "/ottRXMCQ9jPB318syTcfIdtJWIE.jpg",
-            "release_date": "2002-06-21",
-            "title": "Lilo & Stitch",
-            "video": false,
-            "vote_average": 7.543,
-            "vote_count": 6522
+            "vote_average": 6.716,
+            "vote_count": 401
         },
         {
             "adult": false,
@@ -349,28 +368,8 @@
             "release_date": "2023-10-25",
             "title": "\uc6a9\uac10\ud55c \uc2dc\ubbfc",
             "video": false,
-            "vote_average": 7.049,
-            "vote_count": 41
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/bIh56F8e5EaZ3r2nD1hXAOisItZ.jpg",
-            "genre_ids": [
-                12,
-                10751,
-                99
-            ],
-            "id": 1094473,
-            "original_language": "fr",
-            "original_title": "Bambi, l'histoire d'une vie dans les bois",
-            "overview": "Em Bambi: Uma Aventura na Floresta, um jovem cervo que, ao lado da sabedoria e do amor da sua m\u00e3e, aprende li\u00e7\u00f5es necess\u00e1rias para sobreviver na floresta. Com o carinho e a amizade dos outros animais, como o corvo, o coelho e o guaxinim, Bambi explora as maravilhas da natureza e se encanta com o mundo \u00e0 sua volta. Com a chegada do outono, por\u00e9m, a vida do pequeno cervo muda drasticamente, quando sua m\u00e3e morre nas m\u00e3os de ca\u00e7adores, separando os dois para sempre. Sozinho e em luto, Bambi precisa canalizar toda a for\u00e7a materna aprendida para superar as adversidades. \u00c9 atrav\u00e9s de um reencontro com a amiga de inf\u00e2ncia Faline e os conselhos do Pr\u00edncipe da Floresta, um majestoso cervo que termina por ser seu pai, Bambi se prepara para os desafios e os perigos que o esperam. Sob a prote\u00e7\u00e3o paterna e o cultivo da esperan\u00e7a, Bambi amadurece e se fortalece, devagar assumindo o controle de seu destino e vivendo em harmonia apesar das dificuldades.",
-            "popularity": 134.8857,
-            "poster_path": "/nP7BaO9rObeav8SqcBcfcVoQN8g.jpg",
-            "release_date": "2024-10-16",
-            "title": "Bambi: Uma aventura na floresta",
-            "video": false,
-            "vote_average": 5.87,
-            "vote_count": 23
+            "vote_average": 6.791,
+            "vote_count": 43
         },
         {
             "adult": false,
@@ -393,6 +392,6 @@
             "vote_count": 393
         }
     ],
-    "total_pages": 53221,
-    "total_results": 1064416
+    "total_pages": 53230,
+    "total_results": 1064594
 }

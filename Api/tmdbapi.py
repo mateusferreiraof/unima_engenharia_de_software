@@ -61,7 +61,8 @@ class TMDBAPI:
                 return json.load(file)
 
         except Exception as e:
-            return str(e)
+            print(f"[ERRO to_json] {e}")
+        return {}
 
 if __name__ == "__main__":
     api = TMDBAPI()
