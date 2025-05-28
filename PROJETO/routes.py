@@ -6,8 +6,9 @@ from Api.tmdbapi import MovieAPI
 @server.route('/home')
 def homepage():
     api = MovieAPI()
-    dados = api.movie_list()
-    return render_template("homepage.html", movies=dados['results'])
+    filmes = api.movie_list()
+    series = api.series_list()
+    return render_template("homepage.html", movies=filmes['results'], series=series['results'])
 
 @server.route('/')
 def inicio():
