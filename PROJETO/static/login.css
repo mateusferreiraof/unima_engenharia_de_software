@@ -47,6 +47,11 @@ body {
     color: red;
 }
 
+#subtitulologin {
+    color: black;
+    text-decoration: underline black;
+}
+
 .forma-geral-do-login {
     margin: 30px;
     border: none;

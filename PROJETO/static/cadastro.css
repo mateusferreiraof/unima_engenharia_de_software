@@ -122,6 +122,11 @@ footer {
     color: red;
 }
 
+#subtitulocadastro {
+    color: black;
+    text-decoration: underline black
+}
+
 .cabecario-do-cadastro {
     display: flex;
     align-items: center;
