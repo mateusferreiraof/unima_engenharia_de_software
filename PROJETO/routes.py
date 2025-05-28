@@ -12,7 +12,7 @@ def homepage():
 
 @server.route('/')
 def inicio():
-    return redirect('/login')
+    return redirect('/home')
 
 @server.route('/login')
 def login():
