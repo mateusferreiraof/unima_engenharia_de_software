@@ -5,6 +5,7 @@ pip install PyMySQL
 pip install python-dotenv
 pip install cryptography
 pip install requests
+pip install python-dotenv 
 
 Tenha o banco de dados MySQL instalado em sua máquina, para que o código crie o banco de dados e suas tabelas.
 

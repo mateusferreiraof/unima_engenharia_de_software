@@ -1,4 +1,4 @@
-from flask import render_template, redirect, request, session,jsonify
+from flask import render_template, redirect, request, session
 from PROJETO import server
 from PROJETO.config import conexao, cursor
 from Api.tmdbapi import TMDBAPI
