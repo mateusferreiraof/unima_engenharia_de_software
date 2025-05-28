@@ -8,6 +8,12 @@ def homepage():
     api = TMDBAPI()
     dados1= api.movie_list()
     dados2= api.series_list()
+
+    if not isinstance(dados1, dict) or 'results' not in dados1:
+        return "Erro ao acessar dados de filmes da API", 500
+    if not isinstance(dados2, dict) or 'results' not in dados2:
+        return "Erro ao acessar dados de séries da API", 500
+
     return render_template("homepage.html", movies=dados1['results'], series=dados2['results'])
    
 
