@@ -3,16 +3,23 @@ from PROJETO import server
 from PROJETO.config import conexao, cursor
 from Api.tmdbapi import MovieAPI
 
-@server.route('/home')
+@server.route('/home', methods=['GET', 'POST'])
 def homepage():
+
     api = MovieAPI()
     filmes = api.movie_list()
     series = api.series_list()
+
+    if request.method == 'POST':
+        pesquisar = request.form.get('barra-de-busca')
+        pesquisa = api.movie_search(query=pesquisar)
+        return render_template("index.html", buscar=pesquisa['results'], mensagem=pesquisar)
+        
     return render_template("homepage.html", movies=filmes['results'], series=series['results'])
 
 @server.route('/')
 def inicio():
-    return redirect('/login')
+    return redirect('/home')
 
 @server.route('/login')
 def login():
