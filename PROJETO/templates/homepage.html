@@ -11,7 +11,9 @@
             <ul>
                 <li>
                 <a href="/login">Login</a>
-                |<a href="/cadastro">Cadastro</a></li> </ul> 
+                |<a href="/cadastro">Cadastro</a>
+                |<a href="/filmes">Filmes</a>
+                |<a href="/series">Séries</a></li> </ul> 
         </nav>
     </header>
     <main>
@@ -29,13 +31,7 @@
                 </li>
             {% endfor %}
         </ul>
-        <div>
-            {% if page_movie > 1 %}
-            <a href="{{ url_for('homepage') }}?page_movie={{ page_movie - 1 }}&page_series={{ page_series }}">Anterior</a>
-        {% endif %}
-        <span>Página {{ page_movie }}</span>
-        <a href="{{ url_for('homepage') }}?page_movie={{ page_movie + 1 }}&page_series={{ page_series }}">Próxima</a>
-        </div>
+        
         <h1>Séries Populares</h1>
         <ul>
             {% for serie in series %}
@@ -45,13 +41,7 @@
             </li>
             {% endfor %}
         </ul>
-        <div>
-            {% if page_series > 1 %}
-            <a href="{{ url_for('homepage') }}?page_movie={{ page_movie }}&page_series={{ page_series - 1 }}">Anterior</a>
-        {% endif %}
-        <span>Página {{ page_series }}</span>
-        <a href="{{ url_for('homepage') }}?page_movie={{ page_movie }}&page_series={{ page_series + 1 }}">Próxima</a>
-        </div>
+        
     </main>
     <footer>
          <p id="paragrafo-footer">&copy; Desenvolvido por Mateus Ferreira, Maria Layanne, Vinicius Matheus e Matheus Gabriel.</p>
