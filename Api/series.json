@@ -1,0 +1,424 @@
+{
+    "page": 1,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/jWXrQstj7p3Wl5MfYWY6IHqRpDb.jpg",
+            "genre_ids": [
+                10763
+            ],
+            "id": 94722,
+            "origin_country": [
+                "DE"
+            ],
+            "original_language": "de",
+            "original_name": "Tagesschau",
+            "overview": "Tagesschau \u00e9 um servi\u00e7o de not\u00edcias de televis\u00e3o nacional e internacional alem\u00e3o produzido pela equipe editorial da ARD-aktuell em nome da rede de televis\u00e3o de servi\u00e7o p\u00fablico alem\u00e3o ARD",
+            "popularity": 314.2454,
+            "poster_path": "/7dFZJ2ZJJdcmkp05B9NWlqTJ5tq.jpg",
+            "first_air_date": "1952-12-26",
+            "name": "Tagesschau",
+            "vote_average": 6.757,
+            "vote_count": 239
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/lgGZ2ysbRyAOi2VgIZpp6k8qILj.jpg",
+            "genre_ids": [
+                16,
+                35
+            ],
+            "id": 1434,
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "Family Guy",
+            "overview": "A s\u00e9rie animada apresenta as aventuras da fam\u00edlia Griffin. O ignorante Peter e sua esposa Lois residem em Quahog, em Rhode Island e t\u00eam tr\u00eas filhos. Meg, a filha mais velha, \u00e9 uma p\u00e1ria social, e o adolescente Chris \u00e9 estranho e sem no\u00e7\u00e3o quando se trata do sexo oposto. O mais novo, Stewie, \u00e9 um beb\u00ea g\u00eanio decidido a matar sua m\u00e3e e destruir o mundo. O cachorro falante, Brian, mant\u00e9m Stewie sob controle enquanto toma martinis e resolve seus pr\u00f3prios problemas de vida.",
+            "popularity": 231.0441,
+            "poster_path": "/j28XGzAhvJNGWEHbYrzvREw7kKd.jpg",
+            "first_air_date": "1999-01-31",
+            "name": "Uma Fam\u00edlia da Pesada",
+            "vote_average": 7.385,
+            "vote_count": 4571
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/qJnjJXBLgG4tummCm792nvNz7u1.jpg",
+            "genre_ids": [
+                10767
+            ],
+            "id": 23915,
+            "origin_country": [
+                "DE"
+            ],
+            "original_language": "de",
+            "original_name": "Markus Lanz",
+            "overview": "",
+            "popularity": 227.8877,
+            "poster_path": "/tr4cLn4ecRASV0SPM9FRv0AJOQF.jpg",
+            "first_air_date": "2008-06-03",
+            "name": "Markus Lanz",
+            "vote_average": 5.536,
+            "vote_count": 14
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/mu3lEhGovyhKHPJzb7HNYtZUCDT.jpg",
+            "genre_ids": [
+                10766
+            ],
+            "id": 206559,
+            "origin_country": [
+                "ZA"
+            ],
+            "original_language": "af",
+            "original_name": "Binnelanders",
+            "overview": "Uma novela sul-africana em afric\u00e2ner. Ela se passa dentro e ao redor do hospital privado fict\u00edcio, Binneland Kliniek, em Pret\u00f3ria, e o enredo segue os testes, traumas e tribula\u00e7\u00f5es da equipe e dos pacientes do hospital.",
+            "popularity": 217.9663,
+            "poster_path": "/3bzECfllho8PphdYujLUIuhncJD.jpg",
+            "first_air_date": "2005-10-13",
+            "name": "Binnelanders",
+            "vote_average": 5.6,
+            "vote_count": 94
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/w88B4ooZ2LSYPw5107JOkjvI8PI.jpg",
+            "genre_ids": [
+                80,
+                18,
+                9648
+            ],
+            "id": 4057,
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "Criminal Minds",
+            "overview": "Um esquadr\u00e3o de elite do FBI estuda as maiores mentes criminosas, antecipando seus pr\u00f3ximos passos, antes que eles ataquem novamente. A fim de identificar as motiva\u00e7\u00f5es dos criminosos e det\u00ea-los, cada membro da equipe usa a experi\u00eancia que possui.",
+            "popularity": 197.8005,
+            "poster_path": "/trZTeHWcWDn6adkBBuSwfIhxAJn.jpg",
+            "first_air_date": "2005-09-22",
+            "name": "Mentes Criminosas",
+            "vote_average": 8.3,
+            "vote_count": 3835
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/ynd225o8GuCahYGjHtFdEt8Xizm.jpg",
+            "genre_ids": [
+                10766
+            ],
+            "id": 235484,
+            "origin_country": [
+                "ZA"
+            ],
+            "original_language": "af",
+            "original_name": "Suidooster",
+            "overview": "Suidooster \u00e9 uma novela sul-africana produzida pela Suidooster Films que gira em torno de uma matriarca, sua fam\u00edlia, amigos e o povo de Suidooster, um pequeno centro comercial e empresarial no sub\u00farbio fict\u00edcio de Ruiterbosch, na Cidade do Cabo.",
+            "popularity": 197.7088,
+            "poster_path": "/naCgSiacvV685kait6fBvhVhdce.jpg",
+            "first_air_date": "2015-11-16",
+            "name": "Suidooster",
+            "vote_average": 7.091,
+            "vote_count": 22
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/9kGfwwA0N0KOen7oTBGSVoQsXLz.jpg",
+            "genre_ids": [
+                35,
+                18,
+                10766
+            ],
+            "id": 32209,
+            "origin_country": [
+                "PE"
+            ],
+            "original_language": "es",
+            "original_name": "Al Fondo Hay Sitio",
+            "overview": "Al fondo hay sitio \u00e9 uma s\u00e9rie peruana, in\u00e9dita no Brasil, criada por Efra\u00edn Aguilar e exibida pela Am\u00e9rica Televisi\u00f3n: narra a vida dos Gonz\u00e1lez e os Maldini, duas fam\u00edlias diametralmente opostas, e os problemas entre os dois, na residencial Las Lomas.",
+            "popularity": 161.6104,
+            "poster_path": "/4BkYVoybIvM2U7zeg2JTT5M5dwF.jpg",
+            "first_air_date": "2009-03-30",
+            "name": "No fundo ainda h\u00e1 lugar",
+            "vote_average": 7.8,
+            "vote_count": 222
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/pmB8uYJF1WKQCZnJjhnAx2IJjhk.jpg",
+            "genre_ids": [
+                10766
+            ],
+            "id": 14750,
+            "origin_country": [
+                "PL"
+            ],
+            "original_language": "pl",
+            "original_name": "Na Wsp\u00f3lnej",
+            "overview": "",
+            "popularity": 157.0721,
+            "poster_path": "/uksRhdaOn64bO5d33d7rcTbrhJI.jpg",
+            "first_air_date": "2003-01-27",
+            "name": "Na Wsp\u00f3lnej",
+            "vote_average": 4.4,
+            "vote_count": 9
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/pmAzkQJa993nIgPqFtVmOhStHXg.jpg",
+            "genre_ids": [
+                18,
+                10766
+            ],
+            "id": 2354,
+            "origin_country": [
+                "AU"
+            ],
+            "original_language": "en",
+            "original_name": "Home and Away",
+            "overview": "A hist\u00f3ria come\u00e7a em 1988, na vida de Tom Fletcher e sua esposa Pippa que n\u00e3o conseguia engravidar. O casal decide se mudar para Summer Bay com seus cinco filhos adotivos Frank Morgan, Carly Morris, Steven Matheson, Lynn Davenport e Sally Fletcher. Eles logo se juntam ao problem\u00e1tico Bobby Simpson. A fam\u00edlia rapidamente construiu la\u00e7os amig\u00e1veis \u200b\u200bcom os moradores locais Neville e Floss McPhee e Alf Steward e sua esposa Ailsa Stewart.\n\nCom o passar do tempo, a hist\u00f3ria nos conta a vida e as hist\u00f3rias que acontecem aos residentes de Summer Bay, uma pequena cidade costeira em uma ba\u00eda em New South Wales, Austr\u00e1lia.",
+            "popularity": 149.4233,
+            "poster_path": "/vn0eKMiG69bhQtxb7qLRo8SSqu5.jpg",
+            "first_air_date": "1988-01-18",
+            "name": "Home and Away",
+            "vote_average": 6.292,
+            "vote_count": 72
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/hM2N4atUJguq1W0WiDRaMq7wcRF.jpg",
+            "genre_ids": [
+                10767
+            ],
+            "id": 82873,
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "The Kelly Clarkson Show",
+            "overview": "",
+            "popularity": 148.6597,
+            "poster_path": "/sBix25bie9UQFzbarN51DpFO5ky.jpg",
+            "first_air_date": "2019-09-09",
+            "name": "The Kelly Clarkson Show",
+            "vote_average": 6.4,
+            "vote_count": 62
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/aizbHLcKVWvJ7jxkflJzTu5Z8GE.jpg",
+            "genre_ids": [
+                10766
+            ],
+            "id": 81329,
+            "origin_country": [
+                "FR"
+            ],
+            "original_language": "fr",
+            "original_name": "Un si grand soleil",
+            "overview": "De volta a Montpellier com o filho, Th\u00e9o, depois de uma aus\u00eancia de dezessete anos, Claire \u00e9 acusada do homic\u00eddio de um amigo de inf\u00e2ncia.",
+            "popularity": 141.7599,
+            "poster_path": "/v4r70Z5id8eHFCxrfBOtRgu6wLr.jpg",
+            "first_air_date": "2018-08-27",
+            "name": "Un si grand soleil",
+            "vote_average": 6.702,
+            "vote_count": 121
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/6MWmIGqZpyPO5fjBFII5gmBYsFX.jpg",
+            "genre_ids": [
+                99,
+                10764
+            ],
+            "id": 2394,
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "This Old House",
+            "overview": "",
+            "popularity": 131.53,
+            "poster_path": "/ecAOX4esywAXLF5I4X2gaTmhmAG.jpg",
+            "first_air_date": "1979-01-01",
+            "name": "This Old House",
+            "vote_average": 5.409,
+            "vote_count": 33
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/uXhIpe03EaFffpRa7IoPPSnFptS.jpg",
+            "genre_ids": [
+                10767,
+                35
+            ],
+            "id": 1489,
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "Jimmy Kimmel Live!",
+            "overview": "",
+            "popularity": 129.7304,
+            "poster_path": "/bGB6bEbG4qL22C1SFupkdAxYC9i.jpg",
+            "first_air_date": "2003-01-26",
+            "name": "Jimmy Kimmel Live!",
+            "vote_average": 5.474,
+            "vote_count": 170
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/oJuDMcM8LZA5F5Ahgc9mZg2LRIO.jpg",
+            "genre_ids": [
+                16,
+                35
+            ],
+            "id": 32726,
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "Bob's Burgers",
+            "overview": "A s\u00e9rie acompanha Bob da terceira gera\u00e7\u00e3o de uma fam\u00edlia de propriet\u00e1rios de restaurantes, respons\u00e1vel por administrar a hamburgueria \"Bob's Burgers\" junto com sua esposa e seus tr\u00eas filhos. Bob e sua peculiar fam\u00edlia t\u00eam grandes ideias para os hamb\u00fargueres, mas est\u00e3o pobres em servi\u00e7o e em sofistica\u00e7\u00e3o.",
+            "popularity": 125.6436,
+            "poster_path": "/yVz5foNr6nCfathj0igg8RLVGfn.jpg",
+            "first_air_date": "2011-01-09",
+            "name": "Bob's Burgers",
+            "vote_average": 7.83,
+            "vote_count": 984
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/upD2G9Z7W07w47c7B8ZqLqbTDc5.jpg",
+            "genre_ids": [
+                10767
+            ],
+            "id": 1900,
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "LIVE with Kelly and Mark",
+            "overview": "",
+            "popularity": 125.5381,
+            "poster_path": "/hBkyypWN3EcOzkozatiCm5VeaG.jpg",
+            "first_air_date": "1988-09-05",
+            "name": "LIVE with Kelly and Mark",
+            "vote_average": 5.544,
+            "vote_count": 45
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/vgeDRVpSUa4Hvovg4C6dgm4dfUW.jpg",
+            "genre_ids": [
+                10766,
+                18
+            ],
+            "id": 112470,
+            "origin_country": [
+                "FR"
+            ],
+            "original_language": "fr",
+            "original_name": "Ici tout commence",
+            "overview": "Esta s\u00e9rie de drama televisivo \u00e9 centrada na prestigiada escola de culin\u00e1ria do renomado chef Auguste Armand. O programa acompanha a vida de alunos e funcion\u00e1rios enquanto eles navegam pelos desafios e press\u00f5es do mundo culin\u00e1rio \u2014 mergulhando em suas vidas pessoais e profissionais, revelando segredos, rivalidades e relacionamentos complexos.",
+            "popularity": 125.3614,
+            "poster_path": "/x9HeaagUAyyGl1fQ6exQcpELBxP.jpg",
+            "first_air_date": "2020-11-02",
+            "name": "Ici tout commence",
+            "vote_average": 6.818,
+            "vote_count": 88
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/nn9vM29SKN227zupaOOmaJz5SA0.jpg",
+            "genre_ids": [
+                35,
+                18,
+                10765
+            ],
+            "id": 241554,
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "Murderbot",
+            "overview": "Em um futuro high-tech, um rob\u00f4 de seguran\u00e7a rebelde secretamente adquire livre arb\u00edtrio. Para se manter escondido, ele acaba, contra sua vontade, participando de uma miss\u00e3o para proteger cientistas em um planeta perigoso... mesmo que tudo o que queria era maratonar suas novelas.",
+            "popularity": 123.4552,
+            "poster_path": "/rWQYtLHVzG44Ks6Ohi6K1IVyIwq.jpg",
+            "first_air_date": "2025-05-15",
+            "name": "Di\u00e1rios de um Rob\u00f4-Assassino",
+            "vote_average": 7.408,
+            "vote_count": 71
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/khxuPmWXgO1vjwAxalnHGnjAgXb.jpg",
+            "genre_ids": [
+                10766,
+                35
+            ],
+            "id": 124201,
+            "origin_country": [
+                "PT"
+            ],
+            "original_language": "pt",
+            "original_name": "Festa \u00e9 Festa",
+            "overview": "",
+            "popularity": 112.5583,
+            "poster_path": "/rlQlfiBR0zY1ucBIvB2neYUVfFP.jpg",
+            "first_air_date": "2021-04-26",
+            "name": "Festa \u00e9 Festa",
+            "vote_average": 7.0,
+            "vote_count": 3
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/ohJTnu93hJ0Uonl86Wn3mOSlWXN.jpg",
+            "genre_ids": [
+                10751,
+                35,
+                18
+            ],
+            "id": 91759,
+            "origin_country": [
+                "HK"
+            ],
+            "original_language": "cn",
+            "original_name": "\u611b\u00b7\u56de\u5bb6\u4e4b\u958b\u5fc3\u901f\u905e",
+            "overview": "Hung Sue Gan, come\u00e7ando de baixo, estabeleceu sua pr\u00f3pria empresa de log\u00edstica, que agora est\u00e1 funcionando perfeitamente. Sua \u00fanica preocupa\u00e7\u00e3o agora s\u00e3o suas tr\u00eas filhas. Sua filha mais velha imigrou para o exterior. Sua segunda filha, Hung Yeuk Shui, atingiu a idade de casar, mas j\u00e1 n\u00e3o h\u00e1 esperan\u00e7as de casamento t\u00e3o cedo. Ela est\u00e1 constantemente brigando com sua irm\u00e3 mais nova, Hung Sum Yue, que \u00e9 uma estudante de honra, sobre assuntos triviais, fazendo com que seu pai n\u00e3o saiba se deve rir ou chorar. Hung Sue Yan, irm\u00e3o de Hung Sue Gan, vai morar com a fam\u00edlia, encerrando temporariamente sua vida como fot\u00f3grafo n\u00f4made. Ele se junta \u00e0 empresa de Hung Yeuk Shui e conhece Ko Pak Fei, o diretor de uma loja online. Os dois parecem ser ex-amantes, o que gera muitas risadas. Desde Hung Sue Yan se mudou, uma s\u00e9rie de eventos estranhos ocorreram na fam\u00edlia.",
+            "popularity": 106.3375,
+            "poster_path": "/lgD4j9gUGmMckZpWWRJjorWqGVT.jpg",
+            "first_air_date": "2017-02-06",
+            "name": "Come Home Love: Lo and Behold",
+            "vote_average": 5.442,
+            "vote_count": 43
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/kkfqNkGQR5og5sDjJTxTVmI9PW.jpg",
+            "genre_ids": [
+                80,
+                18,
+                10766
+            ],
+            "id": 72879,
+            "origin_country": [
+                "FR"
+            ],
+            "original_language": "fr",
+            "original_name": "Demain nous appartient",
+            "overview": "A hist\u00f3ria gira em torno do povo de S\u00e8te, Fran\u00e7a. Suas vidas s\u00e3o pontuadas por rivalidades familiares, romance e cenas da vida cotidiana, mas tamb\u00e9m por tramas envolvendo investiga\u00e7\u00f5es policiais, segredos e trai\u00e7\u00f5es.",
+            "popularity": 101.625,
+            "poster_path": "/zMWldNZF0wS3L5XkDVFHxYhclcL.jpg",
+            "first_air_date": "2017-07-17",
+            "name": "Demain nous appartient",
+            "vote_average": 6.288,
+            "vote_count": 66
+        }
+    ],
+    "total_pages": 17,
+    "total_results": 336
+}
