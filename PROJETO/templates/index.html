@@ -3,28 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela Principal</title>
-    <link rel="stylesheet" href="../static/stylebase.css">
+    <title>PopCorn Movies</title>
+    <link rel="stylesheet" href="../static/index.css">
+    <script src="https://kit.fontawesome.com/b9243416c4.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <h1>PopCorn Movies</h1>
-         <nav id="nav-header">
-            <ul id="ul-header">
-                <li class="li-header"><a href="/home" id="subtitulobusca">Home</a></li>
-                <li class="li-header"><a href="#">Filmes</a></li>
-                <li class="li-header"><a href="#">Séries</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="barra-de-busca">
+        <section id="cabecario">
+            <h1>POPCORN MOVIES</h1>
+            <nav id="nav-header">
+                <ul id="ul-header">
+                    <li class="li-header"><a href="/home" id="subtitulobusca"><i class="fa-solid fa-house" style="color: #3c239b;"></i> INÍCIO</a></li>
+                    <li class="li-header"><a href="#" class="a-header"><i class="fa-regular fa-heart" style="color: #3c239b;"></i> FAVORITOS</a></li>
+                    <li class="li-header"><a href="#" class="a-header"><i class="fa-solid fa-tv" style="color: #3c239b;"></i> FILMES</a></li>
+                    <li class="li-header"><a href="#" class="a-header"><i class="fa-solid fa-film" style="color: #3c239b;"></i> SÉRIES</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul type="none">
+                    <li id="icone-header"><a href="#"><i class="fa-solid fa-user" style="color: #3c239b;"></i></a></li>
+                </ul>
+            </nav>
+        </section>
+        <section id="pesquisa">
+            <h2 id="h2-header">Bem-vindo!</h2>
+            <legend id="legend-header">Dê uma olhada nos filmes e séries do catálogo.</legend>
             <form action="/home", method="post">
-            <h2>Pesquisar:</h2>
-            <input type="text" name="barra-de-busca" id="barra-de-busca" placeholder="Procure por um filme, uma série, uma personalidade">
-            <button type="submit">BUSCAR</button>
+            <p id="p-header">Pesquisar:</p>
+            <input type="text" name="barra-de-busca" id="barra-de-busca" placeholder="Procure por um filme, uma série" required>
+            <button type="submit"><a href=""><i class="fa-solid fa-magnifying-glass" style="color: #3c239b;"></i></a></button>
         </form>
         </section>
+    </header>
+    <main>
         <section id="exibir-resultados">
             <section id="mensagem-flask">
 
@@ -35,16 +46,17 @@
 
             </section>
         
+            <hr id="hr1">
             <ul id="ul-main">
-                <hr>
                     {% for busca in buscar %}
                         <li class="li-main">
                             <abbr title="{{ busca.overview }}"><img src="https://image.tmdb.org/t/p/w200{{ busca.poster_path }}" alt="{{ busca.title }}" /></abbr>
                             <strong>{{ busca.title }}</strong> - {{ busca.release_date }}
                         </li>
                     {% endfor %}
-                    <hr>
-            {% endif %}
+                    {% endif %}
+            </ul>
+            <hr id="hr2">
         </section>
     </main>
     <footer>

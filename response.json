@@ -3,384 +3,378 @@
     "results": [
         {
             "adult": false,
-            "backdrop_path": "/8asUJMTcr1KEfbGtpZhESI0I7X6.jpg",
+            "backdrop_path": "/bfh9Z3Ghz4FOJAfLOAhmc3ccnHU.jpg",
             "genre_ids": [
-                28,
-                80,
-                18
-            ],
-            "id": 20174,
-            "original_language": "en",
-            "original_title": "The Fast and the Furious",
-            "overview": "A framed man escapes prison and takes a wealthy woman's Jaguar with her in it. After she tries to escape numerous times, they begin to develop feelings for each other, and enter a road race that ends in Mexico.",
-            "popularity": 1.536,
-            "poster_path": "/731NMB4a85McIYcftPtbH4D3l5x.jpg",
-            "release_date": "1954-11-01",
-            "title": "Velozes e Furiosos",
-            "video": false,
-            "vote_average": 4.9,
-            "vote_count": 32
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/4XM8DUTQb3lhLemJC51Jx4a2EuA.jpg",
-            "genre_ids": [
-                28,
-                80,
-                53,
                 12,
-                9648
+                14
             ],
-            "id": 385687,
+            "id": 671,
             "original_language": "en",
-            "original_title": "Fast X",
-            "overview": "O fim da estrada est\u00e1 chegando. Velozes & Furiosos 10, \u00e9 o d\u00e9cimo filme da franquia Velozes & Furiosos, lan\u00e7a os cap\u00edtulos finais de uma grande saga, uma das mais famosas e populares do cinema, agora com sua terceira d\u00e9cada e ainda mais forte. Com o mesmo elenco e personagens principais de quando come\u00e7ou. Ao longo de muitas miss\u00f5es e lutando contra todos os obst\u00e1culos imposs\u00edveis, Dom Toretto (Vin Diesel) e sua fam\u00edlia foram mais espertos, mais furiosos e mais r\u00e1pidos do que todos os inimigos em seu caminho. Agora, eles enfrentam o seu oponente mais letal: uma amea\u00e7a terr\u00edvel das sombras do passado, alimentada por sede de vingan\u00e7a e determinada a destruir esta fam\u00edlia.",
-            "popularity": 32.8754,
-            "poster_path": "/wDWAA5QApz5L5BKfFaaj8HJCAQM.jpg",
-            "release_date": "2023-05-17",
-            "title": "Velozes & Furiosos 10",
+            "original_title": "Harry Potter and the Philosopher's Stone",
+            "overview": "Harry Potter \u00e9 um garoto \u00f3rf\u00e3o que vive infeliz com seus tios, os Dursley. Em seu anivers\u00e1rio de 11 anos ele recebe uma carta que mudar\u00e1 sua vida: um convite para ingressar em Hogwarts.",
+            "popularity": 34.1613,
+            "poster_path": "/4rtsbE9aQ1qw4gv7yYwaNYfWFoS.jpg",
+            "release_date": "2001-11-16",
+            "title": "Harry Potter e a Pedra Filosofal",
             "video": false,
-            "vote_average": 7.04,
-            "vote_count": 5901
+            "vote_average": 7.9,
+            "vote_count": 28235
         },
         {
             "adult": false,
-            "backdrop_path": "/dMARcKLrv0T7kVJ4iQR3vqTTdtT.jpg",
+            "backdrop_path": "/yHzyPJrVqlTySQ9mc379yxrLBYQ.jpg",
             "genre_ids": [
-                28,
-                80,
-                18,
-                53
-            ],
-            "id": 9615,
-            "original_language": "en",
-            "original_title": "The Fast and the Furious: Tokyo Drift",
-            "overview": "Sean Boswell \u00e9 um piloto de rua que desafia seu rival e bate o carro no fim da corrida. Ent\u00e3o, Sean decide se mudar para o Jap\u00e3o em companhia de seu pai para evitar a pris\u00e3o nos Estados Unidos, j\u00e1 que os rachas n\u00e3o s\u00e3o nada populares com as autoridades. Em T\u00f3quio, ele come\u00e7a a aprender um excitante e perigoso estilo novo de competir nas ruas. S\u00f3 que os riscos ficam ainda mais altos quando Sean decide competir com o campe\u00e3o local e acaba se apaixonando pela namorada dele.",
-            "popularity": 3.5796,
-            "poster_path": "/1kzW2GImY1YVmLRx3NLhXFBfLLO.jpg",
-            "release_date": "2006-06-03",
-            "title": "Velozes e Furiosos: Desafio em T\u00f3quio",
-            "video": false,
-            "vote_average": 6.521,
-            "vote_count": 7119
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/jY9ef5nqY4xIIMu3yzW3qamUCoi.jpg",
-            "genre_ids": [
-                28,
-                80,
-                53
-            ],
-            "id": 9799,
-            "original_language": "en",
-            "original_title": "The Fast and the Furious",
-            "overview": "Um investigador da pol\u00edcia se infiltra em uma turma de rachas suspeita de roubar caminh\u00f5es, mas acaba apaixonando-se pela irm\u00e3 do l\u00edder.",
-            "popularity": 1.5272,
-            "poster_path": "/rKaaYM4CtuJZFdOA0SZWbaMNHbn.jpg",
-            "release_date": "2001-06-22",
-            "title": "Velozes e Furiosos",
-            "video": false,
-            "vote_average": 7.0,
-            "vote_count": 10255
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/hpgda6P9GutvdkDX5MUJ92QG9aj.jpg",
-            "genre_ids": [
-                28,
                 12,
-                35
+                14
             ],
-            "id": 384018,
+            "id": 672,
             "original_language": "en",
-            "original_title": "Fast & Furious Presents: Hobbs & Shaw",
-            "overview": "O corpulento policial Luke Hobbs se junta ao fora da lei Deckard Shaw para combater um terrorista geneticamente melhorado que tem for\u00e7a sobre-humana.",
-            "popularity": 15.2408,
-            "poster_path": "/w5HWdAJyAbfpXbXDmEt5OIpf6kQ.jpg",
-            "release_date": "2019-08-01",
-            "title": "Velozes & Furiosos: Hobbs & Shaw",
+            "original_title": "Harry Potter and the Chamber of Secrets",
+            "overview": "Carros voadores, \u00e1rvores que lutam e um misterioso elfo, com um aviso ainda mais misterioso. Harry Potter est\u00e1 pronto para dar in\u00edcio ao segundo ano de sua maravilhosa jornada no mundo da bruxaria. Em Hogwarts nesse ano, aranhas falam, cartas d\u00e3o broncas e a habilidade de Harry para falar com cobras voltar\u00e1 contra ele. De clubes de duelo a jogadores de quadribol desonestos, esse ser\u00e1 um ano de aventura e perigo para todos. Quando a mensagem sangrenta na parede anuncia que a C\u00e2mara Secreta foi aberta, Harry, Rony e Hermione percebem que para salvar Hogwarts ser\u00e1 preciso muita m\u00e1gica e coragem. Confira essa enfeiti\u00e7ante adapta\u00e7\u00e3o do segundo livro da obra da escritora J.K. Rowling e prepare-se para ficar petrificado quando Harry Potter demonstrar que, mais que um bruxo, \u00e9 um verdadeiro her\u00f3i.",
+            "popularity": 24.2307,
+            "poster_path": "/27DNJjNTLpKDsuhqjSjklyPnos4.jpg",
+            "release_date": "2002-11-13",
+            "title": "Harry Potter e a C\u00e2mara Secreta",
             "video": false,
-            "vote_average": 6.845,
-            "vote_count": 7386
+            "vote_average": 7.708,
+            "vote_count": 22544
         },
         {
             "adult": false,
-            "backdrop_path": "/cHkhb5A4gQRK6zs6Pv7zorHs8Nk.jpg",
+            "backdrop_path": "/5rrGVmRUuCKVbqUu41XIWTXJmNA.jpg",
             "genre_ids": [
-                28,
-                53,
-                80
+                12,
+                14
             ],
-            "id": 168259,
+            "id": 674,
             "original_language": "en",
-            "original_title": "Furious 7",
-            "overview": "Ap\u00f3s os acontecimentos em Londres, Dom, Brian, Letty e o resto da equipe t\u00eam a chance de voltar para os Estados Unidos e recome\u00e7ar suas vidas. Mas a tranquilidade do grupo \u00e9 destru\u00edda quando Deckard Shaw, um assassino profissional, quer vingan\u00e7a pelo acidente que deixou seu irm\u00e3o em coma. Agora, a equipe tem de unir for\u00e7as para deter um vil\u00e3o novo e ainda mais perigoso. Dessa vez, n\u00e3o se trata apenas de uma quest\u00e3o de velocidade: a corrida \u00e9 pela sobreviv\u00eancia.",
-            "popularity": 13.797,
-            "poster_path": "/spydMyyD81HjGJVwZvjajkrWW1h.jpg",
-            "release_date": "2015-04-01",
-            "title": "Velozes & Furiosos 7",
+            "original_title": "Harry Potter and the Goblet of Fire",
+            "overview": "Quando o nome de Harry Potter emerge do C\u00e1lice de Fogo, ele se transforma em um competidor em uma extenuante batalha de magia entre tr\u00eas escolas de feiticeiros \u2013 o Torneio Tribruxo. Mas se Harry n\u00e3o se inscreveu para o tal torneio, quem o fez? Agora, Harry precisa confrontar um mortal drag\u00e3o, ferozes dem\u00f4nios da \u00e1gua e um labirinto encantado aonde se deparar\u00e1 com Aquele-Que-N\u00e3o-Deve-Ser-Nomeado. Nesta quarta adapta\u00e7\u00e3o da s\u00e9rie Harry Potter, criada por J.K. Rowling, tudo est\u00e1 modificado, a come\u00e7ar pelo pr\u00f3prio Harry e seus insepar\u00e1veis amigos, Ron e Hermione, que deixam a inf\u00e2ncia para sempre e partem para desafios maiores do que tudo aquilo que um dia eles j\u00e1 imaginaram.",
+            "popularity": 21.9376,
+            "poster_path": "/5oWB3hjzyECRBAjgWkmZinxl9qA.jpg",
+            "release_date": "2005-11-16",
+            "title": "Harry Potter e o C\u00e1lice de Fogo",
             "video": false,
-            "vote_average": 7.224,
-            "vote_count": 10812
+            "vote_average": 7.8,
+            "vote_count": 21191
         },
         {
             "adult": false,
-            "backdrop_path": "/AqtTwTPOjRnmSudK1rywiUoE9xH.jpg",
+            "backdrop_path": "/82a7AGF081PzFfoM8GAVGMvZNYK.jpg",
             "genre_ids": [
-                35,
-                10749,
-                28,
-                18
+                12,
+                14
             ],
-            "id": 889741,
-            "original_language": "th",
-            "original_title": "\u0e40\u0e23\u0e47\u0e27\u0e42\u0e2b\u0e14..\u0e40\u0e2b\u0e21\u0e37\u0e2d\u0e19\u0e42\u0e01\u0e23\u0e18\u0e40\u0e18\u0e2d",
-            "overview": "O campe\u00e3o de um esporte inusitado luta para conciliar sua vida amorosa com a defesa do t\u00edtulo de empilhador de copos mais r\u00e1pido do mundo.",
-            "popularity": 1.7762,
-            "poster_path": "/46Ab9aS5x9ZVhsbcQ3d5QjzfuBb.jpg",
-            "release_date": "2022-04-06",
-            "title": "Veloz, Furioso e Apaixonado",
+            "id": 675,
+            "original_language": "en",
+            "original_title": "Harry Potter and the Order of the Phoenix",
+            "overview": "Lord Voldemort est\u00e1 de volta, mas o Minist\u00e9rio da Magia est\u00e1 fazendo tudo a seu alcance para impedir que a comunidade mundial de bruxos descubra isso \u2013 incluindo indicar a oficial do Minist\u00e9rio, Dolores Umbridge, como a nova professora de Defesa Contra as Artes das Trevas de Hogwarts. Quando Umbridge se recusa a ensinar a pr\u00e1tica de m\u00e1gica defensiva, Rony e Hermione convencem Harry a secretamente treinar um grupo de estudantes para a guerra de magia que est\u00e1 prestes a estourar.",
+            "popularity": 19.0165,
+            "poster_path": "/tIf9aUyNljda9MG1pjlOLHCZ3b0.jpg",
+            "release_date": "2007-07-08",
+            "title": "Harry Potter e a Ordem da F\u00eanix",
             "video": false,
-            "vote_average": 6.7,
-            "vote_count": 31
+            "vote_average": 7.674,
+            "vote_count": 19899
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/vbk5CfaAHOjQPSAcYm6AoRRz2Af.jpg",
+            "genre_ids": [
+                12,
+                14
+            ],
+            "id": 673,
+            "original_language": "en",
+            "original_title": "Harry Potter and the Prisoner of Azkaban",
+            "overview": "Quando a desprez\u00edvel Tia Guida voa pelo c\u00e9u na noite, Harry parte para o que ser\u00e1 seu terceiro ano em Hogwarts. Um passeio no N\u00f4itibus o leva para o Beco Diagonal onde ele fica sabendo que um prisioneiro foragido, Sirius Black est\u00e1 atr\u00e1s dele. Em Hogwarts, Harry e seus amigos aprendem a delicada arte de se aproximar de um Hipogrifo, como transformar monstros em risadas e at\u00e9 mesmo a voltar no tempo. Dementadores sugadores de almas pairam sobre Hogwarts, amea\u00e7ando Harry, enquanto um seguidor de Aquele-Que-N\u00e3o-Se-Deve-Nomear espreita pela escola. E Harry ser\u00e1 for\u00e7ado a confrontar todos eles. Dirigido por Alfonso Cuar\u00f3n e baseado no terceiro livro de J.K. Rowling, essa maravilhosa hist\u00f3ria traz risadas, suspense e surpresas de tirar o f\u00f4lego, a especialidade dos filmes de Harry Potter. Prepare-se!",
+            "popularity": 23.6375,
+            "poster_path": "/1HdMUghqlgOIvbsU9ZtO40IPRzl.jpg",
+            "release_date": "2004-05-31",
+            "title": "Harry Potter e o Prisioneiro de Azkaban",
+            "video": false,
+            "vote_average": 8.011,
+            "vote_count": 22120
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/mjCYpJXCBYDZgMr1U1KZcFgFDfC.jpg",
+            "genre_ids": [
+                99
+            ],
+            "id": 482408,
+            "original_language": "en",
+            "original_title": "Harry Potter: A History Of Magic",
+            "overview": "Uma emocionante jornada por lendas, cren\u00e7as e folclore, este filme vai aos bastidores da Biblioteca Brit\u00e2nica contar essa hist\u00f3ria atrav\u00e9s de uma nova e ambiciosa exposi\u00e7\u00e3o: Harry Potter: A History Of Magic. J.K. Rowling, que est\u00e1 cedendo manuscritos in\u00e9ditos, desenhos e rascunhos de seus arquivos particulares (que ficar\u00e3o ao lado de tesouros da Biblioteca Brit\u00e2nica, bem como rascunhos e desenhos originais de Jim Kay) fala sobre alguns dos itens pessoais que ela cedeu para a exposi\u00e7\u00e3o e d\u00e1 uma nova vis\u00e3o sobre sua escrita, olhando para alguns dos objetos da exposi\u00e7\u00e3o que estimularam sua imagina\u00e7\u00e3o.",
+            "popularity": 1.6814,
+            "poster_path": "/y1X20YWEyMpWcpYRwkgmTpYDFX2.jpg",
+            "release_date": "2017-10-28",
+            "title": "Harry Potter: Uma Hist\u00f3ria da Magia",
+            "video": false,
+            "vote_average": 7.324,
+            "vote_count": 91
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/urDWNffjwmNi5IQaezw9GwqkUXa.jpg",
+            "genre_ids": [
+                12,
+                14
+            ],
+            "id": 767,
+            "original_language": "en",
+            "original_title": "Harry Potter and the Half-Blood Prince",
+            "overview": "\u00c0 medida que Lord Voldemort aumenta seu controle sobre o mundo Trouxa e bruxo, Hogwarts n\u00e3o \u00e9 mais um local seguro. Harry suspeita que haja perigos dentro do castelo, mas Dumbledore est\u00e1 mais empenhado em prepar\u00e1-lo para a batalha final que se aproxima rapidamente. Juntos, eles trabalham para encontrar a chave para desbloquear as defesas de Voldemort e, para esse fim, Dumbledore recruta seu velho amigo e colega Hor\u00e1cio Slughorn, que ele acredita possuir informa\u00e7\u00f5es cruciais. Mesmo quando o confronto decisivo se aproxima, o romance floresce para Harry, Ron, Hermione e seus colegas de classe. O amor est\u00e1 no ar, mas o perigo est\u00e1 por vir e Hogwarts pode nunca mais ser a mesma.",
+            "popularity": 18.8739,
+            "poster_path": "/rssGxuqkB2TAX9g2VsbBiUZIVzm.jpg",
+            "release_date": "2009-07-15",
+            "title": "Harry Potter e o Enigma do Pr\u00edncipe",
+            "video": false,
+            "vote_average": 7.683,
+            "vote_count": 19881
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/AqLcLsGGTzAjm3pCCq0CZCQrp6m.jpg",
+            "genre_ids": [
+                12,
+                14
+            ],
+            "id": 12444,
+            "original_language": "en",
+            "original_title": "Harry Potter and the Deathly Hallows: Part 1",
+            "overview": "Harry, Ron e Hermione est\u00e3o determinados em sua miss\u00e3o de descobrir e acabar com o segredo da imortalidade e do poder de destrui\u00e7\u00e3o de Voldemort \u2013 os Horcruxes. Fugitivos e sozinhos, os tr\u00eas amigos devem apenas contar uns com os outros, agora mas do que nunca... Mas as For\u00e7as das Trevas no caminho amea\u00e7am separ\u00e1-los para sempre.",
+            "popularity": 18.0269,
+            "poster_path": "/cx33TCxiNGcqIPjARGE7qkTxwMq.jpg",
+            "release_date": "2010-11-17",
+            "title": "Harry Potter e as Rel\u00edquias da Morte - Parte 1",
+            "video": false,
+            "vote_average": 7.741,
+            "vote_count": 19501
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/n5A7brJCjejceZmHyujwUTVgQNC.jpg",
+            "genre_ids": [
+                14,
+                12
+            ],
+            "id": 12445,
+            "original_language": "en",
+            "original_title": "Harry Potter and the Deathly Hallows: Part 2",
+            "overview": "No final \u00e9pico, a batalha entre as for\u00e7as do bem e do mal no mundo da bruxaria toma propor\u00e7\u00f5es de uma guerra mundial. As apostas nunca foram t\u00e3o altas e ningu\u00e9m est\u00e1 a salvo. Mas \u00e9 harry que pode ser convocado para fazer um derradeiro sacrif\u00edcio, \u00e0 medida que ele se aproxima cada vez mais do confronto final com Lorde Voldemort. Tudo termina aqui.",
+            "popularity": 19.3444,
+            "poster_path": "/yD3VosOVW8WxPUzBDpEdzfv5pGx.jpg",
+            "release_date": "2011-07-12",
+            "title": "Harry Potter e as Rel\u00edquias da Morte - Parte 2",
+            "video": false,
+            "vote_average": 8.087,
+            "vote_count": 21035
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/8rft8A9nH43IReybFtYt21ezfMK.jpg",
+            "genre_ids": [
+                99
+            ],
+            "id": 899082,
+            "original_language": "en",
+            "original_title": "Harry Potter 20th Anniversary: Return to Hogwarts",
+            "overview": "Uma encantadora hist\u00f3ria de making-of contada por meio de novas entrevistas em profundidade e conversas com o elenco, convidando os f\u00e3s a uma jornada m\u00e1gica em primeira pessoa atrav\u00e9s de uma das franquias de filmes mais amadas de todos os tempos.",
+            "popularity": 5.73,
+            "poster_path": "/bhY813zHKJStgUwl9kfBA3WDDPS.jpg",
+            "release_date": "2022-01-01",
+            "title": "Comemora\u00e7\u00e3o de 20 anos de Harry Potter: De Volta a Hogwarts",
+            "video": false,
+            "vote_average": 7.302,
+            "vote_count": 3410
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/4LOxoeZWt5wr9mooxEZRFK96lDd.jpg",
+            "genre_ids": [
+                99
+            ],
+            "id": 483898,
+            "original_language": "en",
+            "original_title": "50 Greatest Harry Potter Moments",
+            "overview": "To mark the release two weeks ago of the eighth and final movie in the series, Robbie Coltrane narrates a countdown of the movie franchise's best moments. From Harry's first meeting with Ron and Hermione aboard the Hogwarts Express through to magical mysteries.",
+            "popularity": 2.8372,
+            "poster_path": "/g1xiBoLD6v3ZaXPa4QtuXiQeYKW.jpg",
+            "release_date": "2011-07-27",
+            "title": "50 Greatest Harry Potter Moments",
+            "video": false,
+            "vote_average": 7.405,
+            "vote_count": 131
         },
         {
             "adult": false,
             "backdrop_path": null,
             "genre_ids": [
-                28,
-                80,
-                53
+                99
             ],
-            "id": 755679,
+            "id": 1082707,
             "original_language": "en",
-            "original_title": "Fast X: Part 2",
-            "overview": "Continua\u00e7\u00e3o direta de Velozes & Furiosos 10 (2023). Supostamente a segunda parte de uma trilogia que dar\u00e1 fim \u00e0 franquia Velozes & Furiosos.",
-            "popularity": 13.3316,
-            "poster_path": "/tPZcFDAaWYBdUtTbwRv7hJxWCRs.jpg",
-            "release_date": "",
-            "title": "Velozes & Furiosos 10: Parte 2",
+            "original_title": "The Magic Touch of Harry Potter",
+            "overview": "A 2004 documentary on the first three \u201cHarry Potter\u201d films detailing the behind-the-scenes journey of making them.",
+            "popularity": 1.0736,
+            "poster_path": "/gwFARNYf1Odv3E8ESVHyikXmMIY.jpg",
+            "release_date": "2004-06-11",
+            "title": "The Magic Touch of Harry Potter",
             "video": false,
-            "vote_average": 0.0,
-            "vote_count": 0
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/awuUwOAGCPqC4mIDQmeKdPiiLR5.jpg",
-            "genre_ids": [
-                28,
-                80,
-                53
-            ],
-            "id": 337339,
-            "original_language": "en",
-            "original_title": "The Fate of the Furious",
-            "overview": "Depois que Brian e Mia se aposentaram, e o resto da equipe foi exonerado, Dom e Letty est\u00e3o em lua de mel e levam uma vida pacata e completamente normal. Mas a adrenalina do passado volta com tudo quando uma mulher misteriosa faz com que Dom retorne ao mundo do crime e da velocidade.",
-            "popularity": 12.2863,
-            "poster_path": "/1wcMoiMZ2VxrrWswuarI7g9m9nN.jpg",
-            "release_date": "2017-04-12",
-            "title": "Velozes & Furiosos 8",
-            "video": false,
-            "vote_average": 6.862,
-            "vote_count": 10437
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/acktCBsLJcgEJsjTuyiQhJipCD6.jpg",
-            "genre_ids": [
-                28,
-                80,
-                18,
-                53
-            ],
-            "id": 13804,
-            "original_language": "en",
-            "original_title": "Fast & Furious",
-            "overview": "Dominic Toretto descobre que sua amada Letty foi assassinada e resolve procurar pelo autor do crime. Enquanto isso, o agente Brian O'Conner est\u00e1 em busca de um traficante de drogas. Eles percebem que talvez procurem a mesma pessoa.",
-            "popularity": 1.667,
-            "poster_path": "/7sjbAOmNFtfTyZ6KFC9t9FDDOcK.jpg",
-            "release_date": "2009-04-02",
-            "title": "Velozes e Furiosos 4",
-            "video": false,
-            "vote_average": 6.683,
-            "vote_count": 7407
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/xXHZeb1yhJvnSHPzZDqee0zfMb6.jpg",
-            "genre_ids": [
-                28,
-                12,
-                80
-            ],
-            "id": 385128,
-            "original_language": "en",
-            "original_title": "F9",
-            "overview": "Dominic Toretto e sua fam\u00edlia precisam enfrentar o seu irm\u00e3o mais novo Jakob, um assassino mortal que est\u00e1 trabalhando com uma antiga inimiga, a cyber-terrorista Cipher.",
-            "popularity": 8.7487,
-            "poster_path": "/6TuEPZ3ItlBO8WmH8BmY2aGLhes.jpg",
-            "release_date": "2021-05-19",
-            "title": "Velozes & Furiosos 9",
-            "video": false,
-            "vote_average": 7.048,
-            "vote_count": 7376
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/v7JSw9XCkdv533TP7VabRZJ63PC.jpg",
-            "genre_ids": [
-                35,
-                28
-            ],
-            "id": 325358,
-            "original_language": "en",
-            "original_title": "Superfast!",
-            "overview": "Policial disfar\u00e7ado Lucas Branco junta gangue LA de Vin Serento de corredores de rua ilegais. Eles s\u00e3o r\u00e1pidos e eles est\u00e3o furiosos e eles planejam dobrar cruz chef\u00e3o do crime LA Juan Carlos de la Sol, que esconde o seu dinheiro em um centro de Taco Bell. O gangues plano escandaloso \u00e9 t\u00e3o ousado como \u00e9 rid\u00edculo e vai v\u00ea-los rebocar todo o restaurante maldita, a velocidades loucas.",
-            "popularity": 6.8425,
-            "poster_path": "/mxu2bJQfTAylPVS4ufnZ5bv9wiH.jpg",
-            "release_date": "2015-03-05",
-            "title": "Super Velozes, Mega Furiosos",
-            "video": false,
-            "vote_average": 5.057,
-            "vote_count": 467
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/enF1PHz15lI9BaPGYYKBMnEbANh.jpg",
-            "genre_ids": [
-                28
-            ],
-            "id": 77959,
-            "original_language": "en",
-            "original_title": "The Turbo Charged Prelude for 2 Fast 2 Furious",
-            "overview": "Prelude turbo \u00e9 um 2003 curta-metragem, dirigido por Philip Atwell, com Paul Walker reprisando seu papel como Brian O'Conner, em uma curta s\u00e9rie de sequ\u00eancias que liga The Fast and the Furious com sua primeira sequela, 2 Fast 2 Furious. O curta-metragem foi inclu\u00eddo em uma nova impress\u00e3o do DVD do segundo filme. Foi lan\u00e7ado em 03 de junho de 2003 para amarrar com a vers\u00e3o teatral do segundo filme.",
-            "popularity": 0.1417,
-            "poster_path": "/cmhFOjy47UqrOafl0oQiygcJ7oT.jpg",
-            "release_date": "2003-06-03",
-            "title": "Velozes e Furiosos: Turbo-Charged Prelude",
-            "video": false,
-            "vote_average": 6.141,
-            "vote_count": 238
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/z3ioibdjWZOYeXjoiabFOFOfPI3.jpg",
-            "genre_ids": [
-                28,
-                80,
-                53
-            ],
-            "id": 584,
-            "original_language": "en",
-            "original_title": "2 Fast 2 Furious",
-            "overview": "O ex-policial Brian comete uma grande trai\u00e7\u00e3o, juntando-se a um amigo ex-presidi\u00e1rio no transporte de dinheiro sujo para uma importadora-exportadora muito suspeita.",
-            "popularity": 1.8539,
-            "poster_path": "/mx0CB8H78PQu0g9YUWG47hdi93S.jpg",
-            "release_date": "2003-06-05",
-            "title": "+ Velozes + Furiosos",
-            "video": false,
-            "vote_average": 6.51,
-            "vote_count": 7661
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/xDp29MSWa7O3ROC13r6dPTFnREJ.jpg",
-            "genre_ids": [
-                28,
-                53,
-                80
-            ],
-            "id": 82992,
-            "original_language": "en",
-            "original_title": "Fast & Furious 6",
-            "overview": "Desde que o golpe de Dom e Brian no Rio de Janeiro deixou o grupo com US$100 milh\u00f5es, a equipe se espalhou pelo mundo. Um dia, Hobbs pede a Dom que re\u00fana um grupo de elite em Londres e apreenda uma organiza\u00e7\u00e3o de mercen\u00e1rios nas ruas, cujo mentor \u00e9 apoiado por Letty, a antiga namorada de Dom que ele acreditava estar morta. A recompensa? Absolvi\u00e7\u00e3o a todos eles para poderem voltar para as suas casas e tornarem suas fam\u00edlias completas novamente.",
-            "popularity": 1.5136,
-            "poster_path": "/h8SD0Kkqv3PUBneQX9tFsDrFu8.jpg",
-            "release_date": "2013-05-21",
-            "title": "Velozes & Furiosos 6",
-            "video": false,
-            "vote_average": 6.818,
-            "vote_count": 10747
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/krtWl2iNKAzoZZnVCgApBsH30sb.jpg",
-            "genre_ids": [
-                28,
-                53,
-                80
-            ],
-            "id": 51497,
-            "original_language": "en",
-            "original_title": "Fast Five",
-            "overview": "Desde que o ex-policial Brian O'Conner e Mia Torretto libertaram Dom da pris\u00e3o, eles viajam pelas fronteiras para fugir das autoridades. No Rio de Janeiro, eles fazem um \u00faltimo trabalho antes que possam ganhar sua liberdade definitiva. Montando sua equipe de elite de pilotos de carro, Brian e Dom sabem que t\u00eam de enfrentar o empres\u00e1rio corrupto que quer v\u00ea-los mortos, antes que o agente federal em sua trilha os encontre.",
-            "popularity": 2.007,
-            "poster_path": "/5BKmQMUPOEtDFDCBW8jrUCI9ZbI.jpg",
-            "release_date": "2011-04-20",
-            "title": "Velozes & Furiosos 5: Opera\u00e7\u00e3o Rio",
-            "video": false,
-            "vote_average": 7.24,
-            "vote_count": 8393
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/rVBbhk3DhrDZtCI3LTOATDPY5Vw.jpg",
-            "genre_ids": [
-                16,
-                35
-            ],
-            "id": 74961,
-            "original_language": "en",
-            "original_title": "Fast and Furry-ous",
-            "overview": "O inteligente Coiote cria mil inven\u00e7\u00f5es e planos elaborados para capturar o Papa-L\u00e9guas, mas a ave \u00e9 ainda mais esperta e nunca se deixa capturar.",
-            "popularity": 0.5903,
-            "poster_path": "/XinMQ1x8kejVMDl5AAKULonOCB.jpg",
-            "release_date": "1949-09-17",
-            "title": "O Veloz e o Furioso",
-            "video": false,
-            "vote_average": 7.0,
-            "vote_count": 92
+            "vote_average": 7.579,
+            "vote_count": 19
         },
         {
             "adult": false,
             "backdrop_path": null,
             "genre_ids": [
-                28
+                99,
+                10770
             ],
-            "id": 1134978,
+            "id": 918078,
             "original_language": "en",
-            "original_title": "Fast & Furious Presents: Hobbs & Reyes",
-            "overview": "Futuro spin-off da franquia Velozes & Furiosos focado no ex-agente Luke Hobbs, anunciado por Dwayne Johnson ap\u00f3s seu retorno como Hobbs em Velozes & Furiosos 10. O filme abordar\u00e1 a rivalidade entre Luke Hobbs e Dante Reyes, apresentada no \u00faltimo longa. \u00c9 planejado como a liga\u00e7\u00e3o entre 'Velozes & Furiosos 10' (2023) e sua 'Parte 2' (2026).",
-            "popularity": 2.2663,
+            "original_title": "Daniel Radcliffe: Being Harry Potter",
+            "overview": "Made-for-television documentary about Daniel Radcliffe and his role as Harry Potter.",
+            "popularity": 0.8298,
+            "poster_path": "/4keobTsQVrMS2JwE3TRod0SrYTD.jpg",
+            "release_date": "2012-10-10",
+            "title": "Daniel Radcliffe: Being Harry Potter",
+            "video": false,
+            "vote_average": 6.5,
+            "vote_count": 22
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99
+            ],
+            "id": 919590,
+            "original_language": "de",
+            "original_title": "Phantastische Harry Potter Momente - Das gro\u00dfe SAT.1 Spezial",
+            "overview": "",
+            "popularity": 0.7151,
+            "poster_path": "/1Ci05BbrRgc8qwKSvliJH6gqzol.jpg",
+            "release_date": "2021-10-31",
+            "title": "Phantastische Harry Potter Momente - Das gro\u00dfe SAT.1 Spezial",
+            "video": false,
+            "vote_average": 6.8,
+            "vote_count": 30
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/zikoNIlodwkPhAU9iAwN17sOTrD.jpg",
+            "genre_ids": [
+                99,
+                14
+            ],
+            "id": 1118680,
+            "original_language": "fr",
+            "original_title": "Harry Potter : les secrets du ph\u00e9nom\u00e8ne",
+            "overview": "Immerse yourself in the magic of Harry Potter by uncovering the secrets behind the global bestseller. Over 20 years later, the wizards of Hogwarts remain immensely popular among audiences, transcending generations. To grasp the reasons behind such success, this documentary will introduce you to the most extravagant fans who perpetuate the phenomenon.",
+            "popularity": 0.7884,
+            "poster_path": "/7iJ20z09sZpbl0vgj4NIbnUDcfN.jpg",
+            "release_date": "2023-04-26",
+            "title": "Harry Potter : les secrets du ph\u00e9nom\u00e8ne",
+            "video": false,
+            "vote_average": 8.4,
+            "vote_count": 7
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                10751,
+                99,
+                10770
+            ],
+            "id": 116972,
+            "original_language": "en",
+            "original_title": "Discovering the Real World of Harry Potter",
+            "overview": "Explore the myths and legends that inhabit the real world of Harry Potter. Follow award-winning documentary filmmakers as they offer insights to witches, wizards, Greek gods, ancient Celts, ghosts, magical creatures, alchemy, and ancient spells. Narrated by British actor Hugh Laurie, this fascinating documentary brings new dimensions to the historical and scientific world behind the Harry Potter series.",
+            "popularity": 0.2996,
+            "poster_path": "/yLpnOqKw3ZycFu8t5Gil1BqTbnB.jpg",
+            "release_date": "2001-12-10",
+            "title": "Discovering the Real World of Harry Potter",
+            "video": false,
+            "vote_average": 6.9,
+            "vote_count": 24
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99,
+                14
+            ],
+            "id": 1039274,
+            "original_language": "en",
+            "original_title": "Harry Potter: A Spirit Conspiracy?",
+            "overview": "The Occult Agenda documentary series is designed to awaken the church and non-believers alike to the spiritual warfare happening in the world today. Part I focuses on the Harry Potter phenomenon that has swept the world since author J.K. Rowling introduced her best-selling book series. But is Potter-mania merely the result of imaginative writing and clever marketing? Or could there be a hidden power behind the craze that has cast a spell on adults and children alike?",
+            "popularity": 0.4672,
+            "poster_path": "/e8jvqpVbVeVlSOV216sOIZmykGA.jpg",
+            "release_date": "2005-09-22",
+            "title": "Harry Potter: A Spirit Conspiracy?",
+            "video": true,
+            "vote_average": 6.5,
+            "vote_count": 12
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99
+            ],
+            "id": 319391,
+            "original_language": "en",
+            "original_title": "J.K. Rowling and the Birth of Harry Potter",
+            "overview": "In this fascinating (unauthorized) biographical documentary, you'll get the inside scoop on the creative force behind one of the greatest publishing phenomena in the last 100 years -- J.K. Rowling, author of the Harry Potter series of books. Explore Rowling's meteoric rise from obscurity into the ranks of the world's richest women (via her books), and visit the people and places that played a significant role in her life.",
+            "popularity": 0.4226,
+            "poster_path": "/hY6Ndq1O4JiEngZ7xIOtcLUCDTX.jpg",
+            "release_date": "2004-12-07",
+            "title": "J.K. Rowling and the Birth of Harry Potter",
+            "video": false,
+            "vote_average": 7.1,
+            "vote_count": 21
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99
+            ],
+            "id": 500008,
+            "original_language": "en",
+            "original_title": "Harry Potter: The Making of Diagon Alley",
+            "overview": "An inside look into the creation of Universal Studio's Diagon Alley attraction.",
+            "popularity": 0.1846,
+            "poster_path": null,
+            "release_date": "2014-06-30",
+            "title": "Harry Potter: The Making of Diagon Alley",
+            "video": false,
+            "vote_average": 6.184,
+            "vote_count": 19
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99
+            ],
+            "id": 1111760,
+            "original_language": "de",
+            "original_title": "Schottland - Auf den Spuren von Harry Potter",
+            "overview": "",
+            "popularity": 0.1348,
             "poster_path": null,
             "release_date": "",
-            "title": "Velozes & Furiosos: Hobbs & Reyes",
+            "title": "Schottland - Auf den Spuren von Harry Potter",
             "video": false,
-            "vote_average": 0.0,
-            "vote_count": 0
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/bXILbW1i0WRShd6s4LfLKdJM6zm.jpg",
-            "genre_ids": [
-                16,
-                35,
-                10751
-            ],
-            "id": 42246,
-            "original_language": "en",
-            "original_title": "Tom and Jerry: The Fast and the Furry",
-            "overview": "Tom e Jerry entram em uma competi\u00e7\u00e3o de carros chamada de \"Super Corrida\" em busca do grande pr\u00eamio: uma maravilhosa mans\u00e3o de sonhos. Pilotando carros envenenados que se adaptam a qualquer superf\u00edcie (terra, mar ou ar) eles competir\u00e3o pelo mundo, passando por cidades e locais famosos, deixando caos pelo caminho.",
-            "popularity": 2.686,
-            "poster_path": "/dlKofOSw1fY9BUCy03UOca0OIJg.jpg",
-            "release_date": "2005-10-11",
-            "title": "Tom & Jerry: Velozes e Ferozes",
-            "video": false,
-            "vote_average": 7.0,
-            "vote_count": 294
+            "vote_average": 9.5,
+            "vote_count": 1
         }
     ],
-    "total_pages": 1,
-    "total_results": 19
+    "total_pages": 2,
+    "total_results": 24
 }
