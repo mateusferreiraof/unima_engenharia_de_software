@@ -1,0 +1,205 @@
+
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    color: white;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+nav {
+    display: flex;
+}
+
+form {
+    margin: auto;
+    width: 750px;
+    padding: 20px;
+}
+
+input {
+    margin: auto;
+    width: 500px;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+button {
+    background-color: transparent;
+    border: transparent;
+    width: 24px;
+    height: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(10, 165, 210);
+    text-align: center;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+
+main {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1500px;
+    background: linear-gradient(to right, rgb(10, 165, 210), rgb(60, 35, 155));
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 0px solid transparent;
+    border-radius: 5px;
+}
+
+
+#cabecario {
+    background-color: rgb(10, 165, 210);
+    text-align: center;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px 20px 40px;
+}
+#pesquisa {
+    background-image: url(imagens/imagem-pipoca.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+#hr1 {
+    border: 1px solid white;
+    margin-top: 10px;
+}
+
+#hr2 {
+    border: 1px solid white;
+}
+
+#exibir-resultado {
+    width: 750px;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#mensagem-flask {
+    margin: auto;
+    padding: 20px;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ECECEC;
+    text-align: center;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#ul-header {
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+}
+
+#ul-main {
+    align-items: center;
+    display: inline-table;
+    margin: auto;
+    padding: 30px;
+}
+
+#subtitulobusca {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#subtitulobusca:hover {
+    background-color: yellowgreen;
+}
+
+#h2-header {
+    text-align: center;
+    color: white;
+    margin: 10px;
+    font-size: 65px;
+}
+
+#p-header {
+    color: white;
+    font-size: 40px;
+    width: 200px;
+}
+
+#legend-header {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.li-header {
+    display: inline-block;
+    width: 180px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.a-header {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.a-header:hover {
+    background-color: yellowgreen;
+}
+
+
+.li-main {
+    margin: auto;
+    padding: 20px;
+    display: inline-table;
+    text-align: center;
+    color: black;
+    max-width: 500px;
+    max-width: 200px;
+}
