@@ -68,7 +68,16 @@
         {% endif %}        
 
     </main>
-
+        <div>
+        {% if pagina > 1 %}
+            <a href="{{ url_for('filmes', page=pagina-1) }}">
+                <button>Anterior</button>
+            </a>
+        {% endif %}
+        <a href="{{ url_for('filmes', page=pagina+1) }}">
+            <button>Próxima</button>
+        </a>
+       </div>
     <footer>
 
     </footer>

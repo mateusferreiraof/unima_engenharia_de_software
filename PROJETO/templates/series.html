@@ -83,6 +83,16 @@
         <p>Nenhuma série recomendada da TMDB.</p>
         {% endif %}
 
+        <div>
+        {% if pagina > 1 %}
+            <a href="{{ url_for('series', page=pagina-1) }}">
+                <button>Anterior</button>
+            </a>
+        {% endif %}
+        <a href="{{ url_for('series', page=pagina+1) }}">
+            <button>Próxima</button>
+        </a>
+       </div>
     </main>
 
     <footer><p id="paragrafo-footer">&copy; Desenvolvido por Mateus Ferreira, Maria Layanne, Vinicius Matheus e Matheus Gabriel.</p></footer>

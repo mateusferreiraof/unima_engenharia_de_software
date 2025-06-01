@@ -22,21 +22,23 @@ def homepage():
 def filmes():
 
     api = MovieAPI()
-    filmes = api.movie_list()
-    avaliados = api.filmes_bem_avaliados()
-    tmdb = api.filmes_populares_tmdb()
+    pagina = request.args.get('page', default=1, type=int)
+    filmes = api.movie_list(page=pagina)
+    avaliados = api.filmes_bem_avaliados(page=pagina)
+    tmdb = api.filmes_populares_tmdb(page=pagina)
     
-    return render_template("filmes.html", filmes=filmes['results'], avaliados=avaliados['results'],tmdb=tmdb['results'])
+    return render_template("filmes.html", filmes=filmes['results'], avaliados=avaliados['results'],tmdb=tmdb['results'], pagina=pagina)
 
 @server.route('/series')
 def series():
     api =SeriesAPI()
-    populares = api.series_list()
-    avaliadas = api.series_bem_avaliadas()
-    tmdb =api.series_populares_tmdb()
-    hj=api.series_exibidas_hj()
+    pagina = request.args.get('page', default=1, type=int)
+    populares = api.series_list(page=pagina)
+    avaliadas = api.series_bem_avaliadas(page=pagina)
+    tmdb =api.series_populares_tmdb(page=pagina)
+    hj=api.series_exibidas_hj(page=pagina)
 
-    return render_template("series.html",populares=populares['results'], avaliadas=avaliadas['results'], tmdb=tmdb['results'], hj=hj['results'])
+    return render_template("series.html",populares=populares['results'], avaliadas=avaliadas['results'], tmdb=tmdb['results'], hj=hj['results'], pagina=pagina)
 
 @server.route('/')
 def inicio():
