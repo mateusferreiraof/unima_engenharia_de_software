@@ -40,6 +40,10 @@ def series():
 
     return render_template("series.html",populares=populares['results'], avaliadas=avaliadas['results'], tmdb=tmdb['results'], hj=hj['results'], pagina=pagina)
 
+@server.route('/favoritos')
+def favoritos():
+    return render_template("favoritos.html")
+
 @server.route('/')
 def inicio():
     return redirect('/home')
