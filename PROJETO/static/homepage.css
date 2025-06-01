@@ -5,3 +5,15 @@
 #menu-toggle:checked + .menu-icon + .menu {
   display: block;
 }
+
+#a-header-else {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#a-header-else:hover {
+    background-color: yellowgreen;
+}

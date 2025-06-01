@@ -99,6 +99,7 @@ main {
     align-items: center;
     justify-content: space-between;
     padding: 20px 40px 20px 40px;
+    max-height: 100px;
 }
 
 #pesquisa {
@@ -135,6 +136,10 @@ main {
     color: black;
     border: 1px solid transparent;
     border-radius: 5px 5px 0px 0px;
+}
+
+#menu {
+    max-height: 100px;
 }
 
 #ul-header {
@@ -223,6 +228,17 @@ main {
     padding-top: 50px;
 }
 
+#a-header-else {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#a-header-else:hover {
+    background-color: yellowgreen;
+}
+
 .li-header {
     display: inline-block;
     width: 180px;
@@ -269,25 +285,43 @@ main {
     max-height: 300px;
 }
 
-.menu {
-  display: none;
-}
-
 #menu-toggle:checked + .menu-icon + .menu {
   display: block;
 }
 
-
-.menu > p {
-    color: white;
-    text-align: left;
-    font-size: 24px;
-    margin: 10px;
+.menu {
+    display: none;
+    position: absolute;
+    background: linear-gradient(to right, rgb(10, 165, 210), rgb(60, 35, 155));
+    right: 140px;
+    width: 375px;
+    height: 230px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
 }
 
-.menu > a {
+
+.menu > p {
+    padding: 20px 0px 20px 0px;
     color: white;
-    text-align: left;
-    font-size: 16px;
-    margin: 10px;
+    text-align: center;
+    font-size: 24px;
+    width: 350px;
+    border: 1px solid white;
+    background: linear-gradient(to right, rgb(10, 165, 210) 10%, rgb(10, 165, 210) 15%, rgb(60, 35, 155) 70%, rgb(60, 35, 155) 100%);
+}
+
+
+.menu > p > a {
+    color: white;
+}
+
+.menu > p > a:hover {
+    text-decoration: underline;
+}
+
+.menu-icon {
+    position: relative;
+    right: 100px;
 }
