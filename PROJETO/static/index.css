@@ -100,6 +100,7 @@ main {
     justify-content: space-between;
     padding: 20px 40px 20px 40px;
 }
+
 #pesquisa {
     background-image: url(imagens/imagem-pipoca.jpeg);
     background-size: 100%;
@@ -266,4 +267,27 @@ main {
     color: black;
     max-width: 200px;
     max-height: 300px;
+}
+
+.menu {
+  display: none;
+}
+
+#menu-toggle:checked + .menu-icon + .menu {
+  display: block;
+}
+
+
+.menu > p {
+    color: white;
+    text-align: left;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.menu > a {
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    margin: 10px;
 }

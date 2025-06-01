@@ -1,4 +1,4 @@
-from flask import render_template, redirect, request, session
+from flask import render_template, redirect, request, session, url_for
 from PROJETO import server
 from PROJETO.config import conexao, cursor
 from Api.tmdbapifilmes import MovieAPI
@@ -6,17 +6,29 @@ from Api.tmdbapiseries import SeriesAPI
 
 @server.route('/home', methods=['GET', 'POST'])
 def homepage():
-
     api = MovieAPI()
     filmes = api.movie_list()
     series = api.series_list()
+    nome_do_usuario = session.get('nome')
 
     if request.method == 'POST':
         pesquisar = request.form.get('barra-de-busca')
-        pesquisa = api.movie_search(query=pesquisar)
-        return render_template("index.html", buscar=pesquisa['results'], mensagem=pesquisar)
-        
-    return render_template("homepage.html", movies=filmes['results'], series=series['results'])
+        return redirect(url_for('index', pesquisa=pesquisar))
+
+    return render_template("homepage.html", movies=filmes['results'], series=series['results'], nome=nome_do_usuario)
+
+
+@server.route('/index')
+def index():
+    api = MovieAPI()
+    nome_do_usuario = session.get('nome')
+    pesquisa = request.args.get('pesquisa')
+
+    if pesquisa:
+        pesquisar = api.movie_search(query=pesquisa)
+        return render_template("index.html", buscar=pesquisar['results'], mensagem=pesquisa, nome=nome_do_usuario)
+
+    return redirect('/home') 
 
 @server.route('/filmes')
 def filmes():
@@ -44,7 +56,13 @@ def inicio():
 
 @server.route('/login')
 def login():
-    return render_template("login.html")
+
+    verificar_login = session.get('usuario_id')
+    
+    if verificar_login == None:
+        return render_template("login.html")
+    
+    return redirect("/home")
 
 @server.route('/validacao-login', methods=['GET', 'POST'])
 def validacao_login():
@@ -58,6 +76,7 @@ def validacao_login():
 
         if usuario:
             session['usuario_id'] = usuario[0]
+            session['nome'] = usuario[1]
             return redirect('/home')
         
         mensagem = "E-mail ou senha inválidos. Tente novamente."
@@ -65,13 +84,24 @@ def validacao_login():
         
     return render_template("login.html")
 
+@server.route("/Sair")
+def sair():
+    session.pop('usuario_id', None)
+    session.pop('nome')
+    return redirect('/home')
+
 @server.route('/recuperacao')
 def recuperar_senha():
     return render_template("recuperacao_de_senha.html")
 
 @server.route('/cadastro')
 def cadastro():
-    return render_template("cadastro.html")
+
+    validar_login = session.get('usuario_id')
+
+    if validar_login == None:
+        return render_template("cadastro.html")
+    return redirect('/home')
 
 @server.route('/cadastrarusuario', methods=['GET', 'POST'])
 def cadastrar_usuario():

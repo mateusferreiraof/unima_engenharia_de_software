@@ -19,11 +19,25 @@
                     <li class="li-header"><a href="#" class="a-header"><i class="fa-solid fa-film" style="color: #3c239b;"></i> SÉRIES</a></li>
                 </ul>
             </nav>
-            <nav>
+            {% if nome %}
                 <ul type="none">
-                    <li id="icone-header"><a href="#"><i class="fa-solid fa-user" style="color: #ffff;"></i></a></li>
-                </ul>
-            </nav>
+                <input type="checkbox" id="menu-toggle" hidden>
+                <label for="menu-toggle" class="menu-icon"><li id="icone-header"><i class="fa-solid fa-user" style="color: #ffff;"></i></li></label>
+                <div class="menu">
+                <p>Olá {{nome}}! Seja bem vindo!</p>
+                <a href="/Sair">Sair</a>
+                </div>
+            </ul>
+            {% else %}
+            <ul type="none">
+                <input type="checkbox" id="menu-toggle" hidden>
+                <label for="menu-toggle" class="menu-icon"><li id="icone-header"><i class="fa-solid fa-user" style="color: #ffff;"></i></li></label>
+                <div class="menu">
+                <p>Olá! Seja bem vindo! Deseja fazer login?</p>
+                <a href="/login">Login</a>
+                </div>
+            </ul>
+            {% endif %}
         </section>
         <section id="pesquisa">
             <h2 id="h2-header">Bem-vindo!</h2>

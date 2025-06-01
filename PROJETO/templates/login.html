@@ -15,39 +15,39 @@
                 <li><a href="/home" id="subtitulologin">Voltar para tela principal</a></li>
             </ul></nav>
     </header>
-    <fieldset class="forma-geral-do-login">
-        <form action="/validacao-login" method="post">
-        <div class="form-imagem">
-            <img src="../static/imagens/sites-para-assistir-filmes-e-series-gratis.jpg" alt="">
-        </div>
-        <div class="formulario">
-        <div class="cabecario-do-form">
-            <h2>Login</h2>
-            <p>Seja bem vindo!</p>
-            <legend>Digite seus dados de acesso no campo abaixo.</legend>
-        </div>
-        <div class="entrada-de-dados">
-            <div class="preencher-dados">
-                <label for="input-email">E-mail:</label>
-                <input id="input-email" type="text" name="email" placeholder="user@email.com" required>
-                <label for="input-senha">Senha:</label>
-                <input id="input-senha" type="password" name="senha" placeholder="Digite sua senha..." required>
-                <div class="botoes">
-                    <!-- Botão do tipo submit, que envia os dados preenchidos. -->
-                    <button type="submit" id="botao-entrar">ENTRAR</button>   
-                    <a href="/recuperacao">Esqueceu a senha?</a>
-                    <div><hr id="separacao"></div>
-                    <!-- Código mesclado com JavaScript usando onclick para fazer um redirecionamento a tela de cadastro. -->
-                    <button type="button" id="botao-cadastrar" onclick="window.location.href='/cadastro'">CADASTRAR</button>
-                    {% if mensagem %}
-                       <p id="mensagem-flask">{{mensagem}}</p>
-                    {% endif %}
+    <main>
+            <form action="/validacao-login" method="post">
+            <div class="form-imagem">
+                <img src="../static/imagens/sites-para-assistir-filmes-e-series-gratis.jpg" alt="">
+            </div>
+            <div class="formulario">
+            <div class="cabecario-do-form">
+                <h2>Login</h2>
+                <p>Seja bem vindo!</p>
+                <legend>Digite seus dados de acesso no campo abaixo.</legend>
+            </div>
+            <div class="entrada-de-dados">
+                <div class="preencher-dados">
+                    <label for="input-email">E-mail:</label>
+                    <input id="input-email" type="text" name="email" placeholder="user@email.com" required>
+                    <label for="input-senha">Senha:</label>
+                    <input id="input-senha" type="password" name="senha" placeholder="Digite sua senha..." required>
+                    <div class="botoes">
+                        <!-- Botão do tipo submit, que envia os dados preenchidos. -->
+                        <button type="submit" id="botao-entrar">ENTRAR</button>
+                        <a href="/recuperacao">Esqueceu a senha?</a>
+                        <div><hr id="separacao"></div>
+                        <!-- Código mesclado com JavaScript usando onclick para fazer um redirecionamento a tela de cadastro. -->
+                        <button type="button" id="botao-cadastrar" onclick="window.location.href='/cadastro'">CADASTRAR</button>
+                        {% if mensagem %}
+                           <p id="mensagem-flask">{{mensagem}}</p>
+                        {% endif %}
+                    </div>
                 </div>
             </div>
-        </div>
-        </div>
-        </form>
-    </fieldset>    
+            </div>
+            </form>
+    </main>
     <footer>
         <p>&copy; Desenvolvido por Mateus Ferreira, Maria Layanne, Vinicius Matheus e Matheus Gabriel.</p>
     </footer>
