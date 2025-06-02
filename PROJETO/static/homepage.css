@@ -40,7 +40,7 @@ nav a:hover {
 }
 
 form {
-  margin: 5px auto 20px auto;  /* reduz a margem vertical */
+  margin: 5px auto 20px auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,14 +48,14 @@ form {
 }
 
 input[type="text"] {
-  padding: 8px;       /* reduz um pouco o padding */
+  padding: 8px;
   width: 250px;
   border: none;
   border-radius: 5px;
 }
 
 button {
-  padding: 8px 16px;  /* reduz o padding do botão */
+  padding: 8px 16px;
   border: none;
   background-color: rgb(10, 165, 210);
   color: black;
