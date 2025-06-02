@@ -12,7 +12,7 @@ body {
     flex-direction: column;
     margin: 0;
     min-height: 100vh;
-    background-color: black;
+    background: linear-gradient(to right, rgb(10, 154, 194), rgb(54, 32, 141));
 }
 
 header {
@@ -20,41 +20,27 @@ header {
     flex-direction: column;
 }
 
-
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     width: 200px;
     color: white;
 }
 
+
 h2 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 15px;
+    background-color: rgb(118, 35, 196);
+    border-radius: 2px;
+    color: rgba(255, 255, 255, 0.781);
+    width: 200px;
+    padding: 5px;
+    margin-top: 15px; 
+    margin-bottom: 10px; 
 }
 
 nav {
     display: flex;
-}
-
-form {
-    margin: auto;
-    width: 750px;
-    padding: 20px;
-}
-
-input {
-    margin: auto;
-    width: 500px;
-    padding: 5px;
-    border: 1px solid transparent;
-    border-radius: 5px;
-}
-
-button {
-    background-color: transparent;
-    border: transparent;
-    width: 24px;
-    height: 24px;
 }
 
 a {
@@ -65,11 +51,13 @@ a {
 }
 
 footer {
-    background-color: rgb(10, 165, 210);
+p{    
     text-align: center;
-    padding: 20px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5rem;
+    color: white;
+    font-size: 14px;
+
+}    
 }
 
 main {
@@ -83,11 +71,13 @@ main {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: 0px solid transparent;
     border-radius: 5px;
+
+ 
 }
 
 
 #cabecario {
-    background-color: rgb(10, 165, 210);
+    background-color:linear-gradient(to right, rgb(10, 154, 194), rgb(54, 32, 141));
     text-align: center;
     color: black;
     display: flex;
@@ -95,12 +85,7 @@ main {
     justify-content: space-between;
     padding: 20px 40px 20px 40px;
 }
-#pesquisa {
-    background-image: url(imagens/imagem-pipoca.jpeg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 300px;
-}
+
 
 #hr1 {
     border: 1px solid white;
@@ -119,17 +104,6 @@ main {
     justify-content: space-between;
 }
 
-#mensagem-flask {
-    margin: auto;
-    padding: 20px;
-    font-size: 32px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #ECECEC;
-    text-align: center;
-    color: black;
-    border: 1px solid transparent;
-    border-radius: 5px 5px 0px 0px;
-}
 
 #ul-header {
     width: 750px;
@@ -155,24 +129,6 @@ main {
     background-color: yellowgreen;
 }
 
-#h2-header {
-    text-align: center;
-    color: white;
-    margin: 10px;
-    font-size: 65px;
-}
-
-#p-header {
-    color: white;
-    font-size: 40px;
-    width: 200px;
-}
-
-#legend-header {
-    text-align: center;
-    color: white;
-    font-size: 25px;
-}
 
 .li-header {
     display: inline-block;
@@ -200,4 +156,54 @@ main {
     color: black;
     max-width: 500px;
     max-width: 200px;
+}
+
+.paginacao {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.paginacao a button {
+    background-color: #3c239b;
+    color: rgba(255, 255, 255, 0.849);             
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.paginacao a button:hover {
+    background-color: yellowgreen; 
+    color: black;
+}
+
+/*direção e organização dos posters */
+
+.grid-filmes {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); 
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.filme-card {
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    max-width: 150px;
+}
+
+.filme-card img {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s ease; /*animação*/
+}
+
+.filme-card img:hover {
+    transform: scale(1.05); /*zoom*/
 }

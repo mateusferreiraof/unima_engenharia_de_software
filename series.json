@@ -1,0 +1,420 @@
+{
+    "page": 3,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/qwoFxyMtArLpZZzG3mmRDEjGgCM.jpg",
+            "genre_ids": [
+                18,
+                10766
+            ],
+            "id": 239526,
+            "origin_country": [
+                "ES"
+            ],
+            "original_language": "es",
+            "original_name": "Sue\u00f1os de libertad",
+            "overview": "Na Espanha, em 1958, Jesus atira em sua nova esposa, Bego\u00f1a, enquanto foge pela floresta com sua filha. Que eventos levaram Jesus a se voltar contra sua pr\u00f3pria fam\u00edlia?",
+            "popularity": 27.9475,
+            "poster_path": "/nlZZPRCQo1H4e32wsQll2VWxEDt.jpg",
+            "first_air_date": "2024-02-25",
+            "name": "Sue\u00f1os de libertad",
+            "vote_average": 6.2,
+            "vote_count": 13
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/1GdBGyHLPWko5BFBk0MWXTjB7nJ.jpg",
+            "genre_ids": [
+                10763,
+                10767
+            ],
+            "id": 7967,
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "The Rachel Maddow Show",
+            "overview": "",
+            "popularity": 27.6338,
+            "poster_path": "/xAJRCha3Q3iY27IrZg4sycsJ8Kt.jpg",
+            "first_air_date": "2008-09-08",
+            "name": "The Rachel Maddow Show",
+            "vote_average": 6.1,
+            "vote_count": 30
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/fYzzKjM5ee1TxCcEybajZxLEB8o.jpg",
+            "genre_ids": [
+                35,
+                10751
+            ],
+            "id": 68726,
+            "origin_country": [
+                "RU"
+            ],
+            "original_language": "ru",
+            "original_name": "\u0421\u0430\u0448\u0430\u0422\u0430\u043d\u044f",
+            "overview": "",
+            "popularity": 26.6216,
+            "poster_path": "/eSbFrCAa6FwckULaJ9AFk6anXr3.jpg",
+            "first_air_date": "2013-06-03",
+            "name": "\u0421\u0430\u0448\u0430\u0422\u0430\u043d\u044f",
+            "vote_average": 6.043,
+            "vote_count": 23
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/3RC0M5ynmtrGRJBkQcYi0kjxD64.jpg",
+            "genre_ids": [
+                10764
+            ],
+            "id": 114439,
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "Let's Make a Deal",
+            "overview": "Os membros do p\u00fablico se vestem com trajes bizarros para chamar a aten\u00e7\u00e3o do apresentador Wayne Brady em uma tentativa de fazer acordos para viagens, pr\u00eamios, carros ou dinheiro, enquanto tentam evitar os temidos Zonks.",
+            "popularity": 25.9854,
+            "poster_path": "/9e2zBDDJNzwKymAWDuLhgViPc06.jpg",
+            "first_air_date": "2009-10-05",
+            "name": "Let's Make a Deal",
+            "vote_average": 4.9,
+            "vote_count": 16
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/e7MSbwYRVqd4rZQQWcNuJvOSHLC.jpg",
+            "genre_ids": [
+                10766,
+                18
+            ],
+            "id": 881,
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "Days of Our Lives",
+            "overview": "",
+            "popularity": 22.923,
+            "poster_path": "/7Zm7epVFEovMEVLpM6FvrjhaNXn.jpg",
+            "first_air_date": "1965-11-08",
+            "name": "Days of Our Lives",
+            "vote_average": 6.0,
+            "vote_count": 140
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/3Jolb6Ky31IhEwyS8QhRykKo79J.jpg",
+            "genre_ids": [
+                10766,
+                18
+            ],
+            "id": 243117,
+            "origin_country": [
+                "FR"
+            ],
+            "original_language": "fr",
+            "original_name": "Plus belle la vie, encore plus belle",
+            "overview": "",
+            "popularity": 20.1262,
+            "poster_path": "/5js5JCtxfiYF2MdNn0zGyCwyg8L.jpg",
+            "first_air_date": "2024-01-08",
+            "name": "Plus belle la vie, encore plus belle",
+            "vote_average": 5.7,
+            "vote_count": 12
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/azQGTV8qSvwefjy25UXieleGFX.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 215709,
+            "origin_country": [
+                "TR"
+            ],
+            "original_language": "tr",
+            "original_name": "Esaret",
+            "overview": "Orhun, o herdeiro aparente da fam\u00edlia Demirhanli, ocupar\u00e1 seu lugar na tela com o amor vingativo de Hira. Orhun, que puniu os perpetradores, ser\u00e1 agora guiado pelo fogo da vingan\u00e7a em seu cora\u00e7\u00e3o.",
+            "popularity": 19.6656,
+            "poster_path": "/2lUypzrIpZ87Crg2yrJKIJ5N5Z9.jpg",
+            "first_air_date": "2022-11-21",
+            "name": "O Cativeiro",
+            "vote_average": 7.8,
+            "vote_count": 8
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/bjCtKmYqdwSemqKiB8FbNEwXWzm.jpg",
+            "genre_ids": [
+                10764
+            ],
+            "id": 137228,
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "La Casa de los Famosos",
+            "overview": "",
+            "popularity": 19.612,
+            "poster_path": "/mUJMbinr9Ng5FjIRprioaG9VxRU.jpg",
+            "first_air_date": "2021-08-24",
+            "name": "La Casa de los Famosos",
+            "vote_average": 7.696,
+            "vote_count": 23
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/3z4zE7WvIyQYadqxDQ7MCpSRbOG.jpg",
+            "genre_ids": [
+                10766
+            ],
+            "id": 249010,
+            "origin_country": [
+                "ZA"
+            ],
+            "original_language": "af",
+            "original_name": "Kelders van Geheime",
+            "overview": "Kelders van Geheime (Cellars of Secrets) \u00e9 uma telenovela sul-africana em l\u00edngua afric\u00e2ner baseada nas negocia\u00e7\u00f5es e neg\u00f3cios da comunidade que vive em Soebatskloof (uma vin\u00edcola no Cabo). A s\u00e9rie foca em tr\u00eas fam\u00edlias: as fam\u00edlias Abrahams, Syster e Marais. Essas fam\u00edlias ter\u00e3o que se unir, concordar (ou concordar em discordar) e trabalhar juntas para ganhar seu p\u00e3o com manteiga \u2013 e uma ta\u00e7a de vinho.",
+            "popularity": 19.5397,
+            "poster_path": "/r0hqXxOTJ7pTEYQYl7HWrD50ym0.jpg",
+            "first_air_date": "2024-05-06",
+            "name": "Kelders van Geheime",
+            "vote_average": 6.0,
+            "vote_count": 13
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/qZ1odCAlNZhUIeLXZXU06JxRqjo.jpg",
+            "genre_ids": [
+                10766,
+                18
+            ],
+            "id": 27181,
+            "origin_country": [
+                "DE"
+            ],
+            "original_language": "de",
+            "original_name": "Rote Rosen",
+            "overview": "",
+            "popularity": 18.6927,
+            "poster_path": "/swL2qUjGrChFyj14ExwA0pwWtzv.jpg",
+            "first_air_date": "2006-11-06",
+            "name": "Rote Rosen",
+            "vote_average": 3.5,
+            "vote_count": 4
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/k2mLCJbJ8ZlGXtzF9dTI56dtgfH.jpg",
+            "genre_ids": [
+                18,
+                10751,
+                10759
+            ],
+            "id": 274556,
+            "origin_country": [
+                "TR"
+            ],
+            "original_language": "tr",
+            "original_name": "Uzak \u015eehir",
+            "overview": "",
+            "popularity": 18.2673,
+            "poster_path": "/E8tR39iX2XNZdqeDA5REFDquU6.jpg",
+            "first_air_date": "2024-11-11",
+            "name": "Uzak \u015eehir",
+            "vote_average": 8.0,
+            "vote_count": 3
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/nCXV9ARvIE2Yc9tLg6pBwpPpPld.jpg",
+            "genre_ids": [
+                10764
+            ],
+            "id": 8892,
+            "origin_country": [
+                "PH"
+            ],
+            "original_language": "tl",
+            "original_name": "Pinoy Big Brother",
+            "overview": "",
+            "popularity": 18.0103,
+            "poster_path": "/t77HwrtME1Pupc56Ftdb283uUYM.jpg",
+            "first_air_date": "2005-08-21",
+            "name": "Pinoy Big Brother",
+            "vote_average": 5.6,
+            "vote_count": 10
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/1KsdGhjvY85ua79av0Pj0JPiNPp.jpg",
+            "genre_ids": [
+                16,
+                35
+            ],
+            "id": 254174,
+            "origin_country": [
+                "JP"
+            ],
+            "original_language": "ja",
+            "original_name": "\u304b\u304f\u3057\u3066\uff01 \u30de\u30ad\u30ca\u3055\u3093!!",
+            "overview": "Certo dia, Makina, a idol da escola, se muda para a casa de Eita, um otaku de mechas. Como Eita \u00e9 apaixonado pela garota, acaba em uma situa\u00e7\u00e3o vantajosa com isso. S\u00f3 que ele n\u00e3o esperava que Makina na verdade \u00e9 uma rob\u00f4 sexual. Eita, como virgem, fica sem saber o que fazer em rela\u00e7\u00e3o \u00e0s investidas de Makina. Sem falar que ele tamb\u00e9m precisa ajud\u00e1-la a esconder sua verdadeira identidade. Uma com\u00e9dia rom\u00e2ntica com um pouquinho de prazer mec\u00e2nico!",
+            "popularity": 17.8296,
+            "poster_path": "/xf2ziRzpob7sTjUNtW1qkbWNKQF.jpg",
+            "first_air_date": "2025-04-07",
+            "name": "Kakushite! Makina-san!!",
+            "vote_average": 6.0,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/ljS3auI8tPDYyLw6CnNpLcr2kjT.jpg",
+            "genre_ids": [
+                10766
+            ],
+            "id": 987,
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "General Hospital",
+            "overview": "General Hospital \u00e9 ambientada na cidade fict\u00edcia de Port Charles, em Nova York. A s\u00e9rie acompanha a rotina do Hospital, enfermeiros, m\u00e9dicos e pacientes.",
+            "popularity": 17.6663,
+            "poster_path": "/gS5iORCJHwP5moEXSF9b6ZcsZ1w.jpg",
+            "first_air_date": "1963-04-01",
+            "name": "General Hospital",
+            "vote_average": 5.7,
+            "vote_count": 208
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/goz9KqwTKy8pCW2iOycBLMBtJ0y.jpg",
+            "genre_ids": [
+                16,
+                35,
+                10765
+            ],
+            "id": 271003,
+            "origin_country": [
+                "JP"
+            ],
+            "original_language": "ja",
+            "original_name": "\u3061\u3087\u3063\u3068\u3060\u3051\u611b\u304c\u91cd\u3044\u30c0\u30fc\u30af\u30a8\u30eb\u30d5\u304c\u7570\u4e16\u754c\u304b\u3089\u8ffd\u3044\u304b\u3051\u3066\u304d\u305f",
+            "overview": "",
+            "popularity": 17.261,
+            "poster_path": "/br6b3hhZQYOyN6zKS3INNxuLjla.jpg",
+            "first_air_date": "2025-04-07",
+            "name": "\u3061\u3087\u3063\u3068\u3060\u3051\u611b\u304c\u91cd\u3044\u30c0\u30fc\u30af\u30a8\u30eb\u30d5\u304c\u7570\u4e16\u754c\u304b\u3089\u8ffd\u3044\u304b\u3051\u3066\u304d\u305f",
+            "vote_average": 9.3,
+            "vote_count": 3
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/k4Im5j9MhPazSy5MLsSgqOMjnG9.jpg",
+            "genre_ids": [
+                10764
+            ],
+            "id": 37757,
+            "origin_country": [
+                "GR"
+            ],
+            "original_language": "el",
+            "original_name": "MasterChef Greece",
+            "overview": "",
+            "popularity": 16.8246,
+            "poster_path": "/h0MR8xGqddeeJHgqDuW14jW25ov.jpg",
+            "first_air_date": "2010-10-03",
+            "name": "MasterChef Greece",
+            "vote_average": 5.6,
+            "vote_count": 8
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/iUcl0vOHaOPwYXTo7rz7kOCuNld.jpg",
+            "genre_ids": [
+                10764
+            ],
+            "id": 110195,
+            "origin_country": [
+                "KR"
+            ],
+            "original_language": "ko",
+            "original_name": "TO DO X TXT",
+            "overview": "",
+            "popularity": 16.1153,
+            "poster_path": "/5Du775eKgdpzkid4PggEoB2kfan.jpg",
+            "first_air_date": "2020-01-13",
+            "name": "TO DO X TXT",
+            "vote_average": 9.9,
+            "vote_count": 7
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/3UtKvTXlqLNHoADgkKxdj5QppPN.jpg",
+            "genre_ids": [
+                10764
+            ],
+            "id": 137726,
+            "origin_country": [
+                "CN"
+            ],
+            "original_language": "zh",
+            "original_name": "\u6bdb\u96ea\u6c6a",
+            "overview": "",
+            "popularity": 15.9172,
+            "poster_path": "/kYBvEOxNhD3IfzapT6x1uPnTEFa.jpg",
+            "first_air_date": "2021-11-01",
+            "name": "\u6bdb\u96ea\u6c6a",
+            "vote_average": 8.8,
+            "vote_count": 5
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/d3mjRLGl6AsghMrc5taOXuN80iQ.jpg",
+            "genre_ids": [
+                16,
+                10765,
+                10759
+            ],
+            "id": 101172,
+            "origin_country": [
+                "CN"
+            ],
+            "original_language": "zh",
+            "original_name": "\u541e\u566c\u661f\u7a7a",
+            "overview": "Um dia, um v\u00edrus RR inexplic\u00e1vel apareceu na Terra, levando o mundo ao desastre. Animais infectados se transformaram em monstros terr\u00edveis, invadiram maci\u00e7amente, e os humanos constru\u00edram paredes ao redor da destrui\u00e7\u00e3o e estabeleceram a cidade base como o \u00faltimo basti\u00e3o para os humanos. O sofrimento que a humanidade experimentou durante este per\u00edodo de tempo \u00e9 conhecido como o \"Grande Per\u00edodo do Nirvana\". N\u00e3o s\u00f3 isso, Luo Feng n\u00e3o s\u00f3 carregava o fardo de sustentar a fam\u00edlia, mas tamb\u00e9m de proteger a p\u00e1tria humana, para a melhor sobreviv\u00eancia e desenvolvimento da humanidade, junto com outros guerreiros da justi\u00e7a, para dar as m\u00e3os contra os monstros ferozes. Sob a situa\u00e7\u00e3o desesperadora do fim, Luo Feng e outros guerreiros podem repelir monstros e proteger com sucesso o mundo humano?",
+            "popularity": 15.408,
+            "poster_path": "/wVIXqqxFbcfYLbdfPCce2jWXFMu.jpg",
+            "first_air_date": "2020-11-29",
+            "name": "Swallowed Star",
+            "vote_average": 8.4,
+            "vote_count": 27
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/3qDzdlXbwhPWMopcyyw0o82wyVx.jpg",
+            "genre_ids": [
+                10764
+            ],
+            "id": 50042,
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "Below Deck",
+            "overview": "Os mundos de cima e de baixo colidem quando esta jovem e solteira tripula\u00e7\u00e3o de \"iates\" vive, ama e trabalha junto a bordo de um mega iate luxuoso enquanto atende \u00e0s necessidades em constante mudan\u00e7a de seus ricos e exigentes h\u00f3spedes fretados.",
+            "popularity": 15.3323,
+            "poster_path": "/xMkYEWMGB7F7YfzJ24DPXoDj8vo.jpg",
+            "first_air_date": "2013-07-01",
+            "name": "Below Deck",
+            "vote_average": 7.4,
+            "vote_count": 54
+        }
+    ],
+    "total_pages": 16,
+    "total_results": 318
+}
