@@ -1,420 +1,419 @@
 {
-    "page": 3,
+    "page": 1,
     "results": [
         {
             "adult": false,
-            "backdrop_path": "/qwoFxyMtArLpZZzG3mmRDEjGgCM.jpg",
+            "backdrop_path": "/gMMnf8VRg3Z98WaFmOLr9Jk8pIs.jpg",
+            "genre_ids": [
+                35,
+                10767
+            ],
+            "id": 63770,
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "The Late Show with Stephen Colbert",
+            "overview": "",
+            "popularity": 514.5437,
+            "poster_path": "/9jkThAGYj2yp8jsS6Nriy5mzKFT.jpg",
+            "first_air_date": "2015-09-08",
+            "name": "The Late Show with Stephen Colbert",
+            "vote_average": 6.3,
+            "vote_count": 308
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/kA50bkSC6bw5ZkutYrN9sLD9CZ9.jpg",
+            "genre_ids": [
+                10767,
+                35
+            ],
+            "id": 22980,
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "Watch What Happens Live with Andy Cohen",
+            "overview": "",
+            "popularity": 508.0417,
+            "poster_path": "/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
+            "first_air_date": "2009-07-16",
+            "name": "Watch What Happens Live with Andy Cohen",
+            "vote_average": 5.1,
+            "vote_count": 71
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/qLMfcvdCcCGD2BNLH8b6ZCBuO7D.jpg",
+            "genre_ids": [
+                10763,
+                35
+            ],
+            "id": 2224,
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "The Daily Show",
+            "overview": "The Daily Show \u00e9 um programa estadunidense de not\u00edcias que satiriza sobretudo a pol\u00edtica norte-americana. O programa come\u00e7ou em 1996 e era originalmente apresentado por Craig Killborn. Jon Stewart, que substituiu Killborn em 1999, apresentou o programa at\u00e9 agosto de 2015. Em setembro do mesmo ano o show foi assumido por Trevor Noah.",
+            "popularity": 347.058,
+            "poster_path": "/ixcfyK7it6FjRM36Te4OdblAq4X.jpg",
+            "first_air_date": "1996-07-22",
+            "name": "The Daily Show com Trevor Noah",
+            "vote_average": 6.4,
+            "vote_count": 573
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/h0y3OzHzG4yNvn8u3Za6ByH8lrQ.jpg",
             "genre_ids": [
                 18,
                 10766
             ],
-            "id": 239526,
-            "origin_country": [
-                "ES"
-            ],
-            "original_language": "es",
-            "original_name": "Sue\u00f1os de libertad",
-            "overview": "Na Espanha, em 1958, Jesus atira em sua nova esposa, Bego\u00f1a, enquanto foge pela floresta com sua filha. Que eventos levaram Jesus a se voltar contra sua pr\u00f3pria fam\u00edlia?",
-            "popularity": 27.9475,
-            "poster_path": "/nlZZPRCQo1H4e32wsQll2VWxEDt.jpg",
-            "first_air_date": "2024-02-25",
-            "name": "Sue\u00f1os de libertad",
-            "vote_average": 6.2,
-            "vote_count": 13
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/1GdBGyHLPWko5BFBk0MWXTjB7nJ.jpg",
-            "genre_ids": [
-                10763,
-                10767
-            ],
-            "id": 7967,
-            "origin_country": [
-                "US"
-            ],
-            "original_language": "en",
-            "original_name": "The Rachel Maddow Show",
-            "overview": "",
-            "popularity": 27.6338,
-            "poster_path": "/xAJRCha3Q3iY27IrZg4sycsJ8Kt.jpg",
-            "first_air_date": "2008-09-08",
-            "name": "The Rachel Maddow Show",
-            "vote_average": 6.1,
-            "vote_count": 30
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/fYzzKjM5ee1TxCcEybajZxLEB8o.jpg",
-            "genre_ids": [
-                35,
-                10751
-            ],
-            "id": 68726,
-            "origin_country": [
-                "RU"
-            ],
-            "original_language": "ru",
-            "original_name": "\u0421\u0430\u0448\u0430\u0422\u0430\u043d\u044f",
-            "overview": "",
-            "popularity": 26.6216,
-            "poster_path": "/eSbFrCAa6FwckULaJ9AFk6anXr3.jpg",
-            "first_air_date": "2013-06-03",
-            "name": "\u0421\u0430\u0448\u0430\u0422\u0430\u043d\u044f",
-            "vote_average": 6.043,
-            "vote_count": 23
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/3RC0M5ynmtrGRJBkQcYi0kjxD64.jpg",
-            "genre_ids": [
-                10764
-            ],
-            "id": 114439,
-            "origin_country": [
-                "US"
-            ],
-            "original_language": "en",
-            "original_name": "Let's Make a Deal",
-            "overview": "Os membros do p\u00fablico se vestem com trajes bizarros para chamar a aten\u00e7\u00e3o do apresentador Wayne Brady em uma tentativa de fazer acordos para viagens, pr\u00eamios, carros ou dinheiro, enquanto tentam evitar os temidos Zonks.",
-            "popularity": 25.9854,
-            "poster_path": "/9e2zBDDJNzwKymAWDuLhgViPc06.jpg",
-            "first_air_date": "2009-10-05",
-            "name": "Let's Make a Deal",
-            "vote_average": 4.9,
-            "vote_count": 16
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/e7MSbwYRVqd4rZQQWcNuJvOSHLC.jpg",
-            "genre_ids": [
-                10766,
-                18
-            ],
-            "id": 881,
-            "origin_country": [
-                "US"
-            ],
-            "original_language": "en",
-            "original_name": "Days of Our Lives",
-            "overview": "",
-            "popularity": 22.923,
-            "poster_path": "/7Zm7epVFEovMEVLpM6FvrjhaNXn.jpg",
-            "first_air_date": "1965-11-08",
-            "name": "Days of Our Lives",
-            "vote_average": 6.0,
-            "vote_count": 140
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/3Jolb6Ky31IhEwyS8QhRykKo79J.jpg",
-            "genre_ids": [
-                10766,
-                18
-            ],
-            "id": 243117,
-            "origin_country": [
-                "FR"
-            ],
-            "original_language": "fr",
-            "original_name": "Plus belle la vie, encore plus belle",
-            "overview": "",
-            "popularity": 20.1262,
-            "poster_path": "/5js5JCtxfiYF2MdNn0zGyCwyg8L.jpg",
-            "first_air_date": "2024-01-08",
-            "name": "Plus belle la vie, encore plus belle",
-            "vote_average": 5.7,
-            "vote_count": 12
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/azQGTV8qSvwefjy25UXieleGFX.jpg",
-            "genre_ids": [
-                18
-            ],
-            "id": 215709,
-            "origin_country": [
-                "TR"
-            ],
-            "original_language": "tr",
-            "original_name": "Esaret",
-            "overview": "Orhun, o herdeiro aparente da fam\u00edlia Demirhanli, ocupar\u00e1 seu lugar na tela com o amor vingativo de Hira. Orhun, que puniu os perpetradores, ser\u00e1 agora guiado pelo fogo da vingan\u00e7a em seu cora\u00e7\u00e3o.",
-            "popularity": 19.6656,
-            "poster_path": "/2lUypzrIpZ87Crg2yrJKIJ5N5Z9.jpg",
-            "first_air_date": "2022-11-21",
-            "name": "O Cativeiro",
-            "vote_average": 7.8,
-            "vote_count": 8
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/bjCtKmYqdwSemqKiB8FbNEwXWzm.jpg",
-            "genre_ids": [
-                10764
-            ],
-            "id": 137228,
-            "origin_country": [
-                "US"
-            ],
-            "original_language": "en",
-            "original_name": "La Casa de los Famosos",
-            "overview": "",
-            "popularity": 19.612,
-            "poster_path": "/mUJMbinr9Ng5FjIRprioaG9VxRU.jpg",
-            "first_air_date": "2021-08-24",
-            "name": "La Casa de los Famosos",
-            "vote_average": 7.696,
-            "vote_count": 23
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/3z4zE7WvIyQYadqxDQ7MCpSRbOG.jpg",
-            "genre_ids": [
-                10766
-            ],
-            "id": 249010,
-            "origin_country": [
-                "ZA"
-            ],
-            "original_language": "af",
-            "original_name": "Kelders van Geheime",
-            "overview": "Kelders van Geheime (Cellars of Secrets) \u00e9 uma telenovela sul-africana em l\u00edngua afric\u00e2ner baseada nas negocia\u00e7\u00f5es e neg\u00f3cios da comunidade que vive em Soebatskloof (uma vin\u00edcola no Cabo). A s\u00e9rie foca em tr\u00eas fam\u00edlias: as fam\u00edlias Abrahams, Syster e Marais. Essas fam\u00edlias ter\u00e3o que se unir, concordar (ou concordar em discordar) e trabalhar juntas para ganhar seu p\u00e3o com manteiga \u2013 e uma ta\u00e7a de vinho.",
-            "popularity": 19.5397,
-            "poster_path": "/r0hqXxOTJ7pTEYQYl7HWrD50ym0.jpg",
-            "first_air_date": "2024-05-06",
-            "name": "Kelders van Geheime",
-            "vote_average": 6.0,
-            "vote_count": 13
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/qZ1odCAlNZhUIeLXZXU06JxRqjo.jpg",
-            "genre_ids": [
-                10766,
-                18
-            ],
-            "id": 27181,
+            "id": 45789,
             "origin_country": [
                 "DE"
             ],
             "original_language": "de",
-            "original_name": "Rote Rosen",
+            "original_name": "Sturm der Liebe",
             "overview": "",
-            "popularity": 18.6927,
-            "poster_path": "/swL2qUjGrChFyj14ExwA0pwWtzv.jpg",
-            "first_air_date": "2006-11-06",
-            "name": "Rote Rosen",
-            "vote_average": 3.5,
-            "vote_count": 4
+            "popularity": 346.6472,
+            "poster_path": "/jfFNydakwvbeACEwSd2Gh8UWtba.jpg",
+            "first_air_date": "2005-09-26",
+            "name": "Sturm der Liebe",
+            "vote_average": 6.066,
+            "vote_count": 38
         },
         {
             "adult": false,
-            "backdrop_path": "/k2mLCJbJ8ZlGXtzF9dTI56dtgfH.jpg",
-            "genre_ids": [
-                18,
-                10751,
-                10759
-            ],
-            "id": 274556,
-            "origin_country": [
-                "TR"
-            ],
-            "original_language": "tr",
-            "original_name": "Uzak \u015eehir",
-            "overview": "",
-            "popularity": 18.2673,
-            "poster_path": "/E8tR39iX2XNZdqeDA5REFDquU6.jpg",
-            "first_air_date": "2024-11-11",
-            "name": "Uzak \u015eehir",
-            "vote_average": 8.0,
-            "vote_count": 3
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/nCXV9ARvIE2Yc9tLg6pBwpPpPld.jpg",
-            "genre_ids": [
-                10764
-            ],
-            "id": 8892,
-            "origin_country": [
-                "PH"
-            ],
-            "original_language": "tl",
-            "original_name": "Pinoy Big Brother",
-            "overview": "",
-            "popularity": 18.0103,
-            "poster_path": "/t77HwrtME1Pupc56Ftdb283uUYM.jpg",
-            "first_air_date": "2005-08-21",
-            "name": "Pinoy Big Brother",
-            "vote_average": 5.6,
-            "vote_count": 10
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/1KsdGhjvY85ua79av0Pj0JPiNPp.jpg",
-            "genre_ids": [
-                16,
-                35
-            ],
-            "id": 254174,
-            "origin_country": [
-                "JP"
-            ],
-            "original_language": "ja",
-            "original_name": "\u304b\u304f\u3057\u3066\uff01 \u30de\u30ad\u30ca\u3055\u3093!!",
-            "overview": "Certo dia, Makina, a idol da escola, se muda para a casa de Eita, um otaku de mechas. Como Eita \u00e9 apaixonado pela garota, acaba em uma situa\u00e7\u00e3o vantajosa com isso. S\u00f3 que ele n\u00e3o esperava que Makina na verdade \u00e9 uma rob\u00f4 sexual. Eita, como virgem, fica sem saber o que fazer em rela\u00e7\u00e3o \u00e0s investidas de Makina. Sem falar que ele tamb\u00e9m precisa ajud\u00e1-la a esconder sua verdadeira identidade. Uma com\u00e9dia rom\u00e2ntica com um pouquinho de prazer mec\u00e2nico!",
-            "popularity": 17.8296,
-            "poster_path": "/xf2ziRzpob7sTjUNtW1qkbWNKQF.jpg",
-            "first_air_date": "2025-04-07",
-            "name": "Kakushite! Makina-san!!",
-            "vote_average": 6.0,
-            "vote_count": 1
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/ljS3auI8tPDYyLw6CnNpLcr2kjT.jpg",
+            "backdrop_path": "/s1dTt4M31q2HwD5Fkl1tf5tQzJg.jpg",
             "genre_ids": [
                 10766
             ],
-            "id": 987,
+            "id": 206559,
+            "origin_country": [
+                "ZA"
+            ],
+            "original_language": "af",
+            "original_name": "Binnelanders",
+            "overview": "Uma novela sul-africana em afric\u00e2ner. Ela se passa dentro e ao redor do hospital privado fict\u00edcio, Binneland Kliniek, em Pret\u00f3ria, e o enredo segue os testes, traumas e tribula\u00e7\u00f5es da equipe e dos pacientes do hospital.",
+            "popularity": 212.5042,
+            "poster_path": "/3bzECfllho8PphdYujLUIuhncJD.jpg",
+            "first_air_date": "2005-10-13",
+            "name": "Binnelanders",
+            "vote_average": 5.6,
+            "vote_count": 94
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/pmAzkQJa993nIgPqFtVmOhStHXg.jpg",
+            "genre_ids": [
+                18,
+                10766
+            ],
+            "id": 2354,
+            "origin_country": [
+                "AU"
+            ],
+            "original_language": "en",
+            "original_name": "Home and Away",
+            "overview": "A hist\u00f3ria come\u00e7a em 1988, na vida de Tom Fletcher e sua esposa Pippa que n\u00e3o conseguia engravidar. O casal decide se mudar para Summer Bay com seus cinco filhos adotivos Frank Morgan, Carly Morris, Steven Matheson, Lynn Davenport e Sally Fletcher. Eles logo se juntam ao problem\u00e1tico Bobby Simpson. A fam\u00edlia rapidamente construiu la\u00e7os amig\u00e1veis \u200b\u200bcom os moradores locais Neville e Floss McPhee e Alf Steward e sua esposa Ailsa Stewart.\n\nCom o passar do tempo, a hist\u00f3ria nos conta a vida e as hist\u00f3rias que acontecem aos residentes de Summer Bay, uma pequena cidade costeira em uma ba\u00eda em New South Wales, Austr\u00e1lia.",
+            "popularity": 168.731,
+            "poster_path": "/vn0eKMiG69bhQtxb7qLRo8SSqu5.jpg",
+            "first_air_date": "1988-01-18",
+            "name": "Home and Away",
+            "vote_average": 6.292,
+            "vote_count": 72
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/ynd225o8GuCahYGjHtFdEt8Xizm.jpg",
+            "genre_ids": [
+                10766
+            ],
+            "id": 235484,
+            "origin_country": [
+                "ZA"
+            ],
+            "original_language": "af",
+            "original_name": "Suidooster",
+            "overview": "Suidooster \u00e9 uma novela sul-africana produzida pela Suidooster Films que gira em torno de uma matriarca, sua fam\u00edlia, amigos e o povo de Suidooster, um pequeno centro comercial e empresarial no sub\u00farbio fict\u00edcio de Ruiterbosch, na Cidade do Cabo.",
+            "popularity": 162.0906,
+            "poster_path": "/naCgSiacvV685kait6fBvhVhdce.jpg",
+            "first_air_date": "2015-11-16",
+            "name": "Suidooster",
+            "vote_average": 7.091,
+            "vote_count": 22
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/hvFCS0dMeC3ffiF4uYTKzUAkvYL.jpg",
+            "genre_ids": [
+                35
+            ],
+            "id": 65701,
             "origin_country": [
                 "US"
             ],
             "original_language": "en",
-            "original_name": "General Hospital",
-            "overview": "General Hospital \u00e9 ambientada na cidade fict\u00edcia de Port Charles, em Nova York. A s\u00e9rie acompanha a rotina do Hospital, enfermeiros, m\u00e9dicos e pacientes.",
-            "popularity": 17.6663,
-            "poster_path": "/gS5iORCJHwP5moEXSF9b6ZcsZ1w.jpg",
-            "first_air_date": "1963-04-01",
-            "name": "General Hospital",
-            "vote_average": 5.7,
-            "vote_count": 208
+            "original_name": "Good Mythical Morning",
+            "overview": "",
+            "popularity": 158.8934,
+            "poster_path": "/jMpBQr2aNOFAI6wsC47zsOG6qOh.jpg",
+            "first_air_date": "2012-01-09",
+            "name": "Good Mythical Morning",
+            "vote_average": 7.0,
+            "vote_count": 78
         },
         {
             "adult": false,
-            "backdrop_path": "/goz9KqwTKy8pCW2iOycBLMBtJ0y.jpg",
+            "backdrop_path": "/pmB8uYJF1WKQCZnJjhnAx2IJjhk.jpg",
             "genre_ids": [
-                16,
-                35,
-                10765
+                10766
             ],
-            "id": 271003,
+            "id": 14750,
             "origin_country": [
-                "JP"
+                "PL"
             ],
-            "original_language": "ja",
-            "original_name": "\u3061\u3087\u3063\u3068\u3060\u3051\u611b\u304c\u91cd\u3044\u30c0\u30fc\u30af\u30a8\u30eb\u30d5\u304c\u7570\u4e16\u754c\u304b\u3089\u8ffd\u3044\u304b\u3051\u3066\u304d\u305f",
+            "original_language": "pl",
+            "original_name": "Na Wsp\u00f3lnej",
             "overview": "",
-            "popularity": 17.261,
-            "poster_path": "/br6b3hhZQYOyN6zKS3INNxuLjla.jpg",
-            "first_air_date": "2025-04-07",
-            "name": "\u3061\u3087\u3063\u3068\u3060\u3051\u611b\u304c\u91cd\u3044\u30c0\u30fc\u30af\u30a8\u30eb\u30d5\u304c\u7570\u4e16\u754c\u304b\u3089\u8ffd\u3044\u304b\u3051\u3066\u304d\u305f",
-            "vote_average": 9.3,
+            "popularity": 151.0348,
+            "poster_path": "/uksRhdaOn64bO5d33d7rcTbrhJI.jpg",
+            "first_air_date": "2003-01-27",
+            "name": "Na Wsp\u00f3lnej",
+            "vote_average": 4.4,
+            "vote_count": 9
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/9kGfwwA0N0KOen7oTBGSVoQsXLz.jpg",
+            "genre_ids": [
+                35,
+                18,
+                10766
+            ],
+            "id": 32209,
+            "origin_country": [
+                "PE"
+            ],
+            "original_language": "es",
+            "original_name": "Al Fondo Hay Sitio",
+            "overview": "Al fondo hay sitio \u00e9 uma s\u00e9rie peruana, in\u00e9dita no Brasil, criada por Efra\u00edn Aguilar e exibida pela Am\u00e9rica Televisi\u00f3n: narra a vida dos Gonz\u00e1lez e os Maldini, duas fam\u00edlias diametralmente opostas, e os problemas entre os dois, na residencial Las Lomas.",
+            "popularity": 150.2706,
+            "poster_path": "/4BkYVoybIvM2U7zeg2JTT5M5dwF.jpg",
+            "first_air_date": "2009-03-30",
+            "name": "No fundo ainda h\u00e1 lugar",
+            "vote_average": 7.827,
+            "vote_count": 223
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/eGPH1IwktalozwCmeLTp3aPbHGC.jpg",
+            "genre_ids": [
+                10764
+            ],
+            "id": 4656,
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "Raw",
+            "overview": "Esta s\u00e9rie pioneira da WWE destaca mais de trinta anos de lutas inesquec\u00edveis, momentos marcantes e epis\u00f3dios cheios de grandes estrelas.",
+            "popularity": 144.6218,
+            "poster_path": "/pv5WNnLUo7mpT8k901Lo8UovrqI.jpg",
+            "first_air_date": "1993-01-11",
+            "name": "Raw",
+            "vote_average": 6.8,
+            "vote_count": 329
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/vgeDRVpSUa4Hvovg4C6dgm4dfUW.jpg",
+            "genre_ids": [
+                10766,
+                18
+            ],
+            "id": 112470,
+            "origin_country": [
+                "FR"
+            ],
+            "original_language": "fr",
+            "original_name": "Ici tout commence",
+            "overview": "Esta s\u00e9rie de drama televisivo \u00e9 centrada na prestigiada escola de culin\u00e1ria do renomado chef Auguste Armand. O programa acompanha a vida de alunos e funcion\u00e1rios enquanto eles navegam pelos desafios e press\u00f5es do mundo culin\u00e1rio \u2014 mergulhando em suas vidas pessoais e profissionais, revelando segredos, rivalidades e relacionamentos complexos.",
+            "popularity": 138.1403,
+            "poster_path": "/x9HeaagUAyyGl1fQ6exQcpELBxP.jpg",
+            "first_air_date": "2020-11-02",
+            "name": "Ici tout commence",
+            "vote_average": 6.818,
+            "vote_count": 88
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/aizbHLcKVWvJ7jxkflJzTu5Z8GE.jpg",
+            "genre_ids": [
+                10766
+            ],
+            "id": 81329,
+            "origin_country": [
+                "FR"
+            ],
+            "original_language": "fr",
+            "original_name": "Un si grand soleil",
+            "overview": "De volta a Montpellier com o filho, Th\u00e9o, depois de uma aus\u00eancia de dezessete anos, Claire \u00e9 acusada do homic\u00eddio de um amigo de inf\u00e2ncia.",
+            "popularity": 133.8468,
+            "poster_path": "/v4r70Z5id8eHFCxrfBOtRgu6wLr.jpg",
+            "first_air_date": "2018-08-27",
+            "name": "Un si grand soleil",
+            "vote_average": 6.702,
+            "vote_count": 121
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/5APjn4LnV5wWk5DXq7ZewT6zzP1.jpg",
+            "genre_ids": [
+                10766
+            ],
+            "id": 291,
+            "origin_country": [
+                "GB"
+            ],
+            "original_language": "en",
+            "original_name": "Coronation Street",
+            "overview": "Coronation Street \u00e9 uma novela de televis\u00e3o brit\u00e2nica transmitida pela primeira vez na Granada Television em 1960. Ela foi logo distribu\u00edda em outras franquias da ITV. O programa diz respeito \u00e0 vida dos residentes da Coronation Street em Weatherfield, uma \u00e1rea fict\u00edcia de Salford, e gira em torno de suas casas geminadas, caf\u00e9s, lojas de esquina, bancas de jornais, f\u00e1bricas de tecidos e o pub Rovers Return.\n\nO programa foi criado em 1960 pelo roteirista local Tony Warren na rec\u00e9m-formada Granada Television, em Manchester. A proposta inicial de Warren para a pia da cozinha foi rejeitada pelo fundador da emissora, Sidney Bernstein, mas ele foi persuadido pelo produtor Harry Elton a produzir o programa para treze epis\u00f3dios-piloto. Foi transmitido pela primeira vez em 9 de dezembro de 1960 e, em seis meses, tornou-se o programa mais assistido da televis\u00e3o brit\u00e2nica. Foi um dos programas financeiramente mais lucrativos da televis\u00e3o comercial brit\u00e2nica, sustentando o sucesso da franquia Granada Television e da emissora ITV.",
+            "popularity": 133.1087,
+            "poster_path": "/5x1HXqYqPyYw7oc7Isu1lvVmwRP.jpg",
+            "first_air_date": "1960-12-09",
+            "name": "Coronation Street",
+            "vote_average": 5.338,
+            "vote_count": 111
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/p0umYdTa7csDT9SkZX8DD52Sy4a.jpg",
+            "genre_ids": [
+                10764
+            ],
+            "id": 2051,
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "The Price Is Right",
+            "overview": "O programa envolve participantes competindo para identificar corretamente o pre\u00e7o de itens comuns para ganhar dinheiro e pr\u00eamios. Os participantes s\u00e3o selecionados dentre a plateia no est\u00fadio quando o narrador anuncia a frase bord\u00e3o do show: \"Come on down!\". Um pedido para que saiam da plateia e venham para o palco.",
+            "popularity": 116.8408,
+            "poster_path": "/7MSqORrf1RZsmLUTQ2XoEJEtzt5.jpg",
+            "first_air_date": "1972-09-04",
+            "name": "The Price Is Right",
+            "vote_average": 6.2,
+            "vote_count": 85
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/kkfqNkGQR5og5sDjJTxTVmI9PW.jpg",
+            "genre_ids": [
+                80,
+                18,
+                10766
+            ],
+            "id": 72879,
+            "origin_country": [
+                "FR"
+            ],
+            "original_language": "fr",
+            "original_name": "Demain nous appartient",
+            "overview": "A hist\u00f3ria gira em torno do povo de S\u00e8te, Fran\u00e7a. Suas vidas s\u00e3o pontuadas por rivalidades familiares, romance e cenas da vida cotidiana, mas tamb\u00e9m por tramas envolvendo investiga\u00e7\u00f5es policiais, segredos e trai\u00e7\u00f5es.",
+            "popularity": 113.5978,
+            "poster_path": "/zMWldNZF0wS3L5XkDVFHxYhclcL.jpg",
+            "first_air_date": "2017-07-17",
+            "name": "Demain nous appartient",
+            "vote_average": 6.288,
+            "vote_count": 66
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/upD2G9Z7W07w47c7B8ZqLqbTDc5.jpg",
+            "genre_ids": [
+                10767
+            ],
+            "id": 1900,
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "LIVE with Kelly and Mark",
+            "overview": "",
+            "popularity": 111.8892,
+            "poster_path": "/hBkyypWN3EcOzkozatiCm5VeaG.jpg",
+            "first_air_date": "1988-09-05",
+            "name": "LIVE with Kelly and Mark",
+            "vote_average": 5.5,
+            "vote_count": 45
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/khxuPmWXgO1vjwAxalnHGnjAgXb.jpg",
+            "genre_ids": [
+                10766,
+                35
+            ],
+            "id": 124201,
+            "origin_country": [
+                "PT"
+            ],
+            "original_language": "pt",
+            "original_name": "Festa \u00e9 Festa",
+            "overview": "",
+            "popularity": 105.5066,
+            "poster_path": "/rlQlfiBR0zY1ucBIvB2neYUVfFP.jpg",
+            "first_air_date": "2021-04-26",
+            "name": "Festa \u00e9 Festa",
+            "vote_average": 7.0,
             "vote_count": 3
         },
         {
             "adult": false,
-            "backdrop_path": "/k4Im5j9MhPazSy5MLsSgqOMjnG9.jpg",
+            "backdrop_path": "/1iAc3ML51uNe16jlxTQV84mLHG2.jpg",
             "genre_ids": [
-                10764
+                10766
             ],
-            "id": 37757,
+            "id": 40879,
             "origin_country": [
-                "GR"
+                "DE"
             ],
-            "original_language": "el",
-            "original_name": "MasterChef Greece",
+            "original_language": "de",
+            "original_name": "Dahoam is Dahoam",
             "overview": "",
-            "popularity": 16.8246,
-            "poster_path": "/h0MR8xGqddeeJHgqDuW14jW25ov.jpg",
-            "first_air_date": "2010-10-03",
-            "name": "MasterChef Greece",
+            "popularity": 87.3866,
+            "poster_path": "/tGXZEUgSbgufoOpXMImSKPDd5A3.jpg",
+            "first_air_date": "2007-10-08",
+            "name": "Dahoam is Dahoam",
             "vote_average": 5.6,
-            "vote_count": 8
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/iUcl0vOHaOPwYXTo7rz7kOCuNld.jpg",
-            "genre_ids": [
-                10764
-            ],
-            "id": 110195,
-            "origin_country": [
-                "KR"
-            ],
-            "original_language": "ko",
-            "original_name": "TO DO X TXT",
-            "overview": "",
-            "popularity": 16.1153,
-            "poster_path": "/5Du775eKgdpzkid4PggEoB2kfan.jpg",
-            "first_air_date": "2020-01-13",
-            "name": "TO DO X TXT",
-            "vote_average": 9.9,
-            "vote_count": 7
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/3UtKvTXlqLNHoADgkKxdj5QppPN.jpg",
-            "genre_ids": [
-                10764
-            ],
-            "id": 137726,
-            "origin_country": [
-                "CN"
-            ],
-            "original_language": "zh",
-            "original_name": "\u6bdb\u96ea\u6c6a",
-            "overview": "",
-            "popularity": 15.9172,
-            "poster_path": "/kYBvEOxNhD3IfzapT6x1uPnTEFa.jpg",
-            "first_air_date": "2021-11-01",
-            "name": "\u6bdb\u96ea\u6c6a",
-            "vote_average": 8.8,
             "vote_count": 5
         },
         {
             "adult": false,
-            "backdrop_path": "/d3mjRLGl6AsghMrc5taOXuN80iQ.jpg",
+            "backdrop_path": "/5dv4q9x4vTVTT6IHIlfEDvFhJet.jpg",
             "genre_ids": [
-                16,
-                10765,
-                10759
+                10763,
+                35
             ],
-            "id": 101172,
+            "id": 44337,
             "origin_country": [
-                "CN"
-            ],
-            "original_language": "zh",
-            "original_name": "\u541e\u566c\u661f\u7a7a",
-            "overview": "Um dia, um v\u00edrus RR inexplic\u00e1vel apareceu na Terra, levando o mundo ao desastre. Animais infectados se transformaram em monstros terr\u00edveis, invadiram maci\u00e7amente, e os humanos constru\u00edram paredes ao redor da destrui\u00e7\u00e3o e estabeleceram a cidade base como o \u00faltimo basti\u00e3o para os humanos. O sofrimento que a humanidade experimentou durante este per\u00edodo de tempo \u00e9 conhecido como o \"Grande Per\u00edodo do Nirvana\". N\u00e3o s\u00f3 isso, Luo Feng n\u00e3o s\u00f3 carregava o fardo de sustentar a fam\u00edlia, mas tamb\u00e9m de proteger a p\u00e1tria humana, para a melhor sobreviv\u00eancia e desenvolvimento da humanidade, junto com outros guerreiros da justi\u00e7a, para dar as m\u00e3os contra os monstros ferozes. Sob a situa\u00e7\u00e3o desesperadora do fim, Luo Feng e outros guerreiros podem repelir monstros e proteger com sucesso o mundo humano?",
-            "popularity": 15.408,
-            "poster_path": "/wVIXqqxFbcfYLbdfPCce2jWXFMu.jpg",
-            "first_air_date": "2020-11-29",
-            "name": "Swallowed Star",
-            "vote_average": 8.4,
-            "vote_count": 27
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/3qDzdlXbwhPWMopcyyw0o82wyVx.jpg",
-            "genre_ids": [
-                10764
-            ],
-            "id": 50042,
-            "origin_country": [
-                "US"
+                "GB"
             ],
             "original_language": "en",
-            "original_name": "Below Deck",
-            "overview": "Os mundos de cima e de baixo colidem quando esta jovem e solteira tripula\u00e7\u00e3o de \"iates\" vive, ama e trabalha junto a bordo de um mega iate luxuoso enquanto atende \u00e0s necessidades em constante mudan\u00e7a de seus ricos e exigentes h\u00f3spedes fretados.",
-            "popularity": 15.3323,
-            "poster_path": "/xMkYEWMGB7F7YfzJ24DPXoDj8vo.jpg",
-            "first_air_date": "2013-07-01",
-            "name": "Below Deck",
-            "vote_average": 7.4,
-            "vote_count": 54
+            "original_name": "Have I Got a Bit More News for You",
+            "overview": "",
+            "popularity": 81.9801,
+            "poster_path": "/aOZuKQ2uWRfZPzn61bnzQT5LhMR.jpg",
+            "first_air_date": "",
+            "name": "Have I Got a Bit More News for You",
+            "vote_average": 7.0,
+            "vote_count": 16
         }
     ],
-    "total_pages": 16,
-    "total_results": 318
+    "total_pages": 17,
+    "total_results": 323
 }
