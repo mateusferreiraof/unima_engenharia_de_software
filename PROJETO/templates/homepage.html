@@ -8,22 +8,25 @@
 </head>
 <body>
     <header>
+        <h1 class="site-title">Popcorn Movies</h1>
         <nav>
             <ul>
-                
                 <li><a href="/login">Login</a></li>
                 <li><a href="/cadastro">Cadastro</a></li>
                 <li><a href="/filmes">Filmes</a></li>
                 <li><a href="/series">Séries</a></li>
-            </ul> 
+            </ul>
         </nav>
     </header>
     <main>
-        <h1>Buscar Filmes</h1>
-        <form action="/home", method="post">
-            <input type="text" name="barra-de-busca" id="barra-de-busca" required>
-            <button type="submit">BUSCAR</button>
-        </form>
+        <div class="search-section">
+            <h1>Sejam bem vindos!</h1>
+            <p class="search-description">Dê uma olhada nos filmes e séries do catálogo</p> <form action="/home", method="post">
+                <input type="text" name="barra-de-busca" id="barra-de-busca" required>
+                <button type="submit">BUSCAR</button>
+            </form>
+        </div>
+
         <h1>Filmes Populares</h1>
         <ul>
             {% for movie in movies %}
@@ -33,7 +36,7 @@
                 </li>
             {% endfor %}
         </ul>
-        
+
         <h1>Séries Populares</h1>
         <ul>
             {% for serie in series %}
@@ -43,10 +46,10 @@
             </li>
             {% endfor %}
         </ul>
-        
+
     </main>
     <footer>
-         <p id="paragrafo-footer">&copy; Desenvolvido por Mateus Ferreira, Maria Layanne, Vinicius Matheus e Matheus Gabriel.</p>
+           <p id="paragrafo-footer">&copy; Desenvolvido por Mateus Ferreira, Maria Layanne, Vinicius Matheus e Matheus Gabriel.</p>
     </footer>
 </body>
 </html>
