@@ -1,6 +1,6 @@
 from flask import render_template, redirect, request, session, url_for
 from PROJETO import server
-from PROJETO.config import conexao, cursor
+from PROJETO.script import conexao, cursor
 from Api.tmdbapifilmes import MovieAPI
 from Api.tmdbapiseries import SeriesAPI
 

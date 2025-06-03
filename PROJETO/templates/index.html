@@ -20,7 +20,6 @@
                 <ul id="ul-header">
 
                     <li class="li-header"><a href="/home" id="subtitulobusca"><i class="fa-solid fa-house" style="color: #3c239b;"></i> INÍCIO</a></li>
-                    <li class="li-header"><a href="#" class="a-header"><i class="fa-regular fa-heart" style="color: #3c239b;"></i> FAVORITOS</a></li>
                     <li class="li-header"><a href="/filmes" class="a-header"><i class="fa-solid fa-tv" style="color: #3c239b;"></i> FILMES</a></li>
                     <li class="li-header"><a href="/series" class="a-header"><i class="fa-solid fa-film" style="color: #3c239b;"></i> SÉRIES</a></li>
 
@@ -72,7 +71,7 @@
             <h2 id="h2-header">Bem-vindo!</h2>
             <legend id="legend-header">Dê uma olhada nos filmes e séries do catálogo.</legend>
 
-            <form action="/home", method="post">
+            <form action="/home" method="post">
 
                 <input type="text" name="barra-de-busca" id="barra-de-busca" placeholder="Procure por um filme, uma série" required>
                 <button type="submit"><a href=""><i class="fa-solid fa-magnifying-glass" style="color: #3c239b;"></i></a></button>
@@ -107,7 +106,7 @@
 
                         <li class="li-main">
                             <abbr title="{{ busca.overview }}"><img id="imagens" src="https://image.tmdb.org/t/p/w200{{ busca.poster_path }}" alt="{{ busca.title }}" /></abbr>
-                            <strong>{{ busca.title }}</strong> - {{ busca.release_date }}
+                            <strong>{{ busca.title }} - {{ busca.release_date }}</strong>
                         </li>
 
                     {% endfor %}
