@@ -2,418 +2,479 @@
     "page": 1,
     "results": [
         {
+            "backdrop_path": "/cxejGoxpynd144zaivyEKFxCktm.jpg",
+            "id": 247718,
+            "name": "Terra da Máfia",
+            "original_name": "MobLand",
+            "overview": "O poder está em disputa quando duas famílias do crime se chocam numa batalha que ameaça derrubar impérios e arruinar vidas. No meio está Harry Da Souza, um \"resolvedor de problemas\" que sabe bem onde a lealdade está quando as forças opostas colidem.",
+            "poster_path": "/r8JBlBYgFqmGP7I0VlnwLQCNaa7.jpg",
+            "media_type": "tv",
             "adult": false,
-            "backdrop_path": "/gMMnf8VRg3Z98WaFmOLr9Jk8pIs.jpg",
-            "genre_ids": [
-                35,
-                10767
-            ],
-            "id": 63770,
-            "origin_country": [
-                "US"
-            ],
             "original_language": "en",
-            "original_name": "The Late Show with Stephen Colbert",
-            "overview": "",
-            "popularity": 514.5437,
-            "poster_path": "/9jkThAGYj2yp8jsS6Nriy5mzKFT.jpg",
-            "first_air_date": "2015-09-08",
-            "name": "The Late Show with Stephen Colbert",
-            "vote_average": 6.3,
-            "vote_count": 308
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/kA50bkSC6bw5ZkutYrN9sLD9CZ9.jpg",
             "genre_ids": [
-                10767,
-                35
-            ],
-            "id": 22980,
-            "origin_country": [
-                "US"
-            ],
-            "original_language": "en",
-            "original_name": "Watch What Happens Live with Andy Cohen",
-            "overview": "",
-            "popularity": 508.0417,
-            "poster_path": "/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
-            "first_air_date": "2009-07-16",
-            "name": "Watch What Happens Live with Andy Cohen",
-            "vote_average": 5.1,
-            "vote_count": 71
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/qLMfcvdCcCGD2BNLH8b6ZCBuO7D.jpg",
-            "genre_ids": [
-                10763,
-                35
-            ],
-            "id": 2224,
-            "origin_country": [
-                "US"
-            ],
-            "original_language": "en",
-            "original_name": "The Daily Show",
-            "overview": "The Daily Show \u00e9 um programa estadunidense de not\u00edcias que satiriza sobretudo a pol\u00edtica norte-americana. O programa come\u00e7ou em 1996 e era originalmente apresentado por Craig Killborn. Jon Stewart, que substituiu Killborn em 1999, apresentou o programa at\u00e9 agosto de 2015. Em setembro do mesmo ano o show foi assumido por Trevor Noah.",
-            "popularity": 347.058,
-            "poster_path": "/ixcfyK7it6FjRM36Te4OdblAq4X.jpg",
-            "first_air_date": "1996-07-22",
-            "name": "The Daily Show com Trevor Noah",
-            "vote_average": 6.4,
-            "vote_count": 573
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/h0y3OzHzG4yNvn8u3Za6ByH8lrQ.jpg",
-            "genre_ids": [
-                18,
-                10766
-            ],
-            "id": 45789,
-            "origin_country": [
-                "DE"
-            ],
-            "original_language": "de",
-            "original_name": "Sturm der Liebe",
-            "overview": "",
-            "popularity": 346.6472,
-            "poster_path": "/jfFNydakwvbeACEwSd2Gh8UWtba.jpg",
-            "first_air_date": "2005-09-26",
-            "name": "Sturm der Liebe",
-            "vote_average": 6.066,
-            "vote_count": 38
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/s1dTt4M31q2HwD5Fkl1tf5tQzJg.jpg",
-            "genre_ids": [
-                10766
-            ],
-            "id": 206559,
-            "origin_country": [
-                "ZA"
-            ],
-            "original_language": "af",
-            "original_name": "Binnelanders",
-            "overview": "Uma novela sul-africana em afric\u00e2ner. Ela se passa dentro e ao redor do hospital privado fict\u00edcio, Binneland Kliniek, em Pret\u00f3ria, e o enredo segue os testes, traumas e tribula\u00e7\u00f5es da equipe e dos pacientes do hospital.",
-            "popularity": 212.5042,
-            "poster_path": "/3bzECfllho8PphdYujLUIuhncJD.jpg",
-            "first_air_date": "2005-10-13",
-            "name": "Binnelanders",
-            "vote_average": 5.6,
-            "vote_count": 94
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/pmAzkQJa993nIgPqFtVmOhStHXg.jpg",
-            "genre_ids": [
-                18,
-                10766
-            ],
-            "id": 2354,
-            "origin_country": [
-                "AU"
-            ],
-            "original_language": "en",
-            "original_name": "Home and Away",
-            "overview": "A hist\u00f3ria come\u00e7a em 1988, na vida de Tom Fletcher e sua esposa Pippa que n\u00e3o conseguia engravidar. O casal decide se mudar para Summer Bay com seus cinco filhos adotivos Frank Morgan, Carly Morris, Steven Matheson, Lynn Davenport e Sally Fletcher. Eles logo se juntam ao problem\u00e1tico Bobby Simpson. A fam\u00edlia rapidamente construiu la\u00e7os amig\u00e1veis \u200b\u200bcom os moradores locais Neville e Floss McPhee e Alf Steward e sua esposa Ailsa Stewart.\n\nCom o passar do tempo, a hist\u00f3ria nos conta a vida e as hist\u00f3rias que acontecem aos residentes de Summer Bay, uma pequena cidade costeira em uma ba\u00eda em New South Wales, Austr\u00e1lia.",
-            "popularity": 168.731,
-            "poster_path": "/vn0eKMiG69bhQtxb7qLRo8SSqu5.jpg",
-            "first_air_date": "1988-01-18",
-            "name": "Home and Away",
-            "vote_average": 6.292,
-            "vote_count": 72
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/ynd225o8GuCahYGjHtFdEt8Xizm.jpg",
-            "genre_ids": [
-                10766
-            ],
-            "id": 235484,
-            "origin_country": [
-                "ZA"
-            ],
-            "original_language": "af",
-            "original_name": "Suidooster",
-            "overview": "Suidooster \u00e9 uma novela sul-africana produzida pela Suidooster Films que gira em torno de uma matriarca, sua fam\u00edlia, amigos e o povo de Suidooster, um pequeno centro comercial e empresarial no sub\u00farbio fict\u00edcio de Ruiterbosch, na Cidade do Cabo.",
-            "popularity": 162.0906,
-            "poster_path": "/naCgSiacvV685kait6fBvhVhdce.jpg",
-            "first_air_date": "2015-11-16",
-            "name": "Suidooster",
-            "vote_average": 7.091,
-            "vote_count": 22
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/hvFCS0dMeC3ffiF4uYTKzUAkvYL.jpg",
-            "genre_ids": [
-                35
-            ],
-            "id": 65701,
-            "origin_country": [
-                "US"
-            ],
-            "original_language": "en",
-            "original_name": "Good Mythical Morning",
-            "overview": "",
-            "popularity": 158.8934,
-            "poster_path": "/jMpBQr2aNOFAI6wsC47zsOG6qOh.jpg",
-            "first_air_date": "2012-01-09",
-            "name": "Good Mythical Morning",
-            "vote_average": 7.0,
-            "vote_count": 78
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/pmB8uYJF1WKQCZnJjhnAx2IJjhk.jpg",
-            "genre_ids": [
-                10766
-            ],
-            "id": 14750,
-            "origin_country": [
-                "PL"
-            ],
-            "original_language": "pl",
-            "original_name": "Na Wsp\u00f3lnej",
-            "overview": "",
-            "popularity": 151.0348,
-            "poster_path": "/uksRhdaOn64bO5d33d7rcTbrhJI.jpg",
-            "first_air_date": "2003-01-27",
-            "name": "Na Wsp\u00f3lnej",
-            "vote_average": 4.4,
-            "vote_count": 9
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/9kGfwwA0N0KOen7oTBGSVoQsXLz.jpg",
-            "genre_ids": [
-                35,
-                18,
-                10766
-            ],
-            "id": 32209,
-            "origin_country": [
-                "PE"
-            ],
-            "original_language": "es",
-            "original_name": "Al Fondo Hay Sitio",
-            "overview": "Al fondo hay sitio \u00e9 uma s\u00e9rie peruana, in\u00e9dita no Brasil, criada por Efra\u00edn Aguilar e exibida pela Am\u00e9rica Televisi\u00f3n: narra a vida dos Gonz\u00e1lez e os Maldini, duas fam\u00edlias diametralmente opostas, e os problemas entre os dois, na residencial Las Lomas.",
-            "popularity": 150.2706,
-            "poster_path": "/4BkYVoybIvM2U7zeg2JTT5M5dwF.jpg",
-            "first_air_date": "2009-03-30",
-            "name": "No fundo ainda h\u00e1 lugar",
-            "vote_average": 7.827,
-            "vote_count": 223
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/eGPH1IwktalozwCmeLTp3aPbHGC.jpg",
-            "genre_ids": [
-                10764
-            ],
-            "id": 4656,
-            "origin_country": [
-                "US"
-            ],
-            "original_language": "en",
-            "original_name": "Raw",
-            "overview": "Esta s\u00e9rie pioneira da WWE destaca mais de trinta anos de lutas inesquec\u00edveis, momentos marcantes e epis\u00f3dios cheios de grandes estrelas.",
-            "popularity": 144.6218,
-            "poster_path": "/pv5WNnLUo7mpT8k901Lo8UovrqI.jpg",
-            "first_air_date": "1993-01-11",
-            "name": "Raw",
-            "vote_average": 6.8,
-            "vote_count": 329
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/vgeDRVpSUa4Hvovg4C6dgm4dfUW.jpg",
-            "genre_ids": [
-                10766,
+                80,
                 18
             ],
-            "id": 112470,
+            "popularity": 121.3653,
+            "first_air_date": "2025-03-30",
+            "vote_average": 8.6,
+            "vote_count": 150,
             "origin_country": [
-                "FR"
+                "GB",
+                "US"
             ],
-            "original_language": "fr",
-            "original_name": "Ici tout commence",
-            "overview": "Esta s\u00e9rie de drama televisivo \u00e9 centrada na prestigiada escola de culin\u00e1ria do renomado chef Auguste Armand. O programa acompanha a vida de alunos e funcion\u00e1rios enquanto eles navegam pelos desafios e press\u00f5es do mundo culin\u00e1rio \u2014 mergulhando em suas vidas pessoais e profissionais, revelando segredos, rivalidades e relacionamentos complexos.",
-            "popularity": 138.1403,
-            "poster_path": "/x9HeaagUAyyGl1fQ6exQcpELBxP.jpg",
-            "first_air_date": "2020-11-02",
-            "name": "Ici tout commence",
-            "vote_average": 6.818,
-            "vote_count": 88
+            "data_formatada": "30-03-2025"
         },
         {
+            "backdrop_path": "/uQ4lG7E7mlyKsGvbASftQ6Hu2IX.jpg",
+            "id": 100088,
+            "name": "The Last of Us",
+            "original_name": "The Last of Us",
+            "overview": "Situado duas décadas após a implosão de nossa sociedade, o drama seguirá Joel, um sobrevivente difícil, que é contratado para contrabandear uma garota de 14 anos chamada Ellie para fora de uma zona de quarentena opressiva. O que começa como um pequeno trabalho logo se torna uma jornada brutal e de partir o coração, já que os dois precisam atravessar os Estados Unidos e dependem um do outro para sobreviver.",
+            "poster_path": "/el1KQzwdIm17I3A6cYPfsVIWhfX.jpg",
+            "media_type": "tv",
             "adult": false,
-            "backdrop_path": "/aizbHLcKVWvJ7jxkflJzTu5Z8GE.jpg",
-            "genre_ids": [
-                10766
-            ],
-            "id": 81329,
-            "origin_country": [
-                "FR"
-            ],
-            "original_language": "fr",
-            "original_name": "Un si grand soleil",
-            "overview": "De volta a Montpellier com o filho, Th\u00e9o, depois de uma aus\u00eancia de dezessete anos, Claire \u00e9 acusada do homic\u00eddio de um amigo de inf\u00e2ncia.",
-            "popularity": 133.8468,
-            "poster_path": "/v4r70Z5id8eHFCxrfBOtRgu6wLr.jpg",
-            "first_air_date": "2018-08-27",
-            "name": "Un si grand soleil",
-            "vote_average": 6.702,
-            "vote_count": 121
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/5APjn4LnV5wWk5DXq7ZewT6zzP1.jpg",
-            "genre_ids": [
-                10766
-            ],
-            "id": 291,
-            "origin_country": [
-                "GB"
-            ],
             "original_language": "en",
-            "original_name": "Coronation Street",
-            "overview": "Coronation Street \u00e9 uma novela de televis\u00e3o brit\u00e2nica transmitida pela primeira vez na Granada Television em 1960. Ela foi logo distribu\u00edda em outras franquias da ITV. O programa diz respeito \u00e0 vida dos residentes da Coronation Street em Weatherfield, uma \u00e1rea fict\u00edcia de Salford, e gira em torno de suas casas geminadas, caf\u00e9s, lojas de esquina, bancas de jornais, f\u00e1bricas de tecidos e o pub Rovers Return.\n\nO programa foi criado em 1960 pelo roteirista local Tony Warren na rec\u00e9m-formada Granada Television, em Manchester. A proposta inicial de Warren para a pia da cozinha foi rejeitada pelo fundador da emissora, Sidney Bernstein, mas ele foi persuadido pelo produtor Harry Elton a produzir o programa para treze epis\u00f3dios-piloto. Foi transmitido pela primeira vez em 9 de dezembro de 1960 e, em seis meses, tornou-se o programa mais assistido da televis\u00e3o brit\u00e2nica. Foi um dos programas financeiramente mais lucrativos da televis\u00e3o comercial brit\u00e2nica, sustentando o sucesso da franquia Granada Television e da emissora ITV.",
-            "popularity": 133.1087,
-            "poster_path": "/5x1HXqYqPyYw7oc7Isu1lvVmwRP.jpg",
-            "first_air_date": "1960-12-09",
-            "name": "Coronation Street",
-            "vote_average": 5.338,
-            "vote_count": 111
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/p0umYdTa7csDT9SkZX8DD52Sy4a.jpg",
             "genre_ids": [
-                10764
+                18
             ],
-            "id": 2051,
+            "popularity": 282.1709,
+            "first_air_date": "2023-01-15",
+            "vote_average": 8.533,
+            "vote_count": 6137,
             "origin_country": [
                 "US"
             ],
-            "original_language": "en",
-            "original_name": "The Price Is Right",
-            "overview": "O programa envolve participantes competindo para identificar corretamente o pre\u00e7o de itens comuns para ganhar dinheiro e pr\u00eamios. Os participantes s\u00e3o selecionados dentre a plateia no est\u00fadio quando o narrador anuncia a frase bord\u00e3o do show: \"Come on down!\". Um pedido para que saiam da plateia e venham para o palco.",
-            "popularity": 116.8408,
-            "poster_path": "/7MSqORrf1RZsmLUTQ2XoEJEtzt5.jpg",
-            "first_air_date": "1972-09-04",
-            "name": "The Price Is Right",
-            "vote_average": 6.2,
-            "vote_count": 85
+            "data_formatada": "15-01-2023"
         },
         {
+            "backdrop_path": "/cBsAo9icWr0mZBvd4Rc0R4kxnDU.jpg",
+            "id": 291256,
+            "name": "Sara: A Mulher nas Sombras",
+            "original_name": "Sara - La donna nell'ombra",
+            "overview": "A morte suspeita do filho leva uma ex-agente secreta a voltar à ativa, investigando uma série de crimes que ficam cada vez mais sinistros.",
+            "poster_path": "/nqKP7dOzbtP2Pmvec0ntOJDM6mb.jpg",
+            "media_type": "tv",
             "adult": false,
-            "backdrop_path": "/kkfqNkGQR5og5sDjJTxTVmI9PW.jpg",
+            "original_language": "it",
+            "genre_ids": [
+                9648,
+                18,
+                80
+            ],
+            "popularity": 1.8587,
+            "first_air_date": "2025-06-03",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "origin_country": [
+                "IT"
+            ],
+            "data_formatada": "03-06-2025"
+        },
+        {
+            "backdrop_path": "/wIoxMHbyUJnx5Fm9tI26hIYGI1D.jpg",
+            "id": 245703,
+            "name": "Dept. Q",
+            "original_name": "Dept. Q",
+            "overview": "Um policial brilhante, mas arrogante, se torna chefe de um novo departamento, liderando um grupo improvável de desajustados na solução de casos arquivados de Edimburgo.",
+            "poster_path": "/e4ctTDJsRexIF3vjxeDrSbeOuep.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
             "genre_ids": [
                 80,
                 18,
-                10766
+                9648
             ],
-            "id": 72879,
-            "origin_country": [
-                "FR"
-            ],
-            "original_language": "fr",
-            "original_name": "Demain nous appartient",
-            "overview": "A hist\u00f3ria gira em torno do povo de S\u00e8te, Fran\u00e7a. Suas vidas s\u00e3o pontuadas por rivalidades familiares, romance e cenas da vida cotidiana, mas tamb\u00e9m por tramas envolvendo investiga\u00e7\u00f5es policiais, segredos e trai\u00e7\u00f5es.",
-            "popularity": 113.5978,
-            "poster_path": "/zMWldNZF0wS3L5XkDVFHxYhclcL.jpg",
-            "first_air_date": "2017-07-17",
-            "name": "Demain nous appartient",
-            "vote_average": 6.288,
-            "vote_count": 66
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/upD2G9Z7W07w47c7B8ZqLqbTDc5.jpg",
-            "genre_ids": [
-                10767
-            ],
-            "id": 1900,
-            "origin_country": [
-                "US"
-            ],
-            "original_language": "en",
-            "original_name": "LIVE with Kelly and Mark",
-            "overview": "",
-            "popularity": 111.8892,
-            "poster_path": "/hBkyypWN3EcOzkozatiCm5VeaG.jpg",
-            "first_air_date": "1988-09-05",
-            "name": "LIVE with Kelly and Mark",
-            "vote_average": 5.5,
-            "vote_count": 45
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/khxuPmWXgO1vjwAxalnHGnjAgXb.jpg",
-            "genre_ids": [
-                10766,
-                35
-            ],
-            "id": 124201,
-            "origin_country": [
-                "PT"
-            ],
-            "original_language": "pt",
-            "original_name": "Festa \u00e9 Festa",
-            "overview": "",
-            "popularity": 105.5066,
-            "poster_path": "/rlQlfiBR0zY1ucBIvB2neYUVfFP.jpg",
-            "first_air_date": "2021-04-26",
-            "name": "Festa \u00e9 Festa",
-            "vote_average": 7.0,
-            "vote_count": 3
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/1iAc3ML51uNe16jlxTQV84mLHG2.jpg",
-            "genre_ids": [
-                10766
-            ],
-            "id": 40879,
-            "origin_country": [
-                "DE"
-            ],
-            "original_language": "de",
-            "original_name": "Dahoam is Dahoam",
-            "overview": "",
-            "popularity": 87.3866,
-            "poster_path": "/tGXZEUgSbgufoOpXMImSKPDd5A3.jpg",
-            "first_air_date": "2007-10-08",
-            "name": "Dahoam is Dahoam",
-            "vote_average": 5.6,
-            "vote_count": 5
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/5dv4q9x4vTVTT6IHIlfEDvFhJet.jpg",
-            "genre_ids": [
-                10763,
-                35
-            ],
-            "id": 44337,
+            "popularity": 110.0074,
+            "first_air_date": "2025-05-29",
+            "vote_average": 7.938,
+            "vote_count": 40,
             "origin_country": [
                 "GB"
             ],
+            "data_formatada": "29-05-2025"
+        },
+        {
+            "backdrop_path": "/YI4EbHaGj4CDjA0YcbTUKHvLPt.jpg",
+            "id": 283776,
+            "name": "Unicórnio Implacável",
+            "original_name": "สงคราม ส่งด่วน",
+            "overview": "Um jovem empreendedor cria uma startup que traz várias novas oportunidades, mas também muitos inimigos poderosos.",
+            "poster_path": "/ai1zFwkSfQ12Xd7ZUeEdPDtFvnI.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "th",
+            "genre_ids": [
+                18
+            ],
+            "popularity": 17.3979,
+            "first_air_date": "2025-05-29",
+            "vote_average": 6.3,
+            "vote_count": 3,
+            "origin_country": [
+                "TH"
+            ],
+            "data_formatada": "29-05-2025"
+        },
+        {
+            "backdrop_path": "/1SLimeCtDZhk9CCKj4qr435yvPT.jpg",
+            "id": 252640,
+            "name": "Lenda de Zang Hai",
+            "original_name": "藏海传",
+            "overview": "Uma história sobre o filho do astrônomo real Kuai Duo, que era sobrecarregado por uma rixa de sangue, estudava por dez anos e depois entrou na capital sob o pseudônimo de Zang Hai em busca da verdade e, por fim, buscou vingança, puniu o mal e defendeu a justiça.",
+            "poster_path": "/rfeJ1rg1bv1GKcRWiUg73PVXaO6.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "zh",
+            "genre_ids": [
+                18
+            ],
+            "popularity": 43.5585,
+            "first_air_date": "2025-05-18",
+            "vote_average": 8.7,
+            "vote_count": 11,
+            "origin_country": [
+                "CN"
+            ],
+            "data_formatada": "18-05-2025"
+        },
+        {
+            "backdrop_path": "/Ao5pBFuWY32cVuh6iYjEjZMEscN.jpg",
+            "id": 60625,
+            "name": "Rick e Morty",
+            "original_name": "Rick and Morty",
+            "overview": "Rick é um velho mentalmente desequilibrado, mas cientificamente talentoso que se reconectou recentemente com sua família. Ele passa a maior parte do tempo envolvendo o jovem neto Morty em aventuras perigosas e estranhas no espaço e em universos alternativos. Compostos à vida familiar já instável de Morty, esses eventos causam muito sofrimento a Morty em casa e na escola.",
+            "poster_path": "/5qfd0e2uMbVInX3YdeFbDsfxi1t.jpg",
+            "media_type": "tv",
+            "adult": false,
             "original_language": "en",
-            "original_name": "Have I Got a Bit More News for You",
-            "overview": "",
-            "popularity": 81.9801,
-            "poster_path": "/aOZuKQ2uWRfZPzn61bnzQT5LhMR.jpg",
-            "first_air_date": "",
-            "name": "Have I Got a Bit More News for You",
-            "vote_average": 7.0,
-            "vote_count": 16
+            "genre_ids": [
+                16,
+                35,
+                10765,
+                10759
+            ],
+            "popularity": 211.0213,
+            "first_air_date": "2013-12-02",
+            "vote_average": 8.686,
+            "vote_count": 10184,
+            "origin_country": [
+                "US"
+            ],
+            "data_formatada": "02-12-2013"
+        },
+        {
+            "backdrop_path": "/gDtZQmfzvErZpeXOVeCBQE9WkSF.jpg",
+            "id": 239770,
+            "name": "Doctor Who",
+            "original_name": "Doctor Who",
+            "overview": "O Doutor e sua companheira Ruby Sunday viajam através do espaço e tempo vivendo aventuras da Era da Regência na Inglaterra a mundos futuristas destruídos por guerras. Ao longo de suas aventuras na TARDIS - uma máquina de viagem no tempo com a forma de uma cabine telefônica policial - eles encontram amigos incríveis e inimigos perigosos, inclusive um bicho-papão terrível e o inimigo mais poderoso que o Doutor já enfrentou.",
+            "poster_path": "/2hYT8Sg85f1adGhVhBjT7724lz0.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                10759,
+                18,
+                10765
+            ],
+            "popularity": 39.5838,
+            "first_air_date": "2024-05-11",
+            "vote_average": 6.436,
+            "vote_count": 220,
+            "origin_country": [
+                "GB"
+            ],
+            "data_formatada": "11-05-2024"
+        },
+        {
+            "backdrop_path": "/vcFW09U4834DyFOeRZpsx9x1D3S.jpg",
+            "id": 57243,
+            "name": "Doctor Who",
+            "original_name": "Doctor Who",
+            "overview": "Acompanhe as incríveis jornadas pelo tempo e espaço do Doutor, um alienígena da linhagem dos senhores do tempo. Nativo do planeta Gallifrey, o Doutor utiliza a Tardis, uma nave capaz de se camuflar como uma cabine de polícia, para explorar o passado e o futuro nos mais distantes lugares do universo.",
+            "poster_path": "/8xz8ZPiuRLeaganjKd6WtE6S50E.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                10759,
+                18,
+                10765
+            ],
+            "popularity": 201.1967,
+            "first_air_date": "2005-03-26",
+            "vote_average": 7.5,
+            "vote_count": 3134,
+            "origin_country": [
+                "GB"
+            ],
+            "data_formatada": "26-03-2005"
+        },
+        {
+            "backdrop_path": "/vV5LKWmuysEe5wsuZJGbdiL5XJ2.jpg",
+            "id": 194583,
+            "name": "The Walking Dead: Dead City",
+            "original_name": "The Walking Dead: Dead City",
+            "overview": "Maggie e Negan viajam para uma Manhattan pós-apocalíptica há muito isolada do continente. A cidade em ruínas está cheia de mortos e habitantes que fizeram de Nova York seu próprio mundo cheio de anarquia, perigo, beleza e terror.",
+            "poster_path": "/qWOZK2nmfFmQ9JG2SrRfwIcijc1.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                10759,
+                18,
+                10765
+            ],
+            "popularity": 46.9118,
+            "first_air_date": "2023-06-18",
+            "vote_average": 8.017,
+            "vote_count": 607,
+            "origin_country": [
+                "US"
+            ],
+            "data_formatada": "18-06-2023"
+        },
+        {
+            "backdrop_path": "/nn9vM29SKN227zupaOOmaJz5SA0.jpg",
+            "id": 241554,
+            "name": "Diários de um Robô-Assassino",
+            "original_name": "Murderbot",
+            "overview": "Em um futuro high-tech, um robô de segurança rebelde secretamente adquire livre arbítrio. Para se manter escondido, ele acaba, contra sua vontade, participando de uma missão para proteger cientistas em um planeta perigoso... mesmo que tudo o que queria era maratonar suas novelas.",
+            "poster_path": "/rWQYtLHVzG44Ks6Ohi6K1IVyIwq.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                35,
+                18,
+                10765
+            ],
+            "popularity": 110.5608,
+            "first_air_date": "2025-05-15",
+            "vote_average": 7.112,
+            "vote_count": 89,
+            "origin_country": [
+                "US"
+            ],
+            "data_formatada": "15-05-2025"
+        },
+        {
+            "backdrop_path": "/kCGwvjpqM1owt9kI4pkYPJWJLvc.jpg",
+            "id": 83867,
+            "name": "Andor",
+            "original_name": "Andor",
+            "overview": "Numa era repleta de perigos, enganos e intriga, Cassian Andor vai descobrir a diferença que pode fazer na luta contra o tirânico Império Galático. Embarca numa jornada destinada a torná-lo um herói da Rebelião.",
+            "poster_path": "/yX8c3bXKzAquEKQ75eQslnodskK.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                10765,
+                10759,
+                18
+            ],
+            "popularity": 62.7555,
+            "first_air_date": "2022-09-21",
+            "vote_average": 8.255,
+            "vote_count": 1537,
+            "origin_country": [
+                "US"
+            ],
+            "data_formatada": "21-09-2022"
+        },
+        {
+            "backdrop_path": "/25EBuAv16ZCsnxqJoDx0GwwQoSG.jpg",
+            "id": 253321,
+            "name": "A Melhor Irmã",
+            "original_name": "The Better Sister",
+            "overview": "Chloe se muda para os círculos de elite de Nova York com seu marido, o advogado Adam, e seu filho adolescente Ethan, enquanto sua irmã Nicky, da qual se distanciou, tenta sobreviver e se manter sóbria. Quando Adam é brutalmente assassinado, a investigação abala a família e deixa à mostra segredos há muito tempo escondidos.",
+            "poster_path": "/x3Aw2Sv4fHccmLSaBgmIDr1cm2b.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                18,
+                9648
+            ],
+            "popularity": 51.708,
+            "first_air_date": "2025-05-29",
+            "vote_average": 7.176,
+            "vote_count": 17,
+            "origin_country": [
+                "US"
+            ],
+            "data_formatada": "29-05-2025"
+        },
+        {
+            "backdrop_path": "/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
+            "id": 66732,
+            "name": "Stranger Things",
+            "original_name": "Stranger Things",
+            "overview": "Quando um garoto desaparece, a cidade toda participa nas buscas. Mas o que encontram são segredos, forças sobrenaturais e uma menina.",
+            "poster_path": "/pi8WsJtGKxuJHdp0m1W2wq7IvxW.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                18,
+                10765,
+                9648
+            ],
+            "popularity": 99.5476,
+            "first_air_date": "2016-07-15",
+            "vote_average": 8.6,
+            "vote_count": 18353,
+            "origin_country": [
+                "US"
+            ],
+            "data_formatada": "15-07-2016"
+        },
+        {
+            "backdrop_path": "/xMNH87maNLt9n2bMDYeI6db5VFm.jpg",
+            "id": 127532,
+            "name": "Solo Leveling",
+            "original_name": "俺だけレベルアップな件",
+            "overview": "Há mais de uma década, surgiu uma misteriosa passagem chamada \"portal\", que conecta este mundo a uma dimensão diferente, o que fez com que pessoas despertassem poderes únicos… e essas pessoas são chamadas de \"caçadores\". Os caçadores usam seus poderes sobre-humanos para conquistar masmorras dentro dos portais e assim ganhar a vida. Sung Jinwoo, um caçador de nível baixo, é considerado o caçador mais fraco de toda a humanidade. Certo dia, ele se depara com uma \"masmorra dupla\", que tem uma masmorra de nível alto escondida dentro de uma masmorra de nível baixo. Diante de um Jinwoo gravemente ferido, surge uma misteriosa missão! À beira da morte, Jinwoo decide aceitar essa missão, tornando-se assim a única pessoa capaz de subir de nível!",
+            "poster_path": "/eCD7WS9h4lCT8N4Xavc9u8R1IGk.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "ja",
+            "genre_ids": [
+                16,
+                10759,
+                10765
+            ],
+            "popularity": 78.3312,
+            "first_air_date": "2024-01-07",
+            "vote_average": 8.625,
+            "vote_count": 1186,
+            "origin_country": [
+                "JP"
+            ],
+            "data_formatada": "07-01-2024"
+        },
+        {
+            "backdrop_path": "/2rmK7mnchw9Xr3XdiTFSxTTLXqv.jpg",
+            "id": 37854,
+            "name": "One Piece",
+            "original_name": "ワンピース",
+            "overview": "Houve um homem que conquistou tudo aquilo que o mundo tinha a oferecer, o lendário Rei dos Piratas, Gold Roger. Capturado e condenado à execução pelo Governo Mundial, suas últimas palavras lançaram legiões aos mares. \"Meu tesouro? Se quiserem, podem pegá-lo. Procurem-no! Ele contém tudo que este mundo pode oferecer!\". Foi a revelação do maior tesouro, o One Piece, cobiçado por homens de todo o mundo, sonhando com fama e riqueza imensuráveis... Assim começou a Grande Era dos Piratas!",
+            "poster_path": "/yBYDzzmNoT5uXkXo3NGatLIANYK.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "ja",
+            "genre_ids": [
+                10759,
+                35,
+                16
+            ],
+            "popularity": 68.375,
+            "first_air_date": "1999-10-20",
+            "vote_average": 8.723,
+            "vote_count": 4894,
+            "origin_country": [
+                "JP"
+            ],
+            "data_formatada": "20-10-1999"
+        },
+        {
+            "backdrop_path": "/xuJ0F9RfKvVSJNDg2usurQ9WvY5.jpg",
+            "id": 46260,
+            "name": "Naruto",
+            "original_name": "ナルト",
+            "overview": "Momentos antes do nascimento de Naruto Uzumaki, um enorme demônio conhecido como o Kyuubi, a Raposa de Nove Caudas, atacou o vilarejo da folha oculta Konoha, causando destruição. Para pôr fim à devastação de Kyuubi, o líder da aldeia, o quarto Hokage, sacrificou sua vida e selou o monstruoso animal dentro do recém-nascido Naruto. Agora, Naruto é um ninja hiperativo e cabeça dura que ainda vivem em Konoha. Evitado pelos demais habitantes por causa da Kyuubi dentro dele, Naruto se esforça para encontrar seu lugar na aldeia, enquanto o seu ardente desejo de se tornar o Hokage de Konoha o leva a conhecer alguns grandes novos amigos, e também alguns inimigos mortais.",
+            "poster_path": "/9ptbVZpKNy5NY9D4zq4KGiYWRQY.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "ja",
+            "genre_ids": [
+                16,
+                10759,
+                10765
+            ],
+            "popularity": 100.1948,
+            "first_air_date": "2002-10-03",
+            "vote_average": 8.361,
+            "vote_count": 5699,
+            "origin_country": [
+                "JP"
+            ],
+            "data_formatada": "03-10-2002"
+        },
+        {
+            "backdrop_path": "/kTQ7sRDZwIDgygWKIrhN4T1BLQD.jpg",
+            "id": 231280,
+            "name": "UM BOM GAROTO",
+            "original_name": "굿보이",
+            "overview": "Onze anos depois, a polícia retoma o recrutamento de ex-atletas. Antes vistos como heróis, esses medalhistas agora enfrentam a dura realidade. Apesar das dívidas, das tragédias inesperadas e do preconceito na corporação, os atletas, cada um com sua história, montam uma força-tarefa especial para combater crimes hediondos com o ímpeto e as habilidades que os moldaram no esporte.",
+            "poster_path": "/xNge2upiP2FLppTyKhouT7Gbm1y.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "ko",
+            "genre_ids": [
+                80,
+                35,
+                10759,
+                18
+            ],
+            "popularity": 56.3747,
+            "first_air_date": "2025-05-31",
+            "vote_average": 9.3,
+            "vote_count": 6,
+            "origin_country": [
+                "KR"
+            ],
+            "data_formatada": "31-05-2025"
+        },
+        {
+            "backdrop_path": "/9faGSFi5jam6pDWGNd0p8JcJgXQ.jpg",
+            "id": 1396,
+            "name": "Breaking Bad: A Química do Mal",
+            "original_name": "Breaking Bad",
+            "overview": "Ao saber que tem câncer, um professor passa a fabricar metanfetamina pelo futuro da família, mudando o destino de todos.",
+            "poster_path": "/30erzlzIOtOK3k3T3BAl1GiVMP1.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                18,
+                80
+            ],
+            "popularity": 113.7471,
+            "first_air_date": "2008-01-20",
+            "vote_average": 8.926,
+            "vote_count": 15609,
+            "origin_country": [
+                "US"
+            ],
+            "data_formatada": "20-01-2008"
+        },
+        {
+            "backdrop_path": "/nBrkOZyI75artyizuBFeya48KbO.jpg",
+            "id": 86831,
+            "name": "Love, Death & Robots",
+            "original_name": "Love, Death & Robots",
+            "overview": "Criaturas aterrorizantes, surpresas bizarras e humor ácido habitam e florescem de cada um dos vários universos únicos criados para essa coletânea de curtas de animação, em que cada episódio apresenta sua própria narrativa e estilo visual.",
+            "poster_path": "/asDqvkE66EegtKJJXIRhBJPxscr.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                16,
+                10765
+            ],
+            "popularity": 48.5739,
+            "first_air_date": "2019-03-15",
+            "vote_average": 8.237,
+            "vote_count": 3558,
+            "origin_country": [
+                "US"
+            ],
+            "data_formatada": "15-03-2019"
         }
     ],
-    "total_pages": 17,
-    "total_results": 323
+    "total_pages": 500,
+    "total_results": 10000
 }

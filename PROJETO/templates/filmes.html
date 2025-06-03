@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +9,7 @@
     <script src="https://kit.fontawesome.com/b9243416c4.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    
     <header>
         <section id="cabecario">
             <h1>POPCORN MOVIES</h1>
@@ -35,10 +36,11 @@
         {% if filmes %}
             {% for filme in filmes %}
                <div class="filme-card">
-                <abbr title="{{ filme.overview }}">
+                <abbr title="{{ filme.overview }} -> {{ filme.genres_nomes | join(', ') }}">
                     <img src="https://image.tmdb.org/t/p/w200{{ filme.poster_path }}" alt="{{ filme.title }}" />
                 </abbr>
-                <p><strong>{{ filme.title }}</strong> <br> {{ filme.release_date }}</p>
+                <p><strong>{{ filme.title }}</strong></p> 
+                <p>{{ filme.data_formatada }}</p>
                 </div>
             {% endfor %}
             </div>
@@ -54,29 +56,31 @@
         {% if tmdb %}
             {% for filme in tmdb %}
                     <div class="filme-card">
-                    <abbr title="{{ filme.overview }}"><img src="https://image.tmdb.org/t/p/w200{{ filme.poster_path }}" alt="{{ filme.title }}" /></abbr>
-                    <strong>{{ filme.title }}</strong> -
-                    <p>{{ filme.release_date}} </p>
+                    <abbr title="{{ filme.overview }} -> Gêneros: {{ filme.genres_nomes | join(', ') }}">
+                        <img src="https://image.tmdb.org/t/p/w200{{ filme.poster_path }}" alt="{{ filme.title }}" /></abbr>
+                    <p><strong>{{ filme.title }}</strong></p> 
+                    <p>{{ filme.data_formatada}} </p>
                     </div>
             {% endfor %}
         {% else %}
         <p>Nenhum filme popular do TMDB recomendada.</p>
         {% endif %}
-        
         </div>
 
-
 <!--Filme avaliados--> 
+
         <h2>Os Mais Avaliados</h2>
 
         <div class="grid-filmes">
         {% if avaliados %}
             {% for filme in avaliados %}
                     <div class="filme-card">
-                    <abbr title="{{ filme.overview }}"><img src="https://image.tmdb.org/t/p/w200{{ filme.poster_path }}" alt="{{ filme.title }}" /></abbr>
-                    <strong>{{ filme.title }}</strong> 
-                    <p>{{ filme.release_date}} </p>
-                    <p>Voto Popular: {{filme.vote_count | round(2)}}</p>
+                    <abbr title="{{ filme.overview }} -> Gêneros: {{ filme.genres_nomes | join(', ') }}">
+                        <img src="https://image.tmdb.org/t/p/w200{{ filme.poster_path }}" alt="{{ filme.title }}" /></abbr>
+                    <p><strong>{{ filme.title }}</strong></p> 
+                    <p>{{ filme.data_formatada}} </p>
+                   <p><i class="fa-solid fa-star" style="color: rgba(255, 217, 0, 0.808);"></i> {{ filme.vote_average | round(1) }} 
+
                     </div>
             {% endfor %}
         </div>
@@ -85,6 +89,7 @@
         {% endif %}
 
 <!--botão passar pag-->
+
         <div class="paginacao" >
         {% if pagina > 1 %}
             <a href="{{ url_for('filmes', page=pagina-1) }}">

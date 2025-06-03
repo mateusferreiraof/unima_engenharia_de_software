@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,10 +36,12 @@
         {% if avaliadas %}
             {% for serie in avaliadas %}
                 <div class="filme-card">
-                <abbr title="{{serie.overview}}"><img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{ serie.name }}"></abbr>
-                <strong>{{ serie.name }}</strong> 
-                <p>{{ serie.first_air_date }} </p>
-                <p>Voto Popular: {{serie.vote_count | round(2)}}</p>
+                <abbr title="{{serie.overview}} -> Gêneros: {{ serie.genres_nomes | join(', ') }}">
+                    <img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{ serie.name }}"></abbr>
+                <p><strong>{{ serie.name }}</strong></p> 
+                <p>{{serie.data_formatada }}</p>
+                <p><i class="fa-solid fa-star" style="color: rgba(255, 217, 0, 0.808);"></i> {{ serie.vote_average | round(1) }} 
+                </p>
                 </div>
             {% endfor %}
         </div>    
@@ -55,10 +57,10 @@
         {% if hj %}
             {% for serie in hj %}
                 <div class="filme-card">
-                <abbr title="{{serie.overview}}"><img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{ serie.name }}"></abbr>
-                <strong>{{ serie.name }}</strong> 
-                <p> {{ serie.first_air_date }}</p>
-                <p>{{serie.origin_country}}</p>
+                <abbr title="{{serie.overview}} -> {{serie.origin_country}} -> Gêneros: {{ serie.genres_nomes | join(', ') }} -> Nota: {{ serie.vote_average | round(1)}}">
+                    <img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{ serie.name }}"></abbr>
+                <p><strong>{{ serie.name }}</strong> </p>
+                <p>{{serie.data_formatada }}</p>
                 </div>
             {% endfor %}
         </div>
@@ -73,8 +75,11 @@
         {% if tmdb %}
             {% for serie in tmdb %}
                 <div class="filme-card">
-                <abbr title="{{serie.overview}}"><img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{ serie.name }}"></abbr>
-                <strong>{{ serie.name }}</strong> - {{ serie.first_air_date }}
+                <abbr title="{{serie.overview}} -> Gêneros: {{ serie.genres_nomes | join(', ') }} -> Nota: {{ serie.vote_average | round(1) }}">
+                    <img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{ serie.name }}"> 
+                </abbr>
+                <p><strong>{{ serie.name }} </strong></p>
+                <p> {{ serie.data_formatada }}</p>
                 </div>
             {% endfor %}
         </div>
@@ -89,8 +94,11 @@
         {% if populares %}
             {% for serie in populares %}
                 <div class="filme-card">
-                <abbr title="{{serie.overview}}"><img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{ serie.name }}"></abbr>
-                <strong>{{ serie.name }}</strong> - {{ serie.first_air_date }} - {{serie.origin_country}}
+                <abbr title="{{serie.overview}} -> {{serie.origin_country}} -> Gêneros: {{ serie.genres_nomes | join(', ') }} -> Nota: {{ serie.vote_average | round(1) }}">
+                    <img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{ serie.name }}">
+                </abbr>
+                <p><strong>{{serie.name }}</strong></p> 
+                <p>{{serie.data_formatada }}</p>
                 </div>
             {% endfor %}
         </div>
@@ -98,6 +106,7 @@
         <p>Nenhuma série popular encontrada.</p>
         {% endif %}
 
+<!--botão passar pag-->       
         <div class="paginacao">
         {% if pagina > 1 %}
             <a href="{{ url_for('series', page=pagina-1) }}">

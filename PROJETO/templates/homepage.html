@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <title>Popcorn Movies</title>
@@ -14,7 +14,6 @@
                   | <a href="/cadastro">Cadastro</a>
                   | <a href="/filmes">Filmes</a>
                   | <a href="/series">Séries</a>
-                  | <a href="/favoritos">Favoritos</a>
                 </li>
             </ul> 
         </nav>
@@ -25,22 +24,23 @@
             <input type="text" name="barra-de-busca" id="barra-de-busca" required>
             <button type="submit">BUSCAR</button>
         </form>
-        <h1>Filmes Populares</h1>
+        <h2>Filmes Populares</h2>
         <ul>
             {% for movie in movies %}
                 <li>
-                    <abbr title="{{ movie.overview }}"><img src="https://image.tmdb.org/t/p/w200{{ movie.poster_path }}" alt="{{ movie.title }}" /></abbr>
-                    <strong>{{ movie.title }}</strong> - {{ movie.release_date }}
+                    <abbr title="{{ movie.overview }} -> {{ movie.genres_nomes | join(', ') }}"><img src="https://image.tmdb.org/t/p/w200{{ movie.poster_path }}" alt="{{ movie.title }}" /></abbr>
+                    <p>{{ movie.title }}</p> 
+                    <p>{{ movie.data_formatada }}</p>
                 </li>
             {% endfor %}
         </ul>
         
-        <h1>Séries Populares</h1>
+        <h2>Séries Populares</h2>
         <ul>
             {% for serie in series %}
             <li>
-                <abbr title="{{serie.overview}}"><img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{serie.name}}"></abbr>
-                <strong>{{serie.name}}</strong> - {{serie.first_air_date}}
+                <abbr title="{{serie.overview}} -> {{ serie.genres_nomes | join(', ') }} "><img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{serie.name}}"></abbr>
+                <strong>{{serie.name}}</strong> - {{ serie.data_formatada }}
             </li>
             {% endfor %}
         </ul>
