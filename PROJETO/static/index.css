@@ -113,11 +113,31 @@ strong {
 }
 
 /* Lista principal de filmes/séries */
-#ul-main {
-    margin: 10px;
-    background-color: black;
-    border-radius: 5px;
+.grid-filmes {
+    display: grid;
+    grid-template-columns:repeat(7, 1fr);
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
 }
+.filme-card {
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    max-width: 150px;
+}
+
+.filme-card img {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s ease; /*animação*/
+}
+
+.filme-card img:hover {
+    transform: scale(1.05); /*zoom*/
+}
+
 
 /* Mensagem vinda do Flask */
 #mensagem-flask {

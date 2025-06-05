@@ -101,19 +101,17 @@
             <hr id="hr1">
 
             <!-- Lista de resultados -->
-            <ul id="ul-main">
-                {% for busca in buscar %}
-                    <li class="li-main">
-                        <!-- Imagem do filme/série com descrição no hover -->
-                        <abbr title="{{ busca.overview }}">
-                            <img id="imagens" src="https://image.tmdb.org/t/p/w200{{ busca.poster_path }}" alt="{{ busca.title }}" />
-                        </abbr>
-                        <!-- Título e data de lançamento -->
-                        <strong>{{ busca.title }} - {{ busca.release_date }}</strong>
-                    </li>
-                {% endfor %}
-                {% endif %}
-            </ul>
+            <div class="grid-filmes">
+                    {% for busca in buscar %}
+                        <div class="filme-card">
+                            <abbr title="{{ busca.overview }} ">
+                                <img src="https://image.tmdb.org/t/p/w200{{ busca.poster_path }}" alt="{{ busca.title }}" /></abbr>
+                            <strong>{{ busca.title }}</strong> 
+                            <p> {{ busca.release_date }}</p>
+                        </div>
+                    {% endfor %}
+                    {% endif %}
+            </div>
 
         </section>
     </main>
