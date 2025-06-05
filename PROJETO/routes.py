@@ -43,7 +43,7 @@ def homepage():
     adicionar_nomes_generos(filmes, generos_dict)
     adicionar_nomes_generos(series, generos_dict)
 
-    return render_template( "homepage.html", movies=filmes['results'],categorias=categorias['genres'],series=series['results'])
+    return render_template( "homepage.html", movies=filmes['results'],categorias=categorias['genres'],series=series['results'], nome=nome_do_usuario)
 
 @server.route('/filmes')
 def filmes():
