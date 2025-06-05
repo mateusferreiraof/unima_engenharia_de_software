@@ -3,51 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Explorador de Filmes e Séries</title>
+    
+    <!-- Título da aba do navegador -->
+    <title>PopCorn Movies</title>
+
+    <!-- Ícone da aba -->
     <link rel="icon" href="static\imagens\favicon.ico" type="image/x-icon">
+
+    <!-- Importação do arquivo CSS -->
     <link rel="stylesheet" href="../static/login.css">
 </head>
 <body>
+    <!-- Cabeçalho do site -->
     <header>
         <h1>PopCorn Movies</h1>
-         <nav>
-            <ul>
-                <li><a href="/home" id="subtitulologin">Voltar para tela principal</a></li>
-            </ul></nav>
+
     </header>
+
+    <!-- Conteúdo principal da página -->
     <main>
-            <form action="/validacao-login" method="post">
+        <!-- Formulário de login -->
+        <form action="/validacao-login" method="post">
             <div class="form-imagem">
+                <!-- Imagem ilustrativa ao lado do formulário -->
                 <img src="../static/imagens/sites-para-assistir-filmes-e-series-gratis.jpg" alt="">
             </div>
             <div class="formulario">
-            <div class="cabecario-do-form">
-                <h2>Login</h2>
-                <p>Seja bem vindo!</p>
-                <legend>Digite seus dados de acesso no campo abaixo.</legend>
-            </div>
-            <div class="entrada-de-dados">
-                <div class="preencher-dados">
-                    <label for="input-email">E-mail:</label>
-                    <input id="input-email" type="text" name="email" placeholder="user@email.com" required>
-                    <label for="input-senha">Senha:</label>
-                    <input id="input-senha" type="password" name="senha" placeholder="Digite sua senha..." required>
-                    <div class="botoes">
-                        <!-- Botão do tipo submit, que envia os dados preenchidos. -->
-                        <button type="submit" id="botao-entrar">ENTRAR</button>
-                        <a href="/recuperacao">Esqueceu a senha?</a>
-                        <div><hr id="separacao"></div>
-                        <!-- Código mesclado com JavaScript usando onclick para fazer um redirecionamento a tela de cadastro. -->
-                        <button type="button" id="botao-cadastrar" onclick="window.location.href='/cadastro'">CADASTRAR</button>
-                        {% if mensagem %}
-                           <p id="mensagem-flask">{{mensagem}}</p>
-                        {% endif %}
+                <div class="cabecario-do-form">
+                    <!-- Título e instruções do formulário -->
+                    <h2>Login</h2>
+                    <p>Seja bem vindo!</p>
+                    <legend>Digite seus dados de acesso no campo abaixo.</legend>
+                </div>
+
+                <div class="entrada-de-dados">
+                    <div class="preencher-dados">
+                        <!-- Campo para digitar o e-mail -->
+                        <label for="input-email">E-mail:</label>
+                        <input id="input-email" type="text" name="email" placeholder="user@email.com" required>
+
+                        <!-- Campo para digitar a senha -->
+                        <label for="input-senha">Senha:</label>
+                        <input id="input-senha" type="password" name="senha" placeholder="Digite sua senha..." required>
+
+                        <div class="botoes">
+                            <!-- Botão para enviar o formulário (fazer login) -->
+                            <button type="submit" id="botao-entrar">ENTRAR</button>
+
+                            <!-- Botão para redirecionar para a página de cadastro -->
+                            <button type="button" id="botao-cadastrar" onclick="window.location.href='/cadastro'">CADASTRAR</button>
+                            
+                            <!-- Linha divisória -->
+                            <div><hr id="separacao"></div>
+                            
+                            <!-- Link para recuperação de senha -->
+                            <a href="/recuperacao">Esqueceu a senha?</a>
+
+                                            <!-- Link de retorno para a página principal -->
+                            <a href="/home">Voltar para tela principal</a>
+
+                            <!-- Exibição de mensagens do Flask (ex: erro de login) -->
+                            {% if mensagem %}
+                               <p id="mensagem-flask">{{mensagem}}</p>
+                            {% endif %}
+                        </div>
                     </div>
                 </div>
             </div>
-            </div>
-            </form>
+        </form>
     </main>
+
+    <!-- Rodapé com os créditos do projeto -->
     <footer>
         <p>&copy; Desenvolvido por Mateus Ferreira, Maria Layanne, Vinicius Matheus e Matheus Gabriel.</p>
     </footer>

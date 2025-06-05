@@ -1,53 +1,97 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastrar</title>
+    <!-- Título da aba do navegador -->
+
     <link rel="icon" href="static\imagens\favicon.ico" type="image/x-icon">
+    <!-- Ícone (favicon) exibido na aba do navegador -->
+
     <link rel="stylesheet" href="../static/cadastro.css">
+    <!-- Importa o arquivo de estilos CSS externo -->
 </head>
+
 <body>
     <header>
         <h1>PopCorn Movies</h1>
-        <nav>
-            <ul><li><a href="/home" id="subtitulocadastro">Voltar para tela principal</a></li>
-            </ul></nav>
+        <!-- Título principal do site -->
     </header>
+
+    <form action="/cadastrarusuario" method="post">
+    <!-- Formulário que envia dados via POST para a rota /cadastrarusuario -->
     <fieldset>
-        <form action="/cadastrarusuario" method="post">
+        <!-- Agrupamento visual dos campos do formulário -->
+
+
             <div class="cabecario-do-cadastro">
                 <h2>Criar uma nova conta</h2>
                 <p id="paragrafo-form">Preencha os dados abaixo.</p>
+                <!-- Mensagem introdutória ao formulário -->
             </div>
+
             <div class="entrada-de-dados-cadastro">
+                <!-- Container para os campos do formulário -->
+
                 <label for="nome" class="label-dados">Nome: </label>
-                <input type="text" id="input-nome" name="nome" placeholder="Digite seu nome" minlength="5" maxlength="15" required>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" minlength="5" maxlength="15" required>
+                <!-- Campo para digitar o nome, entre 5 e 15 caracteres -->
+
                 <label for="email" class="label-dados">E-mail: </label>
-                <input type="email" id="input-email" name="email" placeholder="Digite seu e-mail" minlength="5" required>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" minlength="5" required>
+                <!-- Campo para digitar o e-mail com validação mínima -->
+
                 <h3 id="subtitulo-genero">Gênero:</h3>
+                <!-- Subtítulo da seção de gênero -->
+
                 <div class="opcao-genero">
-                    <label for="genero" class="label-genero">Masculino </label>
+                    <!-- Grupo de opções de gênero -->
+                    <label for="masculino" class="label-genero">Masculino </label>
                     <input type="radio" name="genero" id="masculino" value="M" required>
-                    <label for="genero" class="label-genero">Feminino</label>
+                    <!-- Opção de gênero masculino -->
+
+                    <label for="feminino" class="label-genero">Feminino</label>
                     <input type="radio" name="genero" id="feminino" value="F" required>
+                    <!-- Opção de gênero feminino -->
                 </div>
+
                 <label for="senha" class="label-dados">Senha: </label>
-                <input type="password" id="input-senha" name="senha" placeholder="Digite sua senha" required minlength="6" maxlength="32">
+                <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required minlength="6" maxlength="32">
+                <!-- Campo para senha com limite entre 6 e 32 caracteres -->
+
                 <label for="confirmar-senha" class="label-dados">Confirme sua senha: </label>
                 <input type="password" id="input-confirmar-senha" name="confirmar-senha" placeholder="Digite sua senha novamente" required minlength="8" maxlength="32">
+                <!-- Campo para confirmar senha, deve coincidir com o anterior -->
             </div>
+
             <div class="botoes">
-                <button type="submit">CADASTRAR</button>
-                <a href="/login">Voltar para Login</a>
+                <!-- Botões e links do formulário -->
+                
+                <nav>
+
+                    <button type="submit">CADASTRAR</button>
+                    <!-- Botão que envia o formulário -->
+                    <a href="/login">Voltar para Login</a>
+                    <!-- Link para voltar à tela de login -->
+                    <a href="/home">Voltar para tela principal</a>
+                    <!-- Link de navegação para voltar à página inicial -->
+
+                </nav>
+
                 {% if mensagem %}
                     <p id="mensagem-flask">{{mensagem}}</p>
+                    <!-- Mensagem vinda do Flask (por exemplo, erro ou sucesso) -->
                 {% endif %}
             </div>
-        </form>
+            
+        </fieldset>
+    </form>
         <footer>
+            <!-- Rodapé fixo com crédito dos desenvolvedores -->
             <p id="paragrafo-footer">&copy; Desenvolvido por Mateus Ferreira, Maria Layanne, Vinicius Matheus e Matheus Gabriel.</p>
         </footer>
-    </fieldset>
 </body>
 </html>

@@ -1,58 +1,69 @@
 @charset "UTF-8";
+/* Define a codificação de caracteres como UTF-8 para suportar acentuação */
+
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* Importa fontes do Google Fonts para uso no site */
 
-
+/* Reset básico para remover espaçamentos padrão dos navegadores */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Estilo geral do body com gradiente de fundo e centralização dos elementos */
 body {
-    background: linear-gradient(to right, rgb(10, 165, 210), rgb(60, 35, 155) 60%);
+    background-color: rgb(60, 35, 155);
     display: flex;
-    align-items: center;
     flex-direction: column;
-    margin: 100px;
 }
 
+/* Cabeçalho fixo no topo da tela com gradiente de fundo e fonte personalizada */
 header {
-    width: 100%;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
-    background: linear-gradient(to right, rgb(10, 165, 210), rgb(60, 35, 155) 60%);
+    margin-bottom: 100px;
+    background-color: rgb(10, 165, 210);
     text-align: center;
     color: black;
     font-family: 'Pacifico';
 }
 
+/* Título com espaçamento e fonte sans-serif */
 h2 {
     margin: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2rem;
 }
 
-
+/* Borda invisível e arredondamento nos fieldsets */
 fieldset {
     border: 1px solid transparent;
     border-radius: 5px;
-    margin: 50px;
+    margin: auto;
 }
 
+/* Estilo do formulário com centralização, fundo claro e padding */
 form {
     border: 1px solid transparent;
     border-radius: 5px;
     background-color: aliceblue;
     width: 600px;
     height: 600px;
+    margin: auto;
     display: flex;
-    align-items: center;
     flex-direction: column;
-    padding: 30px;
+    padding: 10px;
 }
 
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+/* Campos de entrada com borda, padding e estilização básica */
 input {
     margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -62,39 +73,45 @@ input {
     padding: 5px;
 }
 
+/* Botões com cor de fundo e bordas arredondadas */
 button {
     margin: 10px;
     width: 250px;
     background-color: rgb(10, 165, 210);
     border: 1px solid transparent;
     border-radius: 5px;
-    padding: 3px;
+    padding: 5px;
 }
 
+/* Cor de fundo do botão ao passar o mouse */
 button:hover {
     background-color: greenyellow;
 }
 
+/* Estilização dos links */
 a {
     margin: 10px;
-    padding: 10px;
     text-decoration: none;
 }
 
+/* Cor dos links já visitados */
 a:visited {
     text-decoration: none;
     color: #1877F2;
 }
 
+/* Rodapé fixo na parte inferior da tela com gradiente de fundo */
 footer {
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    background: linear-gradient(to right, rgb(10, 165, 210), rgb(60, 35, 155) 60%);
+    margin-top: 100px;
+    background-color: rgb(10, 165, 210);
     text-align: center;
 }
 
+/* Parágrafo dentro do rodapé com estilo clássico */
 #paragrafo-footer {
     font-family: 'Times New Roman', Times, serif;
     color: black;
@@ -102,12 +119,14 @@ footer {
     padding: 10px;
 }
 
+/* Estilização de parágrafo no formulário */
 #paragrafo-form {
     font-family: 'Times New Roman', Times, serif;
     color: dimgray;
     margin: 5px;
 }
 
+/* Subtítulo para campo de gênero */
 #subtitulo-genero {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 5px;
@@ -115,6 +134,7 @@ footer {
     color: dimgray;
 }
 
+/* Mensagem exibida pelo Flask (ex: erro ou sucesso) */
 #mensagem-flask {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
@@ -122,31 +142,34 @@ footer {
     color: red;
 }
 
+/* Subtítulo do formulário de cadastro */
 #subtitulocadastro {
     color: black;
     text-decoration: underline black
 }
 
+/* Cabeçalho do formulário de cadastro centralizado */
 .cabecario-do-cadastro {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
+/* Entrada de dados centralizada no cadastro */
 .entrada-de-dados-cadastro {
     display: flex;
     align-items: center;
     flex-direction: column;
-    
 }
 
+/* Container para botões com centralização e margem */
 .botoes {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 10px;
 }
 
+/* Container das opções de gênero com espaçamento horizontal */
 .opcao-genero {
     width: 250px;
     display: flex;
@@ -154,6 +177,7 @@ footer {
     margin: 10px;
 }
 
+/* Estilo dos rótulos dos campos do formulário */
 .label-dados {
     font-family: 'Times New Roman', Times, serif;
     width: 250px;
