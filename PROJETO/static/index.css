@@ -1,5 +1,3 @@
-
-
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -258,10 +256,14 @@ main {
 }
 
 
-.li-main {
-    margin: auto;
+.grid-filmes {
+    display: grid;
+    grid-template-columns:repeat(7, 1fr);
+    gap: 20px;
     padding: 20px;
-    display: inline-table;
+    justify-items: center;
+}
+.filme-card {
     text-align: center;
     color: black;
     max-width: 200px;

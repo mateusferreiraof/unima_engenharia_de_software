@@ -1,0 +1,222 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(to right, rgb(10, 154, 194), rgb(54, 32, 141));
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    color: white;
+}
+
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: rgb(118, 35, 196);
+    border-radius: 2px;
+    color: rgba(255, 255, 255, 0.781);
+    width: 200px;
+    padding: 5px;
+    margin-top: 15px; 
+    margin-bottom: 10px; 
+}
+
+nav {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+footer {
+p{    
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 14px;
+
+}    
+}
+
+main {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1500px;
+    background: linear-gradient(to right, rgb(10, 165, 210), rgb(60, 35, 155));
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 0px solid transparent;
+    border-radius: 5px;
+
+}
+
+
+#cabecario {
+    background-color:linear-gradient(to right, rgb(10, 154, 194), rgb(54, 32, 141));
+    text-align: center;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px 20px 40px;
+}
+
+
+#hr1 {
+    border: 1px solid white;
+    margin-top: 10px;
+}
+
+#hr2 {
+    border: 1px solid white;
+}
+
+#exibir-resultado {
+    width: 750px;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#ul-header {
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+}
+
+#ul-main {
+    align-items: center;
+    display: inline-table;
+    margin: auto;
+    padding: 30px;
+}
+
+#subtitulobusca {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#subtitulobusca:hover {
+    background-color: yellowgreen;
+}
+
+
+.li-header {
+    display: inline-block;
+    width: 180px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.a-header {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.a-header:hover {
+    background-color: yellowgreen;
+}
+
+
+.li-main {
+    margin: auto;
+    padding: 20px;
+    display: inline-table;
+    text-align: center;
+    color: black;
+    max-width: 500px;
+    max-width: 200px;
+}
+
+.paginacao {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.paginacao a button {
+    background-color: #3c239b;
+    color: rgba(255, 255, 255, 0.849);             
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.paginacao a button:hover {
+    background-color: #4f3d96a6; 
+    color: black;
+}
+
+/*direção e organização dos posters */
+
+.grid-filmes {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); 
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.filme-card {
+    text-align:center;
+    max-width: 150px;
+
+p strong{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+    
+p{  font-family: 'Epilogue', sans-serif;
+    font-size: 10px;
+    color: #cccccc;
+}
+
+}
+.filme-card img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease; /*animação*/
+}
+
+.filme-card p {
+    margin: 5px 0; /* Espaço vertical entre os parágrafos */
+}
+
+.filme-card img:hover {
+    transform: scale(1.05); /*zoom*/
+}

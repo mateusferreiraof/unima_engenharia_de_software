@@ -1,76 +1,109 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página dos Filmes</title><link rel="icon" href="static\imagens\favicon.ico" type="image/x-icon">
+    <title>Página dos Filmes</title>
+    <link rel="icon" href="static\imagens\favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../static/filmes_e_series.css">
+    <script src="https://kit.fontawesome.com/b9243416c4.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="/home">Início</a>
-                    |<a href="/series">Séries</a>
-                    |<a href="/filmes">Filmes</a></li>
-            </ul>
-        </nav>
+        <section id="cabecario">
+            <h1>POPCORN MOVIES</h1>
+            <nav id="nav-header">
+                <ul id="ul-header">
+                    <li class="li-header"><a href="/home" id="subtitulobusca"><i class="fa-solid fa-house" style="color: #3c239b;"></i> INÍCIO</a></li>
+                    <li class="li-header"><a href="/filmes" class="a-header"><i class="fa-solid fa-tv" style="color: #3c239b;"></i> FILMES</a></li>
+                    <li class="li-header"><a href="/series" class="a-header"><i class="fa-solid fa-film" style="color: #3c239b;"></i> SÉRIES</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul type="none">
+                    <li id="icone-header"><a href="#"><i class="fa-solid fa-user" style="color: #f4f3f8c5;"></i></a></li>
+                </ul>
+            </nav>
+        </section>
     </header>
     <main>
 
  <!--Filme popular-->       
         <h2>Filmes Populares</h2>
 
+        <div class="grid-filmes">
         {% if filmes %}
-        <ul>
             {% for filme in filmes %}
-                <li>
-                    <abbr title="{{ filme.overview }}"><img src="https://image.tmdb.org/t/p/w200{{ filme.poster_path }}" alt="{{ filme.title }}" /></abbr>
-                    <strong>{{ filme.title }}</strong> - {{ filme.release_date }}
-                </li>
+               <div class="filme-card">
+                <abbr title="{{ filme.overview }} -> {{ filme.genres_nomes | join(', ') }}">
+                    <img src="https://image.tmdb.org/t/p/w200{{ filme.poster_path }}" alt="{{ filme.title }}" />
+                </abbr>
+                <p><strong>{{ filme.title }}</strong></p> 
+                <p>{{ filme.data_formatada }}</p>
+                </div>
             {% endfor %}
-        </ul>
+            </div>
         {% else %}
         <p>Nenhum filme popular recomendada.</p>
         {% endif %}
-
-<!--Filme avaliados--> 
-        <h2>Os Mais Avaliados</h2>
-
-        {% if avaliados %}
-        <ul>
-            {% for filme in avaliados %}
-                <li>
-                    <abbr title="{{ filme.overview }}"><img src="https://image.tmdb.org/t/p/w200{{ filme.poster_path }}" alt="{{ filme.title }}" /></abbr>
-                    <strong>{{ filme.title }}</strong> - {{ filme.release_date}} Voto Popular: {{filme.vote_count | round(2)}}
-                </li>
-            {% endfor %}
-        </ul>
-        {% else %}
-        <p>Nenhum filme avaliado recomendada.</p>
-        {% endif %}
-
+        
 <!--Filmes TMDB-->
 
         <h2>Os Populares no TMDB</h2>
 
+        <div class="grid-filmes">
         {% if tmdb %}
-        <ul>
             {% for filme in tmdb %}
-                <li>
-                    <abbr title="{{ filme.overview }}"><img src="https://image.tmdb.org/t/p/w200{{ filme.poster_path }}" alt="{{ filme.title }}" /></abbr>
-                    <strong>{{ filme.title }}</strong> - {{ filme.release_date}} 
-                </li>
+                    <div class="filme-card">
+                    <abbr title="{{ filme.overview }} -> Gêneros: {{ filme.genres_nomes | join(', ') }}">
+                        <img src="https://image.tmdb.org/t/p/w200{{ filme.poster_path }}" alt="{{ filme.title }}" /></abbr>
+                    <p><strong>{{ filme.title }}</strong></p> 
+                    <p>{{ filme.data_formatada}} </p>
+                    </div>
             {% endfor %}
-        </ul>
         {% else %}
-        <p>Nenhum filme popular TMDB recomendada.</p>
-        {% endif %}        
+        <p>Nenhum filme popular do TMDB recomendada.</p>
+        {% endif %}
+        </div>
 
+<!--Filme avaliados--> 
+
+        <h2>Os Mais Avaliados</h2>
+
+        <div class="grid-filmes">
+        {% if avaliados %}
+            {% for filme in avaliados %}
+                    <div class="filme-card">
+                    <abbr title="{{ filme.overview }} -> Gêneros: {{ filme.genres_nomes | join(', ') }}">
+                        <img src="https://image.tmdb.org/t/p/w200{{ filme.poster_path }}" alt="{{ filme.title }}" /></abbr>
+                    <p><strong>{{ filme.title }}</strong></p> 
+                    <p>{{ filme.data_formatada}} </p>
+                   <p><i class="fa-solid fa-star" style="color: rgba(255, 217, 0, 0.808);"></i> {{ filme.vote_average | round(1) }} 
+
+                    </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <p>Nenhum filme avaliado recomendada.</p>
+        {% endif %}
+
+<!--botão passar pag-->
+
+        <div class="paginacao" >
+        {% if pagina > 1 %}
+            <a href="{{ url_for('filmes', page=pagina-1) }}">
+                <button>Anterior</button>
+            </a>
+        {% endif %}
+        <a href="{{ url_for('filmes', page=pagina+1) }}">
+            <button>Próxima</button>
+        </a>
+       </div>
     </main>
 
     <footer>
-
+        <p id="paragrafo-footer">&copy; Desenvolvido por Mateus Ferreira, Maria Layanne, Vinicius Matheus e Matheus Gabriel.</p>
     </footer>
 
 </body>

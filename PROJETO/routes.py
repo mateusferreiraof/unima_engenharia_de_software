@@ -3,40 +3,89 @@ from PROJETO import server
 from PROJETO.config import conexao, cursor
 from Api.tmdbapifilmes import MovieAPI
 from Api.tmdbapiseries import SeriesAPI
+from Api.categorias import Categoria
 
 @server.route('/home', methods=['GET', 'POST'])
 def homepage():
 
     api = MovieAPI()
     filmes = api.movie_list()
-    series = api.series_list()
+    api_series =SeriesAPI()
+    api_categorias = Categoria()
+
+    series =api_series.series_populares_tmdb()
 
     if request.method == 'POST':
         pesquisar = request.form.get('barra-de-busca')
         pesquisa = api.movie_search(query=pesquisar)
         return render_template("index.html", buscar=pesquisa['results'], mensagem=pesquisar)
-        
-    return render_template("homepage.html", movies=filmes['results'], series=series['results'])
+    
+    categorias = api_categorias.obter_generos()
+    generos_dict = {g['id']: g['name'] for g in categorias['genres']}
+
+    def adicionar_nomes_generos(lista, generos_dict):
+        for item in lista.get('results', []):
+            if 'genre_ids' in item:
+                item['genres_nomes'] = [generos_dict.get(gid, "Desconhecido") for gid in item['genre_ids']]
+
+    # Aplica a função para filmes e séries
+    adicionar_nomes_generos(filmes, generos_dict)
+    adicionar_nomes_generos(series, generos_dict)
+
+    return render_template( "homepage.html", movies=filmes['results'],categorias=categorias['genres'],series=series['results'])
 
 @server.route('/filmes')
 def filmes():
-
     api = MovieAPI()
-    filmes = api.movie_list()
-    avaliados = api.filmes_bem_avaliados()
-    tmdb = api.filmes_populares_tmdb()
+    api_categorias = Categoria()
     
-    return render_template("filmes.html", filmes=filmes['results'], avaliados=avaliados['results'],tmdb=tmdb['results'])
+    pagina = request.args.get('page', default=1, type=int)
+    filmes = api.movie_list(page=pagina)
+    avaliados = api.filmes_bem_avaliados(page=pagina)
+    tmdb = api.filmes_populares_tmdb(page=pagina)
 
+    # Obtemos a lista de categorias
+    categorias = api_categorias.obter_generos()
+    generos_dict = {g['id']: g['name'] for g in categorias['genres']}
+    
+    def adicionar_nomes_generos(lista_filmes, generos_dict):
+        for filme in lista_filmes.get('results', []):
+            if 'genre_ids' in filme:
+                filme['genres_nomes'] = [generos_dict.get(gid, "Desconhecido") for gid in filme['genre_ids']]
+
+    # Aplica para todas as listas
+    adicionar_nomes_generos(filmes, generos_dict)
+    adicionar_nomes_generos(avaliados, generos_dict)
+    adicionar_nomes_generos(tmdb, generos_dict)
+
+    return render_template("filmes.html", filmes=filmes['results'],categorias=categorias['genres'], avaliados=avaliados['results'],tmdb=tmdb['results'], pagina=pagina)
+
+   
 @server.route('/series')
 def series():
     api =SeriesAPI()
-    populares = api.series_list()
-    avaliadas = api.series_bem_avaliadas()
-    tmdb =api.series_populares_tmdb()
-    hj=api.series_exibidas_hj()
+    api_categorias = Categoria()
 
-    return render_template("series.html",populares=populares['results'], avaliadas=avaliadas['results'], tmdb=tmdb['results'], hj=hj['results'])
+    pagina = request.args.get('page', default=1, type=int)
+    populares = api.series_list(page=pagina)
+    avaliadas = api.series_bem_avaliadas(page=pagina)
+    tmdb =api.series_populares_tmdb(page=pagina)
+    hj=api.series_exibidas_hj(page=pagina)
+
+    categorias = api_categorias.obter_generos_tv()
+    generos_dict = {g['id']: g['name'] for g in categorias['genres']}
+
+    def adicionar_nomes_generos(lista_series, generos_dict):
+        for serie in lista_series.get('results', []):
+            if 'genre_ids' in serie:
+                serie['genres_nomes'] = [generos_dict.get(gid, "Desconhecido") for gid in serie['genre_ids']]
+
+    # Aplica para todas as listas
+    adicionar_nomes_generos(populares, generos_dict)
+    adicionar_nomes_generos(avaliadas, generos_dict)
+    adicionar_nomes_generos(tmdb, generos_dict)
+
+    return render_template("series.html",populares=populares['results'], avaliadas=avaliadas['results'], tmdb=tmdb['results'], hj=hj['results'], categorias=categorias['genres'], pagina=pagina)
 
 @server.route('/')
 def inicio():

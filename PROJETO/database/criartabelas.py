@@ -41,6 +41,3 @@ class CriarTabelas:
                 ano_da_serie YEAR
             ) DEFAULT CHARSET = UTF8
         """)
-
-
-        
