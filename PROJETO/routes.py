@@ -29,7 +29,7 @@ def homepage():
     if request.method == 'POST':
         pesquisar = request.form.get('barra-de-busca')
         pesquisa = api.movie_search(query=pesquisar)
-        return render_template("index.html", buscar=pesquisa['results'], mensagem=pesquisar)
+        return redirect(url_for('index', pesquisa=pesquisar))
     
     categorias = api_categorias.obter_generos()
     generos_dict = {g['id']: g['name'] for g in categorias['genres']}
@@ -43,7 +43,19 @@ def homepage():
     adicionar_nomes_generos(filmes, generos_dict)
     adicionar_nomes_generos(series, generos_dict)
 
-    return render_template( "homepage.html", movies=filmes['results'],categorias=categorias['genres'],series=series['results'], nome=nome_do_usuario)
+    return render_template( "homepage.html", movies=filmes['results'], categorias=categorias['genres'],series=series['results'], nome=nome_do_usuario)
+
+@server.route('/index')
+def index():
+    api = MovieAPI()
+    nome_do_usuario = session.get('nome')
+    pesquisa = request.args.get('pesquisa')
+
+    if pesquisa:
+        pesquisar = api.movie_search(query=pesquisa)
+        return render_template("index.html", buscar=pesquisar['results'], mensagem=pesquisa, nome=nome_do_usuario)
+
+    return redirect('/home') 
 
 @server.route('/filmes')
 def filmes():

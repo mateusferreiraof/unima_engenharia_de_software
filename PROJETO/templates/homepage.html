@@ -9,14 +9,12 @@
 </head>
 <body>
     <header>
+        {% if nome %}
         <nav>
-            <a href="/login">Login</a>
-            <a href="/cadastro">Cadastro</a>
             <a href="/filmes">Filmes</a>
             <a href="/series">Séries</a>
         </nav>
         <nav>
-            {% if nome %}
             <ul type="none">
                 <input type="checkbox" id="menu-toggle" hidden>
                 <label for="menu-toggle" class="menu-icon"><li id="icone-header"><i class="fa-solid fa-user" style="color: black;"></i></li></label>
@@ -26,12 +24,18 @@
                 </div>
             </ul>
             {% else %}
+            <nav>
+            <a href="/login">Login</a>
+            <a href="/cadastro">Cadastro</a>
+            <a href="/filmes">Filmes</a>
+            <a href="/series">Séries</a>
+        </nav>
+        <nav>
             <ul type="none">
                 <input type="checkbox" id="menu-toggle" hidden>
                 <label for="menu-toggle" class="menu-icon"><li id="icone-header"><i class="fa-solid fa-user" style="color: black;"></i></li></label>
                 <div class="menu">
-                <p>Olá! Seja bem vindo! Deseja fazer login?</p>
-                <a href="/login">Login</a>
+                <p>Olá! Seja bem vindo!</p>
                 </div>
             </ul>
             {% endif %}
