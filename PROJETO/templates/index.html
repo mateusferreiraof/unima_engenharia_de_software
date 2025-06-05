@@ -21,7 +21,7 @@
             </nav>
             <nav>
                 <ul type="none">
-                    <li id="icone-header"><a href="#"><i class="fa-solid fa-user" style="color: #3c239b;"></i></a></li>
+                    <li id="icone-header"><a href="#"><i class="fa-solid fa-user" style="color: #ffff;"></i></a></li>
                 </ul>
             </nav>
         </section>
@@ -29,7 +29,6 @@
             <h2 id="h2-header">Bem-vindo!</h2>
             <legend id="legend-header">Dê uma olhada nos filmes e séries do catálogo.</legend>
             <form action="/home", method="post">
-            <p id="p-header">Pesquisar:</p>
             <input type="text" name="barra-de-busca" id="barra-de-busca" placeholder="Procure por um filme, uma série" required>
             <button type="submit"><a href=""><i class="fa-solid fa-magnifying-glass" style="color: #3c239b;"></i></a></button>
         </form>
@@ -49,19 +48,39 @@
             <hr id="hr1">
             <div class="grid-filmes">
                     {% for busca in buscar %}
-                        <div class="filme-card">
-                            <abbr title="{{ busca.overview }} "><img src="https://image.tmdb.org/t/p/w200{{ busca.poster_path }}" alt="{{ busca.title }}" /></abbr>
-                            <strong>{{ busca.title }}</strong> 
-                            <p> {{ busca.release_date }}</p>
-                        </div>
+                        <li class="li-main">
+                            <abbr title="{{ busca.overview }}"><img id="imagens" src="https://image.tmdb.org/t/p/w200{{ busca.poster_path }}" alt="{{ busca.title }}" /></abbr>
+                            <strong>{{ busca.title }}</strong> - {{ busca.release_date }}
+                        </li>
                     {% endfor %}
                     {% endif %}
-            </div>
-            <hr id="hr2">
+            </ul>
         </section>
     </main>
+    <hr id="hr2">
     <footer>
-        <p>&copy; Desenvolvido por Mateus Ferreira, Maria Layanne, Vinicius Matheus e Matheus Gabriel.</p>
+        <div id="primeira-coluna-footer">
+            <img id="imagem-footer" src="../static/imagens/favicon.ico" alt="">
+        </div>
+        <div id="segunda-coluna-footer">
+            <ul type="none">
+                <li id="o-basico"><a id="a-o-basico-footer" href="#">O BÁSICO</a></li>
+                <li class="li-segunda-coluna-footer"><a href="#">Sobre nós</a></li>
+                <li class="li-segunda-coluna-footer"><a href="#">Contate-nos</a></li>
+                <li class="li-segunda-coluna-footer"><a href="#">Suporte</a></li>
+                <li class="li-segunda-coluna-footer"><a id="a-documentacao-footer" href="#">Documentação</a></li>
+            </ul>
+        </div>
+        <div id="terceira-coluna-footer">
+            <ul type="none">
+                <li class="li-terceira-coluna-footer"><a href="#">Termos de uso</a></li>
+                <li class="li-terceira-coluna-footer"><a href="#">Política de Privacidade</a></li>
+            </ul>
+        </div>
+        <div id="quarta-coluna-footer">
+            <a href="#" id="a-quarta-coluna-footer"><i class="fa-brands fa-github"></i> GitHub</a>
+            <p id="p-quarta-coluna-footer">Copyright &copy; 2025 Popcorn Movies</p>
+        </div>
     </footer>
 </body>
 </html>
