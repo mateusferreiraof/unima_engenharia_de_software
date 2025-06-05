@@ -1,38 +1,62 @@
+/* Define a codificação de caracteres como UTF-8 */
 @charset "UTF-8";
+
+/* Importa fontes do Google Fonts para uso no site */
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Remove espaçamentos padrão e define o modelo de box como border-box */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Estilização do cabeçalho da página */
 header {
     width: 100%;
-    position: relative;
+    margin-bottom: 200px;
+    position: relative; /* Fixa o cabeçalho no topo da tela */
     top: 0;
     left: 0;
-    background-color: rgb(10, 165, 210);
+    background-color: rgb(10, 165, 210); /* Cor azul clara */
     text-align: center;
     color: black;
-    font-family: 'Pacifico';
+    font-family: 'Pacifico'; /* Fonte importada */
 }
 
+/* Estilização do corpo da página */
 body {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(60, 35, 155);
+    background-color: rgb(60, 35, 155); /* Cor de fundo roxa */
     flex-direction: column;
 }
+
+/* Define margem para o conteúdo principal */
+main {
+    margin: auto; /* Afasta o conteúdo principal do topo (por causa do header fixo) */
+}
+
+/* Estiliza o formulário como linha (lado a lado) */
+form {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+/* Efeito de hover para botão de entrar */
 #botao-entrar:hover {
     background-color: greenyellow;
 }
 
+/* Efeito de hover para botão de cadastrar */
 #botao-cadastrar:hover {
     background-color: greenyellow;
 }
 
+/* Linha de separação visual entre elementos */
 #separacao {
     align-items: center;
     border-bottom: 1px solid #E2E7ED;
@@ -40,18 +64,21 @@ body {
     margin: 5px;
 }
 
+/* Estilo da mensagem de erro ou feedback do Flask */
 #mensagem-flask {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     font-weight: bold;
-    color: red;
+    color: red; /* Indica erro */
 }
 
+/* Subtítulo da seção de login */
 #subtitulologin {
     color: black;
     text-decoration: underline black;
 }
 
+/* Container geral do formulário de login */
 .forma-geral-do-login {
     margin: 30px;
     border: none;
@@ -59,6 +86,8 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+/* Container do formulário principal */
 .formulario {
     width: 750px;
     height: 395px;
@@ -66,64 +95,82 @@ body {
     flex-direction: column;
     background-color: white;
     border: 1px solid transparent;
-    border-radius: 3px;
-    box-shadow: 5px 5px 20px black;
+    border-radius: 0px 5px 5px 0px; /* Cantos arredondados apenas na direita */
+    box-shadow: 5px 5px 20px black; /* Sombra para dar destaque */
 }
-.form-imagem {
+
+/* Imagem ao lado do formulário */
+.form-imagem > img {
     width: 750px;
     height: 395px;
-    border: 1px solid transparent;
+    border-radius: 5px 0px 0px 5px; /* Cantos arredondados apenas na esquerda */
     box-shadow: 5px 5px 20px black;
-    border-radius: 5px;
 }
+
+/* Container para entrada de dados (inputs e labels) */
 .entrada-de-dados {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
+
+/* Alinha inputs e labels verticalmente */
 .preencher-dados {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
+
+/* Estilo da área com os botões */
 .botoes {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 2px;
 }
+
+/* Cabeçalho dentro do formulário */
 .cabecario-do-form {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 5px;
 }
+
+/* Estilo dos títulos */
 h2 {
     color: black;
-    padding: 10px;
+    padding: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2rem;
 }
+
+/* Estilo de parágrafos */
 p {
     color: black;
-    padding: 10px;
+    padding: 5px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5rem;
 }
+
+/* Estilo de links */
 a {
     text-decoration: none;
     color: #1877F2;
-    margin-bottom: 5px;
+    margin: 5px;
 }
+
+/* Estilo para links visitados */
 a:visited {
     color: #1877F2;
 }
+
+/* Legenda de grupos de campos em formulários */
 legend {
     color: dimgray;
     font-size: 16px;
-
 }
+
+/* Estilo dos inputs */
 input {
     width: 250px;
     border: 1px solid transparent;
@@ -132,28 +179,33 @@ input {
     background-color: white;
     padding: 5px;
 }
+
+/* Estilo dos rótulos dos inputs */
 label {
     font-family: 'Times New Roman', Times, serif;
     display: block;
     text-align: left;
     width: 35%;
     padding: 10px;
-
 }
+
+/* Estilo dos botões */
 button {
     width: 250px;
-    flex-direction: column;
-    padding: 3px;
+    padding: 5px;
     margin: 10px;
     background-color: rgb(10, 165, 210);
     border: 1px solid transparent;
     border-radius: 5px;
 }
+
+/* Estilização do rodapé da página */
 footer {
-    width: 100%;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 0;
-    background-color: rgb(10, 165, 210);;
+    width: 100%;
+    margin-top: 200px;
+    background-color: rgb(10, 165, 210);
     text-align: center;
 }

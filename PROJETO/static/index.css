@@ -1,47 +1,47 @@
+/* Define o charset e importa fontes do Google Fonts */
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Reset de margens, paddings e define box-sizing */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/* Estilo do corpo da página com layout em coluna e fundo com gradiente */
 body {
     display: flex;
     flex-direction: column;
-    margin: 0;
-    min-height: 100vh;
-    background-color: black;
+    background: linear-gradient(to right, rgb(10, 165, 210), rgb(60, 35, 155));
 }
 
+/* Header (cabeçalho) com layout em coluna */
 header {
     display: flex;
     flex-direction: column;
 }
 
-
+/* Título principal */
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    width: 200px;
     color: white;
 }
 
+/* Subtítulo */
 h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
 }
 
-nav {
-    display: flex;
-}
-
+/* Estilo do formulário centralizado */
 form {
     margin: auto;
     width: 515px;
     padding: 20px;
 }
 
+/* Estilo dos campos de input */
 input {
     margin: auto;
     width: 440px;
@@ -50,6 +50,7 @@ input {
     border-radius: 5px;
 }
 
+/* Estilo dos botões (ícones ou pequenos) */
 button {
     background-color: transparent;
     border: transparent;
@@ -57,6 +58,7 @@ button {
     height: 24px;
 }
 
+/* Estilo para links */
 a {
     text-decoration: none;
     color: black;
@@ -64,40 +66,39 @@ a {
     text-align: center;
 }
 
+/* Estilo do rodapé */
 footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background: linear-gradient(to right, rgb(10, 165, 210), rgb(60, 35, 155));
     text-align: center;
     padding: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5rem;
 }
 
+/* Área principal do conteúdo */
 main {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 1500px;
-    background: linear-gradient(to right, rgb(10, 165, 210), rgb(60, 35, 155));
-    color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: 0px solid transparent;
     border-radius: 5px 5px 0px 0px;
 }
 
+/* Elementos <strong> */
+strong {
+    width: 200px;
+}
 
+/* Cabeçalho com espaçamento e alinhamento */
 #cabecario {
-    background: linear-gradient(to right, rgb(10, 165, 210), rgb(60, 35, 155));
-    text-align: center;
-    color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 40px 20px 40px;
+    padding: 20px 40px;
+    max-height: 100px;
 }
+
+/* Seção de pesquisa com imagem de fundo */
 #pesquisa {
     background-image: url(imagens/imagem-pipoca.jpeg);
     background-size: 100%;
@@ -105,48 +106,35 @@ main {
     height: 300px;
 }
 
-#hr1 {
+/* Linhas horizontais estilizadas */
+#hr1, #hr2 {
     border: 1px solid white;
-    margin-top: 10px;
+    margin: 10px 0;
 }
 
-#hr2 {
-    border: 1px solid white;
+/* Lista principal de filmes/séries */
+#ul-main {
+    margin: 10px;
+    background-color: black;
+    border-radius: 5px;
 }
 
-#exibir-resultado {
-    width: 750px;
-    margin: auto;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
+/* Mensagem vinda do Flask */
 #mensagem-flask {
-    margin: auto;
     padding: 20px;
     font-size: 32px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #ECECEC;
     text-align: center;
     color: black;
-    border: 1px solid transparent;
-    border-radius: 5px 5px 0px 0px;
 }
 
-#ul-header {
-    width: 750px;
-    display: flex;
-    flex-direction: row;
+/* Menu de navegação */
+#menu {
+    max-height: 100px;
 }
 
-#ul-main {
-    align-items: center;
-    display: inline-table;
-    margin: auto;
-    padding: 30px;
-}
-
+/* Subtítulo da busca */
 #subtitulobusca {
     color: white;
     border: 1px solid white;
@@ -154,10 +142,12 @@ main {
     padding: 10px;
 }
 
+/* Efeito hover para o subtítulo da busca */
 #subtitulobusca:hover {
     background-color: yellowgreen;
 }
 
+/* Título principal da seção header */
 #h2-header {
     text-align: center;
     color: white;
@@ -165,40 +155,48 @@ main {
     font-size: 65px;
 }
 
+/* Parágrafo descritivo no cabeçalho */
 #p-header {
     color: white;
     font-size: 40px;
     width: 200px;
 }
 
+/* Legenda do cabeçalho */
 #legend-header {
     text-align: center;
     color: white;
     font-size: 25px;
 }
 
+/* Imagens de filmes/séries */
 #imagens {
     border-radius: 10px;
-    width: 200px;
-    height: 300px;
+    width: 150px;
+    height: 200px;
 }
 
+/* Primeira coluna do rodapé */
 #primeira-coluna-footer {
     padding: 40px;
 }
 
+/* Imagem na coluna do rodapé */
 #imagem-footer {
     width: 100px;
 }
 
+/* Terceira coluna do rodapé */
 #terceira-coluna-footer {
-    margin: 50px 0px 50px 0px;
+    margin: 50px 0;
 }
 
+/* Link de documentação no rodapé */
 #a-documentacao-footer {
     text-decoration: underline;
 }
 
+/* Link com estilo destacado no rodapé */
 #a-o-basico-footer {
     color: white;
     text-decoration: underline;
@@ -206,44 +204,78 @@ main {
     font-size: 35px;
 }
 
+/* Quarta coluna do rodapé */
 #quarta-coluna-footer {
     text-align: left;
-    margin: 50px 0px 50px 0px;
+    margin: 50px 0;
 }
 
+/* Link da quarta coluna do rodapé */
 #a-quarta-coluna-footer {
     color: white;
 }
 
+/* Parágrafo da quarta coluna do rodapé */
 #p-quarta-coluna-footer {
     color: white;
     padding-top: 50px;
 }
 
-.li-header {
-    display: inline-block;
-    width: 180px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+/* Link de botão do header */
+#a-header-else {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
 }
 
+/* Hover para o botão do header */
+#a-header-else:hover {
+    background-color: yellowgreen;
+}
+
+/* Ícone clicável no header */
+#icone-header {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+/* Hover do ícone do header */
+#icone-header:hover {
+    background-color: yellowgreen;
+}
+
+/* Itens da lista no header */
+.li-header {
+    display: inline-block;
+    padding: 10px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* Itens da segunda coluna do rodapé */
 .li-segunda-coluna-footer {
     margin: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
     text-align: left;
 }
 
+/* Links da segunda coluna do rodapé */
 .li-segunda-coluna-footer > a {
     color: white;
 }
 
+/* Itens da terceira coluna do rodapé */
 .li-terceira-coluna-footer {
     text-align: left;
 }
 
+/* Links da terceira coluna do rodapé */
 .li-terceira-coluna-footer > a {
     color: white;
 }
 
+/* Links padrão no header */
 .a-header {
     color: white;
     border: 1px solid white;
@@ -251,21 +283,29 @@ main {
     padding: 10px;
 }
 
+/* Hover nos links do header */
 .a-header:hover {
     background-color: yellowgreen;
 }
 
 
-.grid-filmes {
-    display: grid;
-    grid-template-columns:repeat(7, 1fr);
-    gap: 20px;
+.li-main {
+    margin: auto;
     padding: 20px;
-    justify-items: center;
-}
-.filme-card {
+    display: inline-table;
     text-align: center;
-    color: black;
-    max-width: 200px;
-    max-height: 300px;
+    font-size: 24px;
+    width: 350px;
+    border: 1px solid white;
+    background: linear-gradient(to right, rgb(10, 165, 210) 10%, rgb(10, 165, 210) 15%, rgb(60, 35, 155) 70%, rgb(60, 35, 155) 100%);
+}
+
+/* Links dentro dos parágrafos do menu */
+.menu > p > a {
+    color: white;
+}
+
+/* Hover nos links do menu */
+.menu > p > a:hover {
+    text-decoration: underline;
 }
