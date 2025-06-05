@@ -50,7 +50,7 @@
             <div class="grid-filmes">
                     {% for busca in buscar %}
                         <div class="filme-card">
-                            <abbr title="{{ busca.overview }}"><img src="https://image.tmdb.org/t/p/w200{{ busca.poster_path }}" alt="{{ busca.title }}" /></abbr>
+                            <abbr title="{{ busca.overview }} "><img src="https://image.tmdb.org/t/p/w200{{ busca.poster_path }}" alt="{{ busca.title }}" /></abbr>
                             <strong>{{ busca.title }}</strong> 
                             <p> {{ busca.release_date }}</p>
                         </div>
