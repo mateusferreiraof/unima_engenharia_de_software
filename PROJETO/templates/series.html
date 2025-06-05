@@ -1,88 +1,122 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Séries</title>
     <link rel="icon" href="static\imagens\favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../static/filmes_e_series.css">
+    <script src="https://kit.fontawesome.com/b9243416c4.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="/home">Início</a>
-                    |<a href="/series">Séries</a>
-                    |<a href="/filmes">Filmes</a></li>
-            </ul>
-        </nav>
+        <section id="cabecario">
+            <h1>POPCORN MOVIES</h1>
+            <nav id="nav-header">
+                <ul id="ul-header">
+                    <li class="li-header"><a href="/home" id="subtitulobusca"><i class="fa-solid fa-house" style="color: #3c239b;"></i> INÍCIO</a></li>
+                    <li class="li-header"><a href="/filmes" class="a-header"><i class="fa-solid fa-tv" style="color: #3c239b;"></i> FILMES</a></li>
+                    <li class="li-header"><a href="/series" class="a-header"><i class="fa-solid fa-film" style="color: #3c239b;"></i> SÉRIES</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul type="none">
+                    <li id="icone-header"><a href="#"><i class="fa-solid fa-user" style="color: #f4f3f8c5;"></i></a></li>
+                </ul>
+            </nav>
+        </section>
     </header>
+
     <main>
-        <h1>Página de Séries</h1>
 
 <!--mais avaliadas-->  
         <h2>As mais avaliadas</h2>
        
+        <div class="grid-filmes">
         {% if avaliadas %}
-        <ul>
             {% for serie in avaliadas %}
-            <li>
-                <abbr title="{{serie.overview}}"><img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{ serie.name }}"></abbr>
-                <strong>{{ serie.name }}</strong> - {{ serie.first_air_date }} Voto Popular: {{serie.vote_count | round(2)}}
-            </li>
+                <div class="filme-card">
+                <abbr title="{{serie.overview}} -> Gêneros: {{ serie.genres_nomes | join(', ') }}">
+                    <img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{ serie.name }}"></abbr>
+                <p><strong>{{ serie.name }}</strong></p> 
+                <p>{{serie.data_formatada }}</p>
+                <p><i class="fa-solid fa-star" style="color: rgba(255, 217, 0, 0.808);"></i> {{ serie.vote_average | round(1) }} 
+                </p>
+                </div>
             {% endfor %}
-        </ul>
+        </div>    
         {% else %}
         <p>Nenhuma série avaliada encontrada.</p>
-        {% endif %}        
+        {% endif %}   
+             
 
 <!--Exibidas hj -->        
         <h2>Séries Exibidas Hoje</h2>
         
+        <div class="grid-filmes">
         {% if hj %}
-        <ul>
             {% for serie in hj %}
-            <li>
-                <abbr title="{{serie.overview}}"><img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{ serie.name }}"></abbr>
-                <strong>{{ serie.name }}</strong> - {{ serie.first_air_date }} - {{serie.origin_country}}
-            </li>
+                <div class="filme-card">
+                <abbr title="{{serie.overview}} -> {{serie.origin_country}} -> Gêneros: {{ serie.genres_nomes | join(', ') }} -> Nota: {{ serie.vote_average | round(1)}}">
+                    <img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{ serie.name }}"></abbr>
+                <p><strong>{{ serie.name }}</strong> </p>
+                <p>{{serie.data_formatada }}</p>
+                </div>
             {% endfor %}
-        </ul>
+        </div>
         {% else %}
         <p>Nenhuma série Exibida Hoje encontrada.</p>
-        {% endif %}
-
- <!--tv shows / series -->        
-        <h2>Tv shows e Séries</h2>
-        {% if populares %}
-        <ul>
-            {% for serie in populares %}
-            <li>
-                <abbr title="{{serie.overview}}"><img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{ serie.name }}"></abbr>
-                <strong>{{ serie.name }}</strong> - {{ serie.first_air_date }} - {{serie.origin_country}}
-            </li>
-            {% endfor %}
-        </ul>
-        {% else %}
-        <p>Nenhuma série popular encontrada.</p>
         {% endif %}
 
 <!--populares tmdb-->  
         <h2>Mais poulares no TMDB</h2>
 
+        <div class="grid-filmes">
         {% if tmdb %}
-        <ul>
             {% for serie in tmdb %}
-            <li>
-                <abbr title="{{serie.overview}}"><img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{ serie.name }}"></abbr>
-                <strong>{{ serie.name }}</strong> - {{ serie.first_air_date }}
-            </li>
+                <div class="filme-card">
+                <abbr title="{{serie.overview}} -> Gêneros: {{ serie.genres_nomes | join(', ') }} -> Nota: {{ serie.vote_average | round(1) }}">
+                    <img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{ serie.name }}"> 
+                </abbr>
+                <p><strong>{{ serie.name }} </strong></p>
+                <p> {{ serie.data_formatada }}</p>
+                </div>
             {% endfor %}
-        </ul>
+        </div>
         {% else %}
         <p>Nenhuma série recomendada da TMDB.</p>
         {% endif %}
 
+ <!--tv shows / series -->        
+        <h2>Tv shows e Séries</h2>
+
+        <div class="grid-filmes">
+        {% if populares %}
+            {% for serie in populares %}
+                <div class="filme-card">
+                <abbr title="{{serie.overview}} -> {{serie.origin_country}} -> Gêneros: {{ serie.genres_nomes | join(', ') }} -> Nota: {{ serie.vote_average | round(1) }}">
+                    <img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{ serie.name }}">
+                </abbr>
+                <p><strong>{{serie.name }}</strong></p> 
+                <p>{{serie.data_formatada }}</p>
+                </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <p>Nenhuma série popular encontrada.</p>
+        {% endif %}
+
+<!--botão passar pag-->       
+        <div class="paginacao">
+        {% if pagina > 1 %}
+            <a href="{{ url_for('series', page=pagina-1) }}">
+                <button>Anterior</button>
+            </a>
+        {% endif %}
+        <a href="{{ url_for('series', page=pagina+1) }}">
+            <button>Próxima</button>
+        </a>
+       </div>
     </main>
 
     <footer><p id="paragrafo-footer">&copy; Desenvolvido por Mateus Ferreira, Maria Layanne, Vinicius Matheus e Matheus Gabriel.</p></footer>

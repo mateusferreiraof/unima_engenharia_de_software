@@ -288,38 +288,11 @@ strong {
     background-color: yellowgreen;
 }
 
-/* Estilo dos itens da lista principal */
+
 .li-main {
-    padding: 15px;
+    margin: auto;
+    padding: 20px;
     display: inline-table;
-    text-align: left;
-    color: white;
-    max-width: 150px;
-    max-height: 250px;
-}
-
-/* Exibe o menu quando checkbox estiver marcado */
-#menu-toggle:checked + .menu-icon + .menu {
-  display: block;
-}
-
-/* Menu dropdown oculto por padrão */
-.menu {
-    display: none;
-    position: absolute;
-    right: 0;
-    background: linear-gradient(to right, rgb(10, 165, 210), rgb(60, 35, 155));
-    width: 375px;
-    height: 230px;
-    align-items: center;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-/* Parágrafos dentro do menu */
-.menu > p {
-    padding: 20px 0;
-    color: white;
     text-align: center;
     font-size: 24px;
     width: 350px;
