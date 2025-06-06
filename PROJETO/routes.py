@@ -1,8 +1,7 @@
 from flask import render_template, redirect, request, session
 from PROJETO import server
 from PROJETO.config import conexao, cursor
-from Api.tmdbapifilmes import MovieAPI
-from Api.tmdbapiseries import SeriesAPI
+from Api.tmdbapi import MovieAPI
 
 @server.route('/home', methods=['GET', 'POST'])
 def homepage():
@@ -16,27 +15,15 @@ def homepage():
         pesquisa = api.movie_search(query=pesquisar)
         return render_template("index.html", buscar=pesquisa['results'], mensagem=pesquisar)
         
-    return render_template("homepage.html", movies=filmes['results'], series=series['results'])
+    page_movie = request.args.get('page_movie', 1, type=int)
+    page_series = request.args.get('page_series', 1, type=int)
 
-@server.route('/filmes')
-def filmes():
+    if page_movie != 1:
+        filmes = api.movie_list(page=page_movie)
+    if page_series != 1:
+        series = api.series_list(page=page_series)
 
-    api = MovieAPI()
-    filmes = api.movie_list()
-    avaliados = api.filmes_bem_avaliados()
-    tmdb = api.filmes_populares_tmdb()
-    
-    return render_template("filmes.html", filmes=filmes['results'], avaliados=avaliados['results'],tmdb=tmdb['results'])
-
-@server.route('/series')
-def series():
-    api =SeriesAPI()
-    populares = api.series_list()
-    avaliadas = api.series_bem_avaliadas()
-    tmdb =api.series_populares_tmdb()
-    hj=api.series_exibidas_hj()
-
-    return render_template("series.html",populares=populares['results'], avaliadas=avaliadas['results'], tmdb=tmdb['results'], hj=hj['results'])
+    return render_template( "homepage.html",movies=filmes['results'],series=series['results'],page_movie=page_movie,page_series=page_series )
 
 @server.route('/')
 def inicio():
@@ -64,6 +51,7 @@ def validacao_login():
         return render_template("login.html", mensagem=mensagem)
         
     return render_template("login.html")
+
 
 @server.route('/recuperacao')
 def recuperar_senha():
