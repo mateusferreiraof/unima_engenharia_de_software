@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Popcorn Movies</title>
-    <link rel="icon" href="static\imagens\favicon.ico" type="image/x-icon">
+    <link rel="icon" href="static/imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../static/homepage.css">
 </head>
 <body>
@@ -11,17 +11,30 @@
         <h1 class="site-title">Popcorn Movies</h1>
         <nav>
             <ul>
-                <li><a href="/login">Login</a></li>
-                <li><a href="/cadastro">Cadastro</a></li>
+                <li><a href="/inicio">Início</a></li>
                 <li><a href="/filmes">Filmes</a></li>
                 <li><a href="/series">Séries</a></li>
+                <li><a href="/login">Login</a></li>
             </ul>
         </nav>
+        <div class="profile-dropdown-container">
+            <div class="profile-icon" id="profileIcon"> 
+                <img src="../static/imagens/icone_perfil.jpeg" alt="Ícone Perfil">
+            </div>
+            <div class="profile-dropdown-menu" id="profileDropdown">
+                <ul>
+                    <li><a href="/meu-perfil">Meu Perfil</a></li>
+                    <li><a href="/configuracoes">Configurações</a></li>
+                    <li><a href="/logout">Sair</a></li>
+                </ul>
+            </div>
+        </div>
     </header>
     <main>
         <div class="search-section">
-            <h1>Sejam bem vindos!</h1>
-            <p class="search-description">Dê uma olhada nos filmes e séries do catálogo</p> <form action="/home", method="post">
+            <h1>Sejam bem-vindos!</h1>
+            <p class="search-description">Dê uma olhada nos filmes e séries do catálogo</p>
+            <form action="/home" method="post">
                 <input type="text" name="barra-de-busca" id="barra-de-busca" placeholder="Digite o que deseja..." required>
                 <button type="submit">BUSCAR</button>
             </form>
@@ -31,7 +44,9 @@
         <ul>
             {% for movie in movies %}
                 <li>
-                    <abbr title="{{ movie.overview }}"><img src="https://image.tmdb.org/t/p/w200{{ movie.poster_path }}" alt="{{ movie.title }}" /></abbr>
+                    <abbr title="{{ movie.overview }}">
+                        <img src="https://image.tmdb.org/t/p/w200{{ movie.poster_path }}" alt="{{ movie.title }}" />
+                    </abbr>
                     <strong>{{ movie.title }}</strong> - {{ movie.release_date }}
                 </li>
             {% endfor %}
@@ -41,15 +56,45 @@
         <ul>
             {% for serie in series %}
             <li>
-                <abbr title="{{serie.overview}}"><img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{serie.name}}"></abbr>
+                <abbr title="{{serie.overview}}">
+                    <img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{serie.name}}">
+                </abbr>
                 <strong>{{serie.name}}</strong> - {{serie.first_air_date}}
             </li>
             {% endfor %}
         </ul>
-
     </main>
-    <footer>
-           <p id="paragrafo-footer">&copy; Desenvolvido por Mateus Ferreira, Maria Layanne, Vinicius Matheus e Matheus Gabriel.</p>
-    </footer>
+<footer class="site-footer">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="../static/imagens/favicon.ico" alt="Popcorn Movies Logo">
+        </div>
+        <div class="footer-columns">
+            <div class="footer-column">
+                <h3 class="column-title">O BÁSICO</h3>
+                <ul>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Contate-nos</a></li>
+                    <li><a href="#">Suporte</a></li>
+                    <li><a href="#">Documentação</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <ul>
+                    <li><a href="#">Termos de uso</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                </ul>
+            </div>
+            <div class="footer-column social-links">
+                <a href="#" class="github-link">
+                    <img src="../static/imagens/25231.png" alt="GitHub"> GitHub
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p class="copyright-text">Copyright © 2025 Popcorn Movies</p>
+    </div>
+</footer>
 </body>
 </html>
