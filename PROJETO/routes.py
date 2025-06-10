@@ -226,3 +226,11 @@ def contato():
 @server.route('/termo')
 def termo():
     return render_template('termo.html')
+
+@server.route('/privacidade')
+def privacidade():
+    return render_template('privacidade.html')
+
+@server.route('/suporte')
+def suporte():
+    return render_template('suporte.html')
