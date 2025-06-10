@@ -115,7 +115,7 @@ strong {
 /* Lista principal de filmes/séries */
 .grid-filmes {
     display: grid;
-    grid-template-columns:repeat(7, 1fr);
+    grid-template-columns:repeat(6, 1fr);
     gap: 20px;
     padding: 20px;
     justify-items: center;
@@ -125,7 +125,7 @@ strong {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
-    max-width: 150px;
+    max-width: 200px;
 }
 
 .filme-card img {
@@ -211,15 +211,9 @@ strong {
     margin: 50px 0;
 }
 
-/* Link de documentação no rodapé */
-#a-documentacao-footer {
-    text-decoration: underline;
-}
-
 /* Link com estilo destacado no rodapé */
 #a-o-basico-footer {
     color: white;
-    text-decoration: underline;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
 }
@@ -356,25 +350,41 @@ strong {
 .menu > p > a:hover {
     text-decoration: underline;
 }
+
+/*estilo do botão : anterior e próximo */
 .paginacao {
+    text-align: center;
+    margin: 20px 0;
     display: flex;
     justify-content: center;
-    gap: 20px;       /* Espaço maior entre os botões */
-    margin: 20px 0;
+
+
 }
 
-.paginacao button {
-    background-color: #3c239b; /* Roxo escuro */
-    color: white;
+.paginacao a button {
+    background-color: #3c239b;
+    color: rgba(255, 255, 255, 0.849);             
     border: none;
-    padding: 10px 25px;
+    padding: 10px 20px;
+    margin: 0 5px;
     border-radius: 5px;
-    font-size: 16px;
     cursor: pointer;
+    font-size: 16px;
     transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    line-height: normal;
+    width: auto; /* Ajusta ao conteúdo */
+    min-width: 120px; 
+    text-align: center; /* Alinha o texto dentro do botão */
+    
+
 }
 
-.paginacao button:hover {
-    background-color: #5a3dbd; /* Roxo mais claro no hover */
+.paginacao a button:hover {
+    background-color: #4f3d96a6; 
+    color: black;
 }
 

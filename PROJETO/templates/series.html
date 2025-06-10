@@ -108,18 +108,18 @@
 
 <!--botão passar pag-->       
         <div class="paginacao">
-        {% if pagina > 1 %}
+            {% if pagina > 1 %}
             <a href="{{ url_for('series', page=pagina-1) }}">
                 <button>Anterior</button>
             </a>
-        {% endif %}
-        <a href="{{ url_for('series', page=pagina+1) }}">
-            <button>Próxima</button>
-        </a>
+            {% endif %}
+            <a href="{{ url_for('series', page=pagina+1) }}">
+                <button>Próxima</button>
+            </a>
        </div>
     </main>
 
-    <footer><p id="paragrafo-footer">&copy; Desenvolvido por Mateus Ferreira, Maria Layanne, Vinicius Matheus e Matheus Gabriel.</p></footer>
+    <footer><p id="paragrafo-footer">Copyright &copy; 2025 Popcorn Movies</p></footer>
     
 </body>
 </html>

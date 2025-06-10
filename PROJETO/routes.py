@@ -214,3 +214,15 @@ def cadastrar_usuario():
     
     # Se não for POST, redireciona para a página de cadastro
     return redirect('/cadastro')
+
+@server.route('/sobrenos')
+def sobrenos():
+    return render_template('sobrenos.html')
+
+@server.route('/contato')
+def contato():
+    return render_template('contato.html')
+
+@server.route('/termo')
+def termo():
+    return render_template('termo.html')

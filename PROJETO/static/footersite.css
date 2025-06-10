@@ -11,36 +11,33 @@
 
 /* Estilo do corpo da página com layout em coluna e fundo com gradiente */
 body {
-    display: flex;
-    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
     background: linear-gradient(to right, rgb(10, 165, 210), rgb(60, 35, 155));
+    font-family: sans-serif;
 }
+
+
 
 /* Header (cabeçalho) com layout em coluna */
 header {
     display: flex;
     flex-direction: column;
-    
-}
+    background: linear-gradient(to right, rgb(3, 118, 150), rgb(45, 26, 131));
+    box-shadow: #cccccc;
 
+}
 /* Título principal */
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 
-/* Subtítulo dos posters */
-
+/* Subtítulo */
 h2 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    background-color: rgb(118, 35, 196);
-    border-radius: 2px;
-    color: rgba(255, 255, 255, 0.781);
-    width: 200px;
-    padding: 5px;
-    margin-top: 15px; 
-    margin-bottom: 10px; 
+    font-size: 25px;
 }
 
 /* Estilo do formulário centralizado */
@@ -70,9 +67,111 @@ button {
 /* Estilo para links */
 a {
     text-decoration: none;
-    color: black;
+    color: #2d1a83;
     font-size: 25px;
     text-align: center;
+}
+
+/* Cabeçalho com espaçamento e alinhamento */
+#cabecario {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    max-height: 100px;
+    
+
+h1{
+    color: white;
+    
+}    
+}
+
+/* Área principal do conteúdo */
+main {
+
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding: 20px;
+    color: white; /* Texto claro para contraste */
+
+}
+
+/*conteiner contato*/
+.contato{
+    width: 90%;               /* Cresce na horizontal */
+    max-width: 900px;
+    padding: 50px;
+    text-align: justify;
+    background: rgba(255, 255, 255, 0.034);
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    margin-left: 370px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease; /*animação*/
+
+}
+.contato img{
+    width: 24px;             /* largura fixa para todos os ícones */
+    height: auto;            /* mantém proporção */
+    margin-right: 10px;
+}
+.texto-centralizado { /*estou usando no contato*/
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.contato:hover {
+    transform: scale(1.05); /*zoom*/
+}
+
+/*sobre nós*/
+.container {
+    
+    width: 90%;               /* Cresce na horizontal */
+    max-width: 1200px;
+    padding: 50px;
+    text-align: justify;
+    background: rgba(255, 255, 255, 0.034);
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    margin-left: 220px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease; /*animação*/
+}
+.container h1 {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-size:26px;
+}
+.container h2 {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-size:26px;
+}
+.container p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    
+}
+.container:hover {
+    transform: scale(1.05); /*zoom*/
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #2d1a83;
+}
+p {
+    font-size: 22px;
+    line-height: 1.6;
+    color: #F8F8FF;
+}
+
+strong {
+    color: #2d1a83;
 }
 
 /* Estilo do rodapé */
@@ -86,94 +185,7 @@ footer {
     font-size: 1.5rem;
 }
 
-/* Área principal do conteúdo */
-main {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 0px solid transparent;
-    border-radius: 5px 5px 0px 0px;
-}
-
-/* Elementos <strong> */
-strong {
-    width: 200px;
-}
-
-/* Cabeçalho com espaçamento e alinhamento */
-#cabecario {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 40px;
-    max-height: 100px;
-}
-
-/* Seção de pesquisa com imagem de fundo */
-#pesquisa {
-    background-image: url(imagens/imagem-pipoca.jpeg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 300px;
-}
-
-/* Linhas horizontais estilizadas */
-#hr1, #hr2 {
-    border: 1px solid white;
-    margin: 10px 0;
-}
-
-/*direção e organização dos posters */
-
-.grid-filmes {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr); 
-    gap: 20px;
-    padding: 20px;
-    justify-items: center;
-}
-
-.filme-card {
-    text-align:center;
-    max-width: 200px;
-
-p strong{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    color: #FFFFFF;
-}
-    
-p{  font-family: 'Epilogue', sans-serif;
-    font-size: 12px;
-    color: #cccccc;
-}
-
-}
-.filme-card img {
-    width: 100%;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s ease; /*animação*/
-}
-
-.filme-card p {
-    margin: 5px 0; /* Espaço vertical entre os parágrafos */
-}
-
-.filme-card img:hover {
-    transform: scale(1.05); /*zoom*/
-}
-
-
-/* Mensagem vinda do Flask */
-#mensagem-flask {
-    padding: 20px;
-    font-size: 32px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #ECECEC;
-    text-align: center;
-    color: black;
-}
-
-/* Menu de navegação */
+/*------------------------------ Menu de navegação---------------------------- */
 #menu {
     max-height: 100px;
 }

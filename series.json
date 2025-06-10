@@ -2,54 +2,7 @@
     "page": 1,
     "results": [
         {
-            "backdrop_path": "/x7J7YydPEnTZm6JoTqbKOYkVb8e.jpg",
-            "id": 235924,
-            "name": "DNA DO CRIME",
-            "original_name": "DNA DO CRIME",
-            "overview": "Um grupo de agentes federais vai ter que arregaçar as mangas e desenrolar a investigação de um roubo espetacular.",
-            "poster_path": "/cqg7OXDPSWSCsfAs9BuBp0r7kO3.jpg",
-            "media_type": "tv",
-            "adult": false,
-            "original_language": "pt",
-            "genre_ids": [
-                18,
-                80,
-                10759
-            ],
-            "popularity": 38.0829,
-            "first_air_date": "2023-11-14",
-            "vote_average": 7.662,
-            "vote_count": 100,
-            "origin_country": [
-                "BR"
-            ],
-            "data_formatada": "14-11-2023"
-        },
-        {
-            "backdrop_path": "/lPmUu3xkoksz3xsa1feIUoOBZrg.jpg",
-            "id": 117581,
-            "name": "Ginny e Georgia",
-            "original_name": "Ginny & Georgia",
-            "overview": "Em busca de uma nova chance, Georgia leva os filhos Ginny e Austin para morar em outra cidade. Só que recomeçar do zero não é tão simples assim.",
-            "poster_path": "/uKval7QmEozy7R05FEvE3H9Qice.jpg",
-            "media_type": "tv",
-            "adult": false,
-            "original_language": "en",
-            "genre_ids": [
-                35,
-                18
-            ],
-            "popularity": 40.6232,
-            "first_air_date": "2021-02-24",
-            "vote_average": 8.1,
-            "vote_count": 1616,
-            "origin_country": [
-                "US"
-            ],
-            "data_formatada": "24-02-2021"
-        },
-        {
-            "backdrop_path": "/cxejGoxpynd144zaivyEKFxCktm.jpg",
+            "backdrop_path": "/tQqbbxBAdW2ql8vbOqMOJbtSQ7O.jpg",
             "id": 247718,
             "name": "Terra da Máfia",
             "original_name": "MobLand",
@@ -62,39 +15,15 @@
                 80,
                 18
             ],
-            "popularity": 111.7836,
+            "popularity": 117.2981,
             "first_air_date": "2025-03-30",
-            "vote_average": 8.478,
-            "vote_count": 160,
+            "vote_average": 8.456,
+            "vote_count": 181,
             "origin_country": [
                 "GB",
                 "US"
             ],
             "data_formatada": "30-03-2025"
-        },
-        {
-            "backdrop_path": "/tJSAxxjCtbtZYMBQkfxvdgqXsz5.jpg",
-            "id": 227191,
-            "name": "Nove Peças",
-            "original_name": "나인 퍼즐",
-            "overview": "Dez anos após encontrar o tio assassinado, Ena deve ajudar o detetive Hansaem a impedir uma série de assassinatos similares, cada um ligado a uma estranha peça de quebra-cabeça.",
-            "poster_path": "/jKSoFgdScObjsZ7l6z8TrSl2o4r.jpg",
-            "media_type": "tv",
-            "adult": false,
-            "original_language": "ko",
-            "genre_ids": [
-                80,
-                9648,
-                18
-            ],
-            "popularity": 51.3198,
-            "first_air_date": "2025-05-21",
-            "vote_average": 7.3,
-            "vote_count": 19,
-            "origin_country": [
-                "KR"
-            ],
-            "data_formatada": "21-05-2025"
         },
         {
             "backdrop_path": "/uQ4lG7E7mlyKsGvbASftQ6Hu2IX.jpg",
@@ -109,244 +38,131 @@
             "genre_ids": [
                 18
             ],
-            "popularity": 238.8994,
+            "popularity": 197.8335,
             "first_air_date": "2023-01-15",
-            "vote_average": 8.5,
-            "vote_count": 6149,
+            "vote_average": 8.524,
+            "vote_count": 6177,
             "origin_country": [
                 "US"
             ],
             "data_formatada": "15-01-2023"
         },
         {
-            "backdrop_path": "/1SLimeCtDZhk9CCKj4qr435yvPT.jpg",
-            "id": 252640,
-            "name": "Lenda de Zang Hai",
-            "original_name": "藏海传",
-            "overview": "Uma história sobre o filho do astrônomo real Kuai Duo, que era sobrecarregado por uma rixa de sangue, estudava por dez anos e depois entrou na capital sob o pseudônimo de Zang Hai em busca da verdade e, por fim, buscou vingança, puniu o mal e defendeu a justiça.",
-            "poster_path": "/rfeJ1rg1bv1GKcRWiUg73PVXaO6.jpg",
+            "backdrop_path": "/y7OFTnu8Gh2KHWX0Y05y8OY9kCB.jpg",
+            "id": 232766,
+            "name": "Sem Piedade",
+            "original_name": "광장",
+            "overview": "Depois de sair de sua gangue, um ex-criminoso volta para descobrir a verdade por trás da morte do irmão, embarcando em uma jornada de vingança incansável.",
+            "poster_path": "/esS8EbjU3i7N40cemWIeM20Tzn8.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "ko",
+            "genre_ids": [
+                10759,
+                18
+            ],
+            "popularity": 140.3643,
+            "first_air_date": "2025-06-06",
+            "vote_average": 8.0,
+            "vote_count": 30,
+            "origin_country": [
+                "KR"
+            ],
+            "data_formatada": "06-06-2025"
+        },
+        {
+            "backdrop_path": "/Ao5pBFuWY32cVuh6iYjEjZMEscN.jpg",
+            "id": 60625,
+            "name": "Rick e Morty",
+            "original_name": "Rick and Morty",
+            "overview": "Rick é um velho mentalmente desequilibrado, mas cientificamente talentoso que se reconectou recentemente com sua família. Ele passa a maior parte do tempo envolvendo o jovem neto Morty em aventuras perigosas e estranhas no espaço e em universos alternativos. Compostos à vida familiar já instável de Morty, esses eventos causam muito sofrimento a Morty em casa e na escola.",
+            "poster_path": "/5qfd0e2uMbVInX3YdeFbDsfxi1t.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                16,
+                35,
+                10765,
+                10759
+            ],
+            "popularity": 220.9669,
+            "first_air_date": "2013-12-02",
+            "vote_average": 8.7,
+            "vote_count": 10199,
+            "origin_country": [
+                "US"
+            ],
+            "data_formatada": "02-12-2013"
+        },
+        {
+            "backdrop_path": "/sxzodKyKvW2sXjI9awYFjo2ePNz.jpg",
+            "id": 284605,
+            "name": "Sobreviventes",
+            "original_name": "The Survivors",
+            "overview": "Há quinze anos, uma tragédia envolvendo três jovens abalou uma pacata cidade. Agora, a morte misteriosa de uma mulher relembra um passado que todos preferiam esquecer.",
+            "poster_path": "/4oDFJSrlvhO09ggCLKbf1zOXBX2.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                18,
+                9648
+            ],
+            "popularity": 104.4253,
+            "first_air_date": "2025-06-06",
+            "vote_average": 6.9,
+            "vote_count": 11,
+            "origin_country": [
+                "AU"
+            ],
+            "data_formatada": "06-06-2025"
+        },
+        {
+            "backdrop_path": "/fXpsbFfQkIsj1MF3FRJh9JgO6Qq.jpg",
+            "id": 203367,
+            "name": "A Estrada de Lichia",
+            "original_name": "长安的荔枝",
+            "overview": "A história acompanha Li Shande, um homem enganado por seus colegas e rebaixado de sua função de supervisor. Agora forçado a se tornar o \"Enviado da Lichia\", ele enfrenta uma missão quase impossível: entregar lichias frescas de Lingnan para Chang'an como presente de aniversário para a Nobre Consorte. Diz o ditado que as lichias mudam de cor em um dia, perdem a fragrância em dois e o sabor em três dias. Com mais de 5.000 li entre Lingnan e Chang'an, e com prazos apertados e recursos limitados, como ele conseguirá realizar isso?",
+            "poster_path": "/tr9Xkdxsualrb4b2L2LMyHxCS31.jpg",
             "media_type": "tv",
             "adult": false,
             "original_language": "zh",
             "genre_ids": [
                 18
             ],
-            "popularity": 60.8849,
-            "first_air_date": "2025-05-18",
-            "vote_average": 8.583,
-            "vote_count": 12,
+            "popularity": 23.0536,
+            "first_air_date": "2025-06-07",
+            "vote_average": 7.8,
+            "vote_count": 5,
             "origin_country": [
                 "CN"
             ],
-            "data_formatada": "18-05-2025"
+            "data_formatada": "07-06-2025"
         },
         {
-            "backdrop_path": "/tb5AiSdpH5rP9Zf3YMUjZkKIUxn.jpg",
-            "id": 279060,
-            "name": "Chespirito: Sem Querer Querendo",
-            "original_name": "Chespirito: Sin querer queriendo",
-            "overview": "Uma jornada pela ascensão à fama do Roberto Gómez Bolaños, mais conhecido como Chespirito, o artista que criou os personagens icônicos “Chaves”, “Chapolin” e muitas outras histórias e bordões que conquistaram o coração de milhões.",
-            "poster_path": "/rsvIQfKPBoq6AZ2RTEQwKE0C71T.jpg",
+            "backdrop_path": "/6fRwRD7GdCfg6owzmCT3VgQtowl.jpg",
+            "id": 37854,
+            "name": "One Piece",
+            "original_name": "ワンピース",
+            "overview": "Houve um homem que conquistou tudo aquilo que o mundo tinha a oferecer, o lendário Rei dos Piratas, Gold Roger. Capturado e condenado à execução pelo Governo Mundial, suas últimas palavras lançaram legiões aos mares. \"Meu tesouro? Se quiserem, podem pegá-lo. Procurem-no! Ele contém tudo que este mundo pode oferecer!\". Foi a revelação do maior tesouro, o One Piece, cobiçado por homens de todo o mundo, sonhando com fama e riqueza imensuráveis... Assim começou a Grande Era dos Piratas!",
+            "poster_path": "/yBYDzzmNoT5uXkXo3NGatLIANYK.jpg",
             "media_type": "tv",
             "adult": false,
-            "original_language": "es",
-            "genre_ids": [
-                18
-            ],
-            "popularity": 7.0955,
-            "first_air_date": "2025-06-05",
-            "vote_average": 0.0,
-            "vote_count": 0,
-            "origin_country": [
-                "MX"
-            ],
-            "data_formatada": "05-06-2025"
-        },
-        {
-            "backdrop_path": "/lqaT9mIxcVJs9QSUf0hdy0zW68C.jpg",
-            "id": 248830,
-            "name": "Stick",
-            "original_name": "Stick",
-            "overview": "Pryce Cahill estava rumo à elite do golfe quando uma crise em campo arruinou sua carreira. Agora, aposta tudo para treinar Santi, uma promessa adolescente com enorme potencial, e talvez se salvar.",
-            "poster_path": "/y8EWrf5Ry1WmYksWT7MOPWexvr5.jpg",
-            "media_type": "tv",
-            "adult": false,
-            "original_language": "en",
-            "genre_ids": [
-                35
-            ],
-            "popularity": 40.1214,
-            "first_air_date": "2025-06-03",
-            "vote_average": 9.0,
-            "vote_count": 4,
-            "origin_country": [
-                "US"
-            ],
-            "data_formatada": "03-06-2025"
-        },
-        {
-            "backdrop_path": "/t8MVcvnhfyDvuxJe4oCb0YkgU2W.jpg",
-            "id": 247522,
-            "name": "O Rei dos Pneus",
-            "original_name": "Tires",
-            "overview": "Um gerente meio deprê rala para melhorar o atendimento e aumentar os lucros da oficina do pai; e ainda tem que manter o primo sem noção na linha.",
-            "poster_path": "/cNHTFUV39qyEsm7edSaJdSqJYtJ.jpg",
-            "media_type": "tv",
-            "adult": false,
-            "original_language": "en",
-            "genre_ids": [
-                35
-            ],
-            "popularity": 6.3983,
-            "first_air_date": "2024-05-23",
-            "vote_average": 6.0,
-            "vote_count": 39,
-            "origin_country": [
-                "US"
-            ],
-            "data_formatada": "23-05-2024"
-        },
-        {
-            "backdrop_path": "/cBsAo9icWr0mZBvd4Rc0R4kxnDU.jpg",
-            "id": 291256,
-            "name": "Sara: A Mulher nas Sombras",
-            "original_name": "Sara - La donna nell'ombra",
-            "overview": "A morte suspeita do filho leva uma ex-agente secreta a voltar à ativa, investigando uma série de crimes que ficam cada vez mais sinistros.",
-            "poster_path": "/dmEXwLTDQXQ1QRc6VqvNEFUotZf.jpg",
-            "media_type": "tv",
-            "adult": false,
-            "original_language": "it",
-            "genre_ids": [
-                9648,
-                18,
-                80
-            ],
-            "popularity": 43.6955,
-            "first_air_date": "2025-06-03",
-            "vote_average": 6.8,
-            "vote_count": 3,
-            "origin_country": [
-                "IT"
-            ],
-            "data_formatada": "03-06-2025"
-        },
-        {
-            "backdrop_path": "/wIoxMHbyUJnx5Fm9tI26hIYGI1D.jpg",
-            "id": 245703,
-            "name": "Dept. Q",
-            "original_name": "Dept. Q",
-            "overview": "Um policial brilhante, mas arrogante, se torna chefe de um novo departamento, liderando um grupo improvável de desajustados na solução de casos arquivados de Edimburgo.",
-            "poster_path": "/e4ctTDJsRexIF3vjxeDrSbeOuep.jpg",
-            "media_type": "tv",
-            "adult": false,
-            "original_language": "en",
-            "genre_ids": [
-                18,
-                80,
-                9648
-            ],
-            "popularity": 109.7729,
-            "first_air_date": "2025-05-29",
-            "vote_average": 7.875,
-            "vote_count": 52,
-            "origin_country": [
-                "GB"
-            ],
-            "data_formatada": "29-05-2025"
-        },
-        {
-            "backdrop_path": "/vcFW09U4834DyFOeRZpsx9x1D3S.jpg",
-            "id": 57243,
-            "name": "Doctor Who",
-            "original_name": "Doctor Who",
-            "overview": "Acompanhe as incríveis jornadas pelo tempo e espaço do Doutor, um alienígena da linhagem dos senhores do tempo. Nativo do planeta Gallifrey, o Doutor utiliza a Tardis, uma nave capaz de se camuflar como uma cabine de polícia, para explorar o passado e o futuro nos mais distantes lugares do universo.",
-            "poster_path": "/8xz8ZPiuRLeaganjKd6WtE6S50E.jpg",
-            "media_type": "tv",
-            "adult": false,
-            "original_language": "en",
+            "original_language": "ja",
             "genre_ids": [
                 10759,
-                18,
-                10765
-            ],
-            "popularity": 198.2125,
-            "first_air_date": "2005-03-26",
-            "vote_average": 7.548,
-            "vote_count": 3138,
-            "origin_country": [
-                "GB"
-            ],
-            "data_formatada": "26-03-2005"
-        },
-        {
-            "backdrop_path": "/kTQ7sRDZwIDgygWKIrhN4T1BLQD.jpg",
-            "id": 231280,
-            "name": "UM BOM GAROTO",
-            "original_name": "굿보이",
-            "overview": "Onze anos depois, a polícia retoma o recrutamento de ex-atletas. Antes vistos como heróis, esses medalhistas agora enfrentam a dura realidade. Apesar das dívidas, das tragédias inesperadas e do preconceito na corporação, os atletas, cada um com sua história, montam uma força-tarefa especial para combater crimes hediondos com o ímpeto e as habilidades que os moldaram no esporte.",
-            "poster_path": "/xNge2upiP2FLppTyKhouT7Gbm1y.jpg",
-            "media_type": "tv",
-            "adult": false,
-            "original_language": "ko",
-            "genre_ids": [
-                80,
                 35,
-                10759,
-                18
+                16
             ],
-            "popularity": 74.6165,
-            "first_air_date": "2025-05-31",
+            "popularity": 104.4586,
+            "first_air_date": "1999-10-20",
             "vote_average": 8.7,
-            "vote_count": 11,
+            "vote_count": 4903,
             "origin_country": [
-                "KR"
+                "JP"
             ],
-            "data_formatada": "31-05-2025"
-        },
-        {
-            "backdrop_path": "/n8RKiIcXG3WQeSrlJAUTpBj1NAG.jpg",
-            "id": 225152,
-            "name": "Barracuda Queens",
-            "original_name": "Barracuda Queens",
-            "overview": "Ao se afundar em uma dívida gigantesca, um grupo de garotas de um bairro rico de Estocolmo passa a roubar as casas vizinhas. Inspirada em uma história real.",
-            "poster_path": "/gnlWpchunjLzgFXt2KVJZT4Jonf.jpg",
-            "media_type": "tv",
-            "adult": false,
-            "original_language": "sv",
-            "genre_ids": [
-                18,
-                80
-            ],
-            "popularity": 4.6161,
-            "first_air_date": "2023-06-05",
-            "vote_average": 5.9,
-            "vote_count": 24,
-            "origin_country": [
-                "SE"
-            ],
-            "data_formatada": "05-06-2023"
-        },
-        {
-            "backdrop_path": "/kZXcWxc459pdxBPfPfpQhN8w8CB.jpg",
-            "id": 290865,
-            "name": "Grandes Jogadas com Shaquille O'Neal",
-            "original_name": "Power Moves with Shaquille O'Neal",
-            "overview": "Nesta série documental, as lendas da NBA Shaquille O'Neal e Allen Iverson tentam reviver o legado da Reebok e encontrar uma estrela em ascensão para representar a marca.",
-            "poster_path": "/9IiWveIRCxNZ1nlw7rhkruS57md.jpg",
-            "media_type": "tv",
-            "adult": false,
-            "original_language": "en",
-            "genre_ids": [
-                99
-            ],
-            "popularity": 6.4276,
-            "first_air_date": "2025-06-04",
-            "vote_average": 7.0,
-            "vote_count": 1,
-            "origin_country": [
-                "US"
-            ],
-            "data_formatada": "04-06-2025"
+            "data_formatada": "20-10-1999"
         },
         {
             "backdrop_path": "/kCGwvjpqM1owt9kI4pkYPJWJLvc.jpg",
@@ -363,22 +179,163 @@
                 10759,
                 18
             ],
-            "popularity": 55.2532,
+            "popularity": 70.3196,
             "first_air_date": "2022-09-21",
-            "vote_average": 8.256,
-            "vote_count": 1541,
+            "vote_average": 8.26,
+            "vote_count": 1551,
             "origin_country": [
                 "US"
             ],
             "data_formatada": "21-09-2022"
         },
         {
-            "backdrop_path": "/rAOjnEFTuNysY7bot8zonhImGMh.jpg",
-            "id": 1402,
-            "name": "The Walking Dead",
-            "original_name": "The Walking Dead",
-            "overview": "Nos Estados Unidos pós-apocalíptico, um pequeno grupo de sobreviventes segue viajando à procura de uma nova casa longe dos mortos-vivos. O desespero por segurança e suprimentos os coloca constantemente à beira da sanidade.",
-            "poster_path": "/9lb02gTh4LLB17yAEXFd4C3R4JP.jpg",
+            "backdrop_path": "/1SLimeCtDZhk9CCKj4qr435yvPT.jpg",
+            "id": 252640,
+            "name": "Lenda de Zang Hai",
+            "original_name": "藏海传",
+            "overview": "Uma história sobre o filho do astrônomo real Kuai Duo, que era sobrecarregado por uma rixa de sangue, estudava por dez anos e depois entrou na capital sob o pseudônimo de Zang Hai em busca da verdade e, por fim, buscou vingança, puniu o mal e defendeu a justiça.",
+            "poster_path": "/rfeJ1rg1bv1GKcRWiUg73PVXaO6.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "zh",
+            "genre_ids": [
+                18
+            ],
+            "popularity": 52.2939,
+            "first_air_date": "2025-05-18",
+            "vote_average": 8.4,
+            "vote_count": 15,
+            "origin_country": [
+                "CN"
+            ],
+            "data_formatada": "18-05-2025"
+        },
+        {
+            "backdrop_path": "/wIoxMHbyUJnx5Fm9tI26hIYGI1D.jpg",
+            "id": 245703,
+            "name": "Dept. Q",
+            "original_name": "Dept. Q",
+            "overview": "Um policial brilhante, mas arrogante, se torna chefe de um novo departamento, liderando um grupo improvável de desajustados na solução de casos arquivados de Edimburgo.",
+            "poster_path": "/e4ctTDJsRexIF3vjxeDrSbeOuep.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                18,
+                80,
+                9648
+            ],
+            "popularity": 58.2321,
+            "first_air_date": "2025-05-29",
+            "vote_average": 7.943,
+            "vote_count": 79,
+            "origin_country": [
+                "GB",
+                "US"
+            ],
+            "data_formatada": "29-05-2025"
+        },
+        {
+            "backdrop_path": "/nn9vM29SKN227zupaOOmaJz5SA0.jpg",
+            "id": 241554,
+            "name": "Diários de um Robô-Assassino",
+            "original_name": "Murderbot",
+            "overview": "Em um futuro high-tech, um robô de segurança rebelde secretamente adquire livre arbítrio. Para se manter escondido, ele acaba, contra sua vontade, participando de uma missão para proteger cientistas em um planeta perigoso... mesmo que tudo o que queria era maratonar suas novelas.",
+            "poster_path": "/rWQYtLHVzG44Ks6Ohi6K1IVyIwq.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                35,
+                18,
+                10765
+            ],
+            "popularity": 94.9681,
+            "first_air_date": "2025-05-15",
+            "vote_average": 7.216,
+            "vote_count": 111,
+            "origin_country": [
+                "US"
+            ],
+            "data_formatada": "15-05-2025"
+        },
+        {
+            "backdrop_path": "/lPmUu3xkoksz3xsa1feIUoOBZrg.jpg",
+            "id": 117581,
+            "name": "Ginny e Georgia",
+            "original_name": "Ginny & Georgia",
+            "overview": "Em busca de uma nova chance, Georgia leva os filhos Ginny e Austin para morar em outra cidade. Só que recomeçar do zero não é tão simples assim.",
+            "poster_path": "/uKval7QmEozy7R05FEvE3H9Qice.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "popularity": 182.1541,
+            "first_air_date": "2021-02-24",
+            "vote_average": 8.07,
+            "vote_count": 1629,
+            "origin_country": [
+                "US"
+            ],
+            "data_formatada": "24-02-2021"
+        },
+        {
+            "backdrop_path": "/lqaT9mIxcVJs9QSUf0hdy0zW68C.jpg",
+            "id": 248830,
+            "name": "Stick",
+            "original_name": "Stick",
+            "overview": "Pryce Cahill estava rumo à elite do golfe quando uma crise em campo arruinou sua carreira. Agora, aposta tudo para treinar Santi, uma promessa adolescente com enorme potencial, e talvez se salvar.",
+            "poster_path": "/y8EWrf5Ry1WmYksWT7MOPWexvr5.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "popularity": 65.4756,
+            "first_air_date": "2025-06-03",
+            "vote_average": 7.417,
+            "vote_count": 12,
+            "origin_country": [
+                "US"
+            ],
+            "data_formatada": "03-06-2025"
+        },
+        {
+            "backdrop_path": "/zZqpAXxVSBtxV9qPBcscfXBcL2w.jpg",
+            "id": 1399,
+            "name": "Game of Thrones",
+            "original_name": "Game of Thrones",
+            "overview": "Em uma terra onde os verões podem durar vários anos e o inverno toda uma vida, sete nobres famílias lutam pelo controle da mítica terra de Westeros, dividida depois de uma guerra. Num cenário que lembra a Europa medieval, reis, rainhas, cavaleiros e renegados usam todos os meios possíveis em um jogo político pela disputa do Trono de Ferro, o símbolo do poder absoluto.",
+            "poster_path": "/l2ezB41chGDjXcKo24lseuXYtKP.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                10765,
+                18,
+                10759
+            ],
+            "popularity": 240.442,
+            "first_air_date": "2011-04-17",
+            "vote_average": 8.457,
+            "vote_count": 25095,
+            "origin_country": [
+                "US"
+            ],
+            "data_formatada": "17-04-2011"
+        },
+        {
+            "backdrop_path": "/vV5LKWmuysEe5wsuZJGbdiL5XJ2.jpg",
+            "id": 194583,
+            "name": "The Walking Dead: Dead City",
+            "original_name": "The Walking Dead: Dead City",
+            "overview": "Maggie e Negan viajam para uma Manhattan pós-apocalíptica há muito isolada do continente. A cidade em ruínas está cheia de mortos e habitantes que fizeram de Nova York seu próprio mundo cheio de anarquia, perigo, beleza e terror.",
+            "poster_path": "/qWOZK2nmfFmQ9JG2SrRfwIcijc1.jpg",
             "media_type": "tv",
             "adult": false,
             "original_language": "en",
@@ -387,38 +344,82 @@
                 18,
                 10765
             ],
-            "popularity": 126.1761,
-            "first_air_date": "2010-10-31",
-            "vote_average": 8.1,
-            "vote_count": 16998,
+            "popularity": 61.191,
+            "first_air_date": "2023-06-18",
+            "vote_average": 8.0,
+            "vote_count": 609,
             "origin_country": [
                 "US"
             ],
-            "data_formatada": "31-10-2010"
+            "data_formatada": "18-06-2023"
         },
         {
-            "backdrop_path": "/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
-            "id": 66732,
-            "name": "Stranger Things",
-            "original_name": "Stranger Things",
-            "overview": "Quando um garoto desaparece, a cidade toda participa nas buscas. Mas o que encontram são segredos, forças sobrenaturais e uma menina.",
-            "poster_path": "/pi8WsJtGKxuJHdp0m1W2wq7IvxW.jpg",
+            "backdrop_path": "/aCbOj4wc6vQUUVNKppssj2PYUy0.jpg",
+            "id": 96580,
+            "name": "Resident Alien",
+            "original_name": "Resident Alien",
+            "overview": "Harry Vanderspleige é um alienígena que pousa no planeta Terra, assumindo a identidade de um médico de uma pequena cidade do Colorado para levar a cabo uma missão secreta: acabar com a humanidade.",
+            "poster_path": "/5van3ktOTqWr5lcixh5aR8NlqqW.jpg",
             "media_type": "tv",
             "adult": false,
             "original_language": "en",
             "genre_ids": [
-                18,
-                10765,
-                9648
+                10765
             ],
-            "popularity": 101.5393,
-            "first_air_date": "2016-07-15",
-            "vote_average": 8.596,
-            "vote_count": 18356,
+            "popularity": 51.4663,
+            "first_air_date": "2021-01-27",
+            "vote_average": 7.8,
+            "vote_count": 820,
             "origin_country": [
                 "US"
             ],
-            "data_formatada": "15-07-2016"
+            "data_formatada": "27-01-2021"
+        },
+        {
+            "backdrop_path": "/fOmWSmN9BdGef6oVVJmNyNsA0WC.jpg",
+            "id": 261602,
+            "name": "Habitante do Abismo",
+            "original_name": "潜渊",
+            "overview": "Janeiro de 1940. Liang Shuo, um agente clandestino comunista com um ferimento na cabeça, acordou em uma montanha coberta de neve e sua memória desapareceu. Atraído para Xangai por pistas fragmentadas para recuperar sua identidade, ele foi caçado pelas forças japonesas. Em seguida, a 76ª Agência do regime de Wang Jingwei identificou-o como seu Diretor de Operações. Enquanto o Japão e o governo de Wang Jingwei preparavam a sua “Conferência de Paz e Prosperidade”, um grupo de trabalhadores presos seria enviado para a linha da frente. O Partido lançou o “Projeto Abyss” para resgatá-los, mas seu agente “Frost” havia desaparecido. Em meio às armadilhas inimigas, Liang recuperou a memória: ele era Frost. Agora ele deve obter uma lista de espiões japoneses com uma década de existência, que seria revelada na conferência, e completar a missão impossível...",
+            "poster_path": "/uBqbBMAo9UW1BZSnRcIp8MrSbfS.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "zh",
+            "genre_ids": [
+                18
+            ],
+            "popularity": 3.9118,
+            "first_air_date": "2025-06-09",
+            "vote_average": 10.0,
+            "vote_count": 1,
+            "origin_country": [
+                "CN"
+            ],
+            "data_formatada": "09-06-2025"
+        },
+        {
+            "backdrop_path": "/vcFW09U4834DyFOeRZpsx9x1D3S.jpg",
+            "id": 57243,
+            "name": "Doctor Who",
+            "original_name": "Doctor Who",
+            "overview": "Acompanhe as incríveis jornadas pelo tempo e espaço do Doutor, um alienígena da linhagem dos senhores do tempo. Nativo do planeta Gallifrey, o Doutor utiliza a Tardis, uma nave capaz de se camuflar como uma cabine de polícia, para explorar o passado e o futuro nos mais distantes lugares do universo.",
+            "poster_path": "/8xz8ZPiuRLeaganjKd6WtE6S50E.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                10759,
+                18,
+                10765
+            ],
+            "popularity": 220.7199,
+            "first_air_date": "2005-03-26",
+            "vote_average": 7.546,
+            "vote_count": 3141,
+            "origin_country": [
+                "GB"
+            ],
+            "data_formatada": "26-03-2005"
         },
         {
             "backdrop_path": "/aok7IhrbA83josNz9Dqh8tNA0Ao.jpg",
@@ -435,36 +436,37 @@
                 10765,
                 10759
             ],
-            "popularity": 32.6954,
+            "popularity": 48.2321,
             "first_air_date": "2013-04-07",
             "vote_average": 8.665,
-            "vote_count": 6788,
+            "vote_count": 6796,
             "origin_country": [
                 "JP"
             ],
             "data_formatada": "07-04-2013"
         },
         {
-            "backdrop_path": "/m0TiLZ79RR19Zz0AZruQSBeH39x.jpg",
-            "id": 90521,
-            "name": "Ilha do Amor",
-            "original_name": "Love Island",
-            "overview": "Um grupo de jovens solteiros sarados que vieram em busca de um verão de amor e romance em Fiji. O casal vencedor sairá da ilha com um grande prêmio em dinheiro.",
-            "poster_path": "/y1pIlAYxIhK1Z4fVe8kwNJjtWNI.jpg",
+            "backdrop_path": "/xMgfvjhKwuFTyoXNpa8UVV74rek.jpg",
+            "id": 281006,
+            "name": "Gostinho de Amor",
+            "original_name": "당신의 맛",
+            "overview": "Em busca do estrelato culinário, um herdeiro arrogante conhece uma chef discreta, mas teimosa, e se encanta com suas receitas. Seria o início de um romance improvável?",
+            "poster_path": "/dWOEPCBqsQo3u1AhGIreOgf4vTx.jpg",
             "media_type": "tv",
             "adult": false,
-            "original_language": "en",
+            "original_language": "ko",
             "genre_ids": [
-                10764
+                35,
+                18
             ],
-            "popularity": 39.7238,
-            "first_air_date": "2019-07-09",
-            "vote_average": 7.1,
-            "vote_count": 149,
+            "popularity": 21.7988,
+            "first_air_date": "2025-05-12",
+            "vote_average": 8.0,
+            "vote_count": 12,
             "origin_country": [
-                "US"
+                "KR"
             ],
-            "data_formatada": "09-07-2019"
+            "data_formatada": "12-05-2025"
         }
     ],
     "total_pages": 500,
