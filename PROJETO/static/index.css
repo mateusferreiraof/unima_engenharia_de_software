@@ -356,3 +356,25 @@ strong {
 .menu > p > a:hover {
     text-decoration: underline;
 }
+.paginacao {
+    display: flex;
+    justify-content: center;
+    gap: 20px;       /* Espaço maior entre os botões */
+    margin: 20px 0;
+}
+
+.paginacao button {
+    background-color: #3c239b; /* Roxo escuro */
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.paginacao button:hover {
+    background-color: #5a3dbd; /* Roxo mais claro no hover */
+}
+

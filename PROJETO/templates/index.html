@@ -112,6 +112,18 @@
                     {% endfor %}
                     {% endif %}
             </div>
+            <div class="paginacao">
+               {% if pagina and pagina > 1 %}
+               <a href="{{ url_for('index') }}?pesquisa={{ mensagem }}&page={{ pagina - 1 }}">
+               <button>Anterior</button>
+               </a>
+            {% endif %}
+            {% if tem_proxima %}
+              <a href="{{ url_for('index') }}?pesquisa={{ mensagem }}&page={{ pagina + 1 }}">
+              <button>Próxima</button>
+              </a>
+            {% endif %}
+           </div>
 
         </section>
     </main>

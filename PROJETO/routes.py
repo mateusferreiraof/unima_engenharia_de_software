@@ -50,11 +50,13 @@ def index():
     api = MovieAPI()
     nome_do_usuario = session.get('nome')
     pesquisa = request.args.get('pesquisa')
+    pagina = request.args.get('page', default=1, type=int) 
 
     if pesquisa:
-        pesquisar = api.movie_search(query=pesquisa)
-        return render_template("index.html", buscar=pesquisar['results'], mensagem=pesquisa, nome=nome_do_usuario)
+        pesquisar = api.movie_search(query=pesquisa, page=pagina)  
+        tem_proxima = len(pesquisar['results']) == 20  
 
+        return render_template("index.html",buscar=pesquisar['results'],mensagem=pesquisa,nome=nome_do_usuario,pagina=pagina,tem_proxima=tem_proxima)
     return redirect('/home') 
 
 @server.route('/filmes')
