@@ -289,6 +289,17 @@ strong {
     color: white;
 }
 
+
+/* Estilo dos itens da lista principal */
+.li-main {
+    padding: 15px;
+    display: inline-table;
+    text-align: left;
+    color: white;
+    max-width: 150px;
+    max-height: 250px;
+}
+
 /* Links padrão no header */
 .a-header {
     color: white;
@@ -301,17 +312,6 @@ strong {
 .a-header:hover {
     background-color: yellowgreen;
 }
-
-/* Estilo dos itens da lista principal */
-.li-main {
-    padding: 15px;
-    display: inline-table;
-    text-align: left;
-    color: white;
-    max-width: 150px;
-    max-height: 250px;
-}
-
 /* Exibe o menu quando checkbox estiver marcado */
 #menu-toggle:checked + .menu-icon + .menu {
   display: block;
@@ -324,7 +324,7 @@ strong {
     right: 0;
     background: linear-gradient(to right, rgb(10, 165, 210), rgb(60, 35, 155));
     width: 375px;
-    height: 230px;
+    height: 160px;
     align-items: center;
     padding: 10px;
     border-radius: 5px;

@@ -359,14 +359,29 @@ footer {
   display: block;
 }
 
+/* Links padrão no header */
+.a-header {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Hover nos links do header */
+.a-header:hover {
+    background-color: yellowgreen;
+}
+/* Exibe o menu quando checkbox estiver marcado */
+#menu-toggle:checked + .menu-icon + .menu {
+  display: block;
+}
+
 /* Menu dropdown oculto por padrão */
 .menu {
     display: none;
     position: absolute;
     right: 0;
     background: linear-gradient(to right, rgb(10, 165, 210), rgb(60, 35, 155));
-    width: 375px;
-    height: 230px;
     align-items: center;
     padding: 10px;
     border-radius: 5px;
@@ -392,4 +407,5 @@ footer {
 .menu > p > a:hover {
     text-decoration: underline;
 }
+
 

@@ -63,7 +63,8 @@ def index():
 def filmes():
     api = MovieAPI()
     api_categorias = Categoria()
-    
+    nome_do_usuario = session.get('nome')
+
     pagina = request.args.get('page', default=1, type=int)
     filmes = api.movie_list(page=pagina)
     avaliados = api.filmes_bem_avaliados(page=pagina)
@@ -83,7 +84,7 @@ def filmes():
     adicionar_nomes_generos(avaliados, generos_dict)
     adicionar_nomes_generos(tmdb, generos_dict)
 
-    return render_template("filmes.html", filmes=filmes['results'],categorias=categorias['genres'], avaliados=avaliados['results'], tmdb=tmdb['results'], pagina=pagina)
+    return render_template("filmes.html", filmes=filmes['results'],categorias=categorias['genres'], avaliados=avaliados['results'], tmdb=tmdb['results'], pagina=pagina, nome=nome_do_usuario)
 
    
 # Página de séries
@@ -91,6 +92,7 @@ def filmes():
 def series():
     api = SeriesAPI()
     api_categorias = Categoria()
+    nome_do_usuario = session.get('nome')
 
     pagina = request.args.get('page', default=1, type=int)
     populares = api.series_list(page=pagina)
@@ -111,7 +113,7 @@ def series():
     adicionar_nomes_generos(avaliadas, generos_dict)
     adicionar_nomes_generos(tmdb, generos_dict)
 
-    return render_template("series.html", populares=populares['results'], avaliadas=avaliadas['results'], tmdb=tmdb['results'], hj=hj['results'], categorias=categorias['genres'], pagina=pagina)
+    return render_template("series.html", populares=populares['results'], avaliadas=avaliadas['results'], tmdb=tmdb['results'], hj=hj['results'], categorias=categorias['genres'], pagina=pagina, nome=nome_do_usuario)
 
 # Redireciona a raiz do site para a home
 @server.route('/')
@@ -217,20 +219,25 @@ def cadastrar_usuario():
 
 @server.route('/sobrenos')
 def sobrenos():
-    return render_template('sobrenos.html')
+    nome_do_usuario = session.get('nome')
+    return render_template('sobrenos.html', nome=nome_do_usuario)
 
 @server.route('/contato')
 def contato():
-    return render_template('contato.html')
+    nome_do_usuario = session.get('nome')
+    return render_template('contato.html', nome=nome_do_usuario)
 
 @server.route('/termo')
 def termo():
-    return render_template('termo.html')
+    nome_do_usuario = session.get('nome')
+    return render_template('termo.html', nome=nome_do_usuario)
 
 @server.route('/privacidade')
 def privacidade():
-    return render_template('privacidade.html')
+    nome_do_usuario = session.get('nome')
+    return render_template('privacidade.html', nome=nome_do_usuario)
 
 @server.route('/suporte')
 def suporte():
-    return render_template('suporte.html')
+    nome_do_usuario = session.get('nome')
+    return render_template('suporte.html', nome=nome_do_usuario)
