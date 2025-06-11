@@ -90,7 +90,20 @@ class MovieAPI:
                 filme['data_formatada'] = self.datetimeformat(filme['release_date'])
         return self.to_json(response)  
     
- #se der erro excluir
+    #onde assistir
+
+    def onde_assistir(self, movie_id: int):
+        url = f"https://api.themoviedb.org/3/movie/{movie_id}/watch/providers"
+        response = requests.get(url, headers=self.headers).json()
+
+        # Pegamos apenas os resultados do Brasil
+        dados = response.get("results", {}).get("BR", {})
+        if not dados:
+            return None
+        return dados
+  
+    
+ 
  # redirecionar para pagina solo   
 
     def get_detalhes_filme(self,filme_id):

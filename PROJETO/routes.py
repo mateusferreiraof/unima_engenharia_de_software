@@ -70,6 +70,7 @@ def filmes():
     filmes = api.movie_list(page=pagina)
     avaliados = api.filmes_bem_avaliados(page=pagina)
     tmdb = api.filmes_populares_tmdb(page=pagina)
+    cartaz = api.filmes_em_cartaz(page=pagina)
 
 
 # Obtemos a lista de categorias
@@ -85,16 +86,17 @@ def filmes():
     adicionar_nomes_generos(filmes, generos_dict)
     adicionar_nomes_generos(avaliados, generos_dict)
     adicionar_nomes_generos(tmdb, generos_dict)
+    adicionar_nomes_generos(cartaz, generos_dict)
 
 
-    return render_template("filmes.html", filmes=filmes['results'],categorias=categorias['genres'], avaliados=avaliados['results'], tmdb=tmdb['results'], pagina=pagina, nome=nome_do_usuario)
+    return render_template("filmes.html", filmes=filmes['results'],categorias=categorias['genres'], avaliados=avaliados['results'], tmdb=tmdb['results'], cartaz=cartaz['results'],pagina=pagina, nome=nome_do_usuario)
 
-#se der erro excluir
 #rota para direcionar informações do filme
 @server.route('/filme/<int:filme_id>')
 def detalhes_filme(filme_id):
     api = MovieAPI()
     api_categorias = Categoria()
+    provedores = api.onde_assistir(filme_id)
     nome_do_usuario = session.get('nome')
     
     dados = api.get_detalhes_filme(filme_id)
@@ -103,7 +105,7 @@ def detalhes_filme(filme_id):
     # Extrai os nomes dos gêneros diretamente do detalhe do filme
     dados['genres_nomes'] = [g['name'] for g in dados.get('genres', [])]
 
-    return render_template('detalhes_filme.html',categorias=categorias['genres'], filme=dados, nome=nome_do_usuario)
+    return render_template('detalhes_filme.html',categorias=categorias['genres'], filme=dados, provedores=provedores, nome=nome_do_usuario)
 
 
 # Página de séries
@@ -135,12 +137,12 @@ def series():
     return render_template("series.html", populares=populares['results'], avaliadas=avaliadas['results'], tmdb=tmdb['results'], hj=hj['results'], categorias=categorias['genres'], pagina=pagina, nome=nome_do_usuario)
 
 
-#se der erro excluir
 #rota para direcionar informações do filme
 @server.route('/serie/<int:serie_id>')
 def detalhes_serie(serie_id):
     api = SeriesAPI()
     api_categorias = Categoria()
+    provedores = api.onde_assistir_serie(serie_id)
     nome_do_usuario = session.get('nome')
 
     dados = api.get_detalhes_serie(serie_id)
@@ -149,7 +151,7 @@ def detalhes_serie(serie_id):
     # Extrai os nomes dos gêneros diretamente do detalhe da serie
     dados['genres_nomes'] = [g['name'] for g in dados.get('genres', [])]
 
-    return render_template('detalhes_serie.html',categorias=categorias['genres'], serie=dados, nome=nome_do_usuario)
+    return render_template('detalhes_serie.html',categorias=categorias['genres'], serie=dados, provedores=provedores, nome=nome_do_usuario)
 
 
 # Redireciona a raiz do site para a home

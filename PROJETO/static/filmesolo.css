@@ -151,9 +151,9 @@ h1{
     max-width: 500px;
     max-width: 200px;
 }
-/*container*/
+/* Container principal */
 .container {
-  width: 90%;
+  width: 80%;
   max-width: 1000px;
   padding: 50px;
   background: rgba(255, 255, 255, 0.034);
@@ -163,15 +163,21 @@ h1{
   color: white;
 }
 
+/* Detalhes do filme com poster e informações lado a lado */
 .filmes-detalhes {
   display: flex;
   align-items: flex-start;
-  gap: 40px;
+  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
+/* Poster do filme */
 .filme-card {
-  max-width: 250px;
-  flex-shrink: 0;
+  max-width: 320px;
+  height: auto;
 }
 
 .filme-card img {
@@ -180,30 +186,88 @@ h1{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
+/* Informações do filme */
 .info-filme {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: flex-start;
+  min-width: 220px;
 }
 
 .info-filme h1 {
-  margin-bottom: 20px;
-  line-height: 1.6;
-  font-size: 24px;
+  margin-bottom: 10px;
+  line-height: 1.3;
+  font-size: 22px;
 }
 
-.info-filme p {
-  margin-bottom: 20px;
-  line-height: 1.6;
+.info-filme p,
+.info-filme strong {
+  margin-bottom: 10px;
+  line-height: 1.3;
   font-size: 16px;
   text-align: justify;
+}
 
-}
-.info-filme strong {
-  margin-bottom: 20px;
-  line-height: 1.6;
-  font-size: 16px;
-}
 strong {
-    color: #2d1a83;
+  color: #2d1a83;
+}
+
+/* Onde assistir (provedores) */
+.provedores {
+  list-style: none;
+  padding: 0;
+  margin: 2px 0 0px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.provedores li {
+  flex: 0 0 auto;
+}
+
+.provedores img {
+  width: 40px;
+  height: auto;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.provedores img:hover {
+  transform: scale(1.1);
+}
+
+.info-filme a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.info-filme a:hover {
+  text-decoration: underline;
+}
+
+/* Responsividade simples */
+@media (max-width: 600px) {
+    .provedores-filme {
+        padding: 10px 15px;
+    }
+
+    .provedores-filme h2 {
+        font-size: 1.5rem;
+    }
+
+    .provedores {
+        gap: 10px;
+    }
+
+    .provedores img {
+        width: 35px;
+    }
 }
 
 /* Estilo do rodapé */

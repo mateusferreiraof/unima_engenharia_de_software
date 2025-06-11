@@ -67,7 +67,27 @@
     </header>
     
     <main>
+<!--Filme Em cartaz-->       
 
+        <h2>Filmes Em Cartaz</h2>
+
+        <div class="grid-filmes">
+            {% if cartaz %}
+                {% for filme in cartaz %}
+                    <div class="filme-card">
+<!--link p/pag solo-->  <a href="{{ url_for('detalhes_filme', filme_id=filme['id']) }}">
+                            <abbr title="{{ filme.overview }} -> {{ filme.genres_nomes | join(', ') }}">
+                            <img src="https://image.tmdb.org/t/p/w200{{ filme.poster_path }}" alt="{{ filme.title }}" />
+                            </abbr>
+                        </a>
+                        <p><strong>{{ filme.title }}</strong></p> 
+                        <p>{{ filme.data_formatada }}</p>
+                    </div>
+                {% endfor %}
+        </div>
+        {% else %}
+        <p>Nenhum filme popular recomendada.</p>
+        {% endif %}
 
  <!--Filme popular-->       
         <h2>Filmes Populares</h2>

@@ -78,10 +78,55 @@
                     <p><strong>Data de lançamento: </strong> {{ filme.data_formatada }}</p>
                     <p><strong>Gêneros: </strong> {{filme.genres_nomes | join(', ')}}</p>
                     <p><strong>Nota: </strong><i class="fa-solid fa-star" style="color: rgba(255, 217, 0, 0.808);"></i> {{ filme.vote_average | round(1) }} </p>
+<!--onde assistir-->
+                    
+                    {% if provedores %}
 
-                </div>
-            </div>
-        </div>
+                        <h1>Onde assistir</h1>
+
+                
+                        {% if provedores.flatrate %}
+                            <p><strong>Streaming:</strong></p>
+                            <ul class="provedores">
+                                {% for p in provedores.flatrate %}
+                                    <li>
+                                        <img src="https://image.tmdb.org/t/p/w45{{ p.logo_path }}" alt="{{ p.provider_name }}" title="{{ p.provider_name }}">
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+
+                        {% if provedores.rent %}
+                            <p><strong>Aluguel:</strong></p>
+                            <ul class="provedores">
+                                {% for p in provedores.rent %}
+                                    <li>
+                                        <img src="https://image.tmdb.org/t/p/w45{{ p.logo_path }}" alt="{{ p.provider_name }}" title="{{ p.provider_name }}">
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+
+                        {% if provedores.buy %}
+                            <p><strong>Compra:</strong></p>
+                            <ul class="provedores">
+                                {% for p in provedores.buy %}
+                                    <li>
+                                        <img src="https://image.tmdb.org/t/p/w45{{ p.logo_path }}" alt="{{ p.provider_name }}" title="{{ p.provider_name }}">
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+
+                        <p style="font-size: 0.8em;">
+                            <a href="{{ provedores.link }}" target="_blank" rel="noopener noreferrer">Ver mais no <strong>TMDB</strong></a><br>
+                            <em>Dados de disponibilidade fornecidos por JustWatch</em>
+                        </p>
+                    </div>    
+                    </div></div>
+                {% endif %}
+            </div></div>
+
     </main>    
 
     <footer>

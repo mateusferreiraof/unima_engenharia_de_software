@@ -1,48 +1,55 @@
 {
     "adult": false,
-    "backdrop_path": "/7Zx3wDG5bBtcfk8lcnCWDOLM4Y4.jpg",
-    "belongs_to_collection": null,
-    "budget": 100000000,
+    "backdrop_path": "/nAxGnGHOsfzufThz20zgmRwKur3.jpg",
+    "belongs_to_collection": {
+        "id": 1489663,
+        "name": "Sinners Collection",
+        "poster_path": "/48KYBYnHmt7ykX57zGuv6SXVZOO.jpg",
+        "backdrop_path": "/e0kl32U3pHA2cdR1VGRk5TUmrFr.jpg"
+    },
+    "budget": 90000000,
     "genres": [
         {
-            "id": 10751,
-            "name": "Família"
+            "id": 27,
+            "name": "Terror"
         },
         {
-            "id": 35,
-            "name": "Comédia"
+            "id": 53,
+            "name": "Thriller"
         },
         {
-            "id": 878,
-            "name": "Ficção científica"
-        },
-        {
-            "id": 12,
-            "name": "Aventura"
+            "id": 28,
+            "name": "Ação"
         }
     ],
-    "homepage": "https://tickets.disney.com.br/lilo-e-stitch",
-    "id": 552524,
-    "imdb_id": "tt11655566",
+    "homepage": "https://www.pecadoresfilme.com.br/",
+    "id": 1233413,
+    "imdb_id": "tt31193180",
     "origin_country": [
         "US"
     ],
     "original_language": "en",
-    "original_title": "Lilo & Stitch",
-    "overview": "Stitch, um alienígena, chega ao planeta Terra após fugir de sua prisão e tenta se passar por um cachorro para se camuflar. As coisas mudam quando Lilo, uma travessa menina, o adota de um abrigo de animais. Juntos, eles aprendem os valores da amizade e família.",
-    "popularity": 492.6436,
-    "poster_path": "/toLU4HzWf2iKqPbElKPDypKNGTr.jpg",
+    "original_title": "Sinners",
+    "overview": "Dispostos a deixar suas vidas conturbadas para trás, irmãos gêmeos retornam à sua cidade natal para recomeçar suas vidas do zero, quando descobrem que um mal ainda maior está à espera deles para recebê-los de volta.",
+    "popularity": 433.1928,
+    "poster_path": "/a9kYEboW1TQaeilGYUAx1MO0DUp.jpg",
     "production_companies": [
         {
-            "id": 2,
-            "logo_path": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
-            "name": "Walt Disney Pictures",
+            "id": 174,
+            "logo_path": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+            "name": "Warner Bros. Pictures",
             "origin_country": "US"
         },
         {
-            "id": 118854,
-            "logo_path": "/g9LPNlQFoDcHjfnvrEqFmeIaDrZ.png",
-            "name": "Rideback",
+            "id": 148495,
+            "logo_path": "/2fQRDickgp9vuDIxJTlDLEs7j0y.png",
+            "name": "Proximity Media",
+            "origin_country": "US"
+        },
+        {
+            "id": 216687,
+            "logo_path": "/kKVYqekveOvLK1IgqdJojLjQvtu.png",
+            "name": "Domain Entertainment",
             "origin_country": "US"
         }
     ],
@@ -52,10 +59,15 @@
             "name": "United States of America"
         }
     ],
-    "release_date": "2025-05-17",
-    "revenue": 772458888,
-    "runtime": 108,
+    "release_date": "2025-04-16",
+    "revenue": 357245361,
+    "runtime": 138,
     "spoken_languages": [
+        {
+            "english_name": "Mandarin",
+            "iso_639_1": "zh",
+            "name": "普通话"
+        },
         {
             "english_name": "English",
             "iso_639_1": "en",
@@ -63,10 +75,10 @@
         }
     ],
     "status": "Released",
-    "tagline": "",
-    "title": "Lilo & Stitch",
+    "tagline": "Somos todos pecadores.",
+    "title": "Pecadores",
     "video": false,
-    "vote_average": 7.1,
-    "vote_count": 577,
-    "data_formatada": "17-05-2025"
+    "vote_average": 7.529,
+    "vote_count": 1341,
+    "data_formatada": "16-04-2025"
 }

@@ -63,8 +63,17 @@ class SeriesAPI:
             url = "https://api.themoviedb.org/3/genre/movie/list?language=pt-br"
             response = requests.get(url, headers=self.headers).json()
             return self.to_json(response)
+    
+#onde assistir
+    def onde_assistir_serie(self, serie_id):
+        url = f"https://api.themoviedb.org/3/tv/{serie_id}/watch/providers"
+        response = requests.get(url, headers=self.headers).json()
 
-#se der erro excluir
+        dados = response.get('results', {}).get('BR')  # ou outro país
+        if not dados:
+            return None
+        return dados
+
  # redirecionar para pagina solo   
 
     def get_detalhes_serie(self,serie_id):
