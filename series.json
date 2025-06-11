@@ -1,187 +1,476 @@
 {
-    "adult": false,
-    "backdrop_path": "/kU98MbVVgi72wzceyrEbClZmMFe.jpg",
-    "created_by": [
+    "page": 1,
+    "results": [
         {
-            "id": 1190517,
-            "credit_id": "5253483c19c29579400de990",
-            "name": "Michael Dante DiMartino",
-            "original_name": "Michael Dante DiMartino",
-            "gender": 2,
-            "profile_path": "/8ey06cRWYe5TlKl5tyYQf57kknw.jpg"
+            "backdrop_path": "/tQqbbxBAdW2ql8vbOqMOJbtSQ7O.jpg",
+            "id": 247718,
+            "name": "Terra da Máfia",
+            "original_name": "MobLand",
+            "overview": "O poder está em disputa quando duas famílias do crime se chocam numa batalha que ameaça derrubar impérios e arruinar vidas. No meio está Harry Da Souza, um \"resolvedor de problemas\" que sabe bem onde a lealdade está quando as forças opostas colidem.",
+            "poster_path": "/r8JBlBYgFqmGP7I0VlnwLQCNaa7.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                80,
+                18
+            ],
+            "popularity": 108.7088,
+            "first_air_date": "2025-03-30",
+            "vote_average": 8.478,
+            "vote_count": 185,
+            "origin_country": [
+                "GB",
+                "US"
+            ],
+            "data_formatada": "30-03-2025"
         },
         {
-            "id": 1190518,
-            "credit_id": "5253483c19c29579400de996",
-            "name": "Bryan Konietzko",
-            "original_name": "Bryan Konietzko",
-            "gender": 2,
-            "profile_path": "/5lPnGvtATjmPakR96dqPW3v4u8q.jpg"
-        }
-    ],
-    "episode_run_time": [
-        24
-    ],
-    "first_air_date": "2005-02-21",
-    "genres": [
-        {
-            "id": 16,
-            "name": "Animação"
+            "backdrop_path": "/uQ4lG7E7mlyKsGvbASftQ6Hu2IX.jpg",
+            "id": 100088,
+            "name": "The Last of Us",
+            "original_name": "The Last of Us",
+            "overview": "Situado duas décadas após a implosão de nossa sociedade, o drama seguirá Joel, um sobrevivente difícil, que é contratado para contrabandear uma garota de 14 anos chamada Ellie para fora de uma zona de quarentena opressiva. O que começa como um pequeno trabalho logo se torna uma jornada brutal e de partir o coração, já que os dois precisam atravessar os Estados Unidos e dependem um do outro para sobreviver.",
+            "poster_path": "/el1KQzwdIm17I3A6cYPfsVIWhfX.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                18
+            ],
+            "popularity": 187.4887,
+            "first_air_date": "2023-01-15",
+            "vote_average": 8.521,
+            "vote_count": 6187,
+            "origin_country": [
+                "US"
+            ],
+            "data_formatada": "15-01-2023"
         },
         {
-            "id": 10759,
-            "name": "Action & Adventure"
+            "backdrop_path": "/d6nMDQNCasWz82w50XNRIQoLBeA.jpg",
+            "id": 288915,
+            "name": "Aniela",
+            "original_name": "Aniela",
+            "overview": "Depois que o marido rico a deixa sem nada, uma socialite de Varsóvia precisa usar a única ferramenta que lhe restou para sobreviver: a inteligência.",
+            "poster_path": "/dcQsD6mUUchYQ0OCFUE6pnTp5xR.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "pl",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "popularity": 2.7303,
+            "first_air_date": "2025-06-11",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "origin_country": [
+                "PL"
+            ],
+            "data_formatada": "11-06-2025"
         },
         {
-            "id": 10765,
-            "name": "Sci-Fi & Fantasy"
-        }
-    ],
-    "homepage": "https://www.nick.com/shows/avatar-the-last-airbender",
-    "id": 246,
-    "in_production": false,
-    "languages": [
-        "en"
-    ],
-    "last_air_date": "2008-07-19",
-    "last_episode_to_air": {
-        "id": 13575,
-        "name": "O Cometa de Sozin - Parte 4: O Avatar Aang",
-        "overview": "Aang continua lutando contra o Senhor do Fogo Ozai, enquanto Zuko com a ajuda de Katara, luta um Agni kai com Azula.",
-        "vote_average": 9.3,
-        "vote_count": 54,
-        "air_date": "2008-07-19",
-        "episode_number": 21,
-        "episode_type": "finale",
-        "production_code": "321",
-        "runtime": 24,
-        "season_number": 3,
-        "show_id": 246,
-        "still_path": "/4a93Ud89t51LcvyiDTtWFRscUhE.jpg"
-    },
-    "name": "Avatar: A Lenda de Aang",
-    "next_episode_to_air": null,
-    "networks": [
-        {
-            "id": 13,
-            "logo_path": "/aYkLXz4dxHgOrFNH7Jv7Cpy56Ms.png",
-            "name": "Nickelodeon",
-            "origin_country": "US"
-        }
-    ],
-    "number_of_episodes": 61,
-    "number_of_seasons": 3,
-    "origin_country": [
-        "US"
-    ],
-    "original_language": "en",
-    "original_name": "Avatar: The Last Airbender",
-    "overview": "Aang é um menino de 12 anos que descobre ser o Avatar, mestre responsável por garantir o equilíbrio entre os quatro elementos e suas respectivas nações, mantendo o planeta em paz.",
-    "popularity": 46.6653,
-    "poster_path": "/7IJhby0sfQCN5ZIIseAWCw6j3xm.jpg",
-    "production_companies": [
-        {
-            "id": 4859,
-            "logo_path": "/wOF6aAYFE5BQryYyaMdQPqUWYwt.png",
-            "name": "Nickelodeon Animation Studio",
-            "origin_country": "US"
+            "backdrop_path": "/lqaT9mIxcVJs9QSUf0hdy0zW68C.jpg",
+            "id": 248830,
+            "name": "Stick",
+            "original_name": "Stick",
+            "overview": "Pryce Cahill estava rumo à elite do golfe quando uma crise em campo arruinou sua carreira. Agora, aposta tudo para treinar Santi, uma promessa adolescente com enorme potencial, e talvez se salvar.",
+            "poster_path": "/y8EWrf5Ry1WmYksWT7MOPWexvr5.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "popularity": 61.9695,
+            "first_air_date": "2025-06-03",
+            "vote_average": 7.059,
+            "vote_count": 17,
+            "origin_country": [
+                "US"
+            ],
+            "data_formatada": "03-06-2025"
         },
         {
-            "id": 8032,
-            "logo_path": null,
-            "name": "JM Animation",
-            "origin_country": "KR"
+            "backdrop_path": "/kCGwvjpqM1owt9kI4pkYPJWJLvc.jpg",
+            "id": 83867,
+            "name": "Andor",
+            "original_name": "Andor",
+            "overview": "Numa era repleta de perigos, enganos e intriga, Cassian Andor vai descobrir a diferença que pode fazer na luta contra o tirânico Império Galático. Embarca numa jornada destinada a torná-lo um herói da Rebelião.",
+            "poster_path": "/yX8c3bXKzAquEKQ75eQslnodskK.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                10765,
+                10759,
+                18
+            ],
+            "popularity": 68.7343,
+            "first_air_date": "2022-09-21",
+            "vote_average": 8.261,
+            "vote_count": 1552,
+            "origin_country": [
+                "US"
+            ],
+            "data_formatada": "21-09-2022"
         },
         {
-            "id": 43756,
-            "logo_path": "/bwwJk6P9hycQGwUbWFj07cfyCG4.png",
-            "name": "DR Movie",
-            "origin_country": "KR"
+            "backdrop_path": "/y7OFTnu8Gh2KHWX0Y05y8OY9kCB.jpg",
+            "id": 232766,
+            "name": "Sem Piedade",
+            "original_name": "광장",
+            "overview": "Depois de sair de sua gangue, um ex-criminoso volta para descobrir a verdade por trás da morte do irmão, embarcando em uma jornada de vingança incansável.",
+            "poster_path": "/esS8EbjU3i7N40cemWIeM20Tzn8.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "ko",
+            "genre_ids": [
+                10759,
+                18
+            ],
+            "popularity": 148.0116,
+            "first_air_date": "2025-06-06",
+            "vote_average": 8.1,
+            "vote_count": 35,
+            "origin_country": [
+                "KR"
+            ],
+            "data_formatada": "06-06-2025"
         },
         {
-            "id": 8410,
-            "logo_path": null,
-            "name": "Moi Animation",
-            "origin_country": "KR"
+            "backdrop_path": "/ceuc2V5QdHJL2Pte6xJ5cYzHElY.jpg",
+            "id": 291583,
+            "name": "Air Cocaine: Traficantes nas Alturas",
+            "original_name": "Y a-t-il un dealer dans l'avion ?",
+            "overview": "Em 2013, quatro franceses são presos em Punta Cana com 700 kg de cocaína, nenhum com o perfil de traficante. Este documentário investiga quem estava por trás da operação.",
+            "poster_path": "/380EsZSPfuIygkK5OkgqOfy15kW.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "fr",
+            "genre_ids": [
+                99,
+                80
+            ],
+            "popularity": 1.2324,
+            "first_air_date": "2025-06-11",
+            "vote_average": 8.0,
+            "vote_count": 2,
+            "origin_country": [
+                "FR"
+            ],
+            "data_formatada": "11-06-2025"
         },
         {
-            "id": 5371,
-            "logo_path": "/2GFJ3jJ7dhjqcOGj41aTwd3OhQT.png",
-            "name": "Nickelodeon Productions",
-            "origin_country": "US"
-        }
-    ],
-    "production_countries": [
-        {
-            "iso_3166_1": "KR",
-            "name": "South Korea"
+            "backdrop_path": "/fXpsbFfQkIsj1MF3FRJh9JgO6Qq.jpg",
+            "id": 203367,
+            "name": "A Estrada de Lichia",
+            "original_name": "长安的荔枝",
+            "overview": "A história acompanha Li Shande, um homem enganado por seus colegas e rebaixado de sua função de supervisor. Agora forçado a se tornar o \"Enviado da Lichia\", ele enfrenta uma missão quase impossível: entregar lichias frescas de Lingnan para Chang'an como presente de aniversário para a Nobre Consorte. Diz o ditado que as lichias mudam de cor em um dia, perdem a fragrância em dois e o sabor em três dias. Com mais de 5.000 li entre Lingnan e Chang'an, e com prazos apertados e recursos limitados, como ele conseguirá realizar isso?",
+            "poster_path": "/tr9Xkdxsualrb4b2L2LMyHxCS31.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "zh",
+            "genre_ids": [
+                18
+            ],
+            "popularity": 25.6278,
+            "first_air_date": "2025-06-07",
+            "vote_average": 7.8,
+            "vote_count": 5,
+            "origin_country": [
+                "CN"
+            ],
+            "data_formatada": "07-06-2025"
         },
         {
-            "iso_3166_1": "US",
-            "name": "United States of America"
+            "backdrop_path": "/xedpbCiPxGiyusIutkhkLXx1shT.jpg",
+            "id": 231001,
+            "name": "Carême - O Rebelde da Culinária",
+            "original_name": "Carême",
+            "overview": "Acompanhe a ascensão do gênio da culinária, Antonin Carême, e sua descida à espionagem na França da era Napoleônica, onde a manipulação é soberana. Com seus dons para gastronomia e sedução, ele se torna a arma perfeita em uma luta pelo poder.",
+            "poster_path": "/q3r2UkTnS0BZIqZ82PxKJs0H9F5.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "fr",
+            "genre_ids": [
+                18,
+                9648,
+                10768
+            ],
+            "popularity": 24.5365,
+            "first_air_date": "2025-04-30",
+            "vote_average": 8.1,
+            "vote_count": 13,
+            "origin_country": [
+                "FR"
+            ],
+            "data_formatada": "30-04-2025"
         },
         {
-            "iso_3166_1": "MY",
-            "name": "Malaysia"
+            "backdrop_path": "/Ao5pBFuWY32cVuh6iYjEjZMEscN.jpg",
+            "id": 60625,
+            "name": "Rick e Morty",
+            "original_name": "Rick and Morty",
+            "overview": "Rick é um velho mentalmente desequilibrado, mas cientificamente talentoso que se reconectou recentemente com sua família. Ele passa a maior parte do tempo envolvendo o jovem neto Morty em aventuras perigosas e estranhas no espaço e em universos alternativos. Compostos à vida familiar já instável de Morty, esses eventos causam muito sofrimento a Morty em casa e na escola.",
+            "poster_path": "/5qfd0e2uMbVInX3YdeFbDsfxi1t.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                16,
+                35,
+                10765,
+                10759
+            ],
+            "popularity": 228.097,
+            "first_air_date": "2013-12-02",
+            "vote_average": 8.688,
+            "vote_count": 10201,
+            "origin_country": [
+                "US"
+            ],
+            "data_formatada": "02-12-2013"
         },
         {
-            "iso_3166_1": "SG",
-            "name": "Singapore"
-        }
-    ],
-    "seasons": [
+            "backdrop_path": "/wIoxMHbyUJnx5Fm9tI26hIYGI1D.jpg",
+            "id": 245703,
+            "name": "Dept. Q",
+            "original_name": "Dept. Q",
+            "overview": "Um policial brilhante, mas arrogante, se torna chefe de um novo departamento, liderando um grupo improvável de desajustados na solução de casos arquivados de Edimburgo.",
+            "poster_path": "/e4ctTDJsRexIF3vjxeDrSbeOuep.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                18,
+                80,
+                9648
+            ],
+            "popularity": 50.832,
+            "first_air_date": "2025-05-29",
+            "vote_average": 7.958,
+            "vote_count": 84,
+            "origin_country": [
+                "GB",
+                "US"
+            ],
+            "data_formatada": "29-05-2025"
+        },
         {
-            "air_date": "2002-04-30",
-            "episode_count": 24,
-            "id": 788,
-            "name": "Especiais",
+            "backdrop_path": "/6fRwRD7GdCfg6owzmCT3VgQtowl.jpg",
+            "id": 37854,
+            "name": "One Piece",
+            "original_name": "ワンピース",
+            "overview": "Houve um homem que conquistou tudo aquilo que o mundo tinha a oferecer, o lendário Rei dos Piratas, Gold Roger. Capturado e condenado à execução pelo Governo Mundial, suas últimas palavras lançaram legiões aos mares. \"Meu tesouro? Se quiserem, podem pegá-lo. Procurem-no! Ele contém tudo que este mundo pode oferecer!\". Foi a revelação do maior tesouro, o One Piece, cobiçado por homens de todo o mundo, sonhando com fama e riqueza imensuráveis... Assim começou a Grande Era dos Piratas!",
+            "poster_path": "/yBYDzzmNoT5uXkXo3NGatLIANYK.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "ja",
+            "genre_ids": [
+                10759,
+                35,
+                16
+            ],
+            "popularity": 109.8782,
+            "first_air_date": "1999-10-20",
+            "vote_average": 8.7,
+            "vote_count": 4903,
+            "origin_country": [
+                "JP"
+            ],
+            "data_formatada": "20-10-1999"
+        },
+        {
+            "backdrop_path": "/sxzodKyKvW2sXjI9awYFjo2ePNz.jpg",
+            "id": 284605,
+            "name": "Sobreviventes",
+            "original_name": "The Survivors",
+            "overview": "Há quinze anos, uma tragédia envolvendo três jovens abalou uma pacata cidade. Agora, a morte misteriosa de uma mulher relembra um passado que todos preferiam esquecer.",
+            "poster_path": "/4oDFJSrlvhO09ggCLKbf1zOXBX2.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                18,
+                9648
+            ],
+            "popularity": 114.4003,
+            "first_air_date": "2025-06-06",
+            "vote_average": 6.9,
+            "vote_count": 12,
+            "origin_country": [
+                "AU"
+            ],
+            "data_formatada": "06-06-2025"
+        },
+        {
+            "backdrop_path": "/lPmUu3xkoksz3xsa1feIUoOBZrg.jpg",
+            "id": 117581,
+            "name": "Ginny e Georgia",
+            "original_name": "Ginny & Georgia",
+            "overview": "Em busca de uma nova chance, Georgia leva os filhos Ginny e Austin para morar em outra cidade. Só que recomeçar do zero não é tão simples assim.",
+            "poster_path": "/uKval7QmEozy7R05FEvE3H9Qice.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "popularity": 182.6101,
+            "first_air_date": "2021-02-24",
+            "vote_average": 8.067,
+            "vote_count": 1633,
+            "origin_country": [
+                "US"
+            ],
+            "data_formatada": "24-02-2021"
+        },
+        {
+            "backdrop_path": "/zZqpAXxVSBtxV9qPBcscfXBcL2w.jpg",
+            "id": 1399,
+            "name": "Game of Thrones",
+            "original_name": "Game of Thrones",
+            "overview": "Em uma terra onde os verões podem durar vários anos e o inverno toda uma vida, sete nobres famílias lutam pelo controle da mítica terra de Westeros, dividida depois de uma guerra. Num cenário que lembra a Europa medieval, reis, rainhas, cavaleiros e renegados usam todos os meios possíveis em um jogo político pela disputa do Trono de Ferro, o símbolo do poder absoluto.",
+            "poster_path": "/l2ezB41chGDjXcKo24lseuXYtKP.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                10765,
+                18,
+                10759
+            ],
+            "popularity": 251.0468,
+            "first_air_date": "2011-04-17",
+            "vote_average": 8.457,
+            "vote_count": 25097,
+            "origin_country": [
+                "US"
+            ],
+            "data_formatada": "17-04-2011"
+        },
+        {
+            "backdrop_path": "/xMgfvjhKwuFTyoXNpa8UVV74rek.jpg",
+            "id": 281006,
+            "name": "Gostinho de Amor",
+            "original_name": "당신의 맛",
+            "overview": "Em busca do estrelato culinário, um herdeiro arrogante conhece uma chef discreta, mas teimosa, e se encanta com suas receitas. Seria o início de um romance improvável?",
+            "poster_path": "/dWOEPCBqsQo3u1AhGIreOgf4vTx.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "ko",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "popularity": 24.75,
+            "first_air_date": "2025-05-12",
+            "vote_average": 8.0,
+            "vote_count": 15,
+            "origin_country": [
+                "KR"
+            ],
+            "data_formatada": "12-05-2025"
+        },
+        {
+            "backdrop_path": "/nn9vM29SKN227zupaOOmaJz5SA0.jpg",
+            "id": 241554,
+            "name": "Diários de um Robô-Assassino",
+            "original_name": "Murderbot",
+            "overview": "Em um futuro high-tech, um robô de segurança rebelde secretamente adquire livre arbítrio. Para se manter escondido, ele acaba, contra sua vontade, participando de uma missão para proteger cientistas em um planeta perigoso... mesmo que tudo o que queria era maratonar suas novelas.",
+            "poster_path": "/rWQYtLHVzG44Ks6Ohi6K1IVyIwq.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                35,
+                18,
+                10765
+            ],
+            "popularity": 93.289,
+            "first_air_date": "2025-05-15",
+            "vote_average": 7.265,
+            "vote_count": 113,
+            "origin_country": [
+                "US"
+            ],
+            "data_formatada": "15-05-2025"
+        },
+        {
+            "backdrop_path": "/vcFW09U4834DyFOeRZpsx9x1D3S.jpg",
+            "id": 57243,
+            "name": "Doctor Who",
+            "original_name": "Doctor Who",
+            "overview": "Acompanhe as incríveis jornadas pelo tempo e espaço do Doutor, um alienígena da linhagem dos senhores do tempo. Nativo do planeta Gallifrey, o Doutor utiliza a Tardis, uma nave capaz de se camuflar como uma cabine de polícia, para explorar o passado e o futuro nos mais distantes lugares do universo.",
+            "poster_path": "/8xz8ZPiuRLeaganjKd6WtE6S50E.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                10759,
+                18,
+                10765
+            ],
+            "popularity": 188.6068,
+            "first_air_date": "2005-03-26",
+            "vote_average": 7.5,
+            "vote_count": 3141,
+            "origin_country": [
+                "GB"
+            ],
+            "data_formatada": "26-03-2005"
+        },
+        {
+            "backdrop_path": "/gG5xy0l84D5vYIWt3Xq9VIJs0SP.jpg",
+            "id": 292664,
+            "name": "The Kollective",
+            "original_name": "The Kollective",
             "overview": "",
-            "poster_path": "/qDll9gvIj9vVcgQKtbkad0390kP.jpg",
-            "season_number": 0,
-            "vote_average": 0.0
+            "poster_path": "/qqCDLvhm7czEf739tiwganFK23t.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                18
+            ],
+            "popularity": 6.421,
+            "first_air_date": "2025-06-10",
+            "vote_average": 10.0,
+            "vote_count": 1,
+            "origin_country": [
+                "US"
+            ],
+            "data_formatada": "10-06-2025"
         },
         {
-            "air_date": "2005-02-21",
-            "episode_count": 20,
-            "id": 785,
-            "name": "Livro 1: Água",
-            "overview": "A temporada gira em torno do protagonista, Aang, e de seus amigos Katara e Sokka, que vão em uma viagem ao Polo Norte para encontrar um mestre de dominação de água para ensinar Aang e Katara. Enquanto isso, a Nação do Fogo trava uma guerra aparentemente sem fim contra o Reino da Terra e as Tribos da Água após o desaparecimento dos Nômades do Ar há muito tempo atrás. Aang, o atual Avatar, deve dominar os quatro elementos (ar, água, terra e fogo) para acabar com o conflito. Ao longo do caminho, ele e seus amigos são perseguidos pelo Príncipe Zuko, banido da Nação do Fogo, e seu tio, o ex-general Iroh, bem como pelo Almirante Zhao da Marinha do Fogo.",
-            "poster_path": "/msWDv3MzBC4cM5fk9B0HgbKiMQ1.jpg",
-            "season_number": 1,
-            "vote_average": 7.8
-        },
-        {
-            "air_date": "2006-03-17",
-            "episode_count": 20,
-            "id": 787,
-            "name": "Livro 2: Terra",
-            "overview": "O Livro da Terra é a segunda temporada do desenho animado Avatar: A Lenda de Aang. Produzida e exibida pelo canal norte-americano Nickelodeon. Criado por Michael Dante DiMartino e Bryan Konietzko. A segunda temporada conta a aprendizagem do Aang na dobra de terra. Ela se resume na segunda jornada do Aang e seus amigos e a aparição da personagem Toph.",
-            "poster_path": "/6qDHnW7DDcS61ghbPvuWngGdeC6.jpg",
-            "season_number": 2,
-            "vote_average": 8.1
-        },
-        {
-            "air_date": "2007-09-21",
-            "episode_count": 21,
-            "id": 786,
-            "name": "Livro 3: Fogo",
-            "overview": "O Livro do Fogo é a terceira e última temporada do desenho animado Avatar: A Lenda de Aang. Produzida e exibida pelo canal norte-americano Nickelodeon. Criado por Michael Dante DiMartino e Bryan Konietzko. A Terceira temporada conta a aprendizagem do Aang na dobra de fogo. Ela se resume na última fase jornada do Aang e seus amigos, onde Zuko muda de lado e entra na equipe para ajudar Aang a derrotar o Senhor do Fogo Ozai.",
-            "poster_path": "/zbzA7LwbumWg7y4O3vukU7wB3UM.jpg",
-            "season_number": 3,
-            "vote_average": 8.2
+            "backdrop_path": "/aok7IhrbA83josNz9Dqh8tNA0Ao.jpg",
+            "id": 1429,
+            "name": "Attack on Titan",
+            "original_name": "進撃の巨人",
+            "overview": "Titãs estão quase exterminando a raça humana. Porém alguns estão dispostos a formar um exército de ataque aos seres assassinos. O jovem Eren, após ver sua mãe ser devorada por um titã, decide que não deixará nenhum deles vivo e buscará sua vingança completa.",
+            "poster_path": "/8aMqmB5xSblsZc7bLMEhE28yHa2.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "ja",
+            "genre_ids": [
+                16,
+                10765,
+                10759
+            ],
+            "popularity": 47.7163,
+            "first_air_date": "2013-04-07",
+            "vote_average": 8.665,
+            "vote_count": 6796,
+            "origin_country": [
+                "JP"
+            ],
+            "data_formatada": "07-04-2013"
         }
     ],
-    "spoken_languages": [
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        }
-    ],
-    "status": "Ended",
-    "tagline": "Água. Terra. Fogo. Ar.",
-    "type": "Scripted",
-    "vote_average": 8.7,
-    "vote_count": 4373,
-    "data_formatada": "21-02-2005"
+    "total_pages": 500,
+    "total_results": 10000
 }

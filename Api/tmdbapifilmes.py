@@ -89,7 +89,12 @@ class MovieAPI:
             if 'release_date' in filme and filme['release_date']:
                 filme['data_formatada'] = self.datetimeformat(filme['release_date'])
         return self.to_json(response)  
-    
+    #elenco
+    def get_elenco_filme(self, movie_id: int):
+        url = f"https://api.themoviedb.org/3/movie/{movie_id}/credits"
+        response = requests.get(url, headers=self.headers).json()
+        return response.get("cast", [])[:6]
+        
     #onde assistir
 
     def onde_assistir(self, movie_id: int):

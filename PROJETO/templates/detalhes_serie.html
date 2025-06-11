@@ -48,9 +48,9 @@
             <!-- Menu para usuário não logado -->
             <nav id="nav-header">
                 <ul id="ul-header">
-                    <li class="li-header"><a href="/home" id="subtitulobusca"><i class="fa-solid fa-house" style="color: #3c239b;"></i> INÍCIO</a></li>
-                    <li class="li-header"><a href="/filmes" class="a-header"><i class="fa-solid fa-tv" style="color: #3c239b;"></i> FILMES</a></li>
-                    <li class="li-header"><a href="/series" class="a-header"><i class="fa-solid fa-film" style="color: #3c239b;"></i> SÉRIES</a></li>
+                    <li class="li-header"><a href="/home" id="subtitulobusca"><i class="fa-solid fa-house" style="color: #ffff;"></i> INÍCIO</a></li>
+                    <li class="li-header"><a href="/filmes" class="a-header"><i class="fa-solid fa-tv" style="color: #ffff;"></i> FILMES</a></li>
+                    <li class="li-header"><a href="/series" class="a-header"><i class="fa-solid fa-film" style="color: #ffff;"></i> SÉRIES</a></li>
                 </ul>
             </nav>
 
@@ -123,13 +123,26 @@
                                 <a href="{{ provedores.link }}" target="_blank">Ver mais no <strong>TMDB</strong></a><br>
                                 <em>Dados de disponibilidade fornecidos por JustWatch</em>
                             </p>
-
                         {% endif %}
-                {% endif %}
+                        
+                    {% endif %}
 
                 </div>
             </div>
         </div>
+        {% if elenco %}
+            <div class="elenco-container">
+                <h1>Elenco</h1>
+                <ul class="elenco-lista">
+                {% for ator in elenco %}
+                    <li>
+                    <img src="https://image.tmdb.org/t/p/w185{{ ator.profile_path }}" alt="{{ ator.name }}">
+                    <p><strong>{{ ator.name }}</strong><br><small>{{ ator.character }}</small></p>
+                    </li>
+                {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
     </main>    
 
     <footer>

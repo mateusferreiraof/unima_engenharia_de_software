@@ -1,55 +1,55 @@
 {
     "adult": false,
-    "backdrop_path": "/nAxGnGHOsfzufThz20zgmRwKur3.jpg",
+    "backdrop_path": "/5IbxcBXZ5EhVAttfNDMPncikudr.jpg",
     "belongs_to_collection": {
-        "id": 1489663,
-        "name": "Sinners Collection",
-        "poster_path": "/48KYBYnHmt7ykX57zGuv6SXVZOO.jpg",
-        "backdrop_path": "/e0kl32U3pHA2cdR1VGRk5TUmrFr.jpg"
+        "id": 1494663,
+        "name": "Ballerina Collection",
+        "poster_path": "/xzAyYTHqWtLmqtscUr8cZqaP7lu.jpg",
+        "backdrop_path": null
     },
-    "budget": 90000000,
+    "budget": 80000000,
     "genres": [
         {
-            "id": 27,
-            "name": "Terror"
+            "id": 28,
+            "name": "Ação"
         },
         {
             "id": 53,
             "name": "Thriller"
         },
         {
-            "id": 28,
-            "name": "Ação"
+            "id": 80,
+            "name": "Crime"
         }
     ],
-    "homepage": "https://www.pecadoresfilme.com.br/",
-    "id": 1233413,
-    "imdb_id": "tt31193180",
+    "homepage": "https://bailarinaofilme.com.br/?location=salvador-ba&lat=-12.9916685&lng=-38.4451477",
+    "id": 541671,
+    "imdb_id": "tt7181546",
     "origin_country": [
         "US"
     ],
     "original_language": "en",
-    "original_title": "Sinners",
-    "overview": "Dispostos a deixar suas vidas conturbadas para trás, irmãos gêmeos retornam à sua cidade natal para recomeçar suas vidas do zero, quando descobrem que um mal ainda maior está à espera deles para recebê-los de volta.",
-    "popularity": 433.1928,
-    "poster_path": "/a9kYEboW1TQaeilGYUAx1MO0DUp.jpg",
+    "original_title": "Ballerina",
+    "overview": "A história de uma jovem assassina nas tradições dos Ruska Roma para buscar vingança contra aqueles que destruíram sua família.",
+    "popularity": 218.1069,
+    "poster_path": "/41VBHhbwWAP4saoKrAhAjNILR3u.jpg",
     "production_companies": [
         {
-            "id": 174,
-            "logo_path": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
-            "name": "Warner Bros. Pictures",
+            "id": 3528,
+            "logo_path": "/cCzCClIzIh81Fa79hpW5nXoUsHK.png",
+            "name": "Thunder Road",
             "origin_country": "US"
         },
         {
-            "id": 148495,
-            "logo_path": "/2fQRDickgp9vuDIxJTlDLEs7j0y.png",
-            "name": "Proximity Media",
+            "id": 23008,
+            "logo_path": "/5SarYupipdiejsEqUkwu1SpYfru.png",
+            "name": "87Eleven",
             "origin_country": "US"
         },
         {
-            "id": 216687,
-            "logo_path": "/kKVYqekveOvLK1IgqdJojLjQvtu.png",
-            "name": "Domain Entertainment",
+            "id": 1632,
+            "logo_path": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+            "name": "Lionsgate",
             "origin_country": "US"
         }
     ],
@@ -59,15 +59,10 @@
             "name": "United States of America"
         }
     ],
-    "release_date": "2025-04-16",
-    "revenue": 357245361,
-    "runtime": 138,
+    "release_date": "2025-06-04",
+    "revenue": 52560787,
+    "runtime": 125,
     "spoken_languages": [
-        {
-            "english_name": "Mandarin",
-            "iso_639_1": "zh",
-            "name": "普通话"
-        },
         {
             "english_name": "English",
             "iso_639_1": "en",
@@ -75,10 +70,10 @@
         }
     ],
     "status": "Released",
-    "tagline": "Somos todos pecadores.",
-    "title": "Pecadores",
+    "tagline": "A vingança tem uma nova cara",
+    "title": "Bailarina - Do Universo de John Wick",
     "video": false,
-    "vote_average": 7.529,
-    "vote_count": 1341,
-    "data_formatada": "16-04-2025"
+    "vote_average": 7.1,
+    "vote_count": 190,
+    "data_formatada": "04-06-2025"
 }

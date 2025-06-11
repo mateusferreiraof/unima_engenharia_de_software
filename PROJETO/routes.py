@@ -97,7 +97,9 @@ def detalhes_filme(filme_id):
     api = MovieAPI()
     api_categorias = Categoria()
     provedores = api.onde_assistir(filme_id)
+    elenco = api.get_elenco_filme(filme_id)
     nome_do_usuario = session.get('nome')
+    
     
     dados = api.get_detalhes_filme(filme_id)
     # Obtemos a lista de categorias
@@ -105,7 +107,7 @@ def detalhes_filme(filme_id):
     # Extrai os nomes dos gêneros diretamente do detalhe do filme
     dados['genres_nomes'] = [g['name'] for g in dados.get('genres', [])]
 
-    return render_template('detalhes_filme.html',categorias=categorias['genres'], filme=dados, provedores=provedores, nome=nome_do_usuario)
+    return render_template('detalhes_filme.html',categorias=categorias['genres'], filme=dados, provedores=provedores,elenco=elenco, nome=nome_do_usuario)
 
 
 # Página de séries
@@ -143,6 +145,7 @@ def detalhes_serie(serie_id):
     api = SeriesAPI()
     api_categorias = Categoria()
     provedores = api.onde_assistir_serie(serie_id)
+    elenco = api.get_elenco_serie(serie_id)
     nome_do_usuario = session.get('nome')
 
     dados = api.get_detalhes_serie(serie_id)
@@ -151,7 +154,7 @@ def detalhes_serie(serie_id):
     # Extrai os nomes dos gêneros diretamente do detalhe da serie
     dados['genres_nomes'] = [g['name'] for g in dados.get('genres', [])]
 
-    return render_template('detalhes_serie.html',categorias=categorias['genres'], serie=dados, provedores=provedores, nome=nome_do_usuario)
+    return render_template('detalhes_serie.html',categorias=categorias['genres'], serie=dados, provedores=provedores, elenco=elenco, nome=nome_do_usuario)
 
 
 # Redireciona a raiz do site para a home

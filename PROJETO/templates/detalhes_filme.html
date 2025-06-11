@@ -48,9 +48,9 @@
             <!-- Menu para usuário não logado -->
             <nav id="nav-header">
                 <ul id="ul-header">
-                    <li class="li-header"><a href="/home" id="subtitulobusca"><i class="fa-solid fa-house" style="color: #3c239b;"></i> INÍCIO</a></li>
-                    <li class="li-header"><a href="/filmes" class="a-header"><i class="fa-solid fa-tv" style="color: #3c239b;"></i> FILMES</a></li>
-                    <li class="li-header"><a href="/series" class="a-header"><i class="fa-solid fa-film" style="color: #3c239b;"></i> SÉRIES</a></li>
+                    <li class="li-header"><a href="/home" id="subtitulobusca"><i class="fa-solid fa-house" style="color: #ffff;"></i> INÍCIO</a></li>
+                    <li class="li-header"><a href="/filmes" class="a-header"><i class="fa-solid fa-tv" style="color: #ffff;"></i> FILMES</a></li>
+                    <li class="li-header"><a href="/series" class="a-header"><i class="fa-solid fa-film" style="color: #ffff;"></i> SÉRIES</a></li>
                 </ul>
             </nav>
 
@@ -64,75 +64,89 @@
         </section>
         {% endif %}
     </header>
-    
     <main>
-        <div  class="container"> 
+        <div class="container"> 
             <div class="filmes-detalhes">
                 <div class="filme-card">
                     <img src="https://image.tmdb.org/t/p/w500{{ filme.poster_path }}" alt="Poster de {{ filme.title }}">
                 </div>
-            
+
                 <div class="info-filme">
                     <h1>{{ filme.title }}</h1>
                     <p><strong>Sinopse: </strong> {{ filme.overview }}</p>
                     <p><strong>Data de lançamento: </strong> {{ filme.data_formatada }}</p>
                     <p><strong>Gêneros: </strong> {{filme.genres_nomes | join(', ')}}</p>
                     <p><strong>Nota: </strong><i class="fa-solid fa-star" style="color: rgba(255, 217, 0, 0.808);"></i> {{ filme.vote_average | round(1) }} </p>
-<!--onde assistir-->
-                    
+
+                    <!-- Onde assistir -->
                     {% if provedores %}
+                        <div class="onde-assistir">
+                            <h1>Onde assistir</h1>
+                            
+                            {% if provedores.flatrate %}
+                                <p><strong>Streaming:</strong></p>
+                                <ul class="provedores">
+                                    {% for p in provedores.flatrate %}
+                                        <li>
+                                            <img src="https://image.tmdb.org/t/p/w45{{ p.logo_path }}" alt="{{ p.provider_name }}" title="{{ p.provider_name }}">
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            {% endif %}
 
-                        <h1>Onde assistir</h1>
+                            {% if provedores.rent %}
+                                <p><strong>Aluguel:</strong></p>
+                                <ul class="provedores">
+                                    {% for p in provedores.rent %}
+                                        <li>
+                                            <img src="https://image.tmdb.org/t/p/w45{{ p.logo_path }}" alt="{{ p.provider_name }}" title="{{ p.provider_name }}">
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            {% endif %}
 
-                
-                        {% if provedores.flatrate %}
-                            <p><strong>Streaming:</strong></p>
-                            <ul class="provedores">
-                                {% for p in provedores.flatrate %}
-                                    <li>
-                                        <img src="https://image.tmdb.org/t/p/w45{{ p.logo_path }}" alt="{{ p.provider_name }}" title="{{ p.provider_name }}">
-                                    </li>
-                                {% endfor %}
-                            </ul>
-                        {% endif %}
+                            {% if provedores.buy %}
+                                <p><strong>Compra:</strong></p>
+                                <ul class="provedores">
+                                    {% for p in provedores.buy %}
+                                        <li>
+                                            <img src="https://image.tmdb.org/t/p/w45{{ p.logo_path }}" alt="{{ p.provider_name }}" title="{{ p.provider_name }}">
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            {% endif %}
+                            {% if provedores.link %}
+                            <p style="font-size: 0.8em;">
+                                <a href="{{ provedores.link }}" target="_blank" rel="noopener noreferrer">Ver mais no <strong>TMDB</strong></a><br>
+                                <em>Dados de disponibilidade fornecidos por JustWatch</em>
+                            </p>
+                        {% endif %}                        
+                        
+                    {% endif %}  
+                </div> 
+            </div>
+        </div>              
+        {% if elenco %}
+            <div class="elenco-container">
+                    <h1>Elenco</h1>
+                    <ul class="elenco-lista">
+                    {% for ator in elenco %}
+                        <li>
+                        <img src="https://image.tmdb.org/t/p/w185{{ ator.profile_path }}" alt="{{ ator.name }}">
+                        <p><strong>{{ ator.name }}</strong><br><small>{{ ator.character }}</small></p>
+                                </li>
+                    {% endfor %}
+                    </ul>
+                </div> 
+            {% endif %}  
+        </main>
 
-                        {% if provedores.rent %}
-                            <p><strong>Aluguel:</strong></p>
-                            <ul class="provedores">
-                                {% for p in provedores.rent %}
-                                    <li>
-                                        <img src="https://image.tmdb.org/t/p/w45{{ p.logo_path }}" alt="{{ p.provider_name }}" title="{{ p.provider_name }}">
-                                    </li>
-                                {% endfor %}
-                            </ul>
-                        {% endif %}
+  
 
-                        {% if provedores.buy %}
-                            <p><strong>Compra:</strong></p>
-                            <ul class="provedores">
-                                {% for p in provedores.buy %}
-                                    <li>
-                                        <img src="https://image.tmdb.org/t/p/w45{{ p.logo_path }}" alt="{{ p.provider_name }}" title="{{ p.provider_name }}">
-                                    </li>
-                                {% endfor %}
-                            </ul>
-                        {% endif %}
-
-                        <p style="font-size: 0.8em;">
-                            <a href="{{ provedores.link }}" target="_blank" rel="noopener noreferrer">Ver mais no <strong>TMDB</strong></a><br>
-                            <em>Dados de disponibilidade fornecidos por JustWatch</em>
-                        </p>
-                    </div>    
-                    </div></div>
-                {% endif %}
-            </div></div>
-
-    </main>    
-
-    <footer>
-        <p id="paragrafo-footer">Copyright &copy; 2025 Popcorn Movies</p>
-    </footer>
-    
+        <footer>
+            <p id="paragrafo-footer">Copyright &copy; 2025 Popcorn Movies</p>
+        </footer>
+        
 
     
 </body>

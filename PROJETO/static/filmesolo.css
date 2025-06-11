@@ -60,7 +60,7 @@ nav {
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 25px;
     text-align: center;
 }
@@ -240,6 +240,8 @@ strong {
   transform: scale(1.1);
 }
 
+
+
 .info-filme a {
   color: whitesmoke;
   text-decoration: none;
@@ -269,6 +271,53 @@ strong {
         width: 35px;
     }
 }
+/*elenco*/
+.elenco-container {
+    width: 80%;
+    max-width: 1000px;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.034);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-left: 220px;
+    gap: 20px;
+}
+.elenco-lista h1{
+
+    margin-bottom: 10px;
+    line-height: 1.8;
+    font-size: 18px;
+
+}
+
+.elenco-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.elenco-lista li {
+    flex: 1 1 0;      /* itens crescem para ocupar igualmente o espaço */
+    max-width: 150px; /* controla o tamanho máximo */
+    text-align: center;
+    color: white;
+}
+
+.elenco-lista img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease; /*animação*/
+    max-width: 200px;
+    display: flex;
+}
+
+.elenco-lista img:hover{
+    transform: scale(1.05);
+
+}
 
 /* Estilo do rodapé */
 
@@ -282,67 +331,4 @@ footer{
     padding: 20px;
 
 }
-}
-
-/* Exibe o menu quando checkbox estiver marcado */
-#menu-toggle:checked + .menu-icon + .menu {
-  display: block;
-}
-
-/* Menu dropdown oculto por padrão */
-.menu {
-    display: none;
-    position: absolute;
-    right: 0;
-    background: linear-gradient(to right, rgb(10, 165, 210), rgb(60, 35, 155));
-    width: 375px;
-    height: 160px;
-    align-items: center;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-/* Parágrafos dentro do menu */
-.menu > p {
-    padding: 20px 0;
-    color: white;
-    text-align: center;
-    font-size: 24px;
-    width: 350px;
-    border: 1px solid white;
-    background: linear-gradient(to right, rgb(10, 165, 210) 10%, rgb(10, 165, 210) 15%, rgb(60, 35, 155) 70%, rgb(60, 35, 155) 100%);
-}
-
-/* Links dentro dos parágrafos do menu */
-.menu > p > a {
-    color: white;
-}
-
-/* Hover nos links do menu */
-.menu > p > a:hover {
-    text-decoration: underline;
-}
-
-#icone-header {
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 15px;
-}
-
-/* Hover do ícone do header */
-#icone-header:hover {
-    background-color: yellowgreen;
-}
-
-/* Link de botão do header */
-#a-header-else {
-    color: white;
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 10px;
-}
-
-/* Hover para o botão do header */
-#a-header-else:hover {
-    background-color: yellowgreen;
 }

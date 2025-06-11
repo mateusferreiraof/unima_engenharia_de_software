@@ -63,6 +63,12 @@ class SeriesAPI:
             url = "https://api.themoviedb.org/3/genre/movie/list?language=pt-br"
             response = requests.get(url, headers=self.headers).json()
             return self.to_json(response)
+ #elenco
+
+    def get_elenco_serie(self, serie_id: int):
+        url = f"https://api.themoviedb.org/3/tv/{serie_id}/credits"
+        response = requests.get(url, headers=self.headers).json()
+        return response.get("cast", [])[:6]   
     
 #onde assistir
     def onde_assistir_serie(self, serie_id):
