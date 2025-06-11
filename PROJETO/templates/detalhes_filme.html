@@ -12,20 +12,57 @@
     
     <header>
         <section id="cabecario">
+
+            <!-- Título principal do site -->
             <h1>POPCORN MOVIES</h1>
+
+            <!-- Se o usuário estiver logado (variável nome presente) -->
+            {% if nome %}
+
+            <!-- Navegação principal -->
             <nav id="nav-header">
                 <ul id="ul-header">
-                    <li class="li-header"><a href="/home" id="subtitulobusca"><i class="fa-solid fa-house" style="color: #f4f3f8c5;"></i> INÍCIO</a></li>
-                    <li class="li-header"><a href="/filmes" class="a-header"><i class="fa-solid fa-tv" style="color: #f4f3f8c5;"></i> FILMES</a></li>
-                    <li class="li-header"><a href="/series" class="a-header"><i class="fa-solid fa-film" style="color: #f4f3f8c5;"></i> SÉRIES</a></li>
+                    <li class="li-header"><a href="/home" id="subtitulobusca"><i class="fa-solid fa-house" style="color: #3c239b;"></i> INÍCIO</a></li>
+                    <li class="li-header"><a href="/filmes" class="a-header"><i class="fa-solid fa-tv" style="color: #3c239b;"></i> FILMES</a></li>
+                    <li class="li-header"><a href="/series" class="a-header"><i class="fa-solid fa-film" style="color: #3c239b;"></i> SÉRIES</a></li>
                 </ul>
             </nav>
+
+            <!-- Menu do usuário logado -->
+            <ul id="menu" type="none">
+                <!-- Checkbox para alternar o menu -->
+                <input type="checkbox" id="menu-toggle" hidden>
+                <label for="menu-toggle" class="menu-icon">
+                    <li id="icone-header"><i class="fa-solid fa-user" style="color: #ffff;"></i></li>
+                </label>
+
+                <!-- Menu dropdown com ações -->
+                <div class="menu">
+                    <p>Olá {{nome}}!</p>
+                    <p><a href="/Sair">Sair</a></p>
+                </div>
+            </ul>
+
+            {% else %}
+
+            <!-- Menu para usuário não logado -->
+            <nav id="nav-header">
+                <ul id="ul-header">
+                    <li class="li-header"><a href="/home" id="subtitulobusca"><i class="fa-solid fa-house" style="color: #3c239b;"></i> INÍCIO</a></li>
+                    <li class="li-header"><a href="/filmes" class="a-header"><i class="fa-solid fa-tv" style="color: #3c239b;"></i> FILMES</a></li>
+                    <li class="li-header"><a href="/series" class="a-header"><i class="fa-solid fa-film" style="color: #3c239b;"></i> SÉRIES</a></li>
+                </ul>
+            </nav>
+
+            <!-- Botão de login -->
             <nav>
                 <ul type="none">
-                    <li id="icone-header"><a href="#"><i class="fa-solid fa-user" style="color: #f4f3f8c5;"></i></a></li>
+                    <li><a id="a-header-else" href="/login"><i class="fa-solid fa-user" style="color: #ffff;"></i> LOGIN</a></li>
                 </ul>
             </nav>
+
         </section>
+        {% endif %}
     </header>
     
     <main>
