@@ -3,7 +3,6 @@ import json
 from datetime import datetime
 
 
-
 class MovieAPI:
     def __init__(self,):
         self.headers = {
@@ -44,8 +43,7 @@ class MovieAPI:
     def movie_search(self,query:str, page:int = 1):
        url = f"https://api.themoviedb.org/3/search/movie?query={query}&include_adult=false&language=pt-BR&page={page}"
        response = requests.get(url, headers=self.headers).json()
-       #buscar pela categoria https://api.themoviedb.org/3/discover/movie?with_genres=28&language=pt-BR&page=1
-        # buscar pela categoria https://api.themoviedb.org/3/genre/tv/list?language=pt-BR
+       
 
        #formatando a data
        for filme in response.get('results', []):
@@ -74,14 +72,39 @@ class MovieAPI:
             if 'release_date' in filme and filme['release_date']:
                 filme['data_formatada'] = self.datetimeformat(filme['release_date'])
         return self.to_json(response)   
-    
+    #filmes por categoria   
+ 
     def genero_id(self):
-            url = "https://api.themoviedb.org/3/genre/movie/list?language=pt-br"
+            url = "https://api.themoviedb.org/3/genre/movie/list?language=pt-BR"
             response = requests.get(url, headers=self.headers).json()
             return self.to_json(response)
     
- #filmes por categoria   
+    #em cartaz
+    def filmes_em_cartaz(self, page:int=1):
+        url = f"https://api.themoviedb.org/3/movie/now_playing?language=pt-BR&page={page}"
+        response = requests.get(url, headers=self.headers).json()
+       
+        #formatando a data
+        for filme in response.get('results', []):
+            if 'release_date' in filme and filme['release_date']:
+                filme['data_formatada'] = self.datetimeformat(filme['release_date'])
+        return self.to_json(response)  
+    
+ #se der erro excluir
+ # redirecionar para pagina solo   
 
+    def get_detalhes_filme(self,filme_id):
+        url = f"https://api.themoviedb.org/3/movie/{filme_id}"
+        headers = {
+        "Authorization": f"Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiZjFlOTkxNzU1ZjgxNzU0MzAzM2ZkYzQ0MWYyNmNhZCIsIm5iZiI6MTc0NzQ5MjcyOC44Miwic3ViIjoiNjgyODlmNzhlMjU3NDZlODY1ZjU1Mzc1Iiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.jpdKsUZBXwaCkjImZxunyQGKbO25nXVxi2XfhaTNgu8"
+        }
+        params = {"language": "pt-BR"}
+        response = requests.get(url, headers=headers, params=params).json()
+        # formatando a data pois é só um filme
+        if 'release_date' in response and response['release_date']:
+            response['data_formatada'] = self.datetimeformat(response['release_date'])
+        return self.to_json(response)
+        
 
     def to_json(self, response: dict[str,str]): 
         try:

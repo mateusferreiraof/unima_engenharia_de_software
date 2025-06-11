@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ serie.title }}</title>
+    <link rel="icon" href="static\imagens\favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../static/filmesolo.css">
+    <script src="https://kit.fontawesome.com/b9243416c4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <header>
+        <section id="cabecario">
+            <h1>POPCORN MOVIES</h1>
+            <nav id="nav-header">
+                <ul id="ul-header">
+                    <li class="li-header"><a href="/home" id="subtitulobusca"><i class="fa-solid fa-house" style="color: #f4f3f8c5;"></i> INÍCIO</a></li>
+                    <li class="li-header"><a href="/filmes" class="a-header"><i class="fa-solid fa-tv" style="color: #f4f3f8c5;"></i> FILMES</a></li>
+                    <li class="li-header"><a href="/series" class="a-header"><i class="fa-solid fa-film" style="color: #f4f3f8c5;"></i> SÉRIES</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul type="none">
+                    <li id="icone-header"><a href="#"><i class="fa-solid fa-user" style="color: #f4f3f8c5;"></i></a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    
+    <main>
+        <div  class="container"> 
+            <div class="filmes-detalhes">
+                <div class="filme-card">
+                    <img src="https://image.tmdb.org/t/p/w500{{ serie.poster_path }}" alt="Poster de {{ serie.name }}">
+                </div>
+            
+                <div class="info-filme">
+                    <h1>{{ serie.name }}</h1>
+                    <p><strong>Sinopse: </strong> {{ serie.overview}}</p>
+                    <p><strong>Data de lançamento: </strong> {{ serie.data_formatada }}</p>
+                    <p><strong>Gêneros: </strong> {{ serie.genres_nomes | join(', ') }}</p>
+                    <p><strong>Nota: </strong><i class="fa-solid fa-star" style="color: rgba(255, 217, 0, 0.808);"></i> {{ serie.vote_average | round(1) }} </p>
+                    <p><strong>Origem: </strong>{{serie.origin_country}}</p>
+
+                </div>
+            </div>
+        </div>
+    </main>    
+
+    <footer>
+        <p id="paragrafo-footer">Copyright &copy; 2025 Popcorn Movies</p>
+    </footer>
+    
+
+    
+</body>
+</html>

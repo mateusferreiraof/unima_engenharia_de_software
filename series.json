@@ -2,6 +2,28 @@
     "page": 1,
     "results": [
         {
+            "backdrop_path": "/fXpsbFfQkIsj1MF3FRJh9JgO6Qq.jpg",
+            "id": 203367,
+            "name": "A Estrada de Lichia",
+            "original_name": "长安的荔枝",
+            "overview": "A história acompanha Li Shande, um homem enganado por seus colegas e rebaixado de sua função de supervisor. Agora forçado a se tornar o \"Enviado da Lichia\", ele enfrenta uma missão quase impossível: entregar lichias frescas de Lingnan para Chang'an como presente de aniversário para a Nobre Consorte. Diz o ditado que as lichias mudam de cor em um dia, perdem a fragrância em dois e o sabor em três dias. Com mais de 5.000 li entre Lingnan e Chang'an, e com prazos apertados e recursos limitados, como ele conseguirá realizar isso?",
+            "poster_path": "/tr9Xkdxsualrb4b2L2LMyHxCS31.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "zh",
+            "genre_ids": [
+                18
+            ],
+            "popularity": 25.6278,
+            "first_air_date": "2025-06-07",
+            "vote_average": 7.8,
+            "vote_count": 5,
+            "origin_country": [
+                "CN"
+            ],
+            "data_formatada": "07-06-2025"
+        },
+        {
             "backdrop_path": "/tQqbbxBAdW2ql8vbOqMOJbtSQ7O.jpg",
             "id": 247718,
             "name": "Terra da Máfia",
@@ -15,37 +37,15 @@
                 80,
                 18
             ],
-            "popularity": 117.2981,
+            "popularity": 108.7088,
             "first_air_date": "2025-03-30",
-            "vote_average": 8.448,
-            "vote_count": 182,
+            "vote_average": 8.47,
+            "vote_count": 184,
             "origin_country": [
                 "GB",
                 "US"
             ],
             "data_formatada": "30-03-2025"
-        },
-        {
-            "backdrop_path": "/uQ4lG7E7mlyKsGvbASftQ6Hu2IX.jpg",
-            "id": 100088,
-            "name": "The Last of Us",
-            "original_name": "The Last of Us",
-            "overview": "Situado duas décadas após a implosão de nossa sociedade, o drama seguirá Joel, um sobrevivente difícil, que é contratado para contrabandear uma garota de 14 anos chamada Ellie para fora de uma zona de quarentena opressiva. O que começa como um pequeno trabalho logo se torna uma jornada brutal e de partir o coração, já que os dois precisam atravessar os Estados Unidos e dependem um do outro para sobreviver.",
-            "poster_path": "/el1KQzwdIm17I3A6cYPfsVIWhfX.jpg",
-            "media_type": "tv",
-            "adult": false,
-            "original_language": "en",
-            "genre_ids": [
-                18
-            ],
-            "popularity": 197.8335,
-            "first_air_date": "2023-01-15",
-            "vote_average": 8.523,
-            "vote_count": 6181,
-            "origin_country": [
-                "US"
-            ],
-            "data_formatada": "15-01-2023"
         },
         {
             "backdrop_path": "/y7OFTnu8Gh2KHWX0Y05y8OY9kCB.jpg",
@@ -61,14 +61,59 @@
                 10759,
                 18
             ],
-            "popularity": 140.3643,
+            "popularity": 148.0116,
             "first_air_date": "2025-06-06",
-            "vote_average": 8.0,
-            "vote_count": 31,
+            "vote_average": 8.057,
+            "vote_count": 35,
             "origin_country": [
                 "KR"
             ],
             "data_formatada": "06-06-2025"
+        },
+        {
+            "backdrop_path": "/d6nMDQNCasWz82w50XNRIQoLBeA.jpg",
+            "id": 288915,
+            "name": "Aniela",
+            "original_name": "Aniela",
+            "overview": "Depois que o marido rico a deixa sem nada, uma socialite de Varsóvia precisa usar a única ferramenta que lhe restou para sobreviver: a inteligência.",
+            "poster_path": "/dcQsD6mUUchYQ0OCFUE6pnTp5xR.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "pl",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "popularity": 2.7303,
+            "first_air_date": "2025-06-11",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "origin_country": [
+                "PL"
+            ],
+            "data_formatada": "11-06-2025"
+        },
+        {
+            "backdrop_path": "/uQ4lG7E7mlyKsGvbASftQ6Hu2IX.jpg",
+            "id": 100088,
+            "name": "The Last of Us",
+            "original_name": "The Last of Us",
+            "overview": "Situado duas décadas após a implosão de nossa sociedade, o drama seguirá Joel, um sobrevivente difícil, que é contratado para contrabandear uma garota de 14 anos chamada Ellie para fora de uma zona de quarentena opressiva. O que começa como um pequeno trabalho logo se torna uma jornada brutal e de partir o coração, já que os dois precisam atravessar os Estados Unidos e dependem um do outro para sobreviver.",
+            "poster_path": "/el1KQzwdIm17I3A6cYPfsVIWhfX.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                18
+            ],
+            "popularity": 187.4887,
+            "first_air_date": "2023-01-15",
+            "vote_average": 8.521,
+            "vote_count": 6186,
+            "origin_country": [
+                "US"
+            ],
+            "data_formatada": "15-01-2023"
         },
         {
             "backdrop_path": "/Ao5pBFuWY32cVuh6iYjEjZMEscN.jpg",
@@ -86,10 +131,10 @@
                 10765,
                 10759
             ],
-            "popularity": 220.9669,
+            "popularity": 228.097,
             "first_air_date": "2013-12-02",
-            "vote_average": 8.7,
-            "vote_count": 10199,
+            "vote_average": 8.688,
+            "vote_count": 10201,
             "origin_country": [
                 "US"
             ],
@@ -109,7 +154,7 @@
                 18,
                 9648
             ],
-            "popularity": 104.4253,
+            "popularity": 114.4003,
             "first_air_date": "2025-06-06",
             "vote_average": 6.9,
             "vote_count": 11,
@@ -119,28 +164,27 @@
             "data_formatada": "06-06-2025"
         },
         {
-            "backdrop_path": "/kCGwvjpqM1owt9kI4pkYPJWJLvc.jpg",
-            "id": 83867,
-            "name": "Andor",
-            "original_name": "Andor",
-            "overview": "Numa era repleta de perigos, enganos e intriga, Cassian Andor vai descobrir a diferença que pode fazer na luta contra o tirânico Império Galático. Embarca numa jornada destinada a torná-lo um herói da Rebelião.",
-            "poster_path": "/yX8c3bXKzAquEKQ75eQslnodskK.jpg",
+            "backdrop_path": "/lqaT9mIxcVJs9QSUf0hdy0zW68C.jpg",
+            "id": 248830,
+            "name": "Stick",
+            "original_name": "Stick",
+            "overview": "Pryce Cahill estava rumo à elite do golfe quando uma crise em campo arruinou sua carreira. Agora, aposta tudo para treinar Santi, uma promessa adolescente com enorme potencial, e talvez se salvar.",
+            "poster_path": "/y8EWrf5Ry1WmYksWT7MOPWexvr5.jpg",
             "media_type": "tv",
             "adult": false,
             "original_language": "en",
             "genre_ids": [
-                10765,
-                10759,
+                35,
                 18
             ],
-            "popularity": 70.3196,
-            "first_air_date": "2022-09-21",
-            "vote_average": 8.26,
-            "vote_count": 1551,
+            "popularity": 61.9695,
+            "first_air_date": "2025-06-03",
+            "vote_average": 6.933,
+            "vote_count": 15,
             "origin_country": [
                 "US"
             ],
-            "data_formatada": "21-09-2022"
+            "data_formatada": "03-06-2025"
         },
         {
             "backdrop_path": "/6fRwRD7GdCfg6owzmCT3VgQtowl.jpg",
@@ -157,7 +201,7 @@
                 35,
                 16
             ],
-            "popularity": 104.4586,
+            "popularity": 109.8782,
             "first_air_date": "1999-10-20",
             "vote_average": 8.7,
             "vote_count": 4903,
@@ -167,49 +211,50 @@
             "data_formatada": "20-10-1999"
         },
         {
-            "backdrop_path": "/fXpsbFfQkIsj1MF3FRJh9JgO6Qq.jpg",
-            "id": 203367,
-            "name": "A Estrada de Lichia",
-            "original_name": "长安的荔枝",
-            "overview": "A história acompanha Li Shande, um homem enganado por seus colegas e rebaixado de sua função de supervisor. Agora forçado a se tornar o \"Enviado da Lichia\", ele enfrenta uma missão quase impossível: entregar lichias frescas de Lingnan para Chang'an como presente de aniversário para a Nobre Consorte. Diz o ditado que as lichias mudam de cor em um dia, perdem a fragrância em dois e o sabor em três dias. Com mais de 5.000 li entre Lingnan e Chang'an, e com prazos apertados e recursos limitados, como ele conseguirá realizar isso?",
-            "poster_path": "/tr9Xkdxsualrb4b2L2LMyHxCS31.jpg",
-            "media_type": "tv",
-            "adult": false,
-            "original_language": "zh",
-            "genre_ids": [
-                18
-            ],
-            "popularity": 23.0536,
-            "first_air_date": "2025-06-07",
-            "vote_average": 7.8,
-            "vote_count": 5,
-            "origin_country": [
-                "CN"
-            ],
-            "data_formatada": "07-06-2025"
-        },
-        {
-            "backdrop_path": "/lPmUu3xkoksz3xsa1feIUoOBZrg.jpg",
-            "id": 117581,
-            "name": "Ginny e Georgia",
-            "original_name": "Ginny & Georgia",
-            "overview": "Em busca de uma nova chance, Georgia leva os filhos Ginny e Austin para morar em outra cidade. Só que recomeçar do zero não é tão simples assim.",
-            "poster_path": "/uKval7QmEozy7R05FEvE3H9Qice.jpg",
+            "backdrop_path": "/gG5xy0l84D5vYIWt3Xq9VIJs0SP.jpg",
+            "id": 292664,
+            "name": "The Kollective",
+            "original_name": "The Kollective",
+            "overview": "",
+            "poster_path": "/qqCDLvhm7czEf739tiwganFK23t.jpg",
             "media_type": "tv",
             "adult": false,
             "original_language": "en",
             "genre_ids": [
-                35,
                 18
             ],
-            "popularity": 182.1541,
-            "first_air_date": "2021-02-24",
-            "vote_average": 8.066,
-            "vote_count": 1630,
+            "popularity": 6.421,
+            "first_air_date": "2025-06-10",
+            "vote_average": 10.0,
+            "vote_count": 1,
             "origin_country": [
                 "US"
             ],
-            "data_formatada": "24-02-2021"
+            "data_formatada": "10-06-2025"
+        },
+        {
+            "backdrop_path": "/kCGwvjpqM1owt9kI4pkYPJWJLvc.jpg",
+            "id": 83867,
+            "name": "Andor",
+            "original_name": "Andor",
+            "overview": "Numa era repleta de perigos, enganos e intriga, Cassian Andor vai descobrir a diferença que pode fazer na luta contra o tirânico Império Galático. Embarca numa jornada destinada a torná-lo um herói da Rebelião.",
+            "poster_path": "/yX8c3bXKzAquEKQ75eQslnodskK.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                10765,
+                10759,
+                18
+            ],
+            "popularity": 68.7343,
+            "first_air_date": "2022-09-21",
+            "vote_average": 8.261,
+            "vote_count": 1552,
+            "origin_country": [
+                "US"
+            ],
+            "data_formatada": "21-09-2022"
         },
         {
             "backdrop_path": "/wIoxMHbyUJnx5Fm9tI26hIYGI1D.jpg",
@@ -226,10 +271,10 @@
                 80,
                 9648
             ],
-            "popularity": 58.2321,
+            "popularity": 50.832,
             "first_air_date": "2025-05-29",
-            "vote_average": 7.943,
-            "vote_count": 79,
+            "vote_average": 7.951,
+            "vote_count": 82,
             "origin_country": [
                 "GB",
                 "US"
@@ -237,28 +282,27 @@
             "data_formatada": "29-05-2025"
         },
         {
-            "backdrop_path": "/nn9vM29SKN227zupaOOmaJz5SA0.jpg",
-            "id": 241554,
-            "name": "Diários de um Robô-Assassino",
-            "original_name": "Murderbot",
-            "overview": "Em um futuro high-tech, um robô de segurança rebelde secretamente adquire livre arbítrio. Para se manter escondido, ele acaba, contra sua vontade, participando de uma missão para proteger cientistas em um planeta perigoso... mesmo que tudo o que queria era maratonar suas novelas.",
-            "poster_path": "/rWQYtLHVzG44Ks6Ohi6K1IVyIwq.jpg",
+            "backdrop_path": "/lPmUu3xkoksz3xsa1feIUoOBZrg.jpg",
+            "id": 117581,
+            "name": "Ginny e Georgia",
+            "original_name": "Ginny & Georgia",
+            "overview": "Em busca de uma nova chance, Georgia leva os filhos Ginny e Austin para morar em outra cidade. Só que recomeçar do zero não é tão simples assim.",
+            "poster_path": "/uKval7QmEozy7R05FEvE3H9Qice.jpg",
             "media_type": "tv",
             "adult": false,
             "original_language": "en",
             "genre_ids": [
                 35,
-                18,
-                10765
+                18
             ],
-            "popularity": 94.9681,
-            "first_air_date": "2025-05-15",
-            "vote_average": 7.216,
-            "vote_count": 111,
+            "popularity": 182.6101,
+            "first_air_date": "2021-02-24",
+            "vote_average": 8.067,
+            "vote_count": 1633,
             "origin_country": [
                 "US"
             ],
-            "data_formatada": "15-05-2025"
+            "data_formatada": "24-02-2021"
         },
         {
             "backdrop_path": "/zZqpAXxVSBtxV9qPBcscfXBcL2w.jpg",
@@ -275,173 +319,14 @@
                 18,
                 10759
             ],
-            "popularity": 240.442,
+            "popularity": 251.0468,
             "first_air_date": "2011-04-17",
             "vote_average": 8.457,
-            "vote_count": 25095,
+            "vote_count": 25096,
             "origin_country": [
                 "US"
             ],
             "data_formatada": "17-04-2011"
-        },
-        {
-            "backdrop_path": "/1SLimeCtDZhk9CCKj4qr435yvPT.jpg",
-            "id": 252640,
-            "name": "Lenda de Zang Hai",
-            "original_name": "藏海传",
-            "overview": "Uma história sobre o filho do astrônomo real Kuai Duo, que era sobrecarregado por uma rixa de sangue, estudava por dez anos e depois entrou na capital sob o pseudônimo de Zang Hai em busca da verdade e, por fim, buscou vingança, puniu o mal e defendeu a justiça.",
-            "poster_path": "/rfeJ1rg1bv1GKcRWiUg73PVXaO6.jpg",
-            "media_type": "tv",
-            "adult": false,
-            "original_language": "zh",
-            "genre_ids": [
-                18
-            ],
-            "popularity": 52.2939,
-            "first_air_date": "2025-05-18",
-            "vote_average": 8.4,
-            "vote_count": 15,
-            "origin_country": [
-                "CN"
-            ],
-            "data_formatada": "18-05-2025"
-        },
-        {
-            "backdrop_path": "/vV5LKWmuysEe5wsuZJGbdiL5XJ2.jpg",
-            "id": 194583,
-            "name": "The Walking Dead: Dead City",
-            "original_name": "The Walking Dead: Dead City",
-            "overview": "Maggie e Negan viajam para uma Manhattan pós-apocalíptica há muito isolada do continente. A cidade em ruínas está cheia de mortos e habitantes que fizeram de Nova York seu próprio mundo cheio de anarquia, perigo, beleza e terror.",
-            "poster_path": "/qWOZK2nmfFmQ9JG2SrRfwIcijc1.jpg",
-            "media_type": "tv",
-            "adult": false,
-            "original_language": "en",
-            "genre_ids": [
-                10759,
-                18,
-                10765
-            ],
-            "popularity": 61.191,
-            "first_air_date": "2023-06-18",
-            "vote_average": 8.0,
-            "vote_count": 609,
-            "origin_country": [
-                "US"
-            ],
-            "data_formatada": "18-06-2023"
-        },
-        {
-            "backdrop_path": "/fOmWSmN9BdGef6oVVJmNyNsA0WC.jpg",
-            "id": 261602,
-            "name": "Habitante do Abismo",
-            "original_name": "潜渊",
-            "overview": "Janeiro de 1940. Liang Shuo, um agente clandestino comunista com um ferimento na cabeça, acordou em uma montanha coberta de neve e sua memória desapareceu. Atraído para Xangai por pistas fragmentadas para recuperar sua identidade, ele foi caçado pelas forças japonesas. Em seguida, a 76ª Agência do regime de Wang Jingwei identificou-o como seu Diretor de Operações. Enquanto o Japão e o governo de Wang Jingwei preparavam a sua “Conferência de Paz e Prosperidade”, um grupo de trabalhadores presos seria enviado para a linha da frente. O Partido lançou o “Projeto Abyss” para resgatá-los, mas seu agente “Frost” havia desaparecido. Em meio às armadilhas inimigas, Liang recuperou a memória: ele era Frost. Agora ele deve obter uma lista de espiões japoneses com uma década de existência, que seria revelada na conferência, e completar a missão impossível...",
-            "poster_path": "/uBqbBMAo9UW1BZSnRcIp8MrSbfS.jpg",
-            "media_type": "tv",
-            "adult": false,
-            "original_language": "zh",
-            "genre_ids": [
-                18
-            ],
-            "popularity": 3.9118,
-            "first_air_date": "2025-06-09",
-            "vote_average": 10.0,
-            "vote_count": 1,
-            "origin_country": [
-                "CN"
-            ],
-            "data_formatada": "09-06-2025"
-        },
-        {
-            "backdrop_path": "/lqaT9mIxcVJs9QSUf0hdy0zW68C.jpg",
-            "id": 248830,
-            "name": "Stick",
-            "original_name": "Stick",
-            "overview": "Pryce Cahill estava rumo à elite do golfe quando uma crise em campo arruinou sua carreira. Agora, aposta tudo para treinar Santi, uma promessa adolescente com enorme potencial, e talvez se salvar.",
-            "poster_path": "/y8EWrf5Ry1WmYksWT7MOPWexvr5.jpg",
-            "media_type": "tv",
-            "adult": false,
-            "original_language": "en",
-            "genre_ids": [
-                35,
-                18
-            ],
-            "popularity": 65.4756,
-            "first_air_date": "2025-06-03",
-            "vote_average": 7.417,
-            "vote_count": 12,
-            "origin_country": [
-                "US"
-            ],
-            "data_formatada": "03-06-2025"
-        },
-        {
-            "backdrop_path": "/gG5xy0l84D5vYIWt3Xq9VIJs0SP.jpg",
-            "id": 292664,
-            "name": "The Kollective",
-            "original_name": "The Kollective",
-            "overview": "",
-            "poster_path": "/qqCDLvhm7czEf739tiwganFK23t.jpg",
-            "media_type": "tv",
-            "adult": false,
-            "original_language": "en",
-            "genre_ids": [
-                18
-            ],
-            "popularity": 1.1148,
-            "first_air_date": "2025-06-10",
-            "vote_average": 10.0,
-            "vote_count": 1,
-            "origin_country": [
-                "US"
-            ],
-            "data_formatada": "10-06-2025"
-        },
-        {
-            "backdrop_path": "/aCbOj4wc6vQUUVNKppssj2PYUy0.jpg",
-            "id": 96580,
-            "name": "Resident Alien",
-            "original_name": "Resident Alien",
-            "overview": "Harry Vanderspleige é um alienígena que pousa no planeta Terra, assumindo a identidade de um médico de uma pequena cidade do Colorado para levar a cabo uma missão secreta: acabar com a humanidade.",
-            "poster_path": "/5van3ktOTqWr5lcixh5aR8NlqqW.jpg",
-            "media_type": "tv",
-            "adult": false,
-            "original_language": "en",
-            "genre_ids": [
-                10765
-            ],
-            "popularity": 51.4663,
-            "first_air_date": "2021-01-27",
-            "vote_average": 7.8,
-            "vote_count": 820,
-            "origin_country": [
-                "US"
-            ],
-            "data_formatada": "27-01-2021"
-        },
-        {
-            "backdrop_path": "/vcFW09U4834DyFOeRZpsx9x1D3S.jpg",
-            "id": 57243,
-            "name": "Doctor Who",
-            "original_name": "Doctor Who",
-            "overview": "Acompanhe as incríveis jornadas pelo tempo e espaço do Doutor, um alienígena da linhagem dos senhores do tempo. Nativo do planeta Gallifrey, o Doutor utiliza a Tardis, uma nave capaz de se camuflar como uma cabine de polícia, para explorar o passado e o futuro nos mais distantes lugares do universo.",
-            "poster_path": "/8xz8ZPiuRLeaganjKd6WtE6S50E.jpg",
-            "media_type": "tv",
-            "adult": false,
-            "original_language": "en",
-            "genre_ids": [
-                10759,
-                18,
-                10765
-            ],
-            "popularity": 220.7199,
-            "first_air_date": "2005-03-26",
-            "vote_average": 7.546,
-            "vote_count": 3141,
-            "origin_country": [
-                "GB"
-            ],
-            "data_formatada": "26-03-2005"
         },
         {
             "backdrop_path": "/xMgfvjhKwuFTyoXNpa8UVV74rek.jpg",
@@ -457,14 +342,129 @@
                 35,
                 18
             ],
-            "popularity": 21.7988,
+            "popularity": 24.75,
             "first_air_date": "2025-05-12",
             "vote_average": 8.0,
-            "vote_count": 12,
+            "vote_count": 14,
             "origin_country": [
                 "KR"
             ],
             "data_formatada": "12-05-2025"
+        },
+        {
+            "backdrop_path": "/nn9vM29SKN227zupaOOmaJz5SA0.jpg",
+            "id": 241554,
+            "name": "Diários de um Robô-Assassino",
+            "original_name": "Murderbot",
+            "overview": "Em um futuro high-tech, um robô de segurança rebelde secretamente adquire livre arbítrio. Para se manter escondido, ele acaba, contra sua vontade, participando de uma missão para proteger cientistas em um planeta perigoso... mesmo que tudo o que queria era maratonar suas novelas.",
+            "poster_path": "/rWQYtLHVzG44Ks6Ohi6K1IVyIwq.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                35,
+                18,
+                10765
+            ],
+            "popularity": 93.289,
+            "first_air_date": "2025-05-15",
+            "vote_average": 7.265,
+            "vote_count": 113,
+            "origin_country": [
+                "US"
+            ],
+            "data_formatada": "15-05-2025"
+        },
+        {
+            "backdrop_path": "/1SLimeCtDZhk9CCKj4qr435yvPT.jpg",
+            "id": 252640,
+            "name": "Lenda de Zang Hai",
+            "original_name": "藏海传",
+            "overview": "Uma história sobre o filho do astrônomo real Kuai Duo, que era sobrecarregado por uma rixa de sangue, estudava por dez anos e depois entrou na capital sob o pseudônimo de Zang Hai em busca da verdade e, por fim, buscou vingança, puniu o mal e defendeu a justiça.",
+            "poster_path": "/rfeJ1rg1bv1GKcRWiUg73PVXaO6.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "zh",
+            "genre_ids": [
+                18
+            ],
+            "popularity": 48.7577,
+            "first_air_date": "2025-05-18",
+            "vote_average": 8.4,
+            "vote_count": 15,
+            "origin_country": [
+                "CN"
+            ],
+            "data_formatada": "18-05-2025"
+        },
+        {
+            "backdrop_path": "/fOmWSmN9BdGef6oVVJmNyNsA0WC.jpg",
+            "id": 261602,
+            "name": "Habitante do Abismo",
+            "original_name": "潜渊",
+            "overview": "Janeiro de 1940. Liang Shuo, um agente clandestino comunista com um ferimento na cabeça, acordou em uma montanha coberta de neve e sua memória desapareceu. Atraído para Xangai por pistas fragmentadas para recuperar sua identidade, ele foi caçado pelas forças japonesas. Em seguida, a 76ª Agência do regime de Wang Jingwei identificou-o como seu Diretor de Operações. Enquanto o Japão e o governo de Wang Jingwei preparavam a sua “Conferência de Paz e Prosperidade”, um grupo de trabalhadores presos seria enviado para a linha da frente. O Partido lançou o “Projeto Abyss” para resgatá-los, mas seu agente “Frost” havia desaparecido. Em meio às armadilhas inimigas, Liang recuperou a memória: ele era Frost. Agora ele deve obter uma lista de espiões japoneses com uma década de existência, que seria revelada na conferência, e completar a missão impossível...",
+            "poster_path": "/uBqbBMAo9UW1BZSnRcIp8MrSbfS.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "zh",
+            "genre_ids": [
+                18
+            ],
+            "popularity": 5.1177,
+            "first_air_date": "2025-06-09",
+            "vote_average": 9.0,
+            "vote_count": 2,
+            "origin_country": [
+                "CN"
+            ],
+            "data_formatada": "09-06-2025"
+        },
+        {
+            "backdrop_path": "/ceuc2V5QdHJL2Pte6xJ5cYzHElY.jpg",
+            "id": 291583,
+            "name": "Air Cocaine: Traficantes nas Alturas",
+            "original_name": "Y a-t-il un dealer dans l'avion ?",
+            "overview": "Em 2013, quatro franceses são presos em Punta Cana com 700 kg de cocaína, nenhum com o perfil de traficante. Este documentário investiga quem estava por trás da operação.",
+            "poster_path": "/lEY2kCKmCbBPMwAiUFG4wi1PEh8.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "fr",
+            "genre_ids": [
+                99,
+                80
+            ],
+            "popularity": 1.2324,
+            "first_air_date": "2025-06-11",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "origin_country": [
+                "FR"
+            ],
+            "data_formatada": "11-06-2025"
+        },
+        {
+            "backdrop_path": "/aok7IhrbA83josNz9Dqh8tNA0Ao.jpg",
+            "id": 1429,
+            "name": "Attack on Titan",
+            "original_name": "進撃の巨人",
+            "overview": "Titãs estão quase exterminando a raça humana. Porém alguns estão dispostos a formar um exército de ataque aos seres assassinos. O jovem Eren, após ver sua mãe ser devorada por um titã, decide que não deixará nenhum deles vivo e buscará sua vingança completa.",
+            "poster_path": "/8aMqmB5xSblsZc7bLMEhE28yHa2.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "ja",
+            "genre_ids": [
+                16,
+                10765,
+                10759
+            ],
+            "popularity": 47.7163,
+            "first_air_date": "2013-04-07",
+            "vote_average": 8.665,
+            "vote_count": 6796,
+            "origin_country": [
+                "JP"
+            ],
+            "data_formatada": "07-04-2013"
         }
     ],
     "total_pages": 500,

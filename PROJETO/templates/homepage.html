@@ -90,9 +90,11 @@
         <div class="grid-filmes">
         {% for movie in movies %}
             <div class="filme-card">
+<!--link p/pag solo-->  <a href="{{ url_for('detalhes_filme', filme_id=movie['id']) }}">               
                 <abbr title="{{ movie.overview }}">
                     <img src="https://image.tmdb.org/t/p/w200{{ movie.poster_path }}" alt="{{ movie.title }}" />
                 </abbr>
+                </a> 
                 <p><strong>{{ movie.title }}</strong> </p>
                 <p>{{ movie.data_formatada }}</p>
                 </div>
@@ -103,9 +105,11 @@
         <div class="grid-filmes">
                 {% for serie in series %}
                     <div class="filme-card">
+<!--link pag solo--><a href="{{ url_for('detalhes_serie', serie_id=serie['id']) }}">
                         <abbr title="{{serie.overview}}">
                             <img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{serie.name}}">
                         </abbr>
+                        </a>
                         <p><strong>{{serie.name}}</strong></p> <p>{{serie.data_formatada}}</p>
                     </div>
                 {% endfor %}

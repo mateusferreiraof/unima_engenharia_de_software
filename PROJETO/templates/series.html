@@ -21,9 +21,9 @@
             <!-- Navegação principal -->
             <nav id="nav-header">
                 <ul id="ul-header">
-                    <li class="li-header"><a href="/home" id="subtitulobusca"><i class="fa-solid fa-house" style="color: #3c239b;"></i> INÍCIO</a></li>
-                    <li class="li-header"><a href="/filmes" class="a-header"><i class="fa-solid fa-tv" style="color: #3c239b;"></i> FILMES</a></li>
-                    <li class="li-header"><a href="/series" class="a-header"><i class="fa-solid fa-film" style="color: #3c239b;"></i> SÉRIES</a></li>
+                    <li class="li-header"><a href="/home" id="subtitulobusca"><i class="fa-solid fa-house" style="color: #f4f3f8c5;"></i> INÍCIO</a></li>
+                    <li class="li-header"><a href="/filmes" class="a-header"><i class="fa-solid fa-tv" style="color: #f4f3f8c5;"></i> FILMES</a></li>
+                    <li class="li-header"><a href="/series" class="a-header"><i class="fa-solid fa-film" style="color: #f4f3f8c5;"></i> SÉRIES</a></li>
                 </ul>
             </nav>
 
@@ -74,8 +74,11 @@
         {% if avaliadas %}
             {% for serie in avaliadas %}
                 <div class="filme-card">
+<!--linkpag solo--><a href="{{ url_for('detalhes_serie', serie_id=serie['id']) }}">                    
                 <abbr title="{{serie.overview}} -> Gêneros: {{ serie.genres_nomes | join(', ') }}">
-                    <img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{ serie.name }}"></abbr>
+                    <img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{ serie.name }}">
+                </abbr>
+                </a>
                 <p><strong>{{ serie.name }}</strong></p> 
                 <p>{{serie.data_formatada }}</p>
                 <p><i class="fa-solid fa-star" style="color: rgba(255, 217, 0, 0.808);"></i> {{ serie.vote_average | round(1) }} 
@@ -95,8 +98,11 @@
         {% if hj %}
             {% for serie in hj %}
                 <div class="filme-card">
-                <abbr title="{{serie.overview}} -> {{serie.origin_country}} -> Gêneros: {{ serie.genres_nomes | join(', ') }} -> Nota: {{ serie.vote_average | round(1)}}">
-                    <img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{ serie.name }}"></abbr>
+<!--linkpag solo--><a href="{{ url_for('detalhes_serie', serie_id=serie['id']) }}">                    
+                    <abbr title="{{serie.overview}} -> {{serie.origin_country}} -> Gêneros: {{ serie.genres_nomes | join(', ') }} -> Nota: {{ serie.vote_average | round(1)}}">
+                        <img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{ serie.name }}">
+                    </abbr>
+                    </a>
                 <p><strong>{{ serie.name }}</strong> </p>
                 <p>{{serie.data_formatada }}</p>
                 </div>
@@ -113,9 +119,11 @@
         {% if tmdb %}
             {% for serie in tmdb %}
                 <div class="filme-card">
-                <abbr title="{{serie.overview}} -> Gêneros: {{ serie.genres_nomes | join(', ') }} -> Nota: {{ serie.vote_average | round(1) }}">
-                    <img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{ serie.name }}"> 
-                </abbr>
+<!--linkpag solo--><a href="{{ url_for('detalhes_serie', serie_id=serie['id']) }}">                    
+                        <abbr title="{{serie.overview}} -> Gêneros: {{ serie.genres_nomes | join(', ') }} -> Nota: {{ serie.vote_average | round(1) }}">
+                            <img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{ serie.name }}"> 
+                        </abbr>
+                    </a>
                 <p><strong>{{ serie.name }} </strong></p>
                 <p> {{ serie.data_formatada }}</p>
                 </div>
@@ -132,9 +140,11 @@
         {% if populares %}
             {% for serie in populares %}
                 <div class="filme-card">
-                <abbr title="{{serie.overview}} -> {{serie.origin_country}} -> Gêneros: {{ serie.genres_nomes | join(', ') }} -> Nota: {{ serie.vote_average | round(1) }}">
-                    <img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{ serie.name }}">
-                </abbr>
+<!--link pag solo--><a href="{{ url_for('detalhes_serie', serie_id=serie['id']) }}">                    
+                        <abbr title="{{serie.overview}} -> {{serie.origin_country}} -> Gêneros: {{ serie.genres_nomes | join(', ') }} -> Nota: {{ serie.vote_average | round(1) }}">
+                            <img src="https://image.tmdb.org/t/p/w200{{ serie.poster_path }}" alt="{{ serie.name }}">
+                        </abbr>
+                </a>
                 <p><strong>{{serie.name }}</strong></p> 
                 <p>{{serie.data_formatada }}</p>
                 </div>
@@ -161,3 +171,4 @@
     
 </body>
 </html>
+

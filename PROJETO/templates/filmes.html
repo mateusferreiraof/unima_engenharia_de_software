@@ -22,9 +22,9 @@
             <!-- Navegação principal -->
             <nav id="nav-header">
                 <ul id="ul-header">
-                    <li class="li-header"><a href="/home" id="subtitulobusca"><i class="fa-solid fa-house" style="color: #3c239b;"></i> INÍCIO</a></li>
-                    <li class="li-header"><a href="/filmes" class="a-header"><i class="fa-solid fa-tv" style="color: #3c239b;"></i> FILMES</a></li>
-                    <li class="li-header"><a href="/series" class="a-header"><i class="fa-solid fa-film" style="color: #3c239b;"></i> SÉRIES</a></li>
+                    <li class="li-header"><a href="/home" id="subtitulobusca"><i class="fa-solid fa-house" style="color: #f4f3f8c5;"></i> INÍCIO</a></li>
+                    <li class="li-header"><a href="/filmes" class="a-header"><i class="fa-solid fa-tv" style="color: #f4f3f8c5;"></i> FILMES</a></li>
+                    <li class="li-header"><a href="/series" class="a-header"><i class="fa-solid fa-film" style="color: #f4f3f8c5;"></i> SÉRIES</a></li>
                 </ul>
             </nav>
 
@@ -68,21 +68,24 @@
     
     <main>
 
+
  <!--Filme popular-->       
         <h2>Filmes Populares</h2>
 
         <div class="grid-filmes">
-        {% if filmes %}
-            {% for filme in filmes %}
-               <div class="filme-card">
-                <abbr title="{{ filme.overview }} -> {{ filme.genres_nomes | join(', ') }}">
-                    <img src="https://image.tmdb.org/t/p/w200{{ filme.poster_path }}" alt="{{ filme.title }}" />
-                </abbr>
-                <p><strong>{{ filme.title }}</strong></p> 
-                <p>{{ filme.data_formatada }}</p>
-                </div>
-            {% endfor %}
-            </div>
+            {% if filmes %}
+                {% for filme in filmes %}
+                    <div class="filme-card">
+<!--link p/pag solo-->  <a href="{{ url_for('detalhes_filme', filme_id=filme['id']) }}">
+                            <abbr title="{{ filme.overview }} -> {{ filme.genres_nomes | join(', ') }}">
+                            <img src="https://image.tmdb.org/t/p/w200{{ filme.poster_path }}" alt="{{ filme.title }}" />
+                            </abbr>
+                        </a>
+                        <p><strong>{{ filme.title }}</strong></p> 
+                        <p>{{ filme.data_formatada }}</p>
+                    </div>
+                {% endfor %}
+        </div>
         {% else %}
         <p>Nenhum filme popular recomendada.</p>
         {% endif %}
@@ -95,8 +98,11 @@
         {% if tmdb %}
             {% for filme in tmdb %}
                     <div class="filme-card">
-                    <abbr title="{{ filme.overview }} -> Gêneros: {{ filme.genres_nomes | join(', ') }}">
-                        <img src="https://image.tmdb.org/t/p/w200{{ filme.poster_path }}" alt="{{ filme.title }}" /></abbr>
+<!--link p/pag solo-->  <a href="{{ url_for('detalhes_filme', filme_id=filme['id']) }}">
+                        <abbr title="{{ filme.overview }} -> Gêneros: {{ filme.genres_nomes | join(', ') }}">
+                            <img src="https://image.tmdb.org/t/p/w200{{ filme.poster_path }}" alt="{{ filme.title }}" />
+                        </abbr>
+                        </a>
                     <p><strong>{{ filme.title }}</strong></p> 
                     <p>{{ filme.data_formatada}} </p>
                     </div>
@@ -114,11 +120,14 @@
         {% if avaliados %}
             {% for filme in avaliados %}
                     <div class="filme-card">
-                    <abbr title="{{ filme.overview }} -> Gêneros: {{ filme.genres_nomes | join(', ') }}">
-                        <img src="https://image.tmdb.org/t/p/w200{{ filme.poster_path }}" alt="{{ filme.title }}" /></abbr>
+<!--link p/pag solo-->  <a href="{{ url_for('detalhes_filme', filme_id=filme['id']) }}">    
+                            <abbr title="{{ filme.overview }} -> Gêneros: {{ filme.genres_nomes | join(', ') }}">
+                                <img src="https://image.tmdb.org/t/p/w200{{ filme.poster_path }}" alt="{{ filme.title }}" />
+                            </abbr>
+                        </a>    
                     <p><strong>{{ filme.title }}</strong></p> 
                     <p>{{ filme.data_formatada}} </p>
-                   <p><i class="fa-solid fa-star" style="color: rgba(255, 217, 0, 0.808);"></i> {{ filme.vote_average | round(1) }} 
+                    <p><i class="fa-solid fa-star" style="color: rgba(255, 217, 0, 0.808);"></i> {{ filme.vote_average | round(1) }} 
 
                     </div>
             {% endfor %}
@@ -147,3 +156,4 @@
 
 </body>
 </html>
+

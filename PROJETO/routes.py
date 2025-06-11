@@ -21,6 +21,7 @@ def homepage():
     filmes = api.movie_list()         # Pega lista de filmes
     api_series =SeriesAPI()
     api_categorias = Categoria()
+    
 
     series =api_series.series_populares_tmdb()        # Pega lista de séries
     nome_do_usuario = session.get('nome')  # Pega o nome do usuário da sessão (se estiver logado)
@@ -70,6 +71,7 @@ def filmes():
     avaliados = api.filmes_bem_avaliados(page=pagina)
     tmdb = api.filmes_populares_tmdb(page=pagina)
 
+
 # Obtemos a lista de categorias
     categorias = api_categorias.obter_generos()
     generos_dict = {g['id']: g['name'] for g in categorias['genres']}
@@ -84,9 +86,25 @@ def filmes():
     adicionar_nomes_generos(avaliados, generos_dict)
     adicionar_nomes_generos(tmdb, generos_dict)
 
+
     return render_template("filmes.html", filmes=filmes['results'],categorias=categorias['genres'], avaliados=avaliados['results'], tmdb=tmdb['results'], pagina=pagina, nome=nome_do_usuario)
 
-   
+#se der erro excluir
+#rota para direcionar informações do filme
+@server.route('/filme/<int:filme_id>')
+def detalhes_filme(filme_id):
+    api = MovieAPI()
+    api_categorias = Categoria()
+    
+    dados = api.get_detalhes_filme(filme_id)
+    # Obtemos a lista de categorias
+    categorias = api_categorias.obter_generos()
+    # Extrai os nomes dos gêneros diretamente do detalhe do filme
+    dados['genres_nomes'] = [g['name'] for g in dados.get('genres', [])]
+
+    return render_template('detalhes_filme.html',categorias=categorias['genres'], filme=dados)
+
+
 # Página de séries
 @server.route('/series')
 def series():
@@ -114,6 +132,23 @@ def series():
     adicionar_nomes_generos(tmdb, generos_dict)
 
     return render_template("series.html", populares=populares['results'], avaliadas=avaliadas['results'], tmdb=tmdb['results'], hj=hj['results'], categorias=categorias['genres'], pagina=pagina, nome=nome_do_usuario)
+
+
+#se der erro excluir
+#rota para direcionar informações do filme
+@server.route('/serie/<int:serie_id>')
+def detalhes_serie(serie_id):
+    api = SeriesAPI()
+    api_categorias = Categoria()
+    
+    dados = api.get_detalhes_serie(serie_id)
+    # Obtemos a lista de categorias
+    categorias = api_categorias.obter_generos()
+    # Extrai os nomes dos gêneros diretamente do detalhe da serie
+    dados['genres_nomes'] = [g['name'] for g in dados.get('genres', [])]
+
+    return render_template('detalhes_serie.html',categorias=categorias['genres'], serie=dados)
+
 
 # Redireciona a raiz do site para a home
 @server.route('/')

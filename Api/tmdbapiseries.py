@@ -2,7 +2,6 @@ import requests
 import json
 from datetime import datetime
 
-
 class SeriesAPI:
     def __init__(self):
         self.headers = {
@@ -65,6 +64,20 @@ class SeriesAPI:
             response = requests.get(url, headers=self.headers).json()
             return self.to_json(response)
 
+#se der erro excluir
+ # redirecionar para pagina solo   
+
+    def get_detalhes_serie(self,serie_id):
+        url = f"https://api.themoviedb.org/3/tv/{serie_id}"
+        headers = {
+        "Authorization": f"Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiZjFlOTkxNzU1ZjgxNzU0MzAzM2ZkYzQ0MWYyNmNhZCIsIm5iZiI6MTc0NzQ5MjcyOC44Miwic3ViIjoiNjgyODlmNzhlMjU3NDZlODY1ZjU1Mzc1Iiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.jpdKsUZBXwaCkjImZxunyQGKbO25nXVxi2XfhaTNgu8"
+        }
+        params = {"language": "pt-BR"}
+        response = requests.get(url, headers=headers, params=params).json()
+        # formatando a data pois é só uma serie
+        if "first_air_date" in response and response["first_air_date"]:
+            response['data_formatada'] = self.datetimeformat(response["first_air_date"])
+        return self.to_json(response)
 
 
 #essa função vai executar sempre e criar o arquivo 
