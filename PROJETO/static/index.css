@@ -1,6 +1,8 @@
+/* Define o charset e importa fontes do Google Fonts */
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Reset de margens, paddings e define box-sizing */
 * {
     padding: 0;
     margin: 0;
@@ -8,32 +10,45 @@
 }
 
 html, body {
-    height: 100%;
-    margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: linear-gradient(to right, rgb(3, 118, 150), rgb(45, 26, 131));
+  height: 100%;
+  margin: 0;
 }
 
-/* Removido position: fixed que causava problema */
+
+/* Estilo do corpo da página com layout em coluna e fundo com gradiente */
 body {
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, rgb(10, 165, 210), rgb(60, 35, 155));
+    background-repeat: no-repeat;/*esse*/
+    background-attachment: fixed; /*esse*/
 }
-
-/* HEADER normal, sem position: fixed */
+/* Header (cabeçalho) com layout em coluna */
 header {
-    background: linear-gradient(to right, rgb(3, 118, 150), rgb(45, 26, 131));
-    padding: 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    z-index: 10;
+    display: flex;
+    flex-direction: column;
 }
 
-/* FORMULÁRIO DE BUSCA */
+/* Título principal */
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/* Subtítulo */
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+/* Estilo do formulário centralizado */
 form {
     margin: auto;
     width: 515px;
     padding: 20px;
 }
 
+/* Estilo dos campos de input */
 input {
     margin: auto;
     width: 440px;
@@ -42,6 +57,7 @@ input {
     border-radius: 5px;
 }
 
+/* Estilo dos botões (ícones ou pequenos) */
 button {
     background-color: transparent;
     border: transparent;
@@ -49,16 +65,7 @@ button {
     height: 24px;
 }
 
-/* TÍTULOS */
-h1, h2 {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-h2 {
-    font-size: 25px;
-}
-
-/* LINK */
+/* Estilo para links */
 a {
     text-decoration: none;
     color: black;
@@ -66,90 +73,378 @@ a {
     text-align: center;
 }
 
-/* ÁREA DE PESQUISA */
+/* Estilo do rodapé */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+
+/* Área principal do conteúdo */
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 0px solid transparent;
+    border-radius: 5px 5px 0px 0px;
+}
+
+/* Elementos <strong> */
+strong {
+    width: 200px;
+}
+
+/* Cabeçalho com espaçamento e alinhamento */
+#cabecario {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    max-height: 100px;
+}
+
+/* Seção de pesquisa com imagem de fundo */
 #pesquisa {
     background-image: url(imagens/imagem-pipoca.jpeg);
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     height: 300px;
 }
 
-/* CONTAINER DE FILMES */
-.grid-filmes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    padding: 10px;
+/* Linhas horizontais estilizadas */
+#hr1, #hr2 {
+    border: 1px solid white;
+    margin: 10px 0;
 }
 
+/* Lista principal de filmes/séries */
+.grid-filmes {
+    display: grid;
+    grid-template-columns:repeat(6, 1fr);
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
 .filme-card {
     text-align: center;
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
-    max-width: 150px;
-    flex: 1 1 45%;
+    max-width: 200px;
 }
 
 .filme-card img {
     width: 100%;
     border-radius: 5px;
-    transition: transform 0.3s ease;
-}
-.filme-card img:hover {
-    transform: scale(1.05);
+    transition: transform 0.3s ease; /*animação*/
 }
 
-/* MENSAGEM DO FLASK */
+.filme-card img:hover {
+    transform: scale(1.05); /*zoom*/
+}
+
+
+/* Mensagem vinda do Flask */
 #mensagem-flask {
     padding: 20px;
     font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #ECECEC;
     text-align: center;
     color: black;
 }
 
-/* FOOTER */
-footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.2rem;
+/* Menu de navegação */
+#menu {
+    max-height: 100px;
 }
 
-/* RESPONSIVO */
+/* Subtítulo da busca */
+#subtitulobusca {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Efeito hover para o subtítulo da busca */
+#subtitulobusca:hover {
+    background-color: yellowgreen;
+}
+
+/* Título principal da seção header */
+#h2-header {
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    font-size: 65px;
+}
+
+/* Parágrafo descritivo no cabeçalho */
+#p-header {
+    color: white;
+    font-size: 40px;
+    width: 200px;
+}
+
+/* Legenda do cabeçalho */
+#legend-header {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+/* Imagens de filmes/séries */
+#imagens {
+    border-radius: 10px;
+    width: 150px;
+    height: 200px;
+}
+
+/* Primeira coluna do rodapé */
+#primeira-coluna-footer {
+    padding: 40px;
+}
+
+/* Imagem na coluna do rodapé */
+#imagem-footer {
+    width: 100px;
+}
+
+/* Terceira coluna do rodapé */
+#terceira-coluna-footer {
+    margin: 50px 0;
+}
+
+/* Link com estilo destacado no rodapé */
+#a-o-basico-footer {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+/* Quarta coluna do rodapé */
+#quarta-coluna-footer {
+    text-align: left;
+    margin: 50px 0;
+}
+
+/* Link da quarta coluna do rodapé */
+#a-quarta-coluna-footer {
+    color: white;
+}
+
+/* Parágrafo da quarta coluna do rodapé */
+#p-quarta-coluna-footer {
+    color: white;
+    padding-top: 50px;
+}
+
+/* Link de botão do header */
+#a-header-else {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Hover para o botão do header */
+#a-header-else:hover {
+    background-color: yellowgreen;
+}
+
+/* Ícone clicável no header */
+#icone-header {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+/* Hover do ícone do header */
+#icone-header:hover {
+    background-color: yellowgreen;
+}
+
+/* Itens da lista no header */
+.li-header {
+    display: inline-block;
+    padding: 10px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* Itens da segunda coluna do rodapé */
+.li-segunda-coluna-footer {
+    margin: 10px;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: left;
+}
+
+/* Links da segunda coluna do rodapé */
+.li-segunda-coluna-footer > a {
+    color: white;
+}
+
+/* Itens da terceira coluna do rodapé */
+.li-terceira-coluna-footer {
+    text-align: left;
+}
+
+/* Links da terceira coluna do rodapé */
+.li-terceira-coluna-footer > a {
+    color: white;
+}
+
+
+/* Estilo dos itens da lista principal */
+.li-main {
+    padding: 15px;
+    display: inline-table;
+    text-align: left;
+    color: white;
+    max-width: 150px;
+    max-height: 250px;
+}
+
+/* Links padrão no header */
+.a-header {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Hover nos links do header */
+.a-header:hover {
+    background-color: yellowgreen;
+}
+/* Exibe o menu quando checkbox estiver marcado */
+#menu-toggle:checked + .menu-icon + .menu {
+  display: block;
+}
+
+/* Menu dropdown oculto por padrão */
+.menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    background: linear-gradient(to right, rgb(10, 165, 210), rgb(60, 35, 155));
+    width: 375px;
+    height: 160px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Parágrafos dentro do menu */
+.menu > p {
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    width: 350px;
+    border: 1px solid white;
+    background: linear-gradient(to right, rgb(10, 165, 210) 10%, rgb(10, 165, 210) 15%, rgb(60, 35, 155) 70%, rgb(60, 35, 155) 100%);
+}
+
+/* Links dentro dos parágrafos do menu */
+.menu > p > a {
+    color: white;
+}
+
+/* Hover nos links do menu */
+.menu > p > a:hover {
+    text-decoration: underline;
+}
+
+/*estilo do botão : anterior e próximo */
+.paginacao {
+    text-align: center;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.paginacao a button {
+    background-color: #3c239b;
+    color: rgba(255, 255, 255, 0.849);             
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    line-height: normal;
+    width: auto; /* Ajusta ao conteúdo */
+    min-width: 120px; 
+    text-align: center; /* Alinha o texto dentro do botão */
+    
+
+}
+
+.paginacao a button:hover {
+    background-color: #4f3d96a6; 
+    color: black;
+}
+
 @media (max-width: 992px) {
     #cabecario {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row; /* linha, não coluna */
+        align-items: center; /* ou flex-start se preferir */
         gap: 10px;
-        padding: 10px 20px;
+    }
+
+    #p-header {
+        font-size: 28px;
+        width: auto;
+    }
+
+    #h2-header {
+        font-size: 45px;
+    }
+
+    .grid-filmes {
+        grid-template-columns: repeat(3, 1fr);
     }
 
     form, input {
         width: 100%;
         max-width: 90%;
     }
-
-    #h2-header {
-        font-size: 45px;
-        text-align: center;
+}
+@media (max-width: 600px) {
+    #cabecario {
+        flex-direction: row; /* mantém os itens na horizontal */
+        align-items: center; /* alinha verticalmente ao centro */
+        gap: 10px;
     }
 
     #p-header {
-        font-size: 28px;
+        font-size: 22px;
         width: auto;
         text-align: center;
     }
-}
 
-@media (max-width: 600px) {
+    #h2-header {
+        font-size: 35px;
+        text-align: center;
+    }
+
     .grid-filmes {
-        flex-direction: column;
-        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    form, input {
+        width: 100%;
+        max-width: 95%;
     }
 
     .menu {
@@ -160,8 +455,15 @@ footer {
     .menu > p {
         width: 100%;
     }
-
-    form, input {
-        width: 95%;
+     /* Sugestão para evitar overflow no login: */
+    #a-header-else {
+        white-space: normal;
+        font-size: 14px;
     }
 }
+
+@media (max-width: 400px) {
+    .grid-filmes {
+        grid-template-columns: 1fr;
+    }
+} 
