@@ -26,28 +26,6 @@
             "data_formatada": "30-03-2025"
         },
         {
-            "backdrop_path": "/uQ4lG7E7mlyKsGvbASftQ6Hu2IX.jpg",
-            "id": 100088,
-            "name": "The Last of Us",
-            "original_name": "The Last of Us",
-            "overview": "Situado duas décadas após a implosão de nossa sociedade, o drama seguirá Joel, um sobrevivente difícil, que é contratado para contrabandear uma garota de 14 anos chamada Ellie para fora de uma zona de quarentena opressiva. O que começa como um pequeno trabalho logo se torna uma jornada brutal e de partir o coração, já que os dois precisam atravessar os Estados Unidos e dependem um do outro para sobreviver.",
-            "poster_path": "/el1KQzwdIm17I3A6cYPfsVIWhfX.jpg",
-            "media_type": "tv",
-            "adult": false,
-            "original_language": "en",
-            "genre_ids": [
-                18
-            ],
-            "popularity": 187.4887,
-            "first_air_date": "2023-01-15",
-            "vote_average": 8.521,
-            "vote_count": 6187,
-            "origin_country": [
-                "US"
-            ],
-            "data_formatada": "15-01-2023"
-        },
-        {
             "backdrop_path": "/d6nMDQNCasWz82w50XNRIQoLBeA.jpg",
             "id": 288915,
             "name": "Aniela",
@@ -69,6 +47,28 @@
                 "PL"
             ],
             "data_formatada": "11-06-2025"
+        },
+        {
+            "backdrop_path": "/uQ4lG7E7mlyKsGvbASftQ6Hu2IX.jpg",
+            "id": 100088,
+            "name": "The Last of Us",
+            "original_name": "The Last of Us",
+            "overview": "Situado duas décadas após a implosão de nossa sociedade, o drama seguirá Joel, um sobrevivente difícil, que é contratado para contrabandear uma garota de 14 anos chamada Ellie para fora de uma zona de quarentena opressiva. O que começa como um pequeno trabalho logo se torna uma jornada brutal e de partir o coração, já que os dois precisam atravessar os Estados Unidos e dependem um do outro para sobreviver.",
+            "poster_path": "/el1KQzwdIm17I3A6cYPfsVIWhfX.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                18
+            ],
+            "popularity": 187.4887,
+            "first_air_date": "2023-01-15",
+            "vote_average": 8.521,
+            "vote_count": 6187,
+            "origin_country": [
+                "US"
+            ],
+            "data_formatada": "15-01-2023"
         },
         {
             "backdrop_path": "/lqaT9mIxcVJs9QSUf0hdy0zW68C.jpg",
@@ -141,6 +141,31 @@
             "data_formatada": "06-06-2025"
         },
         {
+            "backdrop_path": "/Ao5pBFuWY32cVuh6iYjEjZMEscN.jpg",
+            "id": 60625,
+            "name": "Rick e Morty",
+            "original_name": "Rick and Morty",
+            "overview": "Rick é um velho mentalmente desequilibrado, mas cientificamente talentoso que se reconectou recentemente com sua família. Ele passa a maior parte do tempo envolvendo o jovem neto Morty em aventuras perigosas e estranhas no espaço e em universos alternativos. Compostos à vida familiar já instável de Morty, esses eventos causam muito sofrimento a Morty em casa e na escola.",
+            "poster_path": "/5qfd0e2uMbVInX3YdeFbDsfxi1t.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                16,
+                35,
+                10765,
+                10759
+            ],
+            "popularity": 228.097,
+            "first_air_date": "2013-12-02",
+            "vote_average": 8.688,
+            "vote_count": 10201,
+            "origin_country": [
+                "US"
+            ],
+            "data_formatada": "02-12-2013"
+        },
+        {
             "backdrop_path": "/ceuc2V5QdHJL2Pte6xJ5cYzHElY.jpg",
             "id": 291583,
             "name": "Air Cocaine: Traficantes nas Alturas",
@@ -162,28 +187,6 @@
                 "FR"
             ],
             "data_formatada": "11-06-2025"
-        },
-        {
-            "backdrop_path": "/fXpsbFfQkIsj1MF3FRJh9JgO6Qq.jpg",
-            "id": 203367,
-            "name": "A Estrada de Lichia",
-            "original_name": "长安的荔枝",
-            "overview": "A história acompanha Li Shande, um homem enganado por seus colegas e rebaixado de sua função de supervisor. Agora forçado a se tornar o \"Enviado da Lichia\", ele enfrenta uma missão quase impossível: entregar lichias frescas de Lingnan para Chang'an como presente de aniversário para a Nobre Consorte. Diz o ditado que as lichias mudam de cor em um dia, perdem a fragrância em dois e o sabor em três dias. Com mais de 5.000 li entre Lingnan e Chang'an, e com prazos apertados e recursos limitados, como ele conseguirá realizar isso?",
-            "poster_path": "/tr9Xkdxsualrb4b2L2LMyHxCS31.jpg",
-            "media_type": "tv",
-            "adult": false,
-            "original_language": "zh",
-            "genre_ids": [
-                18
-            ],
-            "popularity": 25.6278,
-            "first_air_date": "2025-06-07",
-            "vote_average": 7.8,
-            "vote_count": 5,
-            "origin_country": [
-                "CN"
-            ],
-            "data_formatada": "07-06-2025"
         },
         {
             "backdrop_path": "/xedpbCiPxGiyusIutkhkLXx1shT.jpg",
@@ -210,56 +213,6 @@
             "data_formatada": "30-04-2025"
         },
         {
-            "backdrop_path": "/Ao5pBFuWY32cVuh6iYjEjZMEscN.jpg",
-            "id": 60625,
-            "name": "Rick e Morty",
-            "original_name": "Rick and Morty",
-            "overview": "Rick é um velho mentalmente desequilibrado, mas cientificamente talentoso que se reconectou recentemente com sua família. Ele passa a maior parte do tempo envolvendo o jovem neto Morty em aventuras perigosas e estranhas no espaço e em universos alternativos. Compostos à vida familiar já instável de Morty, esses eventos causam muito sofrimento a Morty em casa e na escola.",
-            "poster_path": "/5qfd0e2uMbVInX3YdeFbDsfxi1t.jpg",
-            "media_type": "tv",
-            "adult": false,
-            "original_language": "en",
-            "genre_ids": [
-                16,
-                35,
-                10765,
-                10759
-            ],
-            "popularity": 228.097,
-            "first_air_date": "2013-12-02",
-            "vote_average": 8.688,
-            "vote_count": 10201,
-            "origin_country": [
-                "US"
-            ],
-            "data_formatada": "02-12-2013"
-        },
-        {
-            "backdrop_path": "/wIoxMHbyUJnx5Fm9tI26hIYGI1D.jpg",
-            "id": 245703,
-            "name": "Dept. Q",
-            "original_name": "Dept. Q",
-            "overview": "Um policial brilhante, mas arrogante, se torna chefe de um novo departamento, liderando um grupo improvável de desajustados na solução de casos arquivados de Edimburgo.",
-            "poster_path": "/e4ctTDJsRexIF3vjxeDrSbeOuep.jpg",
-            "media_type": "tv",
-            "adult": false,
-            "original_language": "en",
-            "genre_ids": [
-                18,
-                80,
-                9648
-            ],
-            "popularity": 50.832,
-            "first_air_date": "2025-05-29",
-            "vote_average": 7.958,
-            "vote_count": 84,
-            "origin_country": [
-                "GB",
-                "US"
-            ],
-            "data_formatada": "29-05-2025"
-        },
-        {
             "backdrop_path": "/6fRwRD7GdCfg6owzmCT3VgQtowl.jpg",
             "id": 37854,
             "name": "One Piece",
@@ -282,6 +235,76 @@
                 "JP"
             ],
             "data_formatada": "20-10-1999"
+        },
+        {
+            "backdrop_path": "/fXpsbFfQkIsj1MF3FRJh9JgO6Qq.jpg",
+            "id": 203367,
+            "name": "A Estrada de Lichia",
+            "original_name": "长安的荔枝",
+            "overview": "A história acompanha Li Shande, um homem enganado por seus colegas e rebaixado de sua função de supervisor. Agora forçado a se tornar o \"Enviado da Lichia\", ele enfrenta uma missão quase impossível: entregar lichias frescas de Lingnan para Chang'an como presente de aniversário para a Nobre Consorte. Diz o ditado que as lichias mudam de cor em um dia, perdem a fragrância em dois e o sabor em três dias. Com mais de 5.000 li entre Lingnan e Chang'an, e com prazos apertados e recursos limitados, como ele conseguirá realizar isso?",
+            "poster_path": "/tr9Xkdxsualrb4b2L2LMyHxCS31.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "zh",
+            "genre_ids": [
+                18
+            ],
+            "popularity": 25.6278,
+            "first_air_date": "2025-06-07",
+            "vote_average": 7.8,
+            "vote_count": 5,
+            "origin_country": [
+                "CN"
+            ],
+            "data_formatada": "07-06-2025"
+        },
+        {
+            "backdrop_path": "/wIoxMHbyUJnx5Fm9tI26hIYGI1D.jpg",
+            "id": 245703,
+            "name": "Dept. Q",
+            "original_name": "Dept. Q",
+            "overview": "Um policial brilhante, mas arrogante, se torna chefe de um novo departamento, liderando um grupo improvável de desajustados na solução de casos arquivados de Edimburgo.",
+            "poster_path": "/e4ctTDJsRexIF3vjxeDrSbeOuep.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                18,
+                80,
+                9648
+            ],
+            "popularity": 50.832,
+            "first_air_date": "2025-05-29",
+            "vote_average": 7.959,
+            "vote_count": 85,
+            "origin_country": [
+                "GB",
+                "US"
+            ],
+            "data_formatada": "29-05-2025"
+        },
+        {
+            "backdrop_path": "/lPmUu3xkoksz3xsa1feIUoOBZrg.jpg",
+            "id": 117581,
+            "name": "Ginny e Georgia",
+            "original_name": "Ginny & Georgia",
+            "overview": "Em busca de uma nova chance, Georgia leva os filhos Ginny e Austin para morar em outra cidade. Só que recomeçar do zero não é tão simples assim.",
+            "poster_path": "/uKval7QmEozy7R05FEvE3H9Qice.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "popularity": 182.6101,
+            "first_air_date": "2021-02-24",
+            "vote_average": 8.069,
+            "vote_count": 1633,
+            "origin_country": [
+                "US"
+            ],
+            "data_formatada": "24-02-2021"
         },
         {
             "backdrop_path": "/sxzodKyKvW2sXjI9awYFjo2ePNz.jpg",
@@ -307,29 +330,6 @@
             "data_formatada": "06-06-2025"
         },
         {
-            "backdrop_path": "/lPmUu3xkoksz3xsa1feIUoOBZrg.jpg",
-            "id": 117581,
-            "name": "Ginny e Georgia",
-            "original_name": "Ginny & Georgia",
-            "overview": "Em busca de uma nova chance, Georgia leva os filhos Ginny e Austin para morar em outra cidade. Só que recomeçar do zero não é tão simples assim.",
-            "poster_path": "/uKval7QmEozy7R05FEvE3H9Qice.jpg",
-            "media_type": "tv",
-            "adult": false,
-            "original_language": "en",
-            "genre_ids": [
-                35,
-                18
-            ],
-            "popularity": 182.6101,
-            "first_air_date": "2021-02-24",
-            "vote_average": 8.067,
-            "vote_count": 1633,
-            "origin_country": [
-                "US"
-            ],
-            "data_formatada": "24-02-2021"
-        },
-        {
             "backdrop_path": "/zZqpAXxVSBtxV9qPBcscfXBcL2w.jpg",
             "id": 1399,
             "name": "Game of Thrones",
@@ -347,7 +347,7 @@
             "popularity": 251.0468,
             "first_air_date": "2011-04-17",
             "vote_average": 8.457,
-            "vote_count": 25097,
+            "vote_count": 25098,
             "origin_country": [
                 "US"
             ],
@@ -377,28 +377,51 @@
             "data_formatada": "12-05-2025"
         },
         {
-            "backdrop_path": "/nn9vM29SKN227zupaOOmaJz5SA0.jpg",
-            "id": 241554,
-            "name": "Diários de um Robô-Assassino",
-            "original_name": "Murderbot",
-            "overview": "Em um futuro high-tech, um robô de segurança rebelde secretamente adquire livre arbítrio. Para se manter escondido, ele acaba, contra sua vontade, participando de uma missão para proteger cientistas em um planeta perigoso... mesmo que tudo o que queria era maratonar suas novelas.",
-            "poster_path": "/rWQYtLHVzG44Ks6Ohi6K1IVyIwq.jpg",
+            "backdrop_path": "/9faGSFi5jam6pDWGNd0p8JcJgXQ.jpg",
+            "id": 1396,
+            "name": "Breaking Bad: A Química do Mal",
+            "original_name": "Breaking Bad",
+            "overview": "Ao saber que tem câncer, um professor passa a fabricar metanfetamina pelo futuro da família, mudando o destino de todos.",
+            "poster_path": "/30erzlzIOtOK3k3T3BAl1GiVMP1.jpg",
             "media_type": "tv",
             "adult": false,
             "original_language": "en",
             "genre_ids": [
-                35,
                 18,
-                10765
+                80
             ],
-            "popularity": 93.289,
-            "first_air_date": "2025-05-15",
-            "vote_average": 7.265,
-            "vote_count": 113,
+            "popularity": 157.5451,
+            "first_air_date": "2008-01-20",
+            "vote_average": 8.926,
+            "vote_count": 15638,
             "origin_country": [
                 "US"
             ],
-            "data_formatada": "15-05-2025"
+            "data_formatada": "20-01-2008"
+        },
+        {
+            "backdrop_path": "/aok7IhrbA83josNz9Dqh8tNA0Ao.jpg",
+            "id": 1429,
+            "name": "Attack on Titan",
+            "original_name": "進撃の巨人",
+            "overview": "Titãs estão quase exterminando a raça humana. Porém alguns estão dispostos a formar um exército de ataque aos seres assassinos. O jovem Eren, após ver sua mãe ser devorada por um titã, decide que não deixará nenhum deles vivo e buscará sua vingança completa.",
+            "poster_path": "/8aMqmB5xSblsZc7bLMEhE28yHa2.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "ja",
+            "genre_ids": [
+                16,
+                10765,
+                10759
+            ],
+            "popularity": 47.7163,
+            "first_air_date": "2013-04-07",
+            "vote_average": 8.665,
+            "vote_count": 6797,
+            "origin_country": [
+                "JP"
+            ],
+            "data_formatada": "07-04-2013"
         },
         {
             "backdrop_path": "/vcFW09U4834DyFOeRZpsx9x1D3S.jpg",
@@ -425,50 +448,28 @@
             "data_formatada": "26-03-2005"
         },
         {
-            "backdrop_path": "/gG5xy0l84D5vYIWt3Xq9VIJs0SP.jpg",
-            "id": 292664,
-            "name": "The Kollective",
-            "original_name": "The Kollective",
-            "overview": "",
-            "poster_path": "/qqCDLvhm7czEf739tiwganFK23t.jpg",
+            "backdrop_path": "/nn9vM29SKN227zupaOOmaJz5SA0.jpg",
+            "id": 241554,
+            "name": "Diários de um Robô-Assassino",
+            "original_name": "Murderbot",
+            "overview": "Em um futuro high-tech, um robô de segurança rebelde secretamente adquire livre arbítrio. Para se manter escondido, ele acaba, contra sua vontade, participando de uma missão para proteger cientistas em um planeta perigoso... mesmo que tudo o que queria era maratonar suas novelas.",
+            "poster_path": "/rWQYtLHVzG44Ks6Ohi6K1IVyIwq.jpg",
             "media_type": "tv",
             "adult": false,
             "original_language": "en",
             "genre_ids": [
-                18
+                35,
+                18,
+                10765
             ],
-            "popularity": 6.421,
-            "first_air_date": "2025-06-10",
-            "vote_average": 10.0,
-            "vote_count": 1,
+            "popularity": 93.289,
+            "first_air_date": "2025-05-15",
+            "vote_average": 7.265,
+            "vote_count": 113,
             "origin_country": [
                 "US"
             ],
-            "data_formatada": "10-06-2025"
-        },
-        {
-            "backdrop_path": "/aok7IhrbA83josNz9Dqh8tNA0Ao.jpg",
-            "id": 1429,
-            "name": "Attack on Titan",
-            "original_name": "進撃の巨人",
-            "overview": "Titãs estão quase exterminando a raça humana. Porém alguns estão dispostos a formar um exército de ataque aos seres assassinos. O jovem Eren, após ver sua mãe ser devorada por um titã, decide que não deixará nenhum deles vivo e buscará sua vingança completa.",
-            "poster_path": "/8aMqmB5xSblsZc7bLMEhE28yHa2.jpg",
-            "media_type": "tv",
-            "adult": false,
-            "original_language": "ja",
-            "genre_ids": [
-                16,
-                10765,
-                10759
-            ],
-            "popularity": 47.7163,
-            "first_air_date": "2013-04-07",
-            "vote_average": 8.665,
-            "vote_count": 6796,
-            "origin_country": [
-                "JP"
-            ],
-            "data_formatada": "07-04-2013"
+            "data_formatada": "15-05-2025"
         }
     ],
     "total_pages": 500,

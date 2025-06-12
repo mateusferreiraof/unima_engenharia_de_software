@@ -14,6 +14,8 @@ body {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to right, rgb(10, 165, 210), rgb(60, 35, 155));
+    background-repeat: no-repeat;/*esse*/
+    background-attachment: fixed; /*esse*/
 }
 
 /* Header (cabeçalho) com layout em coluna */
@@ -124,13 +126,14 @@ strong {
 /*direção e organização dos posters */
 
 .grid-filmes {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr); 
+     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     gap: 20px;
     padding: 20px;
-    justify-items: center;
+    justify-content: center;       /* Centraliza os itens */
+    max-width: 1200px;             /* Limita largura total */
+    margin: 0 auto; 
 }
-
 .filme-card {
     text-align:center;
     max-width: 200px;
@@ -202,8 +205,8 @@ p{  font-family: 'Epilogue', sans-serif;
 /* Parágrafo descritivo no cabeçalho */
 #p-header {
     color: white;
-    font-size: 40px;
-    width: 200px;
+    font-size: 4vw;
+    width: 80%;
 }
 
 /* Legenda do cabeçalho */
@@ -369,3 +372,32 @@ p{  font-family: 'Epilogue', sans-serif;
     text-decoration: underline;
 }
 
+@media (max-width: 768px) {
+    .grid-filmes {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        padding: 10px;
+        gap: 15px;
+    }
+
+    .filme-card {
+        max-width: 150px;
+    }
+
+    .filme-card p {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-filmes {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+
+    .filme-card {
+        max-width: 120px;
+    }
+
+    .filme-card p {
+        font-size: 10px;
+    }
+}

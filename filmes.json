@@ -1,79 +1,425 @@
 {
-    "adult": false,
-    "backdrop_path": "/5IbxcBXZ5EhVAttfNDMPncikudr.jpg",
-    "belongs_to_collection": {
-        "id": 1494663,
-        "name": "Ballerina Collection",
-        "poster_path": "/xzAyYTHqWtLmqtscUr8cZqaP7lu.jpg",
-        "backdrop_path": null
-    },
-    "budget": 80000000,
-    "genres": [
+    "page": 1,
+    "results": [
         {
-            "id": 28,
-            "name": "Ação"
+            "adult": false,
+            "backdrop_path": "/a3F9cXjRH488qcOqFmFZwqawBMU.jpg",
+            "genre_ids": [
+                16,
+                28,
+                878
+            ],
+            "id": 1376434,
+            "original_language": "en",
+            "original_title": "Predator: Killer of Killers",
+            "overview": "Essa antologia animada original acompanha três dos guerreiros mais determinados da história da humanidade: uma pirata viking que guia o filho em uma busca sangrenta por vingança, um ninja no Japão feudal que se volta contra o irmão samurai em uma batalha brutal pela sucessão e um piloto da Segunda Guerra Mundial que voa para investigar uma ameaça sobrenatural à causa aliada.",
+            "popularity": 837.6076,
+            "poster_path": "/j9mnvnCP8N9YjpoGiiLqwSTnFs1.jpg",
+            "release_date": "2025-06-05",
+            "title": "Predador: Assassino de Assassinos",
+            "video": false,
+            "vote_average": 7.985,
+            "vote_count": 344,
+            "data_formatada": "05-06-2025"
         },
         {
-            "id": 53,
-            "name": "Thriller"
+            "adult": false,
+            "backdrop_path": "/yBDvgpyynDsbMyK21FoQu1c2wYR.jpg",
+            "genre_ids": [
+                9648,
+                80,
+                53
+            ],
+            "id": 870028,
+            "original_language": "en",
+            "original_title": "The Accountant²",
+            "overview": "Quando um conhecido é assassinado, deixando para trás uma mensagem enigmática, Christian Wolff se sente compelido a resolver o caso. Percebendo que medidas extremas são necessárias, Wolff recruta seu irmão distante e altamente letal, Brax, e os dois descobrem uma conspiração mortal, tornando-se alvos de uma rede de assassinos.",
+            "popularity": 694.8593,
+            "poster_path": "/9PeHTmjKQJWX51md4pR4OYmQJ4r.jpg",
+            "release_date": "2025-04-23",
+            "title": "O Contador 2",
+            "video": false,
+            "vote_average": 7.229,
+            "vote_count": 608,
+            "data_formatada": "23-04-2025"
         },
         {
-            "id": 80,
-            "name": "Crime"
-        }
-    ],
-    "homepage": "https://bailarinaofilme.com.br/?location=salvador-ba&lat=-12.9916685&lng=-38.4451477",
-    "id": 541671,
-    "imdb_id": "tt7181546",
-    "origin_country": [
-        "US"
-    ],
-    "original_language": "en",
-    "original_title": "Ballerina",
-    "overview": "A história de uma jovem assassina nas tradições dos Ruska Roma para buscar vingança contra aqueles que destruíram sua família.",
-    "popularity": 218.1069,
-    "poster_path": "/41VBHhbwWAP4saoKrAhAjNILR3u.jpg",
-    "production_companies": [
-        {
-            "id": 3528,
-            "logo_path": "/cCzCClIzIh81Fa79hpW5nXoUsHK.png",
-            "name": "Thunder Road",
-            "origin_country": "US"
+            "adult": false,
+            "backdrop_path": "/7Zx3wDG5bBtcfk8lcnCWDOLM4Y4.jpg",
+            "genre_ids": [
+                10751,
+                35,
+                878,
+                12
+            ],
+            "id": 552524,
+            "original_language": "en",
+            "original_title": "Lilo & Stitch",
+            "overview": "Stitch, um alienígena, chega ao planeta Terra após fugir de sua prisão e tenta se passar por um cachorro para se camuflar. As coisas mudam quando Lilo, uma travessa menina, o adota de um abrigo de animais. Juntos, eles aprendem os valores da amizade e família.",
+            "popularity": 492.6436,
+            "poster_path": "/toLU4HzWf2iKqPbElKPDypKNGTr.jpg",
+            "release_date": "2025-05-17",
+            "title": "Lilo & Stitch",
+            "video": false,
+            "vote_average": 7.117,
+            "vote_count": 579,
+            "data_formatada": "17-05-2025"
         },
         {
-            "id": 23008,
-            "logo_path": "/5SarYupipdiejsEqUkwu1SpYfru.png",
-            "name": "87Eleven",
-            "origin_country": "US"
+            "adult": false,
+            "backdrop_path": "/8SaEH4kYCy7JlviyhKtSVsMkt4r.jpg",
+            "genre_ids": [
+                28,
+                53
+            ],
+            "id": 1315988,
+            "original_language": "es",
+            "original_title": "Mikaela",
+            "overview": "Quando uma nevasca bloqueia uma estrada, uma gangue de ladrões aproveita para roubar um carro-forte, estragando a noite de um policial que só queria chegar em casa.",
+            "popularity": 452.527,
+            "poster_path": "/u6wH4qL0Hi611QoChzFXm7KoHYY.jpg",
+            "release_date": "2025-01-31",
+            "title": "Mikaela",
+            "video": false,
+            "vote_average": 6.3,
+            "vote_count": 37,
+            "data_formatada": "31-01-2025"
         },
         {
-            "id": 1632,
-            "logo_path": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
-            "name": "Lionsgate",
-            "origin_country": "US"
-        }
-    ],
-    "production_countries": [
+            "adult": false,
+            "backdrop_path": "/nAxGnGHOsfzufThz20zgmRwKur3.jpg",
+            "genre_ids": [
+                27,
+                53,
+                28
+            ],
+            "id": 1233413,
+            "original_language": "en",
+            "original_title": "Sinners",
+            "overview": "Dispostos a deixar suas vidas conturbadas para trás, irmãos gêmeos retornam à sua cidade natal para recomeçar suas vidas do zero, quando descobrem que um mal ainda maior está à espera deles para recebê-los de volta.",
+            "popularity": 433.1928,
+            "poster_path": "/a9kYEboW1TQaeilGYUAx1MO0DUp.jpg",
+            "release_date": "2025-04-16",
+            "title": "Pecadores",
+            "video": false,
+            "vote_average": 7.529,
+            "vote_count": 1341,
+            "data_formatada": "16-04-2025"
+        },
         {
-            "iso_3166_1": "US",
-            "name": "United States of America"
-        }
-    ],
-    "release_date": "2025-06-04",
-    "revenue": 52560787,
-    "runtime": 125,
-    "spoken_languages": [
+            "adult": false,
+            "backdrop_path": "/rU9kRB3rBU5O7AMReZCiuIy7zmE.jpg",
+            "genre_ids": [
+                28,
+                18,
+                12
+            ],
+            "id": 1450599,
+            "original_language": "fr",
+            "original_title": "K.O.",
+            "overview": "Um ex-lutador precisa encontrar o filho desaparecido de um adversário que matou acidentalmente há vários anos. Para isso, ele vai ter que encarar uma gangue violenta.",
+            "popularity": 398.0414,
+            "poster_path": "/o0brhd2qdfFL3o7VxFDsUfUSaML.jpg",
+            "release_date": "2025-06-05",
+            "title": "K.O.",
+            "video": false,
+            "vote_average": 6.885,
+            "vote_count": 65,
+            "data_formatada": "05-06-2025"
+        },
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
+            "adult": false,
+            "backdrop_path": "/wvr3Nh8TALWbmATrnlNg5Vhf6d3.jpg",
+            "genre_ids": [
+                53,
+                18
+            ],
+            "id": 1426776,
+            "original_language": "en",
+            "original_title": "STRAW",
+            "overview": "Até onde ela vai aguentar? Após um dia devastador, uma mãe solo dedicada chega ao seu limite e comete um ato de desespero que ninguém poderia prever.",
+            "popularity": 339.5638,
+            "poster_path": "/t3nmSPWX5MOKdpAuTb2t5g69BT3.jpg",
+            "release_date": "2025-06-05",
+            "title": "Até a Última Gota",
+            "video": false,
+            "vote_average": 8.31,
+            "vote_count": 189,
+            "data_formatada": "05-06-2025"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/v67tbCB03CMcJRWit8CS7JdJp6.jpg",
+            "genre_ids": [
+                28,
+                53,
+                18
+            ],
+            "id": 757725,
+            "original_language": "en",
+            "original_title": "Shadow Force",
+            "overview": "Kyrah e Isaac já foram líderes de um grupo multinacional de forças especiais chamado Shadow Force. Eles quebraram as regras ao se apaixonarem e, para proteger o filho, se rebelaram contra a instituição. Com uma grande recompensa pelas suas cabeças e a vingativa Shadow Force à procura deles, liderada pelo antigo chefe da dupla, a luta dessa família vai se tornar uma guerra.",
+            "popularity": 258.9077,
+            "poster_path": "/buiy7xS3Q78ii3HWFKL2GIoMu4N.jpg",
+            "release_date": "2025-05-01",
+            "title": "Shadow Force – Sentença de Morte",
+            "video": false,
+            "vote_average": 6.325,
+            "vote_count": 63,
+            "data_formatada": "01-05-2025"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/2Nti3gYAX513wvhp8IiLL6ZDyOm.jpg",
+            "genre_ids": [
+                10751,
+                35,
+                12,
+                14
+            ],
+            "id": 950387,
+            "original_language": "en",
+            "original_title": "A Minecraft Movie",
+            "overview": "Quatro desajustados enfrentam problemas comuns do dia a dia quando, de repente, são sugados por um portal misterioso para o Overworld: uma terra fascinante e cúbica, movida pela imaginação. Para voltarem para casa, eles precisarão dominar esse novo mundo enquanto embarcam em uma jornada mágica ao lado de um crafter experiente e inesperado: Steve.",
+            "popularity": 252.1918,
+            "poster_path": "/4VtkIaj76TpQNfhDHXQDdT9uBN5.jpg",
+            "release_date": "2025-03-31",
+            "title": "Um Filme Minecraft",
+            "video": false,
+            "vote_average": 6.5,
+            "vote_count": 1744,
+            "data_formatada": "31-03-2025"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/uIpJPDNFoeX0TVml9smPrs9KUVx.jpg",
+            "genre_ids": [
+                27,
+                9648
+            ],
+            "id": 574475,
+            "original_language": "en",
+            "original_title": "Final Destination Bloodlines",
+            "overview": "Atormentada por um pesadelo violento recorrente, a estudante universitária Stefanie volta para casa para encontrar a única pessoa que pode quebrar o ciclo e salvar sua família do destino horrível que inevitavelmente os aguarda.",
+            "popularity": 240.0116,
+            "poster_path": "/niTRdfNCT29PXU9YpPPuISrBIw7.jpg",
+            "release_date": "2025-05-14",
+            "title": "Premonição 6: Laços de Sangue",
+            "video": false,
+            "vote_average": 7.0,
+            "vote_count": 625,
+            "data_formatada": "14-05-2025"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/fTrQsdMS2MUw00RnzH0r3JWHhts.jpg",
+            "genre_ids": [
+                28,
+                80,
+                53
+            ],
+            "id": 1197306,
+            "original_language": "en",
+            "original_title": "A Working Man",
+            "overview": "Ele quer viver uma vida simples e ser um bom pai para sua filha. Mas quando a filha adolescente de seu chefe, Jenny, desaparece, ele é chamado para reempregar as habilidades que o tornaram uma figura lendária nas operações secretas.",
+            "popularity": 223.2384,
+            "poster_path": "/iT6yYCAuMQwm1PV4nByrsrsIOhG.jpg",
+            "release_date": "2025-03-26",
+            "title": "Resgate Implacável",
+            "video": false,
+            "vote_average": 6.674,
+            "vote_count": 1209,
+            "data_formatada": "26-03-2025"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/5IbxcBXZ5EhVAttfNDMPncikudr.jpg",
+            "genre_ids": [
+                28,
+                53,
+                80
+            ],
+            "id": 541671,
+            "original_language": "en",
+            "original_title": "Ballerina",
+            "overview": "A história de uma jovem assassina nas tradições dos Ruska Roma para buscar vingança contra aqueles que destruíram sua família.",
+            "popularity": 218.1069,
+            "poster_path": "/41VBHhbwWAP4saoKrAhAjNILR3u.jpg",
+            "release_date": "2025-06-04",
+            "title": "Bailarina - Do Universo de John Wick",
+            "video": false,
+            "vote_average": 7.143,
+            "vote_count": 185,
+            "data_formatada": "04-06-2025"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/iZcknWnGqXNJFEb9YrxT7q21KJ.jpg",
+            "genre_ids": [
+                28,
+                36,
+                12
+            ],
+            "id": 30484,
+            "original_language": "en",
+            "original_title": "Warrior Queen",
+            "overview": "",
+            "popularity": 209.982,
+            "poster_path": "/P0j17mJRpSIZOglbtPkakHSD1S.jpg",
+            "release_date": "1987-01-26",
+            "title": "Warrior Queen",
+            "video": false,
+            "vote_average": 3.4,
+            "vote_count": 30,
+            "data_formatada": "26-01-1987"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/eQV9rSQ6S1ja4lGTwHTnQuVhoG.jpg",
+            "genre_ids": [
+                27,
+                35,
+                14,
+                18
+            ],
+            "id": 1284120,
+            "original_language": "no",
+            "original_title": "Den stygge stesøsteren",
+            "overview": "Em um reino de conto de fadas onde a beleza é um negócio brutal, Elvira luta para competir com sua meia-irmã incrivelmente linda, e ela fará de tudo para chamar a atenção do príncipe. Uma versão moderna e bem diferente do Conto da \"Cinderela\".",
+            "popularity": 189.6793,
+            "poster_path": "/mk4vGUy03tUCgJsOuwkYy877RYo.jpg",
+            "release_date": "2025-03-07",
+            "title": "A Meia-irmã Feia",
+            "video": false,
+            "vote_average": 7.1,
+            "vote_count": 147,
+            "data_formatada": "07-03-2025"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/aEG09hZZEDZ23Y9WYI701W6Gwnb.jpg",
+            "genre_ids": [
+                28,
+                12,
+                53
+            ],
+            "id": 575265,
+            "original_language": "en",
+            "original_title": "Mission: Impossible - The Final Reckoning",
+            "overview": "Depois de escapar de um acidente de trem calamitoso, Ethan percebe que a Entidade está escondida a bordo de um antigo submarino russo, mas um inimigo do seu passado chamado Gabriel também está no encalço.",
+            "popularity": 176.4264,
+            "poster_path": "/5izmRuuqPh9Uq1xJU1EizdUBi6b.jpg",
+            "release_date": "2025-05-17",
+            "title": "Missão: Impossível - O Acerto Final",
+            "video": false,
+            "vote_average": 7.2,
+            "vote_count": 719,
+            "data_formatada": "17-05-2025"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/rRIz3KweJDjnJ4GtCZJT3JPEYgL.jpg",
+            "genre_ids": [
+                28,
+                12
+            ],
+            "id": 1411773,
+            "original_language": "en",
+            "original_title": "The Last Stand of Ellen Cole",
+            "overview": "Um empreiteiro quer expulsar uma idosa... sem saber que ela é uma assassina treinada que fará de tudo para proteger sua casa.",
+            "popularity": 173.0453,
+            "poster_path": "/53UBk4UZL0s6bRXLkZB2TSHiqRg.jpg",
+            "release_date": "2024-10-18",
+            "title": "The Last Stand of Ellen Cole",
+            "video": false,
+            "vote_average": 8.237,
+            "vote_count": 19,
+            "data_formatada": "18-10-2024"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/7HqLLVjdjhXS0Qoz1SgZofhkIpE.jpg",
+            "genre_ids": [
+                28,
+                10751,
+                14
+            ],
+            "id": 1087192,
+            "original_language": "en",
+            "original_title": "How to Train Your Dragon",
+            "overview": "Filho cheio de imaginação, mas negligenciado, do Chefe Stoico, Soluço desafia séculos de tradição quando faz amizade com Banguela, um temido dragão Fúria da Noite. Seu vínculo improvável revela a verdadeira natureza dos dragões, desafiando os próprios fundamentos da sociedade viking. Com a feroz e ambiciosa Astrid e o peculiar ferreiro Bocão Bonarroto ao seu lado, Soluço confronta um mundo dilacerado pelo medo e por mal-entendidos. Quando uma antiga ameaça reaparece, colocando em perigo tanto os vikings quanto os dragões, a amizade de Soluço e Banguela se torna a chave para forjar um novo futuro. Juntos, eles devem trilhar o delicado caminho em direção à paz, ultrapassando os limites de seus mundos e redefinindo o que significa ser herói e líder.",
+            "popularity": 161.8115,
+            "poster_path": "/vdvEClt3J8sFWxyMo0Jm7JpouEo.jpg",
+            "release_date": "2025-06-06",
+            "title": "Como Treinar o Seu Dragão",
+            "video": false,
+            "vote_average": 7.606,
+            "vote_count": 85,
+            "data_formatada": "06-06-2025"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/d53MM15mO9EEiHzNlfvJK0otaaM.jpg",
+            "genre_ids": [
+                10751,
+                14
+            ],
+            "id": 1241894,
+            "original_language": "de",
+            "original_title": "Woodwalkers",
+            "overview": "Carag, um puma metamorfo criado na natureza, ingressa na Clearwater High, uma escola para Woodwalkers. Com os amigos Holly (esquilo) e Brandon (bisão), ele navega pelos mistérios e perigos do mundo Woodwalker.",
+            "popularity": 141.9532,
+            "poster_path": "/n84V8SLmc7242ltKRePD5uvP8Xb.jpg",
+            "release_date": "2024-10-17",
+            "title": "Woodwalkers",
+            "video": false,
+            "vote_average": 6.14,
+            "vote_count": 25,
+            "data_formatada": "17-10-2024"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/dTGECn8He16tZeBHQTLf6rVydE8.jpg",
+            "genre_ids": [
+                80,
+                53,
+                18
+            ],
+            "id": 302946,
+            "original_language": "en",
+            "original_title": "The Accountant",
+            "overview": "O matemático Christian Wolff sente-se muito mais à vontade lidando com números do que com pessoas. Atualmente, trabalha como contador autônomo para uma das maiores organizações criminosas do mundo. Com a receita federal no encalço, ele resolve mudar de ares e atender um novo cliente, uma empresa de equipamentos robóticos onde um dos funcionários descobriu um desvio gigantesco de recursos. À medida que Christian se aprofunda nos registros da empresa e se aproxima da verdade, o número de cadáveres começa a crescer rapidamente.",
+            "popularity": 141.3706,
+            "poster_path": "/br5SjDttw1AwAiTfneWxZBBaqjC.jpg",
+            "release_date": "2016-10-13",
+            "title": "O Contador",
+            "video": false,
+            "vote_average": 7.119,
+            "vote_count": 6698,
+            "data_formatada": "13-10-2016"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/6G2fLCVm9fiLyHvBrccq6GSe2ih.jpg",
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "id": 284053,
+            "original_language": "en",
+            "original_title": "Thor: Ragnarok",
+            "overview": "Thor está preso do outro lado do universo. Ele precisa correr contra o tempo para voltar a Asgard e parar Ragnarok, a destruição de seu mundo, que está nas mãos da poderosa e implacável vilã Hela.",
+            "popularity": 139.0792,
+            "poster_path": "/2K45Fp6koAVoeeYS6aMb9BeNt4F.jpg",
+            "release_date": "2017-10-02",
+            "title": "Thor: Ragnarok",
+            "video": false,
+            "vote_average": 7.584,
+            "vote_count": 21166,
+            "data_formatada": "02-10-2017"
         }
     ],
-    "status": "Released",
-    "tagline": "A vingança tem uma nova cara",
-    "title": "Bailarina - Do Universo de John Wick",
-    "video": false,
-    "vote_average": 7.1,
-    "vote_count": 190,
-    "data_formatada": "04-06-2025"
+    "total_pages": 53498,
+    "total_results": 1069952
 }
