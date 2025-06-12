@@ -10,6 +10,8 @@ class CriarTabelas:
         nome_banco = os.getenv("MYSQLDATABASE")  # Banco criado automaticamente pelo Railway
         self.cursor.execute(f"USE {nome_banco}")
 
+        self.cursor.execute("ALTER TABLE usuarios MODIFY senha VARCHAR(255);")
+
         self.cursor.execute("""
             CREATE TABLE IF NOT EXISTS usuarios (
                 id_usuario INT AUTO_INCREMENT PRIMARY KEY,
