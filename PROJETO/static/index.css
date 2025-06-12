@@ -9,13 +9,20 @@
     box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+
 /* Estilo do corpo da página com layout em coluna e fundo com gradiente */
 body {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to right, rgb(10, 165, 210), rgb(60, 35, 155));
+    background-repeat: no-repeat;/*esse*/
+    background-attachment: fixed; /*esse*/
 }
-
 /* Header (cabeçalho) com layout em coluna */
 header {
     display: flex;
@@ -388,3 +395,75 @@ strong {
     color: black;
 }
 
+@media (max-width: 992px) {
+    #cabecario {
+        flex-direction: row; /* linha, não coluna */
+        align-items: center; /* ou flex-start se preferir */
+        gap: 10px;
+    }
+
+    #p-header {
+        font-size: 28px;
+        width: auto;
+    }
+
+    #h2-header {
+        font-size: 45px;
+    }
+
+    .grid-filmes {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    form, input {
+        width: 100%;
+        max-width: 90%;
+    }
+}
+@media (max-width: 600px) {
+    #cabecario {
+        flex-direction: row; /* mantém os itens na horizontal */
+        align-items: center; /* alinha verticalmente ao centro */
+        gap: 10px;
+    }
+
+    #p-header {
+        font-size: 22px;
+        width: auto;
+        text-align: center;
+    }
+
+    #h2-header {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .grid-filmes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    form, input {
+        width: 100%;
+        max-width: 95%;
+    }
+
+    .menu {
+        width: 100%;
+        height: auto;
+    }
+
+    .menu > p {
+        width: 100%;
+    }
+     /* Sugestão para evitar overflow no login: */
+    #a-header-else {
+        white-space: normal;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+    .grid-filmes {
+        grid-template-columns: 1fr;
+    }
+}

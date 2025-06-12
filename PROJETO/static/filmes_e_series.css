@@ -6,6 +6,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+html, body {
+  height: 100%;
+  margin: 0;
+}
 
 body {
     display: flex;
@@ -13,7 +17,9 @@ body {
     margin: 0;
     min-height: 100vh;
     background: linear-gradient(to right, rgb(10, 154, 194), rgb(54, 32, 141));
-}
+    background-repeat: no-repeat;/*esse*/
+    background-attachment: fixed; /*esse*/
+}       
 
 header {
     display: flex;
@@ -23,7 +29,6 @@ header {
 
     
 }
-
 
 
 h2 {
@@ -128,6 +133,10 @@ h1{
 
 .a-header:hover {
     background-color: yellowgreen;
+}
+/*para evitar a quebra do login*/
+#a-header-else {
+  white-space: nowrap;
 }
 
 
@@ -276,4 +285,152 @@ p{
 /* Hover para o botão do header */
 #a-header-else:hover {
     background-color: yellowgreen;
+}
+
+/* Tablets - telas entre 769px e 1024px */
+@media (max-width: 1024px) and (min-width: 769px) {
+  main {
+    width: 90%;
+  }
+
+  #exibir-resultado {
+    width: 100%;
+  }
+
+  #ul-header {
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .grid-filmes {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+
+  .li-main {
+    max-width: 150px;
+  }
+
+  #cabecario {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  a {
+    font-size: 20px;
+  }
+
+  #a-header-else {
+    font-size: 14px;
+  }
+}
+
+/* Smartphones - até 768px */
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+  }
+
+  header {
+    padding: 10px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main {
+    width: 100%;
+    padding: 10px;
+  }
+
+  #exibir-resultado {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  #ul-header {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .grid-filmes {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .filme-card {
+    max-width: 150px;
+  }
+
+  .filme-card p {
+    font-size: 11px;
+  }
+
+  #cabecario {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+  }
+
+  h1, h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  a {
+    font-size: 18px;
+  }
+
+  #a-header-else {
+    white-space: normal;
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .menu {
+    width: 100%;
+    height: auto;
+  }
+
+  .menu > p {
+    width: 100%;
+  }
+}
+
+/* Smartphones muito pequenos - até 480px */
+@media (max-width: 480px) {
+  .grid-filmes {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+
+  .filme-card {
+    max-width: 120px;
+  }
+
+  .filme-card p {
+    font-size: 10px;
+  }
+
+  h2 {
+    font-size: 12px;
+    width: auto;
+    padding: 3px;
+    margin-top: 10px;
+  }
+
+  a {
+    font-size: 16px;
+  }
 }

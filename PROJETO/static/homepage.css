@@ -9,6 +9,11 @@
     box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 /* Estilo do corpo da página com layout em coluna e fundo com gradiente */
 body {
     display: flex;
@@ -372,11 +377,82 @@ p{  font-family: 'Epilogue', sans-serif;
     text-decoration: underline;
 }
 
+.filme-card p {
+        font-size: 10px;
+    }
+/* Tablets: telas entre 769px e 1024px */
+@media (max-width: 1024px) and (min-width: 769px) {
+    main {
+        width: 90%;
+    }
+
+    #cabecario {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        padding: 15px 20px;
+    }
+
+    #ul-header {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .grid-filmes {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+
+    .li-main {
+        max-width: 150px;
+    }
+
+    #a-header-else {
+        font-size: 16px;
+        padding: 8px 10px;
+    }
+}
+
+/* Smartphones: telas até 768px */
 @media (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    #cabecario {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #ul-header {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .a-header, #a-header-else {
+        font-size: 16px;
+        padding: 10px 15px;
+        width: auto;
+        white-space: nowrap;
+    }
+
     .grid-filmes {
         grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 12px;
         padding: 10px;
-        gap: 15px;
     }
 
     .filme-card {
@@ -388,7 +464,18 @@ p{  font-family: 'Epilogue', sans-serif;
     }
 }
 
+/* Smartphones pequenos: até 480px */
 @media (max-width: 480px) {
+    #cabecario {
+        padding: 8px;
+    }
+
+    .a-header, #a-header-else {
+        font-size: 14px;
+        padding: 8px 12px;
+        white-space: nowrap;
+    }
+
     .grid-filmes {
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     }
