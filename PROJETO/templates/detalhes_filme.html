@@ -130,15 +130,15 @@
             <div class="elenco-container">
                     <h1>Elenco</h1>
                     <ul class="elenco-lista">
-                    {% for ator in elenco %}
-                        <li>
-                        <img src="https://image.tmdb.org/t/p/w185{{ ator.profile_path }}" alt="{{ ator.name }}">
-                        <p><strong>{{ ator.name }}</strong><br><small>{{ ator.character }}</small></p>
-                                </li>
-                    {% endfor %}
+                        {% for ator in elenco %}
+                            <li>
+                            <img src="https://image.tmdb.org/t/p/w185{{ ator.profile_path }}" alt="{{ ator.name }}">
+                            <p><strong>{{ ator.name }}</strong><br><small>{{ ator.character }}</small></p>
+                                    </li>
+                        {% endfor %}
                     </ul>
-                </div> 
-            {% endif %}  
+            </div> 
+        {% endif %}  
         </main>
 
   

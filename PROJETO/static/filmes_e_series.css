@@ -18,7 +18,7 @@ body {
     min-height: 100vh;
     background: linear-gradient(to right, rgb(10, 154, 194), rgb(54, 32, 141));
     background-repeat: no-repeat;/*esse*/
-    background-attachment: fixed; /*esse*/
+    background-attachment: scroll; /*esse*/
 }       
 
 header {
@@ -289,6 +289,9 @@ p{
 
 /* Tablets - telas entre 769px e 1024px */
 @media (max-width: 1024px) and (min-width: 769px) {
+  body {
+    background-attachment: fixed;
+  }
   main {
     width: 90%;
   }
@@ -335,7 +338,7 @@ p{
 /* Smartphones - até 768px */
 @media (max-width: 768px) {
   body {
-    background-attachment: scroll;
+    background-attachment: fixed;
   }
 
   header {
@@ -378,6 +381,8 @@ p{
   }
 
   #cabecario {
+    width: 100%;
+    box-sizing: border-box; /* evita estouro */
     flex-direction: column;
     align-items: center;
     gap: 10px;

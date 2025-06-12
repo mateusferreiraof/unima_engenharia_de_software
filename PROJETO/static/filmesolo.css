@@ -82,12 +82,11 @@ main {
     padding: 20px 40px;
     max-height: 100px;
     
-
+}
 h1{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}    
-}
+}  
 
 #exibir-resultado {
     width: 750px;
@@ -304,16 +303,19 @@ strong {
 
 /* Estilo do rodapé */
 
-footer{
-    p{    
+footer {
+    width: 80%;
+    max-width: 1000px;
+    margin-left: 220px;
+    padding: 10px;
+    box-sizing: border-box;
+}
 
-    text-align: center;
+footer p {
+    text-align: left;  /* Alinha à esquerda, ou mude para 'center' se preferir */
     font-family: 'Times New Roman', Times, serif;
     color: white;
     font-size: 14px;
-    padding: 20px;
-
-}
 }
 
 #a-header-else {
