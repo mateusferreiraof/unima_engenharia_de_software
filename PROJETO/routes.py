@@ -1,5 +1,7 @@
 # Importa funções e objetos necessários do Flask
 from flask import render_template, redirect, request, session, url_for
+from werkzeug.security import generate_password_hash, check_password_hash
+
 
 # Importa a instância do Flask chamada "server" do pacote PROJETO
 from PROJETO import server
@@ -180,20 +182,24 @@ def validacao_login():
         email = request.form.get('email')
         senha = request.form.get('senha')
 
-        # Verifica se existe um usuário com o e-mail e senha fornecidos
-        cursor.execute("SELECT * FROM usuarios WHERE email = %s AND senha = %s", (email, senha))
+        # Busca usuário pelo e-mail
+        cursor.execute("SELECT * FROM usuarios WHERE email = %s", (email,))
         usuario = cursor.fetchone()
 
         if usuario:
-            # Se válido, salva na sessão o ID e o nome do usuário
-            session['usuario_id'] = usuario[0]
-            session['nome'] = usuario[1]
-            return redirect('/home')
-        
+            senha_hash = usuario[3]  # Coluna da senha no banco
+
+            # Verifica se a senha está correta
+            if check_password_hash(senha_hash, senha):
+                session['usuario_id'] = usuario[0]
+                session['nome'] = usuario[1]
+                return redirect('/home')
+
         mensagem = "E-mail ou senha inválidos. Tente novamente."
         return render_template("login.html", mensagem=mensagem)
 
     return render_template("login.html")
+
 
 # Rota para logout
 @server.route("/Sair")
@@ -239,6 +245,7 @@ def cadastrar_usuario():
         # Verifica se as senhas coincidem
         if senha != senha_confirmada:
             mensagem = "Senhas não coincidem. Tente novamente."
+            return render_template("cadastro.html", mensagem=mensagem)
         else:
             # Verifica se o e-mail já existe
             cursor.execute("SELECT * FROM usuarios WHERE email = %s", (email,))
@@ -247,8 +254,12 @@ def cadastrar_usuario():
             if resultado:
                 mensagem = "O e-mail já está cadastrado em nosso banco de dados, tente outro."
             else:
-                # Cadastra o novo usuário
-                cursor.execute("INSERT INTO usuarios (nome, email, senha, genero_usuario) VALUES (%s, %s, %s, %s)", (nome, email, senha, genero_usuario))
+                # Gera hash seguro da senha
+                senha_hash = generate_password_hash(senha)
+
+                # Cadastra o novo usuário com senha criptografada
+                cursor.execute("INSERT INTO usuarios (nome, email, senha, genero_usuario) VALUES (%s, %s, %s, %s)", (nome, email, senha_hash, genero_usuario))
+
                 mensagem = "Usuário cadastrado com sucesso!"
 
         # Confirma as alterações no banco
