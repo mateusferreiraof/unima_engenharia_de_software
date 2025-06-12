@@ -77,10 +77,11 @@ main {
 
 #cabecario {
     display: flex;
+    flex-wrap: wrap; /* permite quebrar linha se necessário */
     align-items: center;
     justify-content: space-between;
     padding: 20px 40px;
-    max-height: 100px;
+    gap: 10px;
     
 }
 h1{
@@ -312,7 +313,7 @@ footer {
 }
 
 footer p {
-    text-align: left;  /* Alinha à esquerda, ou mude para 'center' se preferir */
+    text-align: center;  
     font-family: 'Times New Roman', Times, serif;
     color: white;
     font-size: 14px;

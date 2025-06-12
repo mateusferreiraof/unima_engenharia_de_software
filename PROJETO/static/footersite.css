@@ -20,9 +20,9 @@ body {
     min-height: 100vh;
     background: linear-gradient(to right, rgb(10, 165, 210), rgb(60, 35, 155));
     font-family: sans-serif;
-    background-repeat: no-repeat;/*esse*/
     background-size: cover;
-    background-attachment: scroll; /*esse*/
+    background-attachment: fixed; /*esse*/
+    
 }
 
 
@@ -33,6 +33,7 @@ header {
     flex-direction: column;
     background: linear-gradient(to right, rgb(3, 118, 150), rgb(45, 26, 131));
     box-shadow: #cccccc;
+    padding: 10px; 
 
 }
 /* Título principal h1*/
@@ -445,32 +446,10 @@ footer {
     width: 95%;
   }
 
-  footer {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  #imagem-footer {
-    width: 70px;
-  }
-
   .li-main {
     display: block;
     margin: 10px auto;
     text-align: center;
-  }
-
-  .menu {
-    right: auto;
-    left: 0;
-    width: 100%;
-  }
-
-  .menu > p {
-    width: 100%;
-    font-size: 20px;
-    padding: 10px 0;
   }
 
   a, .a-header, #a-header-else {
@@ -519,9 +498,15 @@ footer {
   }
 
   #cabecario {
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     padding: 10px;
+  }
+  .header-title {
+    font-size: 24px; /* reduz tamanho */
+    color: white;    /* cor branca */
+    text-align: center;
   }
 
   #h2-header {
@@ -556,16 +541,5 @@ footer {
     display: block;
     margin: 10px auto;
     text-align: center;
-  }
-
-  .menu {
-    position: static;
-    width: 100%;
-  }
-
-  .menu > p {
-    font-size: 18px;
-    padding: 8px 0;
-    width: 100%;
   }
 }

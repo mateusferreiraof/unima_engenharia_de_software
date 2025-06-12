@@ -17,16 +17,17 @@ html, body {
 
 /* Estilo do corpo da página com layout em coluna e fundo com gradiente */
 body {
-    display: flex;
-    flex-direction: column;
-    background: linear-gradient(to right, rgb(10, 165, 210), rgb(60, 35, 155));
-    background-repeat: no-repeat;/*esse*/
-    background-attachment: fixed; /*esse*/
+     background: linear-gradient(to right, rgb(3, 118, 150), rgb(45, 26, 131));
+    padding: 10px;
+    min-height: 100vh;
 }
 /* Header (cabeçalho) com layout em coluna */
 header {
-    display: flex;
-    flex-direction: column;
+    position: fixed;  /* ou fixed, se quiser que fique fixo no topo */
+    z-index: 10;         /* valor maior para ficar acima das imagens */
+    background: linear-gradient(to right, rgb(3, 118, 150), rgb(45, 26, 131));
+    box-shadow: #cccccc;
+    padding: 10px;
 }
 
 /* Título principal */
@@ -121,11 +122,11 @@ strong {
 
 /* Lista principal de filmes/séries */
 .grid-filmes {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* mais responsivo */
-    gap: 20px;
-    padding: 20px;
-    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;  /* espaço entre os filmes */
+    padding: 10px;
 }
 
 .filme-card {
@@ -133,7 +134,9 @@ strong {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
-    max-width: 200px;
+    max-width: 150px;
+    flex: 1 1 45%;
+    box-sizing: border-box;
 }
 
 .filme-card img {
@@ -441,7 +444,14 @@ strong {
     }
 
     .grid-filmes {
+        display: grid;
         grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 10px;
+        justify-items: center;
+    }
+    .filme-card {
+        max-width: 140px;
+        flex: none;
     }
 
     form, input {
@@ -467,5 +477,9 @@ strong {
 @media (max-width: 400px) {
     .grid-filmes {
         grid-template-columns: 1fr;
+        
+    }
+    .filme-card {
+        max-width: 100%;
     }
 }

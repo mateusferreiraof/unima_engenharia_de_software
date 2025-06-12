@@ -17,7 +17,6 @@ body {
     margin: 0;
     min-height: 100vh;
     background: linear-gradient(to right, rgb(10, 154, 194), rgb(54, 32, 141));
-    background-repeat: no-repeat;/*esse*/
     background-attachment: scroll; /*esse*/
 }       
 
@@ -71,19 +70,18 @@ main {
 
 
 #cabecario {
-    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding: 20px 40px;
-    max-height: 100px;
+    gap: 10px;
+    padding: 10px 20px;
+    flex-wrap: wrap; /* NOVO */
     
+}
 
 h1{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}    
-}
-
+}  
 #exibir-resultado {
     width: 750px;
     margin: auto;
@@ -94,9 +92,10 @@ h1{
 
 
 #ul-header {
-    width: 750px;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
 }
 
 #ul-main {
