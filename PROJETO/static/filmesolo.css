@@ -388,3 +388,8 @@ footer{
 .menu > p > a:hover {
     text-decoration: underline;
 }
+
+/* Hover do ícone do header */
+#icone-header:hover {
+    background-color: yellowgreen;
+}
