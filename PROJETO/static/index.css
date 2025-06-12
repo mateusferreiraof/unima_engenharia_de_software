@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Reset de margens, paddings e define box-sizing */
+/* Reset de margens, paddings e define box-sizing */
 * {
     padding: 0;
     margin: 0;
@@ -17,9 +18,14 @@ html, body {
 
 /* Estilo do corpo da página com layout em coluna e fundo com gradiente */
 body {
-     background: linear-gradient(to right, rgb(3, 118, 150), rgb(45, 26, 131));
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: linear-gradient(to right, rgb(3, 118, 150), rgb(45, 26, 131));
+    box-shadow: #cccccc;
     padding: 10px;
-    min-height: 100vh;
 }
 /* Header (cabeçalho) com layout em coluna */
 header {
@@ -444,14 +450,7 @@ strong {
     }
 
     .grid-filmes {
-        display: grid;
         grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-        gap: 10px;
-        justify-items: center;
-    }
-    .filme-card {
-        max-width: 140px;
-        flex: none;
     }
 
     form, input {
@@ -477,9 +476,5 @@ strong {
 @media (max-width: 400px) {
     .grid-filmes {
         grid-template-columns: 1fr;
-        
-    }
-    .filme-card {
-        max-width: 100%;
     }
 }
