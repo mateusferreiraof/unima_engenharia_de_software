@@ -25,15 +25,11 @@ body {
 }
 
 header {
-    min-height: 60px;
-}
-
-header {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(to right, rgb(3, 118, 150), rgb(45, 26, 131));
     box-shadow: #cccccc;
     background-repeat: no-repeat;/*esse*/
+    min-height: 60px;
 }
 
 
@@ -331,4 +327,65 @@ footer{
     padding: 20px;
 
 }
+}
+
+#a-header-else {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Hover para o botão do header */
+#a-header-else:hover {
+    background-color: yellowgreen;
+}
+
+/* Ícone clicável no header */
+#icone-header {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px;
+}
+#menu-toggle:checked + .menu-icon + .menu {
+  display: block;
+}
+
+/* Menu dropdown oculto por padrão */
+.menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    background: linear-gradient(to right, rgb(10, 165, 210), rgb(60, 35, 155));
+    width: 375px;
+    height: 160px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Parágrafos dentro do menu */
+.menu > p {
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    width: 350px;
+    border: 1px solid white;
+    background: linear-gradient(to right, rgb(10, 165, 210) 10%, rgb(10, 165, 210) 15%, rgb(60, 35, 155) 70%, rgb(60, 35, 155) 100%);
+}
+
+/* Links dentro dos parágrafos do menu */
+.menu > p > a {
+    color: white;
+}
+
+/* Hover nos links do menu */
+.menu > p > a:hover {
+    text-decoration: underline;
+}
+
+/* Hover do ícone do header */
+#icone-header:hover {
+    background-color: yellowgreen;
 }
