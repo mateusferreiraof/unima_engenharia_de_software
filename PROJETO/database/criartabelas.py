@@ -15,7 +15,7 @@ class CriarTabelas:
                 id_usuario INT AUTO_INCREMENT PRIMARY KEY,
                 nome VARCHAR(100) NOT NULL,
                 email VARCHAR(100) UNIQUE NOT NULL,
-                senha VARCHAR(100) NOT NULL,
+                senha VARCHAR(255) NOT NULL,
                 genero_usuario VARCHAR(10)
             ) DEFAULT CHARSET = utf8mb4
         """)
