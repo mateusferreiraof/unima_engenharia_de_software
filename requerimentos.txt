@@ -5,6 +5,7 @@ pip install PyMySQL
 pip install python-dotenv
 pip install cryptography
 pip install requests
+pip install gunicorn
 
 Tenha o banco de dados MySQL instalado em sua máquina, para que o código crie o banco de dados e suas tabelas.
 
@@ -17,3 +18,92 @@ DB_NAME=nomedobanco
 DB_PORT=portadobanco
 
 Código em desenvolvimento e sendo melhorado, alguns ajustes ainda serão implementados.
+
+# Requisitos do Sistema "PopCorn Movies"
+
+Este documento detalha os requisitos funcionais e não-funcionais do sistema web "PopCorn Movies", baseados na análise dos arquivos HTML, CSS e Python fornecidos.
+
+## 1. Requisitos Funcionais (RF)
+
+Os requisitos funcionais descrevem o que o sistema DEVE fazer.
+
+### 1.1. Gerenciamento de Usuários
+
+* RF001 - Cadastro de Usuário:** O sistema DEVE permitir que novos usuários se cadastrem.
+    * RF001.1 - Campos de Cadastro:** O cadastro DEVE incluir os campos: Nome (obrigatório, 5 a 15 caracteres), E-mail (obrigatório, formato válido, único), Senha (obrigatório, 8 a 32 caracteres) e Confirmação de Senha (obrigatório, DEVE ser idêntica à Senha). O campo Gênero é opcional.
+    * RF001.2 - Validação de Cadastro:** O sistema DEVE validar os dados de entrada do formulário de cadastro, incluindo unicidade do e-mail.
+    * RF001.3 - Feedback de Cadastro:** O sistema DEVE exibir mensagens de sucesso ou erro (ex: "Usuário cadastrado com sucesso!", "Erro: E-mail já cadastrado.") após a submissão do formulário.
+* RF002 - Autenticação de Usuário (Login):** O sistema DEVE permitir que usuários registrados façam login.
+    * RF002.1 - Campos de Login:** O login DEVE incluir os campos: E-mail (obrigatório) e Senha (obrigatório).
+    * RF002.2 - Validação de Login:** O sistema DEVE validar as credenciais fornecidas no login.
+    * RF002.3 - Feedback de Login:** O sistema DEVE exibir mensagens de sucesso ou erro (ex: "E-mail ou senha incorretos.") após a tentativa de login.
+* RF003 - Recuperação de Senha:** O sistema DEVE possuir uma funcionalidade para recuperação de senha (status: em desenvolvimento).
+* RF004 - Exibição de Nome de Usuário:** O sistema DEVE exibir o nome do usuário logado no cabeçalho das páginas de navegação.
+* RF005 - Persistência de Dados de Usuário:** O sistema DEVE armazenar dados de usuários (id_usuario, nome, email, senha, genero_usuario) na tabela `usuarios` do banco de dados `cadastro`.
+
+### 1.2. Navegação e Exibição de Conteúdo
+
+* RF006 - Página Inicial (Homepage):** O sistema DEVE apresentar uma página inicial com uma barra de navegação para as seções "Início", "Filmes" e "Séries".
+* RF007 - Listagem de Filmes:** O sistema DEVE exibir filmes categorizados como "Populares" e "Os Mais Avaliados".
+    * RF007.1 - Detalhes do Filme:** Para cada filme, o sistema DEVE exibir o pôster, título, data de lançamento e nota de avaliação (arredondada para uma casa decimal).
+    * RF007.2 - Tooltip de Filme:** Ao passar o mouse sobre o pôster de um filme, o sistema DEVE exibir um tooltip com a sinopse e os gêneros do filme.
+    * RF007.3 - Paginação de Filmes:** O sistema DEVE permitir a navegação entre as páginas da lista de filmes ("Anterior" e "Próxima").
+* RF008 - Listagem de Séries:** O sistema DEVE exibir séries categorizadas como "Mais Avaliadas" e "Tv shows e Séries".
+    * RF008.1 - Detalhes da Série:** Para cada série, o sistema DEVE exibir o pôster, título e data de lançamento.
+    * RF008.2 - Tooltip de Série:** Ao passar o mouse sobre o pôster de uma série, o sistema DEVE exibir um tooltip com a sinopse, país de origem, gêneros e nota de avaliação (arredondada para uma casa decimal).
+    * RF008.3 - Paginação de Séries:** O sistema DEVE permitir a navegação entre as páginas da lista de séries ("Anterior" e "Próxima").
+
+### 1.3. Páginas Informativas e de Suporte
+
+* RF009 - Página "Sobre Nós":** O sistema DEVE conter uma página com informações sobre o projeto e a equipe.
+* RF010 - Página "Contato":** O sistema DEVE conter uma página de contato.
+* RF011 - Página "Suporte":** O sistema DEVE conter uma página dedicada ao suporte ao usuário.
+* RF012 - Página "Política de Privacidade":** O sistema DEVE apresentar uma página detalhando a política de privacidade.
+* RF013 - Página "Termos de Uso":** O sistema DEVE apresentar uma página com os termos de uso da plataforma.
+
+### 1.4. Integração com Banco de Dados
+
+* RF014 - Conexão ao Banco de Dados:** O sistema DEVE ser capaz de estabelecer conexão com um banco de dados MySQL/MariaDB utilizando as credenciais configuradas via variáveis de ambiente.
+* RF015 - Criação do Banco de Dados:** O sistema DEVE ser capaz de criar o banco de dados `cadastro` se ele não existir, utilizando o charset UTF8.
+* RF016 - Criação de Tabelas:** O sistema DEVE ser capaz de criar as tabelas `usuarios`, `filmes` e `series` no banco de dados `cadastro` se elas não existirem, com as seguintes estruturas:
+    * `usuarios`**: `id_usuario` (INT, PK, AI), `nome` (VARCHAR(100), NOT NULL), `email` (VARCHAR(100), UNIQUE, NOT NULL), `senha` (VARCHAR(100), NOT NULL), `genero_usuario` (VARCHAR(10)).
+    * `filmes`**: `id_filme` (INT, PK, AI), `titulo_filme` (VARCHAR(100), UNIQUE), `descricao_filme` (VARCHAR(300)), `data_de_lancamento` (DATE), `genero_filme` (VARCHAR(50)), `ano_do_filme` (YEAR).
+    * `series`**: `id_serie` (INT, PK, AI), `titulo_serie` (VARCHAR(100), UNIQUE), `descricao_serie` (VARCHAR(300)), `data_de_lancamento` (DATE), `genero_serie` (VARCHAR(50)), `ano_da_serie` (YEAR).
+* RF017 - Persistência de Dados de Conteúdo:** O sistema DEVE ser capaz de armazenar e recuperar informações de filmes e séries nas tabelas `filmes` e `series`, respectivamente.
+
+## 2. Requisitos Não-Funcionais (RNF)
+
+Os requisitos não-funcionais descrevem como o sistema DEVE funcionar.
+
+### 2.1. Desempenho
+
+* RNF001 - Tempo de Resposta:** As páginas do sistema (especialmente as listagens de filmes e séries) DEVE carregar em um tempo razoável para proporcionar uma boa experiência ao usuário.
+* RNF002 - Eficiência do Banco de Dados:** As operações de banco de dados (conexão, criação de banco/tabelas, inserção, consulta) DEVE ser eficientes.
+
+### 2.2. Usabilidade
+
+* RNF003 - Interface Intuitiva:** A interface do usuário DEVE ser intuitiva e fácil de navegar para usuários de diferentes níveis de familiaridade com a web.
+* RNF004 - Consistência Visual:** O design e a estilização DEVE ser consistentes em todas as páginas do site, utilizando padrões CSS definidos.
+* RNF005 - Feedback ao Usuário:** O sistema DEVE fornecer feedback claro e oportuno ao usuário sobre suas ações (ex: mensagens de sucesso, erro, campos obrigatórios).
+
+### 2.3. Segurança
+
+* RNF006 - Proteção de Credenciais:** As credenciais de acesso ao banco de dados DEVE ser gerenciadas de forma segura, utilizando variáveis de ambiente para evitar exposição direta no código.
+* RNF007 - Validação de Entrada:** O sistema DEVE implementar validação de entrada de dados para proteger contra vulnerabilidades comuns como injeção de SQL e Cross-Site Scripting (XSS), especialmente nos formulários de cadastro e login.
+* RNF008 - Armazenamento de Senha:** O sistema DEVE armazenar as senhas de forma segura (idealmente, hash e salt) e não em texto claro (inferido que a tabela `usuarios` armazena a senha, mas o método de hashing não foi especificado nos arquivos Python).
+
+### 2.4. Manutenibilidade
+
+* RNF009 - Código Modular:** O código-fonte DEVE ser modular e bem organizado, com separação de responsabilidades entre frontend (HTML/CSS) e backend (Python), e funções de banco de dados em módulos separados.
+* RNF010 - Comentários no Código:** O código DEVE conter comentários relevantes para facilitar o entendimento, a depuração e a manutenção futura.
+* RNF011 - Fácil Configuração:** A configuração da conexão com o banco de dados DEVE ser simplificada através do uso de variáveis de ambiente.
+
+### 2.5. Confiabilidade
+
+* RNF012 - Tratamento de Erros:** O sistema DEVE lidar com erros de forma graciosa (ex: falha na conexão com o BD, dados inválidos), exibindo mensagens de erro apropriadas e evitando travamentos.
+* RNF013 - Integridade dos Dados:** O banco de dados DEVE garantir a integridade dos dados, com restrições como `UNIQUE` (para e-mail, título de filme/série) e `NOT NULL` (para campos obrigatórios).
+
+### 2.6. Compatibilidade
+
+* RNF014 - Compatibilidade com Navegadores:** O sistema DEVE ser compatível com os principais navegadores web modernos (Chrome, Firefox, Edge, Safari).
+* RNF015 - Responsividade:** (Não explicitamente observado nos CSS fornecidos para todos os tamanhos, mas é um bom requisito). A interface do usuário DEVE se adaptar a diferentes tamanhos de tela e dispositivos (desktops, tablets, smartphones).
