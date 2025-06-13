@@ -270,6 +270,15 @@ def cadastrar_usuario():
     # Se não for POST, redireciona para a página de cadastro
     return redirect('/cadastro')
 
+@server.route('/recuperar', methods=['GET', 'POST'])
+def recuperar():
+    email = request.form.get('email')
+    mensagem = ""
+    if request.method == 'POST':
+        mensagem = "Se este email estiver cadastrado, você receberá um e-mail para redefinição de sua senha."
+    return render_template("recuperacao_de_senha.html", mensagem=mensagem)
+
+
 @server.route('/sobrenos')
 def sobrenos():
     nome_do_usuario = session.get('nome')

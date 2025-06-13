@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(to right, rgb(10, 165, 210), rgb(60, 35, 155));
+    align-items: center;
+}
+
+h1 {
+    margin: auto;
+    margin-bottom: 10px;
+    color: white;
+}
+
+fieldset {
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    margin: 0px 0px 10px 0px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+button {
+    margin: auto;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 150px;
+    background-color: rgb(10, 165, 210);
+}
+
+a {
+    margin: auto;
+    margin-top: 10px;
+    text-decoration: none;
+}
